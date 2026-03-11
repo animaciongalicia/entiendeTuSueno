@@ -12,6 +12,16 @@ export interface Article {
   content: string;
   faqItems?: { question: string; answer: string }[];
   tags: string[];
+  // Cluster & automation fields
+  cluster?: string;
+  visual_theme?: "misterio" | "calma" | "ansiedad" | "espiritual";
+  pin_titles?: string[];
+  reel_hook?: string;
+  extracto_seo?: string;
+  imagen_vertical?: string;
+  imagen_destacada?: string;
+  tipo?: "long-tail" | "normal" | "pilar";
+  interpretacion_humana?: string;
 }
 
 export const articles: Article[] = [
@@ -28,6 +38,19 @@ export const articles: Article[] = [
     coverImage: "/images/sonar-con-serpientes.webp",
     coverAlt: "Serpiente enroscada bajo la luz de la luna",
     tags: ["serpientes", "animales", "transformación", "miedos", "inconsciente"],
+    cluster: "suenos-con-animales",
+    visual_theme: "misterio",
+    pin_titles: [
+      "Soñar con serpientes: lo que tu inconsciente intenta decirte",
+      "¿Serpientes en tus sueños? Esto significa cada color",
+      "El poderoso mensaje oculto detrás de soñar con serpientes",
+    ],
+    reel_hook: "Si soñaste con una serpiente anoche, tu inconsciente tiene un mensaje urgente para ti.",
+    extracto_seo: "Las serpientes en los sueños simbolizan transformación, miedos y renovación. Descubre qué significa cada variante y cómo trabajar con este poderoso símbolo.",
+    imagen_destacada: "/images/sonar-con-serpientes.webp",
+    imagen_vertical: "/images/pin-sonar-con-serpientes.webp",
+    tipo: "normal",
+    interpretacion_humana: "<p>Más allá de los simbolismos generales, soñar con serpientes es una de esas experiencias que sacuden algo muy profundo. Muchas personas que nos escriben describen este sueño con una mezcla de miedo y fascinación: hay algo en la serpiente que no se puede ignorar, algo que obliga a prestar atención.</p><p>Lo que más nos impacta de los relatos que recibimos es cómo el contexto de la vida real siempre resuena con el sueño. Quienes atraviesan cambios importantes —un nuevo trabajo, una separación, el inicio de terapia— suelen soñar con serpientes justo en los momentos de mayor transformación. Como si el inconsciente usara este símbolo preciso para decir: <em>estás mudando de piel, y eso es exactamente lo que necesitas hacer</em>.</p>",
     faqItems: [
       {
         question: "¿Qué significa soñar con una serpiente que te muerde?",
@@ -129,6 +152,19 @@ export const articles: Article[] = [
     coverImage: "/images/sonar-con-agua.webp",
     coverAlt: "Lago tranquilo bajo un cielo estrellado",
     tags: ["agua", "emociones", "naturaleza", "inconsciente", "sentimientos"],
+    cluster: "suenos-espirituales",
+    visual_theme: "calma",
+    pin_titles: [
+      "Soñar con agua: el espejo de tus emociones más profundas",
+      "Mar, río, lluvia... ¿qué tipo de agua aparece en tus sueños?",
+      "El agua en los sueños revela tu mundo emocional oculto",
+    ],
+    reel_hook: "El agua en tus sueños no es casual. Es el lenguaje que usa tu alma para hablar contigo.",
+    extracto_seo: "El agua en los sueños representa tus emociones y tu vida interior. Descubre qué significa soñar con el mar, ríos, inundaciones o lluvia y qué te dice de tu estado emocional.",
+    imagen_destacada: "/images/sonar-con-agua.webp",
+    imagen_vertical: "/images/pin-sonar-con-agua.webp",
+    tipo: "normal",
+    interpretacion_humana: "<p>El agua es quizás el símbolo más honesto que existe en el mundo de los sueños. Cuando las personas nos escriben sobre sus sueños de agua, casi siempre hay una emoción central que no han podido procesar: una tristeza que no han llorado, una alegría que no han celebrado, una angustia que llevan guardada.</p><p>Lo que más nos llama la atención es la precisión con que el estado del agua refleja el estado emocional real. Quienes viven períodos de paz y claridad sueñan con aguas transparentes y calmadas. Quienes están en plena tormenta vital sueñan con mares embravecidos. No es metáfora: es tu inconsciente siendo completamente literal sobre cómo te sientes por dentro.</p>",
     faqItems: [
       {
         question: "¿Qué significa soñar con agua turbia o sucia?",
@@ -228,6 +264,19 @@ export const articles: Article[] = [
     coverImage: "/images/sonar-con-caidas.webp",
     coverAlt: "Figura humana cayendo entre estrellas",
     tags: ["caídas", "ansiedad", "control", "estrés", "emociones"],
+    cluster: "suenos-con-muerte-y-miedo",
+    visual_theme: "ansiedad",
+    pin_titles: [
+      "Por qué te despiertas justo antes de llegar al suelo al soñar que caes",
+      "Soñar con caídas: el mensaje de tu inconsciente sobre el control",
+      "Sueños de caída recurrentes: qué está intentando decirte tu mente",
+    ],
+    reel_hook: "¿Te despiertas sobresaltado justo antes de tocar el suelo? Esto es lo que tu cerebro realmente te está diciendo.",
+    extracto_seo: "Soñar con caídas es uno de los sueños más universales. Descubre por qué ocurre, qué significa para tu vida emocional y qué hacer cuando se vuelve recurrente.",
+    imagen_destacada: "/images/sonar-con-caidas.webp",
+    imagen_vertical: "/images/pin-sonar-con-caidas.webp",
+    tipo: "normal",
+    interpretacion_humana: "<p>Los sueños de caída son los que más relatos de angustia recibimos. Hay algo en esa experiencia física de caer que queda grabada en el cuerpo aunque te despiertes: el corazón acelerado, la tensión muscular, esa fracción de segundo de pánico absoluto antes de darte cuenta de que estás a salvo en tu cama.</p><p>Lo que más nos sorprende de las historias que nos llegan es la conexión directa con períodos de sobrecarga. Sin excepción, las personas que experimentan estos sueños de forma recurrente están cargando con demasiado: demasiada responsabilidad, demasiadas expectativas, demasiado control sobre situaciones que escapan a sus manos. El sueño no es el problema; es el aviso. Y los avisos merecen atención.</p>",
     faqItems: [
       {
         question: "¿Por qué me despierto justo antes de llegar al suelo al soñar que caigo?",
@@ -345,4 +394,19 @@ export function getAllCategories(): { name: string; slug: string; count: number 
     }
   }
   return Array.from(map.values());
+}
+
+export function getArticlesByCluster(clusterSlug: string): Article[] {
+  return articles.filter((a) => a.cluster === clusterSlug);
+}
+
+export function getRelatedArticlesByCluster(currentSlug: string, clusterSlug: string | undefined, limit = 3): Article[] {
+  if (!clusterSlug) {
+    return articles.filter((a) => a.slug !== currentSlug).slice(0, limit);
+  }
+  const sameCluster = articles.filter((a) => a.slug !== currentSlug && a.cluster === clusterSlug);
+  if (sameCluster.length >= limit) return sameCluster.slice(0, limit);
+  // Fill remaining with other articles
+  const others = articles.filter((a) => a.slug !== currentSlug && a.cluster !== clusterSlug);
+  return [...sameCluster, ...others].slice(0, limit);
 }
