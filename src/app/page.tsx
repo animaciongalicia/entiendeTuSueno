@@ -177,7 +177,7 @@ export default function HomePage() {
                 Interpretaciones que van<br />más allá del símbolo
               </h2>
               <p className="text-[#8b87a0] leading-relaxed mb-4">
-                Hay millones de páginas que te dicen "soñar con serpientes significa traición". Aquí no hacemos eso.
+                Hay millones de páginas que te dicen &ldquo;soñar con serpientes significa traición&rdquo;. Aquí no hacemos eso.
                 Porque tus sueños no son genéricos: son tuyos, nacen de tu historia, tu momento vital y lo que
                 tu inconsciente específicamente necesita comunicarte.
               </p>
