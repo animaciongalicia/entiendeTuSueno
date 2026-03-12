@@ -259,6 +259,14 @@ export default function ArticlePage({ params }: Props) {
               </div>
             )}
 
+            {/* Qué te dice este sueño sobre tu vida */}
+            {art.consejo_practico && (
+              <section className="mt-10 rounded-xl border border-[#7c6af7]/25 bg-gradient-to-br from-[#7c6af7]/8 to-[#1a1a2e] p-6">
+                <h2 className="text-xl font-bold text-[#f0eeff] mb-4">Qué te dice este sueño sobre tu vida</h2>
+                <p className="text-[#c0b8f0] leading-relaxed">{art.consejo_practico}</p>
+              </section>
+            )}
+
             {/* FAQ */}
             {art.faqItems && art.faqItems.length > 0 && (
               <section className="mt-10">
@@ -464,6 +472,14 @@ function PillarArticlePage({ pillar }: { pillar: PillarPage }) {
                 ))}
               </div>
             </div>
+          )}
+
+          {/* Qué te dice este sueño sobre tu vida */}
+          {pillar.consejo_practico && (
+            <section className="mt-10 rounded-xl border border-[#7c6af7]/25 bg-gradient-to-br from-[#7c6af7]/8 to-[#1a1a2e] p-6">
+              <h2 className="text-xl font-bold text-[#f0eeff] mb-4">Qué te dice este sueño sobre tu vida</h2>
+              <p className="text-[#c0b8f0] leading-relaxed">{pillar.consejo_practico}</p>
+            </section>
           )}
 
           {/* FAQ */}

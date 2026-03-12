@@ -15,6 +15,8 @@ export interface PillarPage {
   faqItems: { question: string; answer: string }[];
   tags: string[];
   tipo: "pilar";
+  intencion_practica?: ("relaciones" | "dinero" | "trabajo" | "ansiedad" | "decisiones-de-vida" | "emprendimiento" | "salud-emocional")[];
+  consejo_practico?: string;
 }
 
 export interface Cluster {
@@ -104,6 +106,7 @@ export const pillarPages: PillarPage[] = [
     coverAlt: "Animales salvajes bajo la luz de la luna llena",
     tags: ["animales", "sueños", "inconsciente", "simbolismo", "arquetipos"],
     tipo: "pilar",
+    intencion_practica: ["ansiedad", "salud-emocional", "decisiones-de-vida"],
     faqItems: [
       {
         question: "¿Por qué soñamos tan frecuentemente con animales?",
@@ -205,6 +208,7 @@ export const pillarPages: PillarPage[] = [
     coverAlt: "Siluetas de personas en un paisaje onírico",
     tags: ["personas", "ex", "familia", "desconocidos", "fallecidos", "relaciones"],
     tipo: "pilar",
+    intencion_practica: ["relaciones", "salud-emocional", "decisiones-de-vida"],
     faqItems: [
       {
         question: "¿Soñar con mi ex significa que todavía lo/la quiero?",
@@ -290,6 +294,7 @@ export const pillarPages: PillarPage[] = [
     coverAlt: "Figura oscura en un paisaje neblinoso al amanecer",
     tags: ["muerte", "miedo", "transformación", "fin de ciclo", "cambio", "inconsciente"],
     tipo: "pilar",
+    intencion_practica: ["ansiedad", "salud-emocional", "decisiones-de-vida"],
     faqItems: [
       {
         question: "¿Soñar con mi propia muerte significa que voy a morir pronto?",
@@ -380,6 +385,7 @@ export const pillarPages: PillarPage[] = [
     coverAlt: "Dos siluetas bajo la luz de la luna en un paisaje onírico",
     tags: ["ex pareja", "amor", "relaciones", "romance", "desamor", "reconciliación"],
     tipo: "pilar",
+    intencion_practica: ["relaciones", "salud-emocional", "decisiones-de-vida"],
     faqItems: [
       {
         question: "¿Soñar con mi ex significa que debo volver con él/ella?",
@@ -460,6 +466,7 @@ export const pillarPages: PillarPage[] = [
     coverAlt: "Monedas y billetes flotando en un espacio onírico",
     tags: ["dinero", "trabajo", "abundancia", "autoestima", "éxito", "fracaso"],
     tipo: "pilar",
+    intencion_practica: ["dinero", "trabajo", "emprendimiento", "decisiones-de-vida"],
     faqItems: [
       {
         question: "¿Soñar que encuentro dinero es buena señal?",
@@ -540,6 +547,7 @@ export const pillarPages: PillarPage[] = [
     coverAlt: "Figura luminosa flotando sobre un paisaje onírico",
     tags: ["espiritual", "visitas", "ángeles", "profético", "místico", "alma"],
     tipo: "pilar",
+    intencion_practica: ["salud-emocional", "ansiedad", "decisiones-de-vida"],
     faqItems: [
       {
         question: "¿Cómo sé si un sueño es espiritual o simplemente un sueño normal?",

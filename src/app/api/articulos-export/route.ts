@@ -42,6 +42,7 @@ export async function GET(request: NextRequest) {
     imagen_destacada: a.imagen_destacada ?? null,
     tipo: a.tipo ?? "normal",
     interpretacion_humana: a.interpretacion_humana ?? null,
+    intencion_practica: a.intencion_practica ?? [],
     url: `https://entiendetusueno.com/blog/${a.slug}`,
     source: "blog" as const,
   }));
@@ -68,6 +69,7 @@ export async function GET(request: NextRequest) {
     imagen_destacada: p.coverImage,
     tipo: "pilar" as const,
     interpretacion_humana: null,
+    intencion_practica: p.intencion_practica ?? [],
     url: `https://entiendetusueno.com/blog/${p.slug}`,
     source: "pilar" as const,
   }));

@@ -22,6 +22,8 @@ export interface Article {
   imagen_destacada?: string;
   tipo?: "long-tail" | "normal" | "pilar";
   interpretacion_humana?: string;
+  intencion_practica?: ("relaciones" | "dinero" | "trabajo" | "ansiedad" | "decisiones-de-vida" | "emprendimiento" | "salud-emocional")[];
+  consejo_practico?: string;
 }
 
 export const articles: Article[] = [
@@ -50,6 +52,8 @@ export const articles: Article[] = [
     imagen_destacada: "/images/blog/animales/sonar-con-serpientes.webp",
     imagen_vertical: "/images/pinterest/sonar-con-serpientes-pin.webp",
     tipo: "normal",
+    intencion_practica: ["ansiedad", "salud-emocional", "decisiones-de-vida"],
+    consejo_practico: "Si soñaste con serpientes en un momento de cambio, tu mente ya sabe lo que necesitas hacer. La pregunta no es qué significa el sueño, sino qué es eso que llevas tiempo evitando. Escríbelo. Una sola frase. ¿Hay una conversación pendiente, una decisión que aplazas, algo que sabes que tienes que soltar? La serpiente muda de piel entera. Tú también puedes hacer ese movimiento, y el primer paso es nombrarlo.",
     interpretacion_humana: "<p>Más allá de los simbolismos generales, soñar con serpientes es una de esas experiencias que sacuden algo muy profundo. Muchas personas que nos escriben describen este sueño con una mezcla de miedo y fascinación: hay algo en la serpiente que no se puede ignorar, algo que obliga a prestar atención.</p><p>Lo que más nos impacta de los relatos que recibimos es cómo el contexto de la vida real siempre resuena con el sueño. Quienes atraviesan cambios importantes —un nuevo trabajo, una separación, el inicio de terapia— suelen soñar con serpientes justo en los momentos de mayor transformación. Como si el inconsciente usara este símbolo preciso para decir: <em>estás mudando de piel, y eso es exactamente lo que necesitas hacer</em>.</p>",
     faqItems: [
       {
@@ -164,6 +168,8 @@ export const articles: Article[] = [
     imagen_destacada: "/images/blog/espiritual/sonar-con-agua.webp",
     imagen_vertical: "/images/pinterest/sonar-con-agua-pin.webp",
     tipo: "normal",
+    intencion_practica: ["salud-emocional", "ansiedad", "relaciones"],
+    consejo_practico: "El agua de tu sueño te está hablando de algo que sientes y no has terminado de procesar. No hace falta interpretarlo: basta con preguntarte honestamente qué emoción llevas semanas guardando. ¿Hay algo que te pesa en una relación o situación y que no has dicho en voz alta? El agua siempre busca moverse. Si en tu vida hay algo estancado, este sueño es la señal de que ya es momento de moverlo.",
     interpretacion_humana: "<p>El agua es quizás el símbolo más honesto que existe en el mundo de los sueños. Cuando las personas nos escriben sobre sus sueños de agua, casi siempre hay una emoción central que no han podido procesar: una tristeza que no han llorado, una alegría que no han celebrado, una angustia que llevan guardada.</p><p>Lo que más nos llama la atención es la precisión con que el estado del agua refleja el estado emocional real. Quienes viven períodos de paz y claridad sueñan con aguas transparentes y calmadas. Quienes están en plena tormenta vital sueñan con mares embravecidos. No es metáfora: es tu inconsciente siendo completamente literal sobre cómo te sientes por dentro.</p>",
     faqItems: [
       {
@@ -276,6 +282,8 @@ export const articles: Article[] = [
     imagen_destacada: "/images/blog/muerte-miedo/sonar-con-caidas.webp",
     imagen_vertical: "/images/pinterest/sonar-con-caidas-pin.webp",
     tipo: "normal",
+    intencion_practica: ["ansiedad", "salud-emocional", "trabajo"],
+    consejo_practico: "Soñar que caes casi siempre aparece cuando cargas con demasiado. No como metáfora: literalmente estás asumiendo más responsabilidad o más presión de la que puedes sostener. La pregunta concreta es: ¿qué estás intentando controlar que no depende de ti? Haz una lista de las cosas que tienes abiertas ahora mismo. Elige una que puedas cerrar esta semana. El sueño no pide que lo arregles todo: pide que empieces a soltar algo.",
     interpretacion_humana: "<p>Los sueños de caída son los que más relatos de angustia recibimos. Hay algo en esa experiencia física de caer que queda grabada en el cuerpo aunque te despiertes: el corazón acelerado, la tensión muscular, esa fracción de segundo de pánico absoluto antes de darte cuenta de que estás a salvo en tu cama.</p><p>Lo que más nos sorprende de las historias que nos llegan es la conexión directa con períodos de sobrecarga. Sin excepción, las personas que experimentan estos sueños de forma recurrente están cargando con demasiado: demasiada responsabilidad, demasiadas expectativas, demasiado control sobre situaciones que escapan a sus manos. El sueño no es el problema; es el aviso. Y los avisos merecen atención.</p>",
     faqItems: [
       {

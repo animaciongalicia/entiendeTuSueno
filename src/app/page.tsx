@@ -205,6 +205,26 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── Enfoque editorial ────────────────────────────────────────────────── */}
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 mb-20">
+        <div className="rounded-2xl border border-[#2a2a4a] bg-[#12121e] px-8 py-10 md:px-16 md:py-14 text-center">
+          <p className="text-xs font-semibold uppercase tracking-widest text-[#7c6af7] mb-4">
+            Cómo funciona esta web
+          </p>
+          <h2 className="text-2xl md:text-3xl font-bold text-[#f0eeff] mb-5 leading-tight max-w-2xl mx-auto">
+            Esto no es un horóscopo.<br />Es una guía práctica para tu vida real.
+          </h2>
+          <p className="text-[#8b87a0] max-w-2xl mx-auto leading-relaxed text-base">
+            Esta web no interpreta sueños con listas de símbolos ni predicciones vacías.
+            Es una guía para entender qué te está diciendo tu mente mientras duermes
+            y qué puedes hacer con esa información cuando despiertas.
+            Cada artículo combina psicología, simbolismo y utilidad concreta para tu vida:
+            tus relaciones, tu trabajo, tu dinero, tu ansiedad, tus decisiones importantes.
+            Porque un sueño que no conecta con tu vida real no sirve para nada.
+          </p>
+        </div>
+      </section>
+
       {/* ── CTA Interpretador ────────────────────────────────────────────────── */}
       <section className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 mb-20">
         <div className="relative overflow-hidden rounded-2xl border border-[#7c6af7]/30 bg-gradient-to-br from-[#1a1a2e] via-[#7c6af7]/5 to-[#12121e] p-10 md:p-16 text-center">
