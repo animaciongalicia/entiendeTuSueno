@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { articles, getAllCategories } from "@/lib/articles";
+import { pillarPages, clusters } from "@/lib/clusters";
 
 const BASE_URL = "https://entiendetusueno.com";
 
@@ -37,19 +38,40 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
+  // Pillar pages: highest content priority after homepage
+  const pillarRoutes: MetadataRoute.Sitemap = pillarPages.map((p) => ({
+    url: `${BASE_URL}/blog/${p.slug}`,
+    lastModified: new Date(p.updatedAt),
+    changeFrequency: "monthly" as const,
+    priority: 0.95,
+  }));
+
+  // Regular articles
   const articleRoutes: MetadataRoute.Sitemap = articles.map((article) => ({
     url: `${BASE_URL}/blog/${article.slug}`,
     lastModified: new Date(article.updatedAt),
-    changeFrequency: "weekly",
+    changeFrequency: "weekly" as const,
     priority: 0.8,
   }));
 
+  // Category pages from article categories
   const categoryRoutes: MetadataRoute.Sitemap = getAllCategories().map((cat) => ({
     url: `${BASE_URL}/categoria/${cat.slug}`,
     lastModified: new Date(),
-    changeFrequency: "weekly",
-    priority: 0.7,
+    changeFrequency: "weekly" as const,
+    priority: 0.65,
   }));
 
-  return [...staticRoutes, ...articleRoutes, ...categoryRoutes];
+  // Cluster hub pages (deduplicated against category routes)
+  const categorySlugs = new Set(getAllCategories().map((c) => c.slug));
+  const clusterRoutes: MetadataRoute.Sitemap = clusters
+    .filter((c) => !categorySlugs.has(c.slug))
+    .map((c) => ({
+      url: `${BASE_URL}/categoria/${c.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    }));
+
+  return [...staticRoutes, ...pillarRoutes, ...articleRoutes, ...clusterRoutes, ...categoryRoutes];
 }

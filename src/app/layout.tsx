@@ -50,6 +50,48 @@ export const metadata: Metadata = {
   },
 };
 
+// Schema global de la entidad — WebSite + Organization
+// WebSite: habilita el Sitelinks Searchbox de Google
+// Organization: base para el Knowledge Panel y atribución de autoridad
+const globalSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://entiendetusueno.com/#website",
+      url: "https://entiendetusueno.com",
+      name: "EntiendetuSueño",
+      description: "Guía práctica de interpretación de sueños en español. Psicología, simbolismo y utilidad real para tu vida.",
+      inLanguage: "es",
+      publisher: { "@id": "https://entiendetusueno.com/#organization" },
+      potentialAction: {
+        "@type": "SearchAction",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: "https://entiendetusueno.com/blog?q={search_term_string}",
+        },
+        "query-input": "required name=search_term_string",
+      },
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://entiendetusueno.com/#organization",
+      name: "EntiendetuSueño",
+      url: "https://entiendetusueno.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://entiendetusueno.com/logo.png",
+        width: 512,
+        height: 512,
+      },
+      sameAs: [
+        "https://www.pinterest.es/entiendetusueno",
+        "https://www.instagram.com/entiendetusueno",
+      ],
+    },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -59,6 +101,10 @@ export default function RootLayout({
     <html lang="es">
       <head>
         <GoogleAnalytics />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(globalSchema) }}
+        />
       </head>
       <body className="min-h-screen flex flex-col stars-bg">
         <Header />
