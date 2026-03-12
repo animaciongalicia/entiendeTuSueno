@@ -19,15 +19,6 @@ export const metadata: Metadata = {
   },
 };
 
-const clusterEmojis: Record<string, string> = {
-  "suenos-con-animales": "🐍",
-  "suenos-con-personas": "👥",
-  "suenos-con-muerte-y-miedo": "🌑",
-  "suenos-de-amor-y-ex-pareja": "💜",
-  "suenos-de-dinero-y-trabajo": "✨",
-  "suenos-espirituales": "🌙",
-};
-
 const clusterAccents: Record<string, string> = {
   "suenos-con-animales": "from-emerald-500/10 border-emerald-500/20 hover:border-emerald-400/40",
   "suenos-con-personas": "from-indigo-500/10 border-indigo-500/20 hover:border-indigo-400/40",
@@ -35,6 +26,9 @@ const clusterAccents: Record<string, string> = {
   "suenos-de-amor-y-ex-pareja": "from-pink-500/10 border-pink-500/20 hover:border-pink-400/40",
   "suenos-de-dinero-y-trabajo": "from-amber-500/10 border-amber-500/20 hover:border-amber-400/40",
   "suenos-espirituales": "from-cyan-500/10 border-cyan-500/20 hover:border-cyan-400/40",
+  "suenos-con-el-cuerpo": "from-orange-500/10 border-orange-500/20 hover:border-orange-400/40",
+  "suenos-recurrentes": "from-lime-500/10 border-lime-500/20 hover:border-lime-400/40",
+  "suenos-en-momentos-vitales": "from-teal-500/10 border-teal-500/20 hover:border-teal-400/40",
 };
 
 const clusterBadgeColors: Record<string, string> = {
@@ -44,6 +38,9 @@ const clusterBadgeColors: Record<string, string> = {
   "suenos-de-amor-y-ex-pareja": "text-pink-400",
   "suenos-de-dinero-y-trabajo": "text-amber-400",
   "suenos-espirituales": "text-cyan-400",
+  "suenos-con-el-cuerpo": "text-orange-400",
+  "suenos-recurrentes": "text-lime-400",
+  "suenos-en-momentos-vitales": "text-teal-400",
 };
 
 export default function HomePage() {
@@ -107,25 +104,24 @@ export default function HomePage() {
             ¿Sobre qué soñaste?
           </h2>
           <p className="text-[#8b87a0] max-w-lg">
-            Cada cluster reúne artículos relacionados, una guía completa y el contexto psicológico
-            y espiritual que necesitas para entender el mensaje.
+            Cada guía reúne artículos relacionados con el contexto psicológico, simbólico
+            y práctico que necesitas para entender el mensaje.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {clusters.map((cluster) => {
-            const emoji = clusterEmojis[cluster.slug] ?? "🌙";
+        {/* Clusters temáticos */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-8">
+          {clusters.filter((c) => c.tipo === "tematico").map((cluster) => {
             const accent = clusterAccents[cluster.slug] ?? "from-violet-500/10 border-violet-500/20 hover:border-violet-400/40";
             const badgeColor = clusterBadgeColors[cluster.slug] ?? "text-violet-400";
-
             return (
               <Link
                 key={cluster.slug}
                 href={`/categoria/${cluster.slug}`}
                 className={`group relative rounded-2xl border bg-gradient-to-br to-[#1a1a2e] ${accent} p-6 transition-all hover:-translate-y-0.5`}
               >
-                <div className="text-3xl mb-4">{emoji}</div>
-                <h3 className={`font-bold text-[#f0eeff] mb-2 group-hover:${badgeColor} transition-colors`}>
+                <div className="text-3xl mb-4">{cluster.emoji}</div>
+                <h3 className="font-bold text-[#f0eeff] mb-2">
                   {cluster.name}
                 </h3>
                 <p className="text-sm text-[#6b6880] leading-relaxed mb-4">
@@ -133,6 +129,37 @@ export default function HomePage() {
                 </p>
                 <span className={`text-xs font-semibold ${badgeColor}`}>
                   Ver guía completa →
+                </span>
+              </Link>
+            );
+          })}
+        </div>
+
+        {/* Clusters situacionales y de mecanismo */}
+        <div className="mb-4">
+          <p className="text-xs font-semibold uppercase tracking-widest text-[#4a4760] mb-4">
+            Situaciones y patrones
+          </p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {clusters.filter((c) => c.tipo !== "tematico").map((cluster) => {
+            const accent = clusterAccents[cluster.slug] ?? "from-violet-500/10 border-violet-500/20 hover:border-violet-400/40";
+            const badgeColor = clusterBadgeColors[cluster.slug] ?? "text-violet-400";
+            return (
+              <Link
+                key={cluster.slug}
+                href={`/categoria/${cluster.slug}`}
+                className={`group relative rounded-2xl border bg-gradient-to-br to-[#12121e] ${accent} p-5 transition-all hover:-translate-y-0.5`}
+              >
+                <div className="text-2xl mb-3">{cluster.emoji}</div>
+                <h3 className="font-semibold text-[#e8e6f0] mb-1 text-sm">
+                  {cluster.name}
+                </h3>
+                <p className="text-xs text-[#6b6880] leading-relaxed mb-3">
+                  {cluster.description}
+                </p>
+                <span className={`text-xs font-semibold ${badgeColor}`}>
+                  Ver guía →
                 </span>
               </Link>
             );

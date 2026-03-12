@@ -26,10 +26,18 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const cluster = clusters.find((c) => c.slug === params.nombre);
+  const articlesInSlug = cluster
+    ? getArticlesByCategory(cluster.categorySlug).filter((a) => a.cluster === cluster.slug)
+    : getArticlesByCategory(params.nombre);
+
+  // Noindex si no hay artículos aún — evita thin content en el site quality score
+  const hasContent = articlesInSlug.length > 0;
+
   if (cluster) {
     return {
       title: cluster.name,
       description: cluster.description,
+      ...(!hasContent && { robots: { index: false, follow: true } }),
     };
   }
   const cats = getAllCategories();
@@ -38,6 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Sueños de ${cat.name}`,
     description: `Interpretaciones de sueños relacionados con ${cat.name.toLowerCase()}. Descubre el significado de estos sueños comunes en español.`,
+    ...(!hasContent && { robots: { index: false, follow: true } }),
   };
 }
 
@@ -52,6 +61,12 @@ const categoryDescriptions: Record<string, string> = {
     "Las personas que aparecen en nuestros sueños casi siempre representan aspectos de nosotros mismos o de nuestras relaciones más significativas.",
   espiritual:
     "Los sueños espirituales tocan dimensiones profundas de la existencia: visitas, presencias y experiencias que trascienden la psicología ordinaria.",
+  cuerpo:
+    "El cuerpo en los sueños es el mapa más directo de tu identidad y tu autoestima. Dientes, pelo, manos, embarazo: cada símbolo habla de una dimensión concreta de cómo te percibes.",
+  recurrentes:
+    "Los sueños recurrentes son los más importantes que puedes tener. La repetición es un mensaje en sí misma: tu inconsciente insiste porque hay algo que merece tu atención.",
+  "momentos-vitales":
+    "Duelo, rupturas, cambios de trabajo, decisiones importantes. Los sueños en los momentos de cambio son el laboratorio donde la mente procesa lo que el día no puede digerir.",
 };
 
 export default function CategoriaPage({ params }: Props) {

@@ -27,6 +27,7 @@ export interface Cluster {
   categorySlug: string;
   emoji: string;
   color: string;
+  tipo: "tematico" | "situacional" | "mecanismo";
 }
 
 export const clusters: Cluster[] = [
@@ -38,6 +39,7 @@ export const clusters: Cluster[] = [
     categorySlug: "animales",
     emoji: "🐍",
     color: "#4ade80",
+    tipo: "tematico",
   },
   {
     slug: "suenos-con-personas",
@@ -47,6 +49,7 @@ export const clusters: Cluster[] = [
     categorySlug: "personas",
     emoji: "👥",
     color: "#818cf8",
+    tipo: "tematico",
   },
   {
     slug: "suenos-con-muerte-y-miedo",
@@ -56,6 +59,7 @@ export const clusters: Cluster[] = [
     categorySlug: "emociones",
     emoji: "🌑",
     color: "#a78bfa",
+    tipo: "tematico",
   },
   {
     slug: "suenos-de-amor-y-ex-pareja",
@@ -65,6 +69,7 @@ export const clusters: Cluster[] = [
     categorySlug: "personas",
     emoji: "💜",
     color: "#f472b6",
+    tipo: "tematico",
   },
   {
     slug: "suenos-de-dinero-y-trabajo",
@@ -74,6 +79,7 @@ export const clusters: Cluster[] = [
     categorySlug: "emociones",
     emoji: "✨",
     color: "#fbbf24",
+    tipo: "tematico",
   },
   {
     slug: "suenos-espirituales",
@@ -83,6 +89,38 @@ export const clusters: Cluster[] = [
     categorySlug: "espiritual",
     emoji: "🌙",
     color: "#67e8f9",
+    tipo: "tematico",
+  },
+  // ── Clusters nuevos ────────────────────────────────────────────────────────
+  {
+    slug: "suenos-con-el-cuerpo",
+    name: "Sueños con el Cuerpo",
+    description: "Dientes que se caen, pelo, embarazo, sangre. El cuerpo en los sueños habla de identidad, vitalidad y miedo a la pérdida.",
+    pillarSlug: "sonar-con-el-cuerpo-guia-completa",
+    categorySlug: "cuerpo",
+    emoji: "🦷",
+    color: "#fb923c",
+    tipo: "tematico",
+  },
+  {
+    slug: "suenos-recurrentes",
+    name: "Sueños Recurrentes",
+    description: "Tu mente repite el mismo sueño porque hay algo que aún no has resuelto. Aprende a leer el patrón y a cerrarlo.",
+    pillarSlug: "suenos-recurrentes-guia-completa",
+    categorySlug: "recurrentes",
+    emoji: "🔄",
+    color: "#a3e635",
+    tipo: "mecanismo",
+  },
+  {
+    slug: "suenos-en-momentos-vitales",
+    name: "Sueños en Momentos Vitales",
+    description: "Duelo, rupturas, cambios de trabajo, decisiones importantes. Lo que sueñas cuando la vida se mueve.",
+    pillarSlug: "suenos-en-momentos-vitales-guia-completa",
+    categorySlug: "momentos-vitales",
+    emoji: "🌱",
+    color: "#34d399",
+    tipo: "situacional",
   },
 ];
 
@@ -612,6 +650,277 @@ export const pillarPages: PillarPage[] = [
 </ol>`,
   },
 ];
+
+  // ─────────────────────────────────────────────────────────────────────────────
+  // 7. SUEÑOS CON EL CUERPO
+  // ─────────────────────────────────────────────────────────────────────────────
+  {
+    slug: "sonar-con-el-cuerpo-guia-completa",
+    clusterSlug: "suenos-con-el-cuerpo",
+    title: "Soñar con el Cuerpo: Dientes, Pelo, Embarazo y Qué Significan",
+    metaTitle: "Soñar con el Cuerpo: Dientes que se Caen, Pelo y Más — Guía Completa",
+    metaDescription:
+      "Guía completa sobre sueños relacionados con el cuerpo. Dientes que se caen, pelo, sangre, embarazo, manos. Qué dice cada símbolo sobre tu identidad, tu salud emocional y tu miedo a la pérdida.",
+    category: "Cuerpo",
+    categorySlug: "cuerpo",
+    publishedAt: "2024-02-01",
+    updatedAt: "2024-03-12",
+    readingTime: 14,
+    coverImage: "/images/blog/cuerpo/sonar-con-el-cuerpo-guia-completa.webp",
+    coverAlt: "Silueta humana luminosa en paisaje onírico",
+    tags: ["cuerpo", "dientes", "pelo", "embarazo", "identidad", "inconsciente"],
+    tipo: "pilar",
+    intencion_practica: ["ansiedad", "salud-emocional", "decisiones-de-vida"],
+    consejo_practico: "El cuerpo en tus sueños casi nunca habla del cuerpo físico. Habla de cómo te percibes a ti mismo, de lo que sientes que estás perdiendo o que podría escaparse de tus manos. Cuando sueñas que pierdes dientes, pregúntate qué parte de tu imagen o de tu seguridad sientes amenazada ahora mismo. La respuesta suele estar en lo que estás evitando ver.",
+    faqItems: [
+      {
+        question: "¿Por qué soñar con los dientes que se caen es tan común?",
+        answer:
+          "Es uno de los sueños más universales porque toca algo muy profundo: la preocupación por la imagen propia, el miedo a la pérdida de control y la ansiedad ante los cambios. Los dientes representan presencia, poder de comunicación y atractivo. Cuando se caen en sueños, suele haber una situación en la vida real donde sientes que tu imagen, tu credibilidad o tu autoestima están en riesgo.",
+      },
+      {
+        question: "¿Qué significa soñar que estás embarazada si no lo estás?",
+        answer:
+          "El embarazo en los sueños suele simbolizar que algo nuevo está gestándose en ti: un proyecto, una nueva etapa, una transformación personal. No tiene relación directa con el embarazo físico. Si eres hombre, el significado es el mismo. Tu inconsciente está diciéndote que algo está creciendo internamente y que todavía no ha salido al mundo.",
+      },
+      {
+        question: "¿Qué significa soñar con pelo?",
+        answer:
+          "El pelo en los sueños simboliza fuerza, identidad y libertad. Perder pelo puede reflejar miedo a perder poder o vitalidad. Cortarlo puede indicar un deseo de cambio y liberación. Tener pelo abundante y hermoso suele ser señal de energía y confianza en uno mismo.",
+      },
+      {
+        question: "¿Qué significa soñar con sangre?",
+        answer:
+          "La sangre es el símbolo de la vida, la energía vital y las emociones intensas. Ver sangre propia puede indicar que algo en tu vida te está costando mucha energía emocional o que hay una herida (física o emocional) que necesita atención. La sangre de otros puede hablar de tus preocupaciones por personas cercanas.",
+      },
+    ],
+    content: `
+<p>Hay una categoría de sueños que nadie puede ignorar: los que ocurren en tu propio cuerpo. Los dientes que se caen, el pelo que se desprende, el cuerpo que enferma, el vientre que crece. Son sueños que despiertan con una intensidad física particular, como si el cuerpo mismo hubiera participado en algo real.</p>
+
+<p>No es casualidad. El cuerpo en los sueños es el mapa más directo de tu mundo interior: cada parte del cuerpo que aparece en un sueño habla de una dimensión específica de tu identidad, tu autoestima, tu relación con el control y tu miedo más profundo a la pérdida.</p>
+
+<h2>Por qué el cuerpo aparece en los sueños</h2>
+
+<p>El inconsciente usa el cuerpo como lenguaje porque es el territorio más inmediato y reconocible. No necesita construir metáforas complejas: un diente que se cae es una pérdida que puedes sentir físicamente. Una herida en el sueño duele. Un cuerpo que vuela produce euforia real.</p>
+
+<p>Desde la psicología jungiana, el cuerpo en los sueños representa la realidad del Self: lo que somos más allá de las máscaras sociales. Cuando algo en el cuerpo se daña, cambia o transforma en un sueño, casi siempre hay un proceso paralelo de cambio en la identidad o en la autoestima de quien sueña.</p>
+
+<h2>Soñar con los dientes que se caen</h2>
+
+<p>Es el sueño somático más universal del mundo. Estudios transculturales lo registran en prácticamente todas las culturas y épocas. Y no es sorprendente: los dientes son símbolo de presencia social, poder de comunicación, atractivo y capacidad de "morder" —de defender posiciones, de hablar con fuerza.</p>
+
+<p>Cuando los dientes se caen en un sueño, hay casi invariablemente una situación en la vida real donde sientes que tu imagen está en riesgo, que tu credibilidad puede quedar en entredicho, o que algo que valoras puede perderse. El sueño no predice que perderás los dientes: te avisa de que algo en tu mundo emocional o social te genera esa sensación de vulnerabilidad.</p>
+
+<p>¿Estás atravesando un momento en el que te preocupa cómo te perciben los demás? ¿Hay algo que necesitas decir y no has dicho, o algo que has dicho y temes que haya sonado mal? La respuesta a esas preguntas suele conectar directamente con el sueño.</p>
+
+<h2>Soñar con pelo</h2>
+
+<p>En prácticamente todas las tradiciones, el pelo es símbolo de fuerza, libertad e identidad. Sansón perdió su poder cuando le cortaron el cabello. Los monjes se rapan para simbolizar la renuncia al ego. Las brujas tenían el pelo largo y suelto como señal de poder no domesticado.</p>
+
+<p>En los sueños, perder pelo de forma involuntaria —que se cae, que alguien lo corta sin permiso— suele hablar de pérdida de poder, vitalidad o libertad. Cortárselo voluntariamente, por el contrario, puede ser un acto de transformación consciente: quieres cambiar, desprenderte de algo del pasado, renovarte.</p>
+
+<p>Soñar con pelo abundante, brillante y hermoso es casi siempre un sueño de energía y confianza. Tu inconsciente te está diciendo que estás en un buen momento de vitalidad, o que anhelas estar en uno.</p>
+
+<h2>Soñar con embarazo</h2>
+
+<p>Este sueño desconcierta especialmente cuando quien lo tiene no está embarazada —o es un hombre. Pero el embarazo en los sueños raramente habla de gestación física. Habla de creación, de algo que está creciendo dentro de ti que todavía no ha salido al mundo.</p>
+
+<p>Puede ser un proyecto que lleva tiempo gestándose, una nueva versión de ti mismo que está madurando, una decisión que todavía no has tomado pero que ya está tomada a nivel inconsciente. El bebé que aún no ha nacido en el sueño es esa parte de ti o de tu vida que está lista para ser parida.</p>
+
+<p>Si el embarazo en el sueño genera angustia, puede hablar de miedo a la responsabilidad, a lo que viene, a lo que no controlas todavía. Si genera alegría, hay algo nuevo en tu horizonte que una parte de ti ya está celebrando.</p>
+
+<h2>Soñar con sangre</h2>
+
+<p>La sangre es el fluido de la vida. Verla en un sueño activa de inmediato alarma en el cuerpo —y esa reacción tiene sentido: es una señal de que algo importante está en juego.</p>
+
+<p>La sangre propia puede indicar que algo en tu vida está costándote mucha energía vital: una situación que te desgasta, una relación que drena, un proceso que exige demasiado. También puede hablar de una herida emocional que necesita atención —no necesariamente nueva, a veces es algo viejo que nunca se cerró del todo.</p>
+
+<p>La sangre ajena suele conectar con preocupaciones intensas por personas cercanas, o con conflictos donde percibes que alguien está resultando herido.</p>
+
+<p>En algunos contextos, la sangre tiene un significado de vitalidad intensa: sangre que fluye con fuerza puede hablar de pasión, de energía desbordante, de algo muy vivo en ti.</p>
+
+<h2>Soñar con heridas y enfermedades</h2>
+
+<p>Las heridas en los sueños casi siempre señalan heridas emocionales. La psicología del sueño es bastante literal en este punto: si sueñas que tienes una herida que no cierra, hay algo en tu vida emocional que tampoco ha cerrado. Una pérdida que no has procesado, una traición que no has terminado de digerir, una relación que terminó y que sigue abierta dentro de ti.</p>
+
+<p>Las enfermedades en los sueños pueden tener diferentes lecturas. A veces son simplemente la mente procesando una preocupación por la propia salud. Otras veces hablan metafóricamente: algo en tu vida está "enfermo", fuera de equilibrio, necesita cuidado.</p>
+
+<h2>Soñar con las manos</h2>
+
+<p>Las manos son los instrumentos del hacer, del crear, del tocar y del ayudar. En los sueños representan tu capacidad de acción y de conexión con el mundo.</p>
+
+<p>Manos fuertes y seguras en un sueño hablan de capacidad, de eficacia, de sentirte capaz de manejar lo que la vida te presenta. Manos débiles, heridas o paralizadas pueden indicar que sientes que no puedes hacer lo que necesitas hacer —frustración, impotencia, bloqueo.</p>`,
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────────
+  // 8. SUEÑOS RECURRENTES
+  // ─────────────────────────────────────────────────────────────────────────────
+  {
+    slug: "suenos-recurrentes-guia-completa",
+    clusterSlug: "suenos-recurrentes",
+    title: "Sueños Recurrentes: Por Qué tu Mente Repite el Mismo Mensaje",
+    metaTitle: "Sueños Recurrentes: Qué Significan y Cómo Dejar de Tenerlos",
+    metaDescription:
+      "Guía completa sobre sueños recurrentes. Por qué tu mente repite el mismo sueño, qué mensaje lleva, cómo interpretarlo y qué hacer para que deje de repetirse.",
+    category: "Recurrentes",
+    categorySlug: "recurrentes",
+    publishedAt: "2024-02-10",
+    updatedAt: "2024-03-12",
+    readingTime: 12,
+    coverImage: "/images/blog/recurrentes/suenos-recurrentes-guia-completa.webp",
+    coverAlt: "Figura en bucle onírico de lunas y espejos",
+    tags: ["sueños recurrentes", "pesadillas", "inconsciente", "patrón", "repetición"],
+    tipo: "pilar",
+    intencion_practica: ["ansiedad", "salud-emocional", "decisiones-de-vida"],
+    consejo_practico: "Un sueño recurrente es una notificación que no has abierto. Tu mente no repite por capricho: repite porque hay algo que espera ser reconocido. La próxima vez que tengas ese sueño, en lugar de intentar que se vaya, pregúntate: ¿qué está intentando mostrarme? Escríbelo. A veces nombrarlo es suficiente para que deje de necesitar repetirse.",
+    faqItems: [
+      {
+        question: "¿Por qué tengo el mismo sueño una y otra vez?",
+        answer:
+          "Los sueños recurrentes aparecen cuando hay un tema no resuelto en tu vida: un miedo que no has confrontado, una decisión pendiente, un patrón emocional que se repite. El inconsciente usa la repetición como mecanismo de insistencia: si no escuchas el mensaje la primera vez, lo vuelve a intentar. La recurrencia es señal de urgencia psicológica, no de mal presagio.",
+      },
+      {
+        question: "¿Cómo puedo hacer que dejen de repetirse los sueños recurrentes?",
+        answer:
+          "La forma más efectiva es identificar y atender lo que el sueño señala en tu vida real. No se trata de 'controlar' el sueño sino de resolver el asunto subyacente. Técnicas como el trabajo de imágenes en vigilia, la terapia centrada en el procesamiento emocional, o simplemente escribir y reflexionar sobre el tema que el sueño señala pueden ser suficientes.",
+      },
+      {
+        question: "¿Son peligrosos los sueños recurrentes?",
+        answer:
+          "No son peligrosos en sí mismos. Si son perturbadores o muy frecuentes y afectan tu descanso, puede ser útil trabajarlos con un profesional. Los sueños recurrentes que aparecen después de un trauma (pesadillas de PTSD) tienen un tratamiento específico y eficaz.",
+      },
+    ],
+    content: `
+<p>Llevas semanas —o meses, o años— teniendo el mismo sueño. Puede ser el de los dientes que se caen, el de llegar tarde a un examen importante, el de una casa que conoces pero no reconoces, el de correr sin poder avanzar. Cada vez que te despiertas de ese sueño sabes exactamente cuál fue. Y cada vez que vuelve, algo en ti piensa: otra vez.</p>
+
+<p>Los sueños recurrentes son los más importantes que puedes tener. No porque sean más "reales" que los demás, sino porque la repetición es un mensaje en sí misma: tu inconsciente considera que hay algo tan urgente que no puede darse el lujo de mencionarlo solo una vez.</p>
+
+<h2>Por qué el inconsciente repite</h2>
+
+<p>El sueño es uno de los mecanismos que tiene la mente para procesar lo que no ha podido digerir durante el día. Emociones no expresadas, conflictos no resueltos, miedos que han sido empujados hacia abajo pero que no desaparecen: todo eso encuentra su camino en el sueño.</p>
+
+<p>Cuando un tema no se resuelve, el sueño intenta procesarlo de nuevo. Y de nuevo. Y de nuevo. La recurrencia no es un fallo del sistema: es exactamente el sistema funcionando. Tu mente es más persistente que tú en señalar lo que importa.</p>
+
+<p>Los estudios sobre sueños recurrentes muestran consistentemente que suelen aparecer en períodos de estrés elevado, en momentos de transición vital significativa (cambios de trabajo, rupturas, duelos), y en personas con asuntos emocionales no procesados que llevan mucho tiempo sin atención.</p>
+
+<h2>El sueño recurrente no es el problema: es el mapa</h2>
+
+<p>Uno de los errores más frecuentes cuando se tiene un sueño recurrente es querer que desaparezca. Se interpreta como una molestia, como algo que falla en el sistema del descanso. Pero ese enfoque es como intentar silenciar la alarma de incendios sin apagar el fuego.</p>
+
+<p>El sueño recurrente no es el problema: es el mapa hacia el problema. No se trata de eliminarlo sino de leerlo. ¿Qué patrón emocional señala? ¿Qué situación de tu vida real resuena con ese sueño? ¿Hay algo que estás evitando enfrentar?</p>
+
+<h2>Los sueños recurrentes más comunes y su mensaje</h2>
+
+<h3>Llegar tarde o no poder llegar</h3>
+<p>Correr hacia algo y no llegar nunca. Buscar una sala de examen que no encuentras. El tren que sale mientras tú todavía en el andén. Este sueño habla de ansiedad por el rendimiento, miedo a no estar a la altura, sensación de que el tiempo se acaba o de que estás perdiendo algo importante. Suele ser muy frecuente en personas con alta exigencia propia.</p>
+
+<h3>La casa desconocida pero familiar</h3>
+<p>Estás en una casa que reconoces como tuya pero que en la realidad no existe. Tiene habitaciones que no conocías, pasillos que llevan a lugares sorprendentes. La casa en los sueños es casi siempre un mapa del Self: cada habitación es una parte de ti. Una casa con habitaciones inexploradas habla de aspectos de ti mismo que aún no has descubierto o integrado.</p>
+
+<h3>Ser perseguido</h3>
+<p>Algo o alguien te persigue y no puedes escapar. Es uno de los sueños recurrentes más angustiantes, y su mensaje es casi siempre el mismo: hay algo en tu vida —una situación, una emoción, una responsabilidad— que estás evitando y que, por supuesto, no desaparece por ser ignorado. El perseguidor en el sueño raramente es peligroso si te das la vuelta y lo enfrentas.</p>
+
+<h3>Volar</h3>
+<p>Algunos sueños recurrentes son hermosos. Volar es el más frecuente de los positivos, y habla de libertad, de trascender límites, de expansión. Cuando se vuelve recurrente suele aparecer en períodos en que algo en la vida real se está liberando, o como contrapeso a una vida percibida como demasiado constreñida.</p>
+
+<h2>Cómo trabajar con un sueño recurrente</h2>
+
+<p>El primer paso es siempre anotar el sueño con detalle. No solo la trama, sino las emociones, los colores, los personajes, lo que sientes al despertar. La segunda vez que lo tienes, añade lo que ha cambiado. Los cambios entre versiones del mismo sueño son tan informativos como el sueño en sí: si el perseguidor ya no llega tan rápido, si la casa tiene una habitación nueva, si finalmente llegas a tiempo.</p>
+
+<p>El segundo paso es preguntarte honestamente: ¿qué está pasando en mi vida que conecta con la emoción central de este sueño? No busques la coincidencia exacta entre el argumento del sueño y la realidad. Busca la emoción: ¿qué es en tu vida lo que sientes que se te escapa? ¿Qué estás corriendo sin avanzar? ¿Qué habitación de ti mismo no has abierto?</p>
+
+<p>El tercer paso, cuando el sueño es muy perturbador o lleva mucho tiempo, es trabajarlo con un profesional. Los enfoques de psicoterapia orientados al sueño —especialmente la terapia Gestalt, la junguiana y la EMDR para sueños traumáticos— tienen herramientas específicas y eficaces para este trabajo.</p>
+
+<h2>Cuándo el sueño recurrente se detiene</h2>
+
+<p>La experiencia de quienes trabajan estos sueños es bastante consistente: el sueño deja de repetirse cuando el mensaje ha sido recibido. No hace falta resolverlo todo: hace falta reconocer lo que señala. Muchas personas reportan que el sueño recurrente que les acompañó durante años desaparece después de una conversación honesta, de tomar una decisión que llevaban tiempo aplazando, o simplemente de escribir lo que el sueño les estaba diciendo.</p>
+
+<p>Tu inconsciente no es cruel. No repite para torturarte. Repite porque te importa. Y cuando siente que has escuchado, descansa.</p>`,
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────────
+  // 9. SUEÑOS EN MOMENTOS VITALES
+  // ─────────────────────────────────────────────────────────────────────────────
+  {
+    slug: "suenos-en-momentos-vitales-guia-completa",
+    clusterSlug: "suenos-en-momentos-vitales",
+    title: "Sueños en los Momentos de Cambio: Duelo, Rupturas y Decisiones",
+    metaTitle: "Sueños en Momentos Vitales: Duelo, Ruptura, Trabajo y Decisiones — Guía",
+    metaDescription:
+      "Cuando la vida cambia, los sueños cambian. Guía completa sobre qué soñamos durante el duelo, una ruptura, un cambio de trabajo o una decisión importante, y qué nos dice.",
+    category: "Momentos Vitales",
+    categorySlug: "momentos-vitales",
+    publishedAt: "2024-02-20",
+    updatedAt: "2024-03-12",
+    readingTime: 13,
+    coverImage: "/images/blog/momentos-vitales/suenos-en-momentos-vitales-guia-completa.webp",
+    coverAlt: "Camino bifurcado bajo un cielo onírico al amanecer",
+    tags: ["duelo", "ruptura", "cambio", "decisiones", "transformación", "momentos vitales"],
+    tipo: "pilar",
+    intencion_practica: ["relaciones", "trabajo", "decisiones-de-vida", "salud-emocional"],
+    consejo_practico: "Si estás en un momento de cambio y tus sueños se han vuelto más intensos, más extraños o más frecuentes, eso es señal de que tu mente está trabajando activamente en lo que estás atravesando. No es algo que debas ignorar ni temer: es exactamente lo que debería ocurrir. Tus sueños en este período son un diario de lo que tu inconsciente está procesando. Léelos con curiosidad, no con miedo.",
+    faqItems: [
+      {
+        question: "¿Es normal que los sueños cambien cuando atraviesas algo difícil?",
+        answer:
+          "Completamente normal. Los sueños son más intensos, más vívidos y más frecuentes precisamente en los períodos de mayor movimiento vital. El inconsciente trabaja más cuando más necesita trabajar. No es señal de que algo va mal: es señal de que tu mente está haciendo exactamente su trabajo.",
+      },
+      {
+        question: "¿Por qué soñamos con personas que han fallecido?",
+        answer:
+          "Soñar con un fallecido es uno de los sueños más frecuentes durante el duelo. Generalmente cumple una función de proceso: la mente continúa el vínculo, se despide gradualmente, o recibe de manera simbólica lo que necesitaba antes de poder soltar. Estos sueños suelen ser profundamente reconfortantes y forman parte natural del duelo.",
+      },
+      {
+        question: "¿Qué significa soñar con tu ex justo cuando más intentas no pensar en él o ella?",
+        answer:
+          "La paradoja es conocida: cuanto más intentas no pensar en algo, más lo piensas. Y mientras duermes, no tienes los mecanismos de supresión activos. Soñar con el ex en plena ruptura no significa que debas volver ni que el amor siga ahí: significa que tu mente está procesando el vínculo, y ese proceso lleva tiempo.",
+      },
+    ],
+    content: `
+<p>Hay momentos en la vida en que todo se mueve. La muerte de alguien querido. El final de una relación. Un cambio de trabajo, una mudanza, una decisión que sabes que lo cambiará todo. En esos momentos, los sueños se vuelven diferentes: más intensos, más extraños, más difíciles de olvidar al despertar.</p>
+
+<p>No es casualidad. Los sueños son el laboratorio donde la mente procesa lo que el día no puede digerir. Y cuando la vida se mueve de forma radical, el laboratorio trabaja horas extra.</p>
+
+<h2>Por qué los sueños se intensifican en los momentos de cambio</h2>
+
+<p>El cerebro necesita integrar las experiencias para poder seguir funcionando. Las emociones intensas —el dolor de la pérdida, la incertidumbre del cambio, el miedo ante lo desconocido— no se procesan de golpe. Se procesan por capas, en múltiples ciclos, a lo largo del tiempo.</p>
+
+<p>El sueño REM, que es donde ocurren los sueños más vívidos y narrativos, tiene una función específica en este proceso: permite reactivar memorias emocionales sin la carga química del estrés, lo que facilita la integración. Es literalmente una sesión de procesamiento emocional que ocurre cada noche.</p>
+
+<p>Cuando estás en un momento de cambio intenso, ese procesamiento se vuelve más urgente y más visible. Los sueños se hacen más elaborados, más cargados, más memorables. No porque algo vaya mal: porque algo importante está siendo digerido.</p>
+
+<h2>Sueños durante el duelo</h2>
+
+<p>Los sueños de duelo son, para muchas personas, una de las experiencias más poderosas y a la vez más extrañas que atraviesan. La persona fallecida aparece. A veces está viva y la muerte no ha ocurrido, y al despertar el golpe es brutal. Otras veces aparece en paz, más joven, con una claridad y una presencia que la distingue de cualquier otro personaje onírico.</p>
+
+<p>La psicología del duelo considera estos sueños como parte normal y necesaria del proceso. No significan que no puedas aceptar la muerte. Significan que el vínculo se está integrando gradualmente. Soñar con el fallecido es la mente continuando la relación en el único espacio donde eso es posible, como una forma de transición.</p>
+
+<p>Los sueños de duelo tienden a evolucionar con el tiempo: los primeros suelen ser perturbadores o confusos; más adelante se vuelven más serenos, y a menudo la persona fallecida aparece de una manera que los deudos describen como "diferente", con una calidad de presencia que se percibe como real de una forma que los sueños ordinarios no tienen.</p>
+
+<h2>Sueños durante una ruptura</h2>
+
+<p>Una ruptura sentimental activa exactamente los mismos mecanismos neurológicos que una pérdida por duelo. El cerebro en abstinencia de una relación funciona de forma similar al cerebro que atraviesa un duelo, y los sueños son consecuentes.</p>
+
+<p>Soñar con el ex de forma recurrente durante una ruptura no es señal de que debas volver. Es señal de que tu mente está procesando el vínculo, desvinculándose gradualmente de una conexión que fue real e importante. Cuanto más intensa fue la relación, más tiempo y más sueños necesita la mente para integrar su ausencia.</p>
+
+<p>Lo más frecuente es soñar que todavía estás con esa persona, que la relación sigue, y despertar a la realidad de que no es así. Ese sueño-golpe forma parte del proceso. Cada vez que ocurre y lo atraviesas, la integración avanza un poco más.</p>
+
+<h2>Sueños cuando cambias de trabajo o emprendes</h2>
+
+<p>Los cambios profesionales significativos —dejar un trabajo seguro, emprender, cambiar de sector— activan en los sueños una mezcla específica de temas: caídas, laberintos, exámenes, situaciones donde tu competencia está en entredicho.</p>
+
+<p>No es el inconsciente diciéndote que vas a fracasar. Es el inconsciente procesando el miedo natural al cambio y a lo desconocido. La ansiedad que no te permites sentir durante el día —porque tienes que ser valiente, porque has tomado una decisión, porque no quieres dudar— encuentra su espacio en los sueños.</p>
+
+<p>Trabajar conscientemente con esos sueños durante períodos de cambio profesional puede ser extraordinariamente valioso: suelen mostrar con claridad cuáles son los miedos reales (no los que crees tener), y esa información puede guiar decisiones más sabias.</p>
+
+<h2>Sueños ante decisiones importantes</h2>
+
+<p>Hay personas que reportan que justo antes de tomar una decisión importante —y después de haberla tomado— sus sueños se vuelven especialmente significativos. A veces aparece una imagen que parece responder directamente a la pregunta que se están haciendo. Otras veces es más sutil: un estado de ánimo al despertar, una sensación de claridad que no tenían al dormirse.</p>
+
+<p>El inconsciente procesa información que la conciencia no tiene acceso directo. Ha estado evaluando opciones, considerando consecuencias, sopesando emociones —todo sin que lo sepas conscientemente. Los sueños en períodos de decisión son con frecuencia mensajes de esa evaluación invisible.</p>
+
+<p>La práctica de dormir "sobre" una decisión antes de tomarla tiene respaldo empírico: el sueño ayuda a integrar los factores emocionales que la razón tiende a ignorar. Y a menudo, la mañana después de un buen sueño, la decisión correcta es simplemente más clara.</p>`,
+  },
 
 export function getPillarBySlug(slug: string): PillarPage | undefined {
   return pillarPages.find((p) => p.slug === slug);

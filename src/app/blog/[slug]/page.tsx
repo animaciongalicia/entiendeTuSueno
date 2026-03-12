@@ -352,10 +352,8 @@ function PillarArticlePage({ pillar }: { pillar: PillarPage }) {
   const contentWithAd = injectMidAd(pillar.content);
   const cluster = getClusterBySlug(pillar.clusterSlug);
 
-  // Related: articles from the same cluster
-  const relatedArticles = articles
-    .filter((a) => a.cluster === pillar.clusterSlug)
-    .slice(0, 3);
+  // Todos los artículos del cluster para el hub section (sin límite)
+  const clusterArticles = articles.filter((a) => a.cluster === pillar.clusterSlug);
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -497,21 +495,32 @@ function PillarArticlePage({ pillar }: { pillar: PillarPage }) {
             </section>
           )}
 
-          {/* Related articles from cluster */}
-          {relatedArticles.length > 0 && (
+          {/* Hub section — mapa de todos los artículos del cluster
+               Transmite PageRank a los satélites y mejora tiempo en página */}
+          {clusterArticles.length > 0 && (
             <section className="mt-12">
-              <h2 className="text-xl font-bold text-[#f0eeff] mb-5">También te puede interesar</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                {relatedArticles.map((rel) => (
+              <div className="flex items-center gap-3 mb-6">
+                <h2 className="text-xl font-bold text-[#f0eeff]">Artículos de esta guía</h2>
+                <span className="text-xs text-[#4a4760] border border-[#2a2a4a] px-2 py-0.5 rounded-full">
+                  {clusterArticles.length} artículos
+                </span>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {clusterArticles.map((art) => (
                   <Link
-                    key={rel.slug}
-                    href={`/blog/${rel.slug}`}
-                    className="group rounded-xl border border-[#2a2a4a] bg-[#1a1a2e] p-4 hover:border-[#7c6af7] transition-colors"
+                    key={art.slug}
+                    href={`/blog/${art.slug}`}
+                    className="group flex gap-4 rounded-xl border border-[#2a2a4a] bg-[#1a1a2e] p-4 hover:border-[#7c6af7] transition-colors"
                   >
-                    <p className="text-xs text-[#7c6af7] mb-1">{rel.category}</p>
-                    <h3 className="text-sm font-medium text-[#e8e6f0] group-hover:text-[#9580ff] transition-colors line-clamp-2">
-                      {rel.title}
-                    </h3>
+                    <div className="flex-1 min-w-0">
+                      <p className="text-xs text-[#7c6af7] mb-1">{art.readingTime} min</p>
+                      <h3 className="text-sm font-semibold text-[#e8e6f0] group-hover:text-[#9580ff] transition-colors line-clamp-2 mb-1">
+                        {art.title}
+                      </h3>
+                      <p className="text-xs text-[#6b6880] line-clamp-2 leading-relaxed">
+                        {art.excerpt}
+                      </p>
+                    </div>
                   </Link>
                 ))}
               </div>
