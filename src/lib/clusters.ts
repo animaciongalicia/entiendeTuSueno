@@ -650,7 +650,6 @@ export const pillarPages: PillarPage[] = [
   <li><strong>Despertar en quietud:</strong> Los primeros segundos al despertar son sagrados. No consultes el teléfono. Permanece quieto, recuerda, anota.</li>
 </ol>`,
   },
-];
 
   // ─────────────────────────────────────────────────────────────────────────────
   // 7. SUEÑOS CON EL CUERPO
@@ -922,6 +921,7 @@ export const pillarPages: PillarPage[] = [
 
 <p>La práctica de dormir "sobre" una decisión antes de tomarla tiene respaldo empírico: el sueño ayuda a integrar los factores emocionales que la razón tiende a ignorar. Y a menudo, la mañana después de un buen sueño, la decisión correcta es simplemente más clara.</p>`,
   },
+];
 
 export function getPillarBySlug(slug: string): PillarPage | undefined {
   return pillarPages.find((p) => p.slug === slug);
