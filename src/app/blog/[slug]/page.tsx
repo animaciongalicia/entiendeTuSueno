@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { articles, getArticleBySlug, getAllSlugs, getRelatedArticlesByCluster } from "@/lib/articles";
-import { getPillarByCluster, getAllPillarSlugs, getPillarBySlug } from "@/lib/clusters";
+import { getPillarByCluster, getAllPillarSlugs, getPillarBySlug, getClusterBySlug } from "@/lib/clusters";
 import type { PillarPage } from "@/lib/clusters";
 import AdSlot from "@/components/AdSlot";
 import SchemaArticle from "@/components/SchemaArticle";
@@ -342,35 +342,56 @@ export default function ArticlePage({ params }: Props) {
 function PillarArticlePage({ pillar }: { pillar: PillarPage }) {
   const url = `https://entiendetusueno.com/blog/${pillar.slug}`;
   const contentWithAd = injectMidAd(pillar.content);
+  const cluster = getClusterBySlug(pillar.clusterSlug);
 
   // Related: articles from the same cluster
   const relatedArticles = articles
     .filter((a) => a.cluster === pillar.clusterSlug)
     .slice(0, 3);
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: pillar.metaTitle,
+    description: pillar.metaDescription,
+    datePublished: pillar.publishedAt,
+    dateModified: pillar.updatedAt,
+    author: { "@type": "Organization", name: "EntiendetuSueño" },
+    publisher: {
+      "@type": "Organization",
+      name: "EntiendetuSueño",
+      url: "https://entiendetusueno.com",
+    },
+    url,
+  };
+
+  const faqSchema =
+    pillar.faqItems.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: pillar.faqItems.map((faq) => ({
+            "@type": "Question",
+            name: faq.question,
+            acceptedAnswer: { "@type": "Answer", text: faq.answer },
+          })),
+        }
+      : null;
+
   return (
     <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-10">
-      {/* Schema */}
+      {/* Article Schema */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline: pillar.metaTitle,
-            description: pillar.metaDescription,
-            datePublished: pillar.publishedAt,
-            dateModified: pillar.updatedAt,
-            author: { "@type": "Organization", name: "EntiendetuSueño" },
-            publisher: {
-              "@type": "Organization",
-              name: "EntiendetuSueño",
-              url: "https://entiendetusueno.com",
-            },
-            url,
-          }),
-        }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
+      {/* FAQ Schema */}
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
 
       <div className="flex flex-col lg:flex-row gap-10">
         <article className="flex-1 min-w-0">
@@ -385,7 +406,7 @@ function PillarArticlePage({ pillar }: { pillar: PillarPage }) {
             </Link>
             <span>/</span>
             <Link href={`/categoria/${pillar.clusterSlug}`} className="hover:text-[#7c6af7] transition-colors">
-              Cluster
+              {cluster?.name ?? "Cluster"}
             </Link>
           </nav>
 
