@@ -20,7 +20,7 @@ export async function GET(request: NextRequest) {
   const soloPilar = searchParams.get("solo_pilar") === "true";
 
   // Normalise articles to export shape
-  let exportArticles = articles.map((a) => ({
+  const exportArticles = articles.map((a) => ({
     slug: a.slug,
     title: a.title,
     excerpt: a.excerpt,
