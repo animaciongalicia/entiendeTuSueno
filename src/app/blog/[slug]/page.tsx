@@ -4,6 +4,8 @@ import { getPillarByCluster, getAllPillarSlugs, getPillarBySlug, getClusterBySlu
 import type { PillarPage } from "@/lib/clusters";
 import AdSlot from "@/components/AdSlot";
 import SchemaArticle from "@/components/SchemaArticle";
+import EmailCapture from "@/components/EmailCapture";
+import AffiliateCTA from "@/components/AffiliateCTA";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -267,6 +269,9 @@ export default function ArticlePage({ params }: Props) {
               </section>
             )}
 
+            {/* Email capture — entre consejo y FAQ */}
+            <EmailCapture contexto={art.cluster} />
+
             {/* FAQ */}
             {art.faqItems && art.faqItems.length > 0 && (
               <section className="mt-10">
@@ -280,6 +285,11 @@ export default function ArticlePage({ params }: Props) {
                   ))}
                 </div>
               </section>
+            )}
+
+            {/* Afiliados — solo cuando el artículo tiene enlaces_afiliados */}
+            {art.enlaces_afiliados && art.enlaces_afiliados.length > 0 && (
+              <AffiliateCTA enlaces={art.enlaces_afiliados} />
             )}
 
             {/* Fuentes y referencias */}
@@ -496,6 +506,9 @@ function PillarArticlePage({ pillar }: { pillar: PillarPage }) {
             </section>
           )}
 
+          {/* Email capture — entre consejo y FAQ */}
+          <EmailCapture contexto={pillar.clusterSlug} />
+
           {/* FAQ */}
           {pillar.faqItems.length > 0 && (
             <section className="mt-10">
@@ -509,6 +522,11 @@ function PillarArticlePage({ pillar }: { pillar: PillarPage }) {
                 ))}
               </div>
             </section>
+          )}
+
+          {/* Afiliados — solo cuando el pillar tiene enlaces_afiliados */}
+          {pillar.enlaces_afiliados && pillar.enlaces_afiliados.length > 0 && (
+            <AffiliateCTA enlaces={pillar.enlaces_afiliados} />
           )}
 
           {/* Fuentes y referencias */}

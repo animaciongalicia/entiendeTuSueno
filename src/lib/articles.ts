@@ -25,6 +25,7 @@ export interface Article {
   intencion_practica?: ("relaciones" | "dinero" | "trabajo" | "ansiedad" | "decisiones-de-vida" | "emprendimiento" | "salud-emocional")[];
   consejo_practico?: string;
   fuentes?: { autor: string; obra: string }[];
+  enlaces_afiliados?: { texto: string; url: string; descripcion?: string }[];
 }
 
 export const articles: Article[] = [
