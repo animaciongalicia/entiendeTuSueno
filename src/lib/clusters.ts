@@ -17,6 +17,7 @@ export interface PillarPage {
   tipo: "pilar";
   intencion_practica?: ("relaciones" | "dinero" | "trabajo" | "ansiedad" | "decisiones-de-vida" | "emprendimiento" | "salud-emocional")[];
   consejo_practico?: string;
+  fuentes?: { autor: string; obra: string }[];
 }
 
 export interface Cluster {

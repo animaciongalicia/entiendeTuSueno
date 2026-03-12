@@ -282,6 +282,22 @@ export default function ArticlePage({ params }: Props) {
               </section>
             )}
 
+            {/* Fuentes y referencias */}
+            {art.fuentes && art.fuentes.length > 0 && (
+              <section className="mt-10 pt-6 border-t border-[#2a2a4a]">
+                <p className="text-xs font-semibold uppercase tracking-widest text-[#4a4760] mb-3">Fuentes</p>
+                <ul className="space-y-1">
+                  {art.fuentes.map((f, i) => (
+                    <li key={i} className="text-xs text-[#4a4760] leading-relaxed">
+                      <span className="text-[#6b6880]">{f.autor}</span>
+                      {" · "}
+                      <em>{f.obra}</em>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
             {/* Dynamic related articles from same cluster */}
             {relatedArticles.length > 0 && (
               <section className="mt-12">
@@ -492,6 +508,22 @@ function PillarArticlePage({ pillar }: { pillar: PillarPage }) {
                   </div>
                 ))}
               </div>
+            </section>
+          )}
+
+          {/* Fuentes y referencias */}
+          {pillar.fuentes && pillar.fuentes.length > 0 && (
+            <section className="mt-10 pt-6 border-t border-[#2a2a4a]">
+              <p className="text-xs font-semibold uppercase tracking-widest text-[#4a4760] mb-3">Fuentes</p>
+              <ul className="space-y-1">
+                {pillar.fuentes.map((f, i) => (
+                  <li key={i} className="text-xs text-[#4a4760] leading-relaxed">
+                    <span className="text-[#6b6880]">{f.autor}</span>
+                    {" · "}
+                    <em>{f.obra}</em>
+                  </li>
+                ))}
+              </ul>
             </section>
           )}
 
