@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "EntiendetuSueño — Interpretación de Sueños en Español",
   description:
     "Descubre el significado de tus sueños con interpretaciones profundas, cercanas y en español. Psicología, espiritualidad y autoconocimiento a través de tus sueños.",
+  alternates: { canonical: "https://entiendetusueno.com" },
   openGraph: {
     title: "EntiendetuSueño — Interpretación de Sueños en Español",
     description:

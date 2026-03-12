@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "Blog — Todos los artículos",
   description:
     "Explora nuestra colección completa de interpretaciones de sueños. Artículos detallados en español sobre el significado de los sueños más comunes.",
+  alternates: { canonical: "https://entiendetusueno.com/blog" },
 };
 
 export default function BlogPage() {

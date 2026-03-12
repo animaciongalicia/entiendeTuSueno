@@ -22,14 +22,16 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = getArticleBySlug(params.slug);
   if (article) {
+    const articleUrl = `https://entiendetusueno.com/blog/${article.slug}`;
     return {
       title: article.title,
       description: article.excerpt,
       keywords: article.tags,
+      alternates: { canonical: articleUrl },
       openGraph: {
         type: "article",
         locale: "es_ES",
-        url: `https://entiendetusueno.com/blog/${article.slug}`,
+        url: articleUrl,
         title: article.title,
         description: article.excerpt,
         publishedTime: article.publishedAt,
@@ -50,14 +52,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const pillar = getPillarBySlug(params.slug);
   if (pillar) {
+    const pillarUrl = `https://entiendetusueno.com/blog/${pillar.slug}`;
     return {
       title: pillar.metaTitle,
       description: pillar.metaDescription,
       keywords: pillar.tags,
+      alternates: { canonical: pillarUrl },
       openGraph: {
         type: "article",
         locale: "es_ES",
-        url: `https://entiendetusueno.com/blog/${pillar.slug}`,
+        url: pillarUrl,
         title: pillar.metaTitle,
         description: pillar.metaDescription,
         publishedTime: pillar.publishedAt,
@@ -240,7 +244,10 @@ export default function ArticlePage({ params }: Props) {
             {art.interpretacion_humana && (
               <section className="mt-10 rounded-xl border border-[#2a2a4a] bg-[#1a1a2e] p-6">
                 <h2 className="text-lg font-bold text-[#f0eeff] mb-3">Interpretación humana</h2>
-                <p className="text-sm text-[#8b87a0] leading-relaxed">{art.interpretacion_humana}</p>
+                <div
+                  className="prose-cosmos text-sm"
+                  dangerouslySetInnerHTML={{ __html: art.interpretacion_humana }}
+                />
               </section>
             )}
 

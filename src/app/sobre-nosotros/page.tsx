@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Sobre nosotros — EntiendetuSueño",
   description:
     "Conoce el equipo y la metodología detrás de EntiendetuSueño: psicología del sueño, simbolismo jungiano y utilidad práctica. Cómo interpretamos los sueños y en qué nos basamos.",
+  alternates: { canonical: "https://entiendetusueno.com/sobre-nosotros" },
   openGraph: {
     title: "Sobre nosotros — EntiendetuSueño",
     description:

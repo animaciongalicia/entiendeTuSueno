@@ -33,19 +33,39 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // Noindex si no hay artículos aún — evita thin content en el site quality score
   const hasContent = articlesInSlug.length > 0;
 
+  const BASE_URL = "https://entiendetusueno.com";
+
   if (cluster) {
+    const clusterUrl = `${BASE_URL}/categoria/${cluster.slug}`;
     return {
-      title: cluster.name,
-      description: cluster.description,
+      title: `${cluster.name} — Interpretación y Significado`,
+      description: `${cluster.description} Guía completa con interpretaciones psicológicas, simbolismo y consejos prácticos en español.`,
+      alternates: { canonical: clusterUrl },
+      openGraph: {
+        type: "website",
+        locale: "es_ES",
+        url: clusterUrl,
+        title: `${cluster.name} — Interpretación y Significado`,
+        description: cluster.description,
+      },
       ...(!hasContent && { robots: { index: false, follow: true } }),
     };
   }
   const cats = getAllCategories();
   const cat = cats.find((c) => c.slug === params.nombre);
   if (!cat) return {};
+  const catUrl = `${BASE_URL}/categoria/${params.nombre}`;
   return {
-    title: `Sueños de ${cat.name}`,
-    description: `Interpretaciones de sueños relacionados con ${cat.name.toLowerCase()}. Descubre el significado de estos sueños comunes en español.`,
+    title: `Sueños de ${cat.name} — Significado e Interpretación`,
+    description: `Interpretaciones de sueños relacionados con ${cat.name.toLowerCase()}. Psicología del sueño, simbolismo y significado práctico en español.`,
+    alternates: { canonical: catUrl },
+    openGraph: {
+      type: "website",
+      locale: "es_ES",
+      url: catUrl,
+      title: `Sueños de ${cat.name} — Significado e Interpretación`,
+      description: `Interpretaciones de sueños relacionados con ${cat.name.toLowerCase()}.`,
+    },
     ...(!hasContent && { robots: { index: false, follow: true } }),
   };
 }
