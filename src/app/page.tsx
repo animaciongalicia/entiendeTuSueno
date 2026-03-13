@@ -45,7 +45,8 @@ const clusterBadgeColors: Record<string, string> = {
 };
 
 export default function HomePage() {
-  const latest = articles.slice(0, 3);
+  const [featuredArticle, ...otherArticles] = articles;
+  const latest = otherArticles.slice(0, 3);
 
   return (
     <>
@@ -186,7 +187,16 @@ export default function HomePage() {
             Ver todos →
           </Link>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        {/* Featured article (full width) */}
+        {featuredArticle && (
+          <div className="mb-6">
+            <ArticleCard article={featuredArticle} featured />
+          </div>
+        )}
+
+        {/* Supporting articles grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           {latest.map((article) => (
             <ArticleCard key={article.slug} article={article} />
           ))}

@@ -6,6 +6,7 @@ import AdSlot from "@/components/AdSlot";
 import SchemaArticle from "@/components/SchemaArticle";
 import EmailCapture from "@/components/EmailCapture";
 import AffiliateCTA from "@/components/AffiliateCTA";
+import CoverImage from "@/components/CoverImage";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -475,8 +476,13 @@ function PillarArticlePage({ pillar }: { pillar: PillarPage }) {
           </p>
 
           {/* Cover image */}
-          <div className="w-full h-64 md:h-80 rounded-xl bg-gradient-to-br from-[#2a2a4a] to-[#12121e] flex items-center justify-center mb-8 overflow-hidden">
-            <span className="text-7xl opacity-30" aria-hidden="true">🌙</span>
+          <div className="w-full h-64 md:h-80 rounded-xl overflow-hidden mb-8">
+            <CoverImage
+              src={pillar.coverImage}
+              alt={pillar.coverAlt}
+              categorySlug={pillar.categorySlug}
+              className="w-full h-full"
+            />
           </div>
 
           {/* Content with mid-ad */}
