@@ -57,11 +57,13 @@ export default function SobreNosotrosPage() {
           El proyecto
         </p>
         <h1 className="text-3xl md:text-4xl font-bold text-[#f0eeff] leading-tight mb-5">
-          Por qué existe EntiendetuSueño<br />y cómo trabajamos
+          No te decimos lo que significa tu sueño.<br />
+          <span className="text-[#9580ff]">Te ayudamos a entender qué te está pasando.</span>
         </h1>
         <p className="text-lg text-[#8b87a0] leading-relaxed">
-          Hay miles de páginas que te dicen qué significa soñar con serpientes. La mayoría
-          son listas de símbolos sin contexto, escritas para posicionar, no para ayudar.
+          Hay miles de páginas que te dicen &ldquo;soñar con serpientes significa traición&rdquo;.
+          Eso no te sirve. Porque tus sueños no son genéricos: nacen de tu historia,
+          tu momento vital y lo que tu inconsciente necesita procesar ahora mismo.
           Esta web nació del convencimiento de que los sueños merecen mejor trato.
         </p>
       </div>
@@ -72,50 +74,50 @@ export default function SobreNosotrosPage() {
         <section className="rounded-2xl border border-[#2a2a4a] bg-[#1a1a2e] p-8">
           <h2 className="text-xl font-bold text-[#f0eeff] mb-4">Quiénes somos</h2>
           <p className="text-[#8b87a0] leading-relaxed mb-4">
-            EntiendetuSueño es un proyecto editorial especializado en psicología del sueño
-            e interpretación onírica en español. El equipo que lo sostiene tiene formación
-            en psicología, con especialización en psicología analítica (tradición junguiana)
-            y años de trabajo con el material onírico tanto en contexto clínico como personal.
+            EntiendetuSueño es un proyecto especializado en psicología del sueño en español.
+            El equipo tiene formación en psicología —con énfasis en la tradición junguiana y
+            en la neurociencia del sueño— y años de trabajo con material onírico real,
+            tanto en contexto clínico como personal.
           </p>
           <p className="text-[#8b87a0] leading-relaxed mb-4">
-            No somos adivinos ni astrólogos. Somos personas que llevan mucho tiempo estudiando
-            seriamente lo que ocurre cuando dormimos, qué produce el inconsciente y cómo ese
-            material puede ser útil para la vida real de quien se despierta con una imagen
-            que no entiende pero que siente que importa.
+            No somos adivinos ni astrólogos. Somos personas convencidas de que los sueños
+            son un material psicológico valioso —no magia— y de que la persona que se despierta
+            con un sueño que le pesa merece algo más que una lista de símbolos.
+            Merece una herramienta para conectar ese sueño con su propia vida.
           </p>
           <p className="text-[#8b87a0] leading-relaxed">
-            Hemos analizado miles de relatos de sueños. Lo que más nos ha enseñado no son
-            los libros —aunque los libros importan— sino la consistencia con que los mismos
-            símbolos conectan con los mismos patrones vitales, una y otra vez, en personas
-            de culturas, edades y circunstancias completamente distintas.
+            Lo que más nos ha enseñado no son los libros —aunque los libros importan—
+            sino la consistencia con que los mismos patrones emocionales se repiten
+            en personas de edades, culturas y circunstancias completamente distintas.
+            El sueño cambia. La emoción que procesa, casi nunca.
           </p>
         </section>
 
         {/* Metodología de 3 capas */}
         <section className="rounded-2xl border border-[#2a2a4a] bg-[#1a1a2e] p-8">
-          <h2 className="text-xl font-bold text-[#f0eeff] mb-2">Nuestra metodología: 3 capas</h2>
+          <h2 className="text-xl font-bold text-[#f0eeff] mb-2">Cómo lo hacemos: 3 capas</h2>
           <p className="text-sm text-[#6b6880] mb-6 leading-relaxed">
-            Cada artículo de esta web pasa por tres capas de análisis. Publicamos cuando
-            las tres están presentes. Si falta una, el artículo no está terminado.
+            Cada artículo y cada interpretación pasa por tres capas. Las tres tienen que estar
+            presentes para que el resultado sea útil.
           </p>
           <div className="space-y-5">
             {[
               {
                 num: "01",
-                title: "Capa psicológica",
-                desc: "Qué dice la psicología contemporánea y analítica sobre este símbolo o experiencia. Nos basamos en Jung, en la neurociencia del sueño (Walker, Hobson, Stickgold) y en la evidencia clínica sobre el procesamiento onírico. No usamos psicología pop ni afirmaciones sin respaldo.",
+                title: "¿Qué está procesando tu mente?",
+                desc: "Qué dice la psicología del sueño sobre lo que ocurre cuando dormimos. Jung, Walker, Hobson, Stickgold. No usamos psicología pop: usamos evidencia sobre el procesamiento emocional durante el sueño REM y cómo el inconsciente trabaja conflictos, miedos y decisiones.",
                 color: "text-violet-400",
               },
               {
                 num: "02",
-                title: "Capa simbólica",
-                desc: "Cómo aparece este símbolo en diferentes culturas, mitologías y tradiciones. La serpiente en el hinduismo no es la serpiente del Génesis, y esa diferencia importa. Buscamos el sustrato común y las variaciones culturales relevantes para el lector hispanohablante.",
+                title: "¿Qué simboliza en el contexto humano?",
+                desc: "Cómo aparece este símbolo en las culturas, mitologías y tradiciones humanas. No para darte una definición, sino para entender por qué ese símbolo activa lo que activa en tu mente. El sustrato común y las variaciones que importan para un lector hispanohablante de hoy.",
                 color: "text-cyan-400",
               },
               {
                 num: "03",
-                title: "Capa práctica",
-                desc: "Qué puede hacer con esto alguien que acaba de despertar con ese sueño. No reflexiones abstractas: preguntas concretas, conexiones con áreas reales de la vida (relaciones, trabajo, decisiones, salud emocional) y pasos accionables. Esta capa es la que más nos diferencia.",
+                title: "¿Con qué de tu vida conecta?",
+                desc: "Qué puede hacer alguien que acaba de tener ese sueño. Preguntas concretas, conexiones con áreas reales —relaciones, trabajo, decisiones, salud emocional, cambios vitales— y un paso accionable. Sin esta capa, el análisis es solo académico. Esta es la que más nos diferencia.",
                 color: "text-teal-400",
               },
             ].map((item) => (
@@ -137,9 +139,9 @@ export default function SobreNosotrosPage() {
           <h2 className="text-xl font-bold text-[#f0eeff] mb-4">Lo que no somos</h2>
           <ul className="space-y-3">
             {[
-              "No interpretamos sueños como presagios o predicciones del futuro.",
+              "No decimos \"este sueño significa X\". Los sueños no tienen un único significado.",
+              "No interpretamos sueños como presagios, señales o predicciones del futuro.",
               "No ofrecemos lecturas esotéricas, numerología ni astrología.",
-              "No afirmamos que haya un único significado correcto para ningún símbolo.",
               "No sustituimos el trabajo con un psicólogo o psicoterapeuta.",
               "No generamos contenido diseñado únicamente para posicionar en Google.",
             ].map((item) => (
@@ -175,13 +177,15 @@ export default function SobreNosotrosPage() {
           <p className="text-[#c0b8f0] leading-relaxed mb-4">
             La mayoría de los artículos incluyen una sección llamada{" "}
             <strong className="text-[#e8e6f0]">&ldquo;Interpretación humana&rdquo;</strong>{" "}
-            que no es teoría: es lo que hemos observado trabajando con material onírico real,
-            los patrones que se repiten, los relatos que cambian cómo entendemos un símbolo.
+            que no es teoría: es lo que hemos observado con material onírico real.
+            Los patrones que se repiten. Los relatos de personas que soñaron algo
+            en un momento de cambio, de pérdida, de decisión —y cómo ese sueño tenía sentido
+            cuando lo conectaban con lo que estaban viviendo.
           </p>
           <p className="text-[#c0b8f0] leading-relaxed">
-            Esa sección existe porque creemos que la interpretación de sueños sin experiencia
-            humana acumulada es solo académica. Y la experiencia sin marco teórico es solo
-            intuición. Las dos juntas son lo que hace útil este trabajo.
+            Esa sección existe porque la interpretación sin experiencia humana es solo académica.
+            Y la experiencia sin marco teórico es solo intuición.
+            Las dos juntas son lo que hace útil este trabajo.
           </p>
         </section>
 

@@ -13,8 +13,8 @@ export default function Footer() {
               <span className="font-semibold text-[#e8e6f0]">entiendetusueno.com</span>
             </Link>
             <p className="text-sm text-[#8b87a0] leading-relaxed">
-              Tu guía de interpretación de sueños en español. Descubre los mensajes
-              de tu inconsciente con un enfoque cercano y accesible.
+              No te decimos qué significa tu sueño. Te ayudamos a entender qué está
+              pasando en ti cuando lo tienes. Psicología real, sin superstición.
             </p>
           </div>
 
@@ -31,7 +31,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/interpretador" className="text-sm text-[#8b87a0] hover:text-[#7c6af7] transition-colors">
-                  Interpretador de sueños
+                  Entender mi sueño (IA)
                 </Link>
               </li>
               <li>

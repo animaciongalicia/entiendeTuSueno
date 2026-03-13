@@ -6,14 +6,14 @@ import { clusters } from "@/lib/clusters";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "EntiendetuSueño — Interpretación de Sueños en Español",
+  title: "EntiendetuSueño — Entiende qué está pasando en ti",
   description:
-    "Descubre el significado de tus sueños con interpretaciones profundas, cercanas y en español. Psicología, espiritualidad y autoconocimiento a través de tus sueños.",
+    "entiendeTuSueño no te dice lo que significa tu sueño. Te ayuda a entender qué está pasando en ti cuando lo tienes. Psicología real, sin superstición.",
   alternates: { canonical: "https://entiendetusueno.com" },
   openGraph: {
-    title: "EntiendetuSueño — Interpretación de Sueños en Español",
+    title: "EntiendetuSueño — Entiende qué está pasando en ti",
     description:
-      "Descubre el significado de tus sueños con interpretaciones profundas, cercanas y en español.",
+      "No buscas magia. Buscas entender. Conectamos lo que soñaste con lo que estás viviendo.",
     type: "website",
     locale: "es_ES",
     url: "https://entiendetusueno.com",
@@ -59,22 +59,21 @@ export default function HomePage() {
         <div className="mx-auto max-w-3xl text-center relative">
           <div className="inline-flex items-center gap-2 rounded-full border border-[#2a2a4a] bg-[#1a1a2e] px-4 py-1.5 text-xs text-[#8b87a0] mb-8">
             <span className="w-1.5 h-1.5 rounded-full bg-[#7c6af7] animate-pulse" />
-            Interpretación de sueños en español
+            Psicología del sueño · Sin superstición
           </div>
 
-          <h1 className="text-4xl md:text-6xl font-bold text-[#f0eeff] leading-tight mb-6">
-            Tus sueños no son<br />
-            <span className="text-[#7c6af7]">casualidad</span>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#f0eeff] leading-tight mb-6">
+            Tuviste un sueño que te removió.<br />
+            <span className="text-[#7c6af7]">No buscas magia. Buscas entender.</span>
           </h1>
 
-          <p className="text-lg md:text-xl text-[#8b87a0] max-w-2xl mx-auto mb-4 leading-relaxed">
-            Cada noche tu inconsciente trabaja. Procesa lo que el día no pudo, te muestra lo que evitas ver,
-            te prepara para lo que viene. <strong className="text-[#c0b8f0] font-normal">EntiendetuSueño</strong> te ayuda
-            a descifrar esos mensajes con profundidad, honestidad y en español.
+          <p className="text-lg text-[#8b87a0] max-w-2xl mx-auto mb-3 leading-relaxed">
+            <strong className="text-[#c0b8f0] font-normal">entiendeTuSueño</strong> no te dice lo que &ldquo;significa&rdquo; tu sueño.
+            Te ayuda a entender <em>qué está pasando en ti</em> cuando lo tienes.
           </p>
           <p className="text-base text-[#6b6880] max-w-xl mx-auto mb-10 leading-relaxed">
-            Sin supersticiones. Sin interpretaciones genéricas. Psicología real, espiritualidad con fundamento
-            y el reconocimiento de que tu sueño dice algo específico sobre <em>tu</em> vida.
+            Conectamos lo que soñaste con lo que estás viviendo: tus miedos, tus relaciones,
+            tu estrés, tus cambios, tus deseos no dichos. Con psicología, con honestidad y con respeto.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -82,7 +81,7 @@ export default function HomePage() {
               href="/interpretador"
               className="rounded-full bg-[#7c6af7] px-7 py-3.5 text-base font-medium text-white hover:bg-[#9580ff] transition-colors shadow-lg shadow-[#7c6af7]/20"
             >
-              Interpretar mi sueño →
+              Entender mi sueño →
             </Link>
             <Link
               href="/blog"
@@ -209,28 +208,28 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div>
               <p className="text-xs font-semibold uppercase tracking-widest text-[#7c6af7] mb-3">
-                Sobre este proyecto
+                Cómo trabajamos
               </p>
               <h2 className="text-2xl md:text-3xl font-bold text-[#f0eeff] mb-4 leading-tight">
-                Interpretaciones que van<br />más allá del símbolo
+                No &ldquo;qué significa&rdquo;.<br />Sino qué te está pasando.
               </h2>
               <p className="text-[#8b87a0] leading-relaxed mb-4">
-                Hay millones de páginas que te dicen &ldquo;soñar con serpientes significa traición&rdquo;. Aquí no hacemos eso.
-                Porque tus sueños no son genéricos: son tuyos, nacen de tu historia, tu momento vital y lo que
-                tu inconsciente específicamente necesita comunicarte.
+                Hay millones de páginas que te dicen &ldquo;soñar con serpientes significa traición&rdquo;. Eso no te sirve.
+                Porque tus sueños no son genéricos: nacen de tu historia, tu momento vital y lo que
+                tu inconsciente necesita procesar ahora.
               </p>
               <p className="text-[#8b87a0] leading-relaxed">
-                Combinamos psicología profunda —Jung, Freud, la investigación contemporánea del sueño— con
-                las tradiciones espirituales más ricas del mundo y la voz humana cercana que convierte
-                el conocimiento en algo que puedes usar en tu vida real.
+                Nuestro trabajo es conectar lo que soñaste con lo que estás viviendo. Miedos actuales,
+                relaciones, decisiones pendientes, estrés acumulado, deseos que no te has dicho.
+                Psicología real. Sin magia. Sin vaguedades.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
-                { icon: "🧠", title: "Psicología real", desc: "Jung, Freud y la ciencia del sueño contemporánea" },
-                { icon: "🌙", title: "Espiritualidad", desc: "Chamanismo, budismo, tradiciones del mundo entero" },
-                { icon: "✍️", title: "Voz humana", desc: "Cercana, honesta, sin jerga ni superstición" },
-                { icon: "🔍", title: "Tu contexto", desc: "Cada interpretación conecta con la vida real" },
+                { icon: "🧠", title: "Psicología del sueño", desc: "Jung, Walker, Hobson. Ciencia del sueño REM y procesamiento emocional" },
+                { icon: "🪞", title: "Tu momento vital", desc: "Cada sueño conecta con lo que estás viviendo ahora, no con una lista de símbolos" },
+                { icon: "💬", title: "Lenguaje humano", desc: "Sin jerga, sin esoterismo. Cercano, honesto, directo" },
+                { icon: "⚡", title: "Acción concreta", desc: "Siempre con una pregunta o paso práctico para tu vida real" },
               ].map((item) => (
                 <div key={item.title} className="rounded-xl border border-[#2a2a4a] bg-[#12121e] p-4">
                   <div className="text-2xl mb-2">{item.icon}</div>
@@ -247,18 +246,16 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 mb-20">
         <div className="rounded-2xl border border-[#2a2a4a] bg-[#12121e] px-8 py-10 md:px-16 md:py-14 text-center">
           <p className="text-xs font-semibold uppercase tracking-widest text-[#7c6af7] mb-4">
-            Cómo funciona esta web
+            Lo que hacemos diferente
           </p>
           <h2 className="text-2xl md:text-3xl font-bold text-[#f0eeff] mb-5 leading-tight max-w-2xl mx-auto">
-            Esto no es un horóscopo.<br />Es una guía práctica para tu vida real.
+            Esto no es un diccionario de sueños.<br />Es un espejo de lo que te está pasando.
           </h2>
           <p className="text-[#8b87a0] max-w-2xl mx-auto leading-relaxed text-base">
-            Esta web no interpreta sueños con listas de símbolos ni predicciones vacías.
-            Es una guía para entender qué te está diciendo tu mente mientras duermes
-            y qué puedes hacer con esa información cuando despiertas.
-            Cada artículo combina psicología, simbolismo y utilidad concreta para tu vida:
-            tus relaciones, tu trabajo, tu dinero, tu ansiedad, tus decisiones importantes.
-            Porque un sueño que no conecta con tu vida real no sirve para nada.
+            No trabajamos con listas de símbolos ni predicciones vacías.
+            Trabajamos con la pregunta que importa: <strong className="text-[#c0b8f0] font-normal">¿qué está procesando tu mente ahora mismo?</strong>
+            {" "}Los sueños son el lenguaje del inconsciente cuando trabaja tus miedos, tus relaciones,
+            tu estrés, tus cambios y tus deseos no dichos. Nosotros te ayudamos a leerlos.
           </p>
         </div>
       </section>
@@ -266,17 +263,16 @@ export default function HomePage() {
       {/* ── CTA Interpretador ────────────────────────────────────────────────── */}
       <section className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 mb-20">
         <div className="relative overflow-hidden rounded-2xl border border-[#7c6af7]/30 bg-gradient-to-br from-[#1a1a2e] via-[#7c6af7]/5 to-[#12121e] p-10 md:p-16 text-center">
-          {/* Decorative glow */}
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-32 bg-[#7c6af7] opacity-10 blur-3xl pointer-events-none" />
 
           <div className="relative">
-            <div className="text-5xl mb-5">✨</div>
+            <div className="text-5xl mb-5">🪞</div>
             <h2 className="text-2xl md:text-4xl font-bold text-[#f0eeff] mb-4 leading-tight">
-              ¿Tuviste un sueño que no entiendes?
+              Tienes un sueño que te removió.
             </h2>
             <p className="text-[#8b87a0] mb-2 max-w-lg mx-auto leading-relaxed">
-              Descríbelo y nuestro interpretador analiza sus símbolos, su contexto emocional y
-              lo que probablemente te está señalando tu inconsciente.
+              Descríbelo. Te ayudamos a entender qué está procesando tu mente,
+              qué emociones está trabajando y con qué de tu vida conecta.
             </p>
             <p className="text-sm text-[#4a4760] mb-8 max-w-sm mx-auto">
               Sin registro. Sin coste. Solo escribe lo que soñaste.
@@ -285,7 +281,7 @@ export default function HomePage() {
               href="/interpretador"
               className="inline-block rounded-full bg-[#7c6af7] px-10 py-4 text-base font-semibold text-white hover:bg-[#9580ff] transition-colors shadow-xl shadow-[#7c6af7]/30"
             >
-              Interpretar mi sueño ahora
+              Entender mi sueño ahora
             </Link>
           </div>
         </div>
