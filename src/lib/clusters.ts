@@ -36,7 +36,7 @@ export const clusters: Cluster[] = [
   {
     slug: "suenos-con-animales",
     name: "Sueños con Animales",
-    description: "Serpientes, perros, pájaros, leones... Los animales son los mensajeros más directos del inconsciente.",
+    description: "Serpientes, perros, pájaros, leones... Los animales en tus sueños reflejan emociones, miedos e instintos que tu mente procesa mientras duermes.",
     pillarSlug: "sonar-con-animales-guia-completa",
     categorySlug: "animales",
     emoji: "🐍",
@@ -56,7 +56,7 @@ export const clusters: Cluster[] = [
   {
     slug: "suenos-con-muerte-y-miedo",
     name: "Muerte y Miedo",
-    description: "Morir en un sueño es renacer. Descubre por qué estos sueños son señales de transformación.",
+    description: "Morir, caer, que te persigan. Sueños de miedo que casi siempre reflejan ansiedad, sensación de pérdida de control o algo en tu vida que no quieres mirar de frente.",
     pillarSlug: "sonar-con-muerte-guia-completa",
     categorySlug: "emociones",
     emoji: "🌑",
@@ -76,7 +76,7 @@ export const clusters: Cluster[] = [
   {
     slug: "suenos-de-dinero-y-trabajo",
     name: "Dinero y Trabajo",
-    description: "El dinero en los sueños habla de autoestima, poder y tu relación con la abundancia.",
+    description: "El dinero en los sueños habla de autoestima, seguridad y el miedo a no tener suficiente o no ser suficiente.",
     pillarSlug: "sonar-con-dinero-guia-completa",
     categorySlug: "emociones",
     emoji: "✨",
@@ -86,7 +86,7 @@ export const clusters: Cluster[] = [
   {
     slug: "suenos-espirituales",
     name: "Sueños Espirituales",
-    description: "Visitas de fallecidos, ángeles, presencias. Lo que el alma procesa mientras el cuerpo duerme.",
+    description: "Fallecidos, figuras significativas, presencias intensas. Sueños que tu mente genera en momentos de duelo, pérdida o carga emocional profunda.",
     pillarSlug: "suenos-espirituales-guia-completa",
     categorySlug: "espiritual",
     emoji: "🌙",
@@ -151,7 +151,7 @@ export const pillarPages: PillarPage[] = [
       {
         question: "¿Por qué soñamos tan frecuentemente con animales?",
         answer:
-          "Los animales representan instintos, emociones primitivas y aspectos de nuestra personalidad que la mente consciente reprime. Jung los consideraba arquetipos universales del inconsciente colectivo presentes en toda cultura humana.",
+          "Los animales representan instintos, emociones y aspectos de nuestra personalidad que la mente consciente tiende a ignorar. El cerebro los usa como material simbólico en los sueños precisamente porque tienen una carga emocional muy directa y universal.",
       },
       {
         question: "¿Es malo soñar con animales peligrosos?",
@@ -184,11 +184,10 @@ export const pillarPages: PillarPage[] = [
 <p>Sigmund Freud tenía una visión más directa: los animales en los sueños representaban pulsiones instintivas, especialmente las que la vida social obliga a reprimir. Un animal agresivo era, para él, la ira o el deseo sexual que no te permites expresar conscientemente.</p>
 <p>La psicología moderna añade otra dimensión: los sueños con animales cumplen una función de procesamiento emocional. El cerebro usa estos símbolos para integrar experiencias cargadas de emoción que durante el día no pudieron procesarse completamente.</p>
 
-<h2>Qué dice la espiritualidad</h2>
-<p>En prácticamente todas las tradiciones espirituales del mundo, los animales son mensajeros, guías o encarnaciones de fuerzas espirituales. Las culturas chamánicas de Siberia, América y África trabajan con <em>animales de poder</em>: guías espirituales en forma animal que acompañan al chamán en sus viajes al mundo invisible.</p>
-<p>La tradición nativa norteamericana desarrolló un sistema elaborado de tótems: cada clan o persona tiene animales guía cuyas cualidades debe encarnar. Soñar repetidamente con un animal específico puede ser la señal de que ese animal es tu tótem del momento —una energía que tu alma necesita integrar.</p>
-<p>En la tradición hindú, cada dios tiene su vāhana, su animal sagrado. El elefante es Ganesha, el águila es Vishnu, la serpiente rodea a Shiva. Soñar con estos animales en tradiciones con influencia hindú tiene resonancias espirituales específicas.</p>
-<p>El budismo tibetano utiliza animales como símbolos de las cinco sabidurías: el garuda, el tigre, el dragón, el leopardo de las nieves y el león de las nieves representan cualidades espirituales que el practicante busca desarrollar.</p>
+<h2>Qué dice la neurociencia del sueño</h2>
+<p>La investigación moderna sobre el sueño añade una capa fundamental: el cerebro usa los sueños para procesar emociones intensas del día o de períodos recientes. Matthew Walker y otros investigadores del sueño REM han documentado que las escenas oníricas son construcciones que el cerebro genera combinando memorias cargadas emocionalmente con situaciones del presente.</p>
+<p>Los animales, que representan instintos y emociones en su forma más directa, son materiales ideales para ese procesamiento. No es que el cerebro "envíe mensajes" a través de ellos: es que los usa como material simbólico para trabajar con lo que no ha podido procesar conscientemente durante el día.</p>
+<p>Esto explica por qué los animales que aparecen en tus sueños casi siempre conectan con algo concreto de tu vida real: una relación, un miedo, una situación de tensión. El sueño no es profecía; es procesamiento.</p>
 
 <h2>Los sueños más comunes en este cluster</h2>
 
@@ -210,20 +209,19 @@ export const pillarPages: PillarPage[] = [
 <ul>
   <li><strong>¿Qué estaba haciendo el animal?</strong> La acción importa más que el animal. Una serpiente que muda de piel tiene un significado radicalmente distinto a una que te ataca.</li>
   <li><strong>¿Qué sentiste?</strong> Tu reacción emocional es la brújula del sueño. Miedo, fascinación, ternura, indiferencia: cada emoción orienta la interpretación.</li>
-  <li><strong>¿De qué color era?</strong> Blanco apunta a lo espiritual, negro a la sombra, rojo a la pasión o la ira, dorado a la sabiduría.</li>
+  <li><strong>¿De qué color era?</strong> El color añade matices: blanco suele conectar con paz o pureza, negro con lo desconocido o el miedo, rojo con la energía, la pasión o la rabia, dorado con algo que valoras profundamente.</li>
   <li><strong>¿Qué estaba ocurriendo en tu vida el día anterior?</strong> El inconsciente trabaja con el material fresco.</li>
 </ul>
 
-<h2>La técnica de la imaginación activa</h2>
-<p>Jung desarrolló una técnica llamada imaginación activa para dialogar con los símbolos del sueño. Para aplicarla con un animal que apareció en tu sueño:</p>
+<h2>Una técnica práctica para trabajar con el sueño</h2>
+<p>Una forma útil de profundizar en lo que un animal de tu sueño puede estar representando es hacer este ejercicio en papel:</p>
 <ol>
-  <li>Siéntate en silencio con los ojos cerrados y recuerda el sueño vívidamente.</li>
-  <li>Visualiza de nuevo al animal. Observa su aspecto, su postura, su mirada.</li>
-  <li>Pregúntale en tu imaginación: "¿Quién eres? ¿Qué necesitas de mí?"</li>
-  <li>Observa sin juicio lo que surge: imágenes, palabras, sensaciones corporales.</li>
-  <li>Agradece al animal y anota todo en tu diario de sueños inmediatamente.</li>
+  <li>Anota el sueño en detalle: qué animal era, qué hacía, cómo te sentiste.</li>
+  <li>Pregúntate: ¿qué tres palabras describen mejor a ese animal? (ej: peligroso, libre, solitario)</li>
+  <li>Ahora pregúntate: ¿hay alguna situación o persona en tu vida a la que aplicarías esas mismas palabras?</li>
+  <li>Si la hay, esa conexión es probablemente lo que tu mente estaba procesando con ese sueño.</li>
 </ol>
-<p>Muchas personas se sorprenden de la claridad de las respuestas que aparecen con esta técnica.</p>
+<p>La mayoría de las veces, esa conexión aparece con una claridad que sorprende.</p>
 
 <h2>Llevar un diario de sueños con animales</h2>
 <p>Si los animales aparecen con frecuencia en tus sueños, llevar un registro sistemático te permitirá identificar patrones que una sola interpretación no revela. Anota: qué animal fue, qué acción realizaba, su color, tu emoción, y qué estaba pasando en tu vida en ese momento. Con el tiempo emerge el lenguaje simbólico específico de tu propio inconsciente.</p>`,
