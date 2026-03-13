@@ -1420,6 +1420,579 @@ export const articles: Article[] = [
 <p>Si los sueños con casas son recurrentes para ti y quieres entender qué hace que un sueño vuelva una y otra vez, puedes leer sobre <a href="/blog/suenos-recurrentes-guia-completa">los sueños recurrentes y cómo trabajar con ellos</a>. Y si en la casa aparece fuego o agua, los artículos sobre <a href="/blog/sonar-con-fuego">soñar con fuego</a> y <a href="/blog/sonar-con-agua">soñar con agua</a> pueden complementar este análisis.</p>
     `,
   },
+  // ─── ARTÍCULO 12 ────────────────────────────────────────────────────────────
+  {
+    slug: "sonar-con-embarazo",
+    title: "Soñar con Embarazo: Qué Significa aunque No Estés Buscándolo",
+    excerpt:
+      "Soñar con embarazo es uno de los sueños más impactantes y confusos. Ocurre a mujeres, hombres, y personas que no desean tener hijos. Aquí tienes lo que realmente significa.",
+    category: "Cuerpo y Mente",
+    categorySlug: "cuerpo-mente",
+    publishedAt: "2024-04-08",
+    updatedAt: "2024-04-08",
+    readingTime: 8,
+    coverImage: "/images/blog/cuerpo/sonar-con-embarazo.webp",
+    coverAlt: "Silueta suave de una figura embarazada bajo luz cálida",
+    tags: ["embarazo", "cuerpo", "creación", "cambio", "nueva etapa"],
+    cluster: "suenos-sobre-uno-mismo",
+    visual_theme: "calma",
+    pin_titles: [
+      "Soñé que estaba embarazada y no lo estoy: esto significa",
+      "Por qué soñamos con embarazos aunque no queramos tener hijos",
+      "El mensaje oculto de soñar con un embarazo",
+    ],
+    reel_hook: "Soñaste que estabas embarazada —o embarazado— y te despertaste confundido. Lo que significa te va a sorprender.",
+    extracto_seo: "Soñar con embarazo no significa que vayas a quedarte embarazada. Simboliza creación, nuevos proyectos y partes de ti que están creciendo. Descubre todas las variantes y su significado real.",
+    imagen_destacada: "/images/blog/cuerpo/sonar-con-embarazo.webp",
+    imagen_vertical: "/images/pinterest/sonar-con-embarazo-pin.webp",
+    tipo: "normal",
+    intencion_practica: ["decisiones-de-vida", "salud-emocional", "trabajo"],
+    consejo_practico: "Si soñaste con embarazo en un momento en que estás iniciando algo nuevo —un proyecto, una relación, un cambio de vida—, tu inconsciente te está diciendo que algo está gestando dentro de ti. Pregúntate: ¿qué es lo que lleva semanas o meses creciendo en silencio? ¿Hay algo que todavía no has anunciado ni comprometido pero que ya sabes que va a nacer?",
+    fuentes: [
+      { autor: "Carl G. Jung", obra: "Psicología y Alquimia (1944)" },
+      { autor: "Clarissa Pinkola Estés", obra: "Mujeres que corren con los lobos (1992)" },
+      { autor: "Kelly Bulkeley", obra: "Dreaming in the World's Religions (2008)" },
+    ],
+    interpretacion_humana: "<p>Pocas búsquedas en nuestro portal generan tanta angustia como &laquo;soñé que estaba embarazada, ¿qué significa?&raquo;. La pregunta suele venir acompañada de un estado de alerta: ¿es una señal? ¿Presagio? ¿Mi cuerpo me está avisando de algo?</p><p>La respuesta más honesta es: casi nunca es literal. Lo que sí es cierto, y lo vemos en los relatos que nos llegan, es que este sueño aparece con llamativa consistencia en momentos en que la persona está en medio de un proceso de creación o transformación importante. Un negocio que está naciendo, una relación que empieza a ser seria, una identidad personal que está cambiando. El embarazo en sueños es la metáfora más poderosa que tiene el inconsciente para decirte: <em>algo nuevo está creciendo en ti</em>.</p>",
+    faqItems: [
+      {
+        question: "¿Soñar con embarazo significa que me voy a quedar embarazada?",
+        answer:
+          "No. Soñar con embarazo raramente es una predicción literal. La psicología del sueño lo interpreta como un símbolo de creación, crecimiento o nueva etapa. Si tienes dudas sobre un posible embarazo real, lo adecuado es hacer una prueba, no interpretar el sueño.",
+      },
+      {
+        question: "¿Qué significa soñar con embarazo siendo hombre?",
+        answer:
+          "Es más común de lo que parece y tiene el mismo significado simbólico: algo nuevo está gestando en tu vida. Puede ser un proyecto, una transformación personal o un nuevo rol que estás asumiendo. No tiene ningún significado físico ni de orientación.",
+      },
+      {
+        question: "¿Qué significa soñar que otra persona está embarazada?",
+        answer:
+          "Soñar que otra persona —una amiga, tu pareja, tu madre— está embarazada suele reflejar una proyección: ves en esa persona algo que en realidad está ocurriendo en ti, o bien hay algo en esa relación que está evolucionando o transformándose.",
+      },
+      {
+        question: "¿Qué significa soñar con un embarazo no deseado?",
+        answer:
+          "Puede señalar que algo en tu vida está creciendo o avanzando sin que lo hayas elegido conscientemente. Quizás un compromiso que adquiriste sin pensarlo bien, una situación que se está complicando, o una responsabilidad que se acerca y que no terminas de aceptar.",
+      },
+    ],
+    content: `
+<p>Te despertaste pensando que estabas embarazada. O que lo estaba tu pareja. O alguien a quien conoces. Y durante unos segundos el sueño parecía absolutamente real.</p>
+
+<p>Soñar con embarazo es uno de los sueños más impactantes precisamente porque mezcla lo físico con lo emocional de una forma muy directa. Y lo primero que hay que decir con claridad es esto: en la grandísima mayoría de los casos, <strong>no es una predicción ni una señal de embarazo real</strong>. Es un símbolo. Y un símbolo muy poderoso.</p>
+
+<h2>Lo que Simboliza el Embarazo en los Sueños</h2>
+
+<p>En la psicología profunda, el embarazo es uno de los arquetipos creativos más universales. Representa algo que está <em>gestando</em>: una idea, un proyecto, una nueva versión de ti mismo, un cambio que todavía no ha terminado de nacer.</p>
+
+<p>Carl Jung lo vinculaba directamente al proceso de individuación: el camino por el que nos convertimos en quienes realmente somos. Cuando el inconsciente usa la imagen del embarazo, está diciéndote que algo importante está madurando. Que hay un proceso en marcha que todavía no ha llegado a su término, pero que ya está vivo.</p>
+
+<p>Clarissa Pinkola Estés, en <em>Mujeres que corren con los lobos</em>, describe la energía creadora femenina como una gestación permanente: no solo se gesta vida biológica, también se gestan ideas, vínculos, obras, transformaciones. Esta energía no tiene género: hombres y mujeres por igual la experimentan en sueños.</p>
+
+<h2>Las Variantes más Comunes y qué Revelan</h2>
+
+<h3>Soñar con embarazo sin estar embarazada</h3>
+
+<p>Este es el caso más frecuente y el que más confusión genera. Si sueñas que estás embarazada sin estarlo en la vida real, tu mente está trabajando con el símbolo puro: algo nuevo está naciendo en tu vida. Puede ser un proyecto profesional que llevas tiempo incubando, una relación que está profundizando, o una etapa personal que está por comenzar.</p>
+
+<p>Presta atención a cómo te sentías en el sueño. Si el embarazo te llenaba de alegría o calma, la señal es de apertura y confianza ante lo que viene. Si sentías angustia o no querías estar embarazada en el sueño, puede que haya algo que está creciendo en tu vida y que todavía no terminas de aceptar.</p>
+
+<h3>Soñar con embarazo siendo hombre</h3>
+
+<p>Aunque suele provocar extrañeza, este sueño es más frecuente de lo que se cree. Tiene exactamente el mismo significado simbólico: algo está gestando en ti. Proyectos, cambios de identidad, nuevos roles —ser padre, asumir más responsabilidad, iniciar algo desde cero— aparecen con mucha frecuencia asociados a este sueño en hombres.</p>
+
+<h3>Soñar que otra persona está embarazada</h3>
+
+<p>Cuando en el sueño la embarazada es alguien cercana —tu pareja, una amiga, tu madre— hay que preguntarse dos cosas: ¿qué representa esa persona para ti? ¿Hay algo en esa relación que está cambiando o evolucionando?</p>
+
+<p>En muchos casos, la otra persona funciona como espejo: lo que le está pasando a ella en el sueño es en realidad lo que está pasando dentro de ti. El inconsciente utiliza a personas conocidas como pantalla para proyectar sus propios procesos.</p>
+
+<h3>Soñar con el parto</h3>
+
+<p>Si en el sueño no solo estás embarazada sino que llegas al momento del parto, el significado se amplía: algo que llevaba tiempo gestando está a punto de manifestarse. Hay una culminación cercana. El parto en sueños casi siempre señala un momento de entrega, de dejar ir algo que ya no puede seguir guardado dentro, de dar a luz algo que ya está listo para existir en el mundo.</p>
+
+<h2>Cuándo Prestar Especial Atención a este Sueño</h2>
+
+<p>Este sueño es especialmente significativo si aparece en estos momentos:</p>
+
+<ul>
+<li><strong>Estás iniciando un proyecto o emprendimiento.</strong> Tu inconsciente está procesando ese proceso creativo con la metáfora más potente que conoce.</li>
+<li><strong>Estás en un proceso de transformación personal.</strong> Terapia, duelo, cambio de trabajo, fin o inicio de una relación importante.</li>
+<li><strong>Llevas tiempo postergando algo.</strong> El embarazo en sueños a veces señala que hay algo que ya debería haber nacido y que sigues reteniendo por miedo.</li>
+<li><strong>Tienes una relación ambivalente con la maternidad o paternidad.</strong> El sueño puede estar procesando ese conflicto de forma directa.</li>
+</ul>
+
+<h2>Lo que No Significa</h2>
+
+<ul>
+<li><strong>No predice un embarazo.</strong> Los sueños no son profecías. Si tienes dudas sobre un embarazo real, haz una prueba.</li>
+<li><strong>No significa que inconscientemente quieras tener hijos.</strong> Puede que simplemente hayas iniciado un proyecto y tu mente lo esté procesando con esta metáfora.</li>
+<li><strong>No es una señal de tu cuerpo avisándote de algo físico.</strong> A menos que tengas otros síntomas, no hay base para interpretarlo como tal.</li>
+</ul>
+
+<h2>Cómo Trabajar con este Sueño</h2>
+
+<ul>
+<li>¿Qué hay en mi vida ahora mismo que está "gestando"? ¿Qué proyecto, relación o cambio lleva tiempo creciendo?</li>
+<li>¿Cómo me sentía en el sueño? ¿Con ilusión, con miedo, con ambivalencia?</li>
+<li>¿Hay algo que sé que necesita nacer —una decisión, un anuncio, un compromiso— pero que sigo reteniendo?</li>
+</ul>
+
+<p>Soñar con embarazo es, en el fondo, una noticia: algo en ti está vivo y creciendo. La pregunta es si estás dispuesto a darle espacio para que llegue al mundo.</p>
+
+<p>Si este sueño forma parte de una cadena de sueños intensos, quizás te interese leer sobre <a href="/blog/suenos-recurrentes-guia-completa">por qué algunos sueños vuelven una y otra vez</a> o explorar qué significan <a href="/blog/sonar-con-la-muerte-de-un-familiar">los sueños sobre personas queridas</a>.</p>
+    `,
+  },
+  // ─── ARTÍCULO 13 ────────────────────────────────────────────────────────────
+  {
+    slug: "sonar-con-dinero",
+    title: "Soñar con Dinero: Abundancia, Miedo o un Mensaje sobre tu Valía",
+    excerpt:
+      "Encontrar billetes en el suelo, perder tu cartera, recibir dinero o que te lo roben: cada variante habla de algo diferente. Descubre qué te está diciendo realmente tu inconsciente.",
+    category: "Trabajo y Dinero",
+    categorySlug: "dinero-trabajo",
+    publishedAt: "2024-04-15",
+    updatedAt: "2024-04-15",
+    readingTime: 7,
+    coverImage: "/images/blog/dinero-trabajo/sonar-con-dinero.webp",
+    coverAlt: "Billetes y monedas bajo una luz dorada difusa",
+    tags: ["dinero", "abundancia", "trabajo", "autoestima", "prosperidad"],
+    cluster: "suenos-dinero-trabajo",
+    visual_theme: "ansiedad",
+    pin_titles: [
+      "Soñar con dinero: lo que tu inconsciente dice de tu relación con la abundancia",
+      "¿Encuentras o pierdes dinero en tus sueños? Esto revela de ti",
+      "El significado oculto de soñar con billetes y monedas",
+    ],
+    reel_hook: "Soñaste que encontrabas dinero y te despertaste con una sensación extraña. Tu inconsciente no habla de dinero. Habla de algo mucho más profundo.",
+    extracto_seo: "Soñar con dinero puede significar abundancia, pero también ansiedad financiera, baja autoestima o miedo al fracaso. Descubre qué revela cada variante sobre tu relación real con el dinero y el éxito.",
+    imagen_destacada: "/images/blog/dinero-trabajo/sonar-con-dinero.webp",
+    imagen_vertical: "/images/pinterest/sonar-con-dinero-pin.webp",
+    tipo: "normal",
+    intencion_practica: ["dinero", "trabajo", "emprendimiento", "salud-emocional"],
+    consejo_practico: "El dinero en tus sueños casi nunca habla solo de dinero. Habla de cómo valoras tu propio trabajo, tu tiempo, tus capacidades. Pregúntate: ¿en qué parte de mi vida siento que lo que doy no está siendo reconocido ni recompensado? Ahí está el centro de este sueño.",
+    fuentes: [
+      { autor: "Sigmund Freud", obra: "La interpretación de los sueños (1899)" },
+      { autor: "James Hillman", obra: "El sueño y el inframundo (1979)" },
+      { autor: "David Fontana", obra: "El lenguaje secreto de los sueños (1994)" },
+    ],
+    interpretacion_humana: "<p>Los sueños con dinero son de los que más expectativas generan —y de los que más decepciones producen cuando se interpreta que el sueño 'significa riqueza inminente'. No funciona así, y decirlo claro es hacerle un favor al lector.</p><p>Lo que sí hemos observado en los relatos que llegan al portal es algo mucho más interesante: la relación que la persona tiene con el dinero en el sueño suele ser un espejo fiel de la relación que tiene con su propio valor. Quienes sueñan que pierden dinero o que se lo roban suelen estar atravesando momentos en los que sienten que no se les reconoce lo que aportan. Quienes sueñan que encuentran billetes suelen estar en un momento de apertura, de creer que hay más disponible para ellos de lo que pensaban.</p>",
+    faqItems: [
+      {
+        question: "¿Soñar que encuentras dinero es buena señal?",
+        answer:
+          "En términos simbólicos, encontrar dinero en sueños suele reflejar una apertura hacia nuevas oportunidades o el reconocimiento de recursos propios que no estabas valorando. No predice ganancias reales, pero sí puede señalar un momento de mayor confianza en tus capacidades o en las posibilidades disponibles.",
+      },
+      {
+        question: "¿Qué significa soñar que pierdo dinero o me lo roban?",
+        answer:
+          "Perder dinero o que te lo roben en sueños suele relacionarse con miedo a la escasez, o con la sensación de que algo tuyo —energía, tiempo, esfuerzo, reconocimiento— está siendo drenado sin que recibas nada a cambio. También puede señalar ansiedad por una situación económica real.",
+      },
+      {
+        question: "¿Qué significa soñar con mucho dinero?",
+        answer:
+          "Soñar con grandes cantidades de dinero puede reflejar deseos de seguridad o libertad, pero también una relación tensa con él: la abundancia extrema en sueños a veces aparece cuando en la vida real hay una sensación de escasez o de que lo que se tiene nunca es suficiente.",
+      },
+    ],
+    content: `
+<p>Encontraste un fajo de billetes en el suelo. O perdiste tu cartera. O alguien te pagaba y la cifra era absurdamente grande. O te robaban justo cuando más lo necesitabas.</p>
+
+<p>Los sueños con dinero son frecuentes, intensos y —hay que decirlo con claridad desde el principio— casi nunca hablan literalmente de dinero. Hablan de algo que el dinero representa en tu vida: seguridad, valor propio, poder, libertad, reconocimiento.</p>
+
+<h2>Por qué el Dinero es un Símbolo tan Poderoso en los Sueños</h2>
+
+<p>El dinero es uno de los objetos más cargados de significado emocional en nuestra cultura. No es solo un medio de intercambio: es una medida de lo que valemos, de lo que somos capaces de conseguir, de cuánta seguridad tenemos ante el futuro. Y esa carga emocional es exactamente lo que hace que aparezca con tanta frecuencia en los sueños.</p>
+
+<p>Freud lo relacionaba con el poder y con el miedo a la pérdida simbólica. Jung lo veía como símbolo de energía psíquica: el dinero en sueños representa los recursos internos disponibles, la vitalidad, el potencial creador.</p>
+
+<p>Lo que sí es universal: en los sueños, el dinero habla de tu relación con tu propio valor.</p>
+
+<h2>Las Variantes más Comunes y su Significado</h2>
+
+<h3>Soñar que encuentras dinero</h3>
+
+<p>Es uno de los sueños más frecuentes. Encontrar billetes o monedas en el suelo, en un cajón olvidado o en el bolsillo de un abrigo viejo suele reflejar un momento de apertura: hay recursos disponibles que no estabas viendo. Puede ser una oportunidad laboral, una habilidad propia que no estabas valorando, o simplemente una sensación de que "hay más de lo que creía".</p>
+
+<p>También puede aparecer cuando empiezas a creer en tu propio valor después de un período de duda o inseguridad.</p>
+
+<h3>Soñar que pierdes dinero o que te lo roban</h3>
+
+<p>Este sueño suele acompañar períodos de ansiedad económica real, pero también situaciones en las que sientes que das mucho y recibes poco. El robo en sueños es especialmente significativo: ¿quién te roba? Si reconoces a la persona, puede haber una dinámica en esa relación donde sientes que algo tuyo —tiempo, energía, esfuerzo— está siendo tomado sin contraprestación.</p>
+
+<p>Si pierdes el dinero sin que nadie te lo robe —se cae, lo olvidas— puede reflejar una sensación de falta de control sobre tu situación, o una tendencia a no cuidar adecuadamente lo que tienes.</p>
+
+<h3>Soñar con mucho dinero</h3>
+
+<p>Paradójicamente, soñar con abundancia extrema —bañarse en dinero, encontrar cofres, heredar fortunas— no siempre señala bienestar. En muchos casos aparece como compensación: cuando en la vida real hay una sensación de escasez, el inconsciente crea una imagen de abundancia desbordante.</p>
+
+<p>Si en el sueño la abundancia te produce ansiedad en lugar de alivio, puede que tu relación con el dinero tenga más que ver con el miedo que con el disfrute.</p>
+
+<h3>Soñar que das dinero</h3>
+
+<p>Dar dinero en sueños puede hablar de generosidad auténtica, pero también de una tendencia a dar más de lo que recibes, a infravalorarte, o a creer que debes "comprar" el afecto o la aceptación de los demás. Pregúntate si en tu vida real hay situaciones donde das en exceso esperando algo que no llega.</p>
+
+<h3>Soñar que cuentas dinero</h3>
+
+<p>Contar billetes en sueños suele asociarse con una necesidad de control o de hacer balance. Puede aparecer en momentos de toma de decisiones importantes, especialmente relacionadas con el trabajo o las finanzas. También puede señalar una tendencia a medir todo en términos de coste-beneficio, incluyendo las relaciones.</p>
+
+<h2>Tu Relación con el Dinero en la Vida Real</h2>
+
+<p>Una de las claves más útiles para interpretar estos sueños es preguntarte: ¿cuál es tu relación emocional con el dinero cuando estás despierto?</p>
+
+<p>Si el dinero te genera angustia crónica, los sueños probablemente amplifican esa angustia. Si tienes creencias de escasez muy arraigadas —"nunca hay suficiente", "el dinero no es para mí"— los sueños pueden estar intentando procesar o desafiar esas creencias.</p>
+
+<h2>Preguntas para Profundizar</h2>
+
+<ul>
+<li><strong>¿Cómo me sentía en el sueño?</strong> ¿Aliviado, ansioso, culpable, eufórico?</li>
+<li><strong>¿Había alguien más en el sueño?</strong> ¿Alguien con quien comparto o peleo por el dinero?</li>
+<li><strong>¿El dinero era mío o de otro?</strong> ¿Lo había ganado o simplemente apareció?</li>
+<li><strong>¿Qué parte de mi vida actual me hace sentir que no recibo lo que merezco?</strong></li>
+</ul>
+
+<p>Los sueños con dinero son, en el fondo, sueños sobre autoestima y valor propio. Tu inconsciente no está haciendo pronósticos financieros; está hablando de cómo te ves a ti mismo en el mundo.</p>
+
+<p>Si estás en un momento de cambio profesional, puede interesarte leer sobre <a href="/blog/sonar-que-vuelas">soñar que vuelas</a> —un sueño que suele acompañar momentos de máxima ambición— o explorar el significado de <a href="/blog/sonar-con-casas">soñar con casas</a>, símbolo directo de tu estado interior.</p>
+    `,
+  },
+  // ─── ARTÍCULO 14 ────────────────────────────────────────────────────────────
+  {
+    slug: "sonar-que-te-enganan",
+    title: "Soñar que te Engañan: Por qué Ocurre y Qué Dice de tu Relación",
+    excerpt:
+      "Te despiertas convencido de que tu pareja te ha sido infiel. Pero fue un sueño. ¿Por qué ocurre esto y qué significa realmente? La respuesta no siempre es la que esperarías.",
+    category: "Relaciones",
+    categorySlug: "relaciones",
+    publishedAt: "2024-04-22",
+    updatedAt: "2024-04-22",
+    readingTime: 8,
+    coverImage: "/images/blog/personas/sonar-que-te-enganan.webp",
+    coverAlt: "Dos siluetas de espaldas en una habitación a oscuras",
+    tags: ["infidelidad", "relaciones", "celos", "confianza", "pareja"],
+    cluster: "suenos-sobre-relaciones",
+    visual_theme: "ansiedad",
+    pin_titles: [
+      "Soñé que mi pareja me engañaba y me desperté furioso: esto significa",
+      "¿Por qué sueñas con infidelidades aunque tu relación esté bien?",
+      "El sueño de la traición: lo que tu inconsciente procesa de noche",
+    ],
+    reel_hook: "Te despertaste convencido de que tu pareja te engañó. El sueño parecía absolutamente real. Antes de pelearte, lee esto.",
+    extracto_seo: "Soñar que te engañan no significa que tu pareja te sea infiel. Puede hablar de inseguridad, miedo al abandono, o algo que se está perdiendo en la relación. Descubre el significado real y cómo trabajarlo.",
+    imagen_destacada: "/images/blog/personas/sonar-que-te-enganan.webp",
+    imagen_vertical: "/images/pinterest/sonar-que-te-enganan-pin.webp",
+    tipo: "normal",
+    intencion_practica: ["relaciones", "salud-emocional", "ansiedad"],
+    consejo_practico: "Antes de reprocharle algo a tu pareja por un sueño, pregúntate honestamente: ¿hay algo en mi relación actual que me hace sentir que no soy suficiente, que me están dando menos de lo que necesito, o que hay algo que no se está diciendo? El sueño señala hacia ahí, no hacia una infidelidad real.",
+    fuentes: [
+      { autor: "Sigmund Freud", obra: "La interpretación de los sueños (1899)" },
+      { autor: "John Gottman", obra: "The Seven Principles for Making Marriage Work (1999)" },
+      { autor: "Lauri Quinn Loewenberg", obra: "Dream On It (2011)" },
+    ],
+    interpretacion_humana: "<p>Muy pocas búsquedas nos generan tanto volumen como 'soñé que mi pareja me engañaba'. Y lo entendemos: es uno de los sueños más perturbadores que existen, porque la emoción que produce —celos, traición, rabia, dolor— es completamente real aunque el evento no lo haya sido.</p><p>Lo que observamos consistentemente en los relatos que recibimos es que este sueño casi nunca señala una infidelidad real. Aparece, en cambio, en momentos en los que hay distancia emocional en la pareja, en los que alguien siente que no está recibiendo suficiente atención o afecto, o en los que hay una inseguridad personal profunda que nada tiene que ver con el otro. Es el inconsciente escenificando un miedo, no documentando una realidad.</p>",
+    faqItems: [
+      {
+        question: "¿Soñar que mi pareja me engaña significa que realmente lo hace?",
+        answer:
+          "No. Los sueños no son revelaciones ni presagios de hechos reales. Soñar con una infidelidad casi siempre refleja miedos internos, inseguridades o una necesidad emocional que no está siendo satisfecha en la relación. No es evidencia de nada real.",
+      },
+      {
+        question: "¿Qué significa soñar que soy yo quien engaño a mi pareja?",
+        answer:
+          "Este sueño suele generar culpa aunque no hayas hecho nada. Puede significar que hay algo en tu vida actual —trabajo, amistades, intereses— que está ocupando un espacio que antes tenía tu pareja. También puede reflejar una parte de ti que desea más libertad o que siente que está sacrificando demasiado.",
+      },
+      {
+        question: "¿Por qué tengo este sueño si mi relación está bien?",
+        answer:
+          "Precisamente porque el sueño no habla de lo que hace tu pareja, sino de tus propios miedos e inseguridades. Incluso en relaciones sanas, el miedo al abandono o a no ser suficiente puede existir. El sueño es una forma en que tu mente procesa esos miedos de fondo.",
+      },
+    ],
+    content: `
+<p>Suena la alarma. Abres los ojos. Y durante unos segundos —o minutos— llevas dentro la certeza aplastante de que tu pareja te ha traicionado. El corazón acelera, la rabia y el dolor son completamente reales, y cuesta varios minutos entender que fue un sueño.</p>
+
+<p>Pocos sueños generan tanto malestar emocional ni tanta confusión. Y la pregunta que sigue, casi inevitable, es: <em>¿por qué he soñado esto? ¿Significa algo?</em></p>
+
+<h2>Lo Primero que Hay que Decir Claro</h2>
+
+<p>Soñar que tu pareja te engaña no significa que te esté siendo infiel. Los sueños no son cámaras ocultas ni mecanismos de percepción extrasensorial. Son producciones del inconsciente, y el inconsciente trabaja con símbolos, miedos, deseos y emociones no procesadas, no con hechos objetivos.</p>
+
+<p>Dicho esto, el sueño no es aleatorio. Sí hay cosas que está intentando decirte. Solo que no son las que parecen a primera vista.</p>
+
+<h2>Qué Hay Detrás de este Sueño</h2>
+
+<h3>Inseguridad y miedo al abandono</h3>
+
+<p>La causa más frecuente de los sueños de infidelidad es el miedo al abandono. No tiene que haber nada objetivo que lo justifique: puede ser una herida antigua, algo que aprendiste de relaciones pasadas o de la dinámica familiar en la que creciste. El inconsciente toma ese miedo y lo escenifica de la forma más intensa posible: la traición del ser querido.</p>
+
+<p>Si este sueño se repite, pregúntate: ¿hay algo en mi historia personal que me hace sentir que no soy suficiente o que las personas que quiero terminan alejándose?</p>
+
+<h3>Distancia emocional en la relación actual</h3>
+
+<p>Otras veces, el sueño sí señala algo real en la pareja, aunque no una infidelidad. Si en la relación hay distancia, falta de conexión, menos atención o menos intimidad que antes, el inconsciente puede interpretar esa distancia como amenaza y generar un sueño de traición.</p>
+
+<p>No es que tu pareja te engañe; es que hay algo que se está perdiendo entre vosotros y tu mente lo está procesando como pérdida.</p>
+
+<h3>Celos que no has reconocido conscientemente</h3>
+
+<p>A veces el sueño aparece después de una situación concreta: viste a tu pareja reírse con alguien, hubo un mensaje que te incomodó, o notaste algo que no terminaste de preguntar. Tu mente consciente lo minimizó, pero el inconsciente lo tomó y lo procesó de noche.</p>
+
+<p>No significa que los celos estén justificados, pero sí que hay algo que necesita ser hablado.</p>
+
+<h3>Una relación anterior que te marcó</h3>
+
+<p>Si has vivido una infidelidad real en el pasado, es completamente normal que el miedo a que se repita reaparezca en sueños, especialmente cuando la nueva relación empieza a profundizarse. Es el trauma antiguo hablando, no una señal sobre la persona actual.</p>
+
+<h2>Cuando eres Tú quien Engaña en el Sueño</h2>
+
+<p>Este caso genera tanta o más culpa que el anterior. Te despiertas habiendo sido infiel en el sueño y te sientes horrible aunque no hayas hecho nada.</p>
+
+<p>Soñar que tú engañas a tu pareja puede significar varias cosas. A veces hay una parte de ti que desea más espacio o libertad, o que siente que está dando demasiado en la relación. Otras veces, la persona con quien "engañas" en el sueño representa algo que te falta o que deseas: si es un ex, puede que estés echando de menos algo de esa época; si es alguien desconocido, puede ser simplemente el deseo de novedad.</p>
+
+<p>Lo importante: no eres una mala persona por tener este sueño. Los sueños no son intenciones ni deseos conscientes; son el procesamiento emocional de una mente que intenta mantenerse en equilibrio.</p>
+
+<h2>Cómo Trabajar con este Sueño sin Dañar la Relación</h2>
+
+<p>El error más común es despertar y reprocharle algo a la pareja por lo que hizo en el sueño. La emoción es real, pero no es útil reaccionarle así.</p>
+
+<ul>
+<li><strong>Anota el sueño</strong> antes de decir nada. ¿Quién engañaba a quién? ¿Cómo te sentías? ¿Había algo que reconocieras del contexto?</li>
+<li><strong>Pregúntate sobre la relación.</strong> ¿Hay algo que necesitas que no estás recibiendo? ¿Hay algo que tienes miedo de perder?</li>
+<li><strong>Si el sueño es recurrente</strong>, puede ser una señal de que hay algo que necesita ser conversado con tu pareja —no a partir del sueño, sino sobre lo que el sueño señala.</li>
+<li><strong>Si la inseguridad es antigua</strong>, considera si hay trabajo personal que hacer, quizás con la ayuda de un profesional, sobre el miedo al abandono.</li>
+</ul>
+
+<p>Los sueños de infidelidad son incómodos precisamente porque tocan algo real: el miedo a perder a quien amamos, la vulnerabilidad de abrirnos a otro, la conciencia de que ninguna relación está libre de riesgo. Pero ese miedo, trabajado honestamente, puede ser una puerta hacia una conexión más profunda.</p>
+
+<p>Si los sueños sobre tu ex también te visitan con frecuencia, puede ayudarte leer sobre <a href="/blog/sonar-con-tu-ex">qué significa soñar con tu ex</a>. Y si los sueños de ansiedad son habituales, el artículo sobre <a href="/blog/sonar-que-te-persiguen">soñar que te persiguen</a> puede darte más contexto.</p>
+    `,
+  },
+  // ─── ARTÍCULO 15 ────────────────────────────────────────────────────────────
+  {
+    slug: "sonar-con-examenes",
+    title: "Soñar con Exámenes: El Sueño de Ansiedad más Universal del Mundo",
+    excerpt:
+      "Llegas al examen y no has estudiado nada. O no encuentras el aula. O el bolígrafo no escribe. Si ya terminaste la carrera hace años y sigues teniendo este sueño, hay una razón muy concreta.",
+    category: "Ansiedad y Miedos",
+    categorySlug: "ansiedad-miedos",
+    publishedAt: "2024-04-29",
+    updatedAt: "2024-04-29",
+    readingTime: 7,
+    coverImage: "/images/blog/ansiedad/sonar-con-examenes.webp",
+    coverAlt: "Pupitre vacío en un aula con luz tenue y hojas en blanco",
+    tags: ["exámenes", "ansiedad", "rendimiento", "trabajo", "síndrome del impostor"],
+    cluster: "suenos-de-ansiedad",
+    visual_theme: "ansiedad",
+    pin_titles: [
+      "¿Por qué sueñas con exámenes aunque ya no estudies? La respuesta te sorprenderá",
+      "El sueño del examen: el símbolo de ansiedad más universal que existe",
+      "Soñar que llegas tarde al examen: qué dice de tu vida adulta",
+    ],
+    reel_hook: "Terminaste la carrera hace 10 años y sigues soñando que llegas al examen sin haber estudiado. Tu cerebro no está roto. Está procesando algo muy específico.",
+    extracto_seo: "Soñar con exámenes es el sueño de ansiedad más universal. Aparece en adultos que llevan décadas sin estudiar porque no habla de estudios, sino de presión, miedo al juicio y síndrome del impostor. Descubre qué significa.",
+    imagen_destacada: "/images/blog/ansiedad/sonar-con-examenes.webp",
+    imagen_vertical: "/images/pinterest/sonar-con-examenes-pin.webp",
+    tipo: "normal",
+    intencion_practica: ["trabajo", "ansiedad", "salud-emocional"],
+    consejo_practico: "La próxima vez que tengas este sueño, antes de desecharlo como 'estrés', pregúntate: ¿en qué parte de mi vida actual siento que me van a evaluar y que no estoy suficientemente preparado? ¿Hay alguien cuya opinión pesa demasiado sobre mis decisiones? Ahí está la raíz del sueño.",
+    fuentes: [
+      { autor: "Matthew Walker", obra: "Por qué dormimos (2017)" },
+      { autor: "Antonio Zadra", obra: "When Brains Dream (2021)" },
+      { autor: "Deirdre Barrett", obra: "The Committee of Sleep (2001)" },
+    ],
+    interpretacion_humana: "<p>Hay sueños que definen generaciones y culturas. El sueño del examen es uno de ellos. Lo hemos recibido de personas de 25 años que siguen en la universidad, de personas de 50 que llevan décadas trabajando, y de jubilados que siguen soñando con los exámenes de bachillerato. Eso solo puede significar una cosa: este sueño no habla de exámenes.</p><p>Habla de evaluación. De ser juzgado. De no llegar. De exponer lo que sabes —o lo que no sabes— ante alguien que tiene poder para decidir si eres suficiente. Y eso, en una u otra forma, nunca desaparece de la vida adulta.</p>",
+    faqItems: [
+      {
+        question: "¿Por qué sigo soñando con exámenes si ya terminé la carrera?",
+        answer:
+          "Porque el sueño del examen no habla de estudios, sino de situaciones en tu vida actual donde sientes que te están evaluando o donde tienes miedo de no ser suficiente. Tu cerebro usa el escenario del examen —el más intenso que conoce de evaluación bajo presión— para procesar esa ansiedad.",
+      },
+      {
+        question: "¿Qué significa soñar que llego tarde al examen?",
+        answer:
+          "Llegar tarde al examen en sueños suele reflejar una sensación de que el tiempo se acaba, de que hay algo importante que no estás haciendo a tiempo, o miedo a que una oportunidad se cierre antes de que estés listo. Es muy frecuente en momentos de plazos laborales o decisiones importantes.",
+      },
+      {
+        question: "¿Qué significa soñar que el examen está en blanco o no sé responder?",
+        answer:
+          "Este escenario es clásico del síndrome del impostor: la sensación de que en cualquier momento se va a descubrir que no sabes lo que se supone que deberías saber, aunque en la vida real tengas todas las capacidades necesarias.",
+      },
+    ],
+    content: `
+<p>El escenario es siempre parecido: estás en un aula que a veces reconoces y a veces no. Hay un examen. No has estudiado nada —o estudiaste pero no recuerdas nada—. El tiempo pasa demasiado rápido. Las preguntas no tienen sentido. El bolígrafo no escribe. Llegas tarde. No encuentras el aula.</p>
+
+<p>Y lo más desconcertante: llevas años, quizás décadas, sin hacer un examen real. Y sigues teniendo este sueño.</p>
+
+<p>Bienvenido al sueño de ansiedad más universal de la historia de la humanidad.</p>
+
+<h2>Por qué Este Sueño no Desaparece con la Graduación</h2>
+
+<p>Matthew Walker, investigador del sueño en Berkeley y autor de <em>Por qué dormimos</em>, explica que el cerebro no almacena los sueños como registros literales de experiencias, sino como procesadores emocionales. El examen no es el punto: es el <em>escenario emocional</em> del examen lo que el cerebro usa.</p>
+
+<p>Y ese escenario —ser evaluado, exponer lo que sabes, la posibilidad de fallar ante otros, el tiempo que se acaba— no desaparece de la vida adulta. Simplemente cambia de forma.</p>
+
+<p>Una presentación importante en el trabajo. Una reunión con tu jefe. El lanzamiento de un proyecto. Una conversación difícil. Una entrevista. El cerebro reconoce la misma estructura emocional y convoca el mismo escenario: el examen.</p>
+
+<h2>Los Escenarios más Frecuentes y qué Significan</h2>
+
+<h3>No has estudiado nada</h3>
+
+<p>El clásico. Estás en el examen y no sabes nada. Este sueño aparece con más frecuencia cuando hay una situación real en la que sientes que no estás suficientemente preparado: un nuevo rol en el trabajo, una responsabilidad asumida sin toda la experiencia que crees que deberías tener, o la sensación permanente de ir "por detrás" de los demás.</p>
+
+<p>Es el sueño favorito del síndrome del impostor.</p>
+
+<h3>Llegas tarde o no encuentras el aula</h3>
+
+<p>La ansiedad aquí tiene que ver con el tiempo y el control. Hay algo en tu vida real donde sientes que se te acaba el margen: un plazo, una oportunidad, un momento de actuar que está pasando. O simplemente una sensación generalizada de que no llegas a todo lo que se espera de ti.</p>
+
+<h3>El papel en blanco o las preguntas incomprensibles</h3>
+
+<p>Cuando el examen no tiene sentido —las preguntas son incomprensibles o el papel está en blanco—, el sueño está procesando una situación de incertidumbre real: algo en tu vida donde no tienes las herramientas para responder, donde las reglas no están claras, o donde sientes que lo que se te pide no corresponde a lo que sabes hacer.</p>
+
+<h3>Sabes las respuestas pero no puedes escribirlas</h3>
+
+<p>El bolígrafo que no escribe, la mano que no responde, la voz que no sale: estos elementos señalan una capacidad que sientes que existe pero que algo bloquea. Puede haber algo que quieres decir, crear o mostrar pero que algún obstáculo —interno o externo— está deteniendo.</p>
+
+<h2>El Síndrome del Impostor y los Sueños de Exámenes</h2>
+
+<p>Hay una relación directa y bien documentada entre los sueños de exámenes recurrentes en la vida adulta y el síndrome del impostor: la creencia persistente de que en cualquier momento se descubrirá que no eres tan capaz como los demás creen.</p>
+
+<p>Si tienes este sueño con frecuencia y en tu vida real te cuesta reconocer tus propios logros, atribuyes tus éxitos a la suerte o sientes que estás "engañando" a los demás sobre tus capacidades, el sueño está procesando exactamente eso. No es que no estés preparado: es que no te <em>crees</em> preparado.</p>
+
+<h2>Cuándo Este Sueño se Vuelve una Señal Útil</h2>
+
+<ul>
+<li><strong>¿Hay una situación real donde sientes que "no estás listo"?</strong> Puede ser una oportunidad que no estás aprovechando por miedo a fallar.</li>
+<li><strong>¿Hay alguien cuyo juicio pesa demasiado sobre ti?</strong> Un jefe, un padre, una pareja. El examinador del sueño a menudo tiene una contraparte real.</li>
+<li><strong>¿Hay algo que estás evitando hacer porque tienes miedo de no dar la talla?</strong> El examen que no afrontas en el sueño puede ser el proyecto que no empiezas, la conversación que aplazas, el cambio que no das.</li>
+</ul>
+
+<h2>Lo que el Sueño No Significa</h2>
+
+<p>No significa que seas un fracasado. No es una señal de que algo va a salir mal. Es tu cerebro haciendo lo que mejor sabe hacer: procesar la ansiedad de rendimiento usando el escenario más intenso que tiene en su librería.</p>
+
+<p>Y la buena noticia es que las personas que tienen este sueño frecuentemente son exactamente las que más se exigen a sí mismas. El sueño no es un defecto; es el precio de importarte profundamente lo que haces.</p>
+
+<p>Si este sueño es parte de un patrón más amplio de ansiedad nocturna, puede interesarte leer sobre <a href="/blog/sonar-que-te-persiguen">soñar que te persiguen</a> o comprender el fenómeno de los <a href="/blog/suenos-recurrentes-guia-completa">sueños recurrentes</a>. Y si la ansiedad de rendimiento te limita en la vida real, el artículo sobre <a href="/blog/sonar-con-caidas">soñar con caídas</a> también puede resonar contigo.</p>
+    `,
+  },
+  // ─── ARTÍCULO 16 ────────────────────────────────────────────────────────────
+  {
+    slug: "sonar-con-bebes",
+    title: "Soñar con Bebés: Nuevos Comienzos, Vulnerabilidad y lo que Necesita Cuidado en Ti",
+    excerpt:
+      "Un bebé en tus sueños casi nunca habla de maternidad o paternidad literal. Habla de algo nuevo, frágil y lleno de potencial que está naciendo en tu vida. Descubre qué es.",
+    category: "Cuerpo y Mente",
+    categorySlug: "cuerpo-mente",
+    publishedAt: "2024-05-06",
+    updatedAt: "2024-05-06",
+    readingTime: 7,
+    coverImage: "/images/blog/cuerpo/sonar-con-bebes.webp",
+    coverAlt: "Manos pequeñas de bebé entre manos adultas bajo luz suave",
+    tags: ["bebés", "nuevos comienzos", "vulnerabilidad", "cuidado", "potencial"],
+    cluster: "suenos-sobre-uno-mismo",
+    visual_theme: "calma",
+    pin_titles: [
+      "Soñar con un bebé: el significado que muy pocos explican bien",
+      "¿Un bebé en tus sueños? No es lo que crees que significa",
+      "Bebés en los sueños: vulnerabilidad, nuevos proyectos y partes de ti que necesitan cuidado",
+    ],
+    reel_hook: "Soñaste con un bebé y no sabes si quieres tener hijos. Esto no tiene nada que ver con eso. Tu inconsciente está hablando de algo completamente diferente.",
+    extracto_seo: "Soñar con bebés simboliza nuevos comienzos, proyectos en desarrollo y partes vulnerables de uno mismo que necesitan atención. Descubre todas las variantes y su significado real.",
+    imagen_destacada: "/images/blog/cuerpo/sonar-con-bebes.webp",
+    imagen_vertical: "/images/pinterest/sonar-con-bebes-pin.webp",
+    tipo: "normal",
+    intencion_practica: ["salud-emocional", "decisiones-de-vida", "trabajo"],
+    consejo_practico: "Si soñaste con un bebé, pregúntate: ¿qué hay en mi vida ahora mismo que es nuevo, frágil y que necesita más atención y cuidado de lo que le estoy dando? Puede ser un proyecto, una parte de ti mismo, una relación que está empezando. Ese es el bebé que tu inconsciente está señalando.",
+    fuentes: [
+      { autor: "Carl G. Jung", obra: "Arquetipos e inconsciente colectivo (1934)" },
+      { autor: "David Fontana", obra: "El lenguaje secreto de los sueños (1994)" },
+      { autor: "Patricia Garfield", obra: "The Universal Dream Key (2001)" },
+    ],
+    interpretacion_humana: "<p>Los sueños con bebés son de los que más ternura y confusión generan al mismo tiempo. Hay personas que los tienen cuando no quieren tener hijos y se preguntan si su inconsciente 'sabe algo'. Hay personas que los tienen precisamente porque sí quieren y el sueño parece una confirmación. Y hay personas que simplemente sueñan con bebés en momentos de cambio sin ninguna relación con la maternidad o la paternidad.</p><p>Lo que hemos aprendido leyendo centenares de relatos es que el bebé del sueño casi siempre es una metáfora de algo nuevo y vulnerable en la vida del soñante. Y que la actitud que se tiene hacia ese bebé en el sueño —si se cuida, si se olvida, si aparece y desaparece— dice mucho de cómo esa persona está manejando lo nuevo en su vida real.</p>",
+    faqItems: [
+      {
+        question: "¿Soñar con un bebé significa que voy a tener hijos?",
+        answer:
+          "No necesariamente. Los sueños con bebés rara vez son predicciones de embarazo o maternidad. En la mayoría de los casos, el bebé simboliza algo nuevo en tu vida: un proyecto, una idea, una nueva etapa personal. Si hay dudas sobre un embarazo real, lo adecuado es comprobarlo directamente.",
+      },
+      {
+        question: "¿Qué significa soñar con un bebé que llora?",
+        answer:
+          "Un bebé llorando en sueños suele señalar que hay algo en tu vida que necesita atención urgente y que no la está recibiendo. Puede ser un proyecto descuidado, una parte de ti mismo que estás ignorando, o una necesidad emocional propia que no estás satisfaciendo.",
+      },
+      {
+        question: "¿Qué significa soñar con un bebé que no es tuyo?",
+        answer:
+          "Puede representar algo que está naciendo en la vida de alguien cercano y que tú estás acompañando. También puede ser una proyección: algo que en realidad es tuyo pero que todavía no has reconocido como propio.",
+      },
+      {
+        question: "¿Qué significa soñar con un bebé en peligro o que muere?",
+        answer:
+          "Es uno de los sueños más angustiantes. Simboliza el miedo a perder algo nuevo que estás construyendo, o la sensación de que un proyecto o etapa nueva está en riesgo. No es un presagio: es una alerta de tu inconsciente para que prestes más atención a algo frágil que necesita cuidado.",
+      },
+    ],
+    content: `
+<p>Aparece un bebé en tu sueño. A veces es tuyo, a veces no. A veces es pequeño y tranquilo, a veces llora con desesperación. A veces lo tienes en brazos y a veces se te olvida que existe y lo encuentras después sin haber comido.</p>
+
+<p>Y al despertar te preguntas: ¿por qué sueño con un bebé si no quiero tener hijos? ¿Significa que pronto tendré uno? ¿Qué demonios significa esto?</p>
+
+<h2>El Bebé como Símbolo Universal</h2>
+
+<p>En la psicología junguiana, el bebé es uno de los arquetipos más fundamentales. Representa el inicio puro, el potencial sin contaminar, la posibilidad que todavía no ha tomado forma definida. Es todo lo que puede llegar a ser, antes de que la realidad lo moldee.</p>
+
+<p>Por eso soñar con un bebé casi siempre habla de algo nuevo en tu vida: una idea que está naciendo, un proyecto en sus primeras fases, una parte de ti mismo que está desarrollándose, una etapa que está comenzando.</p>
+
+<p>No habla de maternidad o paternidad a menos que eso sea algo que genuinamente estés procesando en tu vida real. Y ni siquiera en ese caso la interpretación es literal.</p>
+
+<h2>Las Variantes más Frecuentes</h2>
+
+<h3>Soñar con un bebé tranquilo o dormido</h3>
+
+<p>Uno de los sueños más agradables. Un bebé en paz, durmiendo o mirándote con calma, suele señalar algo nuevo que está gestando sin urgencia, con naturalidad. Hay algo en tu vida —un proyecto, una relación, una idea— que está creciendo bien y que no necesita intervención forzada. Solo espacio y tiempo.</p>
+
+<h3>Soñar con un bebé que llora</h3>
+
+<p>El llanto del bebé en sueños es una de las experiencias oníricas más angustiantes, precisamente porque el instinto de acudir a él es muy fuerte. El mensaje es coherente con eso: hay algo en tu vida que está pidiendo atención y que no la está recibiendo.</p>
+
+<p>Pregúntate: ¿qué está "llorando" en mi vida actual sin que yo lo atienda? Puede ser un proyecto abandonado, una relación que necesita más presencia, una necesidad propia que sigues postergando, o algo creativo que lleva tiempo queriendo salir.</p>
+
+<h3>Soñar que se te olvida el bebé</h3>
+
+<p>Este sueño genera una culpa aguda aunque no hayas hecho nada real. Soñar que tienes un bebé y lo olvidas —lo dejas en algún lugar, no recuerdas que existe— es muy frecuente y su significado es específico: hay algo importante en tu vida que estás descuidando, quizás sin ser completamente consciente de ello.</p>
+
+<p>Puede ser un proyecto que arrancaste con entusiasmo y fuiste dejando de lado. Una promesa que hiciste —a ti mismo o a otro— que fue quedando enterrada bajo la rutina. Una parte de ti que necesita nutrición y que va sobreviviendo con migajas.</p>
+
+<h3>Soñar con un bebé en peligro</h3>
+
+<p>Si el bebé está enfermo, en riesgo o muere en el sueño, la angustia que produce es enorme. Pero el significado no es un presagio de muerte: es una señal de que algo nuevo y frágil en tu vida está bajo amenaza real o percibida.</p>
+
+<p>¿Hay un proyecto que sientes que podría no sobrevivir? ¿Una relación en sus primeras fases que está en un momento delicado? ¿Una parte de ti que está intentando cambiar pero que enfrenta resistencia? El bebé en peligro señala exactamente ahí.</p>
+
+<h3>Soñar con un bebé que no es tuyo</h3>
+
+<p>Ver a otra persona con un bebé, o que alguien te entrega uno, tiene matices diferentes. Si alguien te entrega un bebé, puede que estés asumiendo una responsabilidad nueva que en principio no era tuya. Si simplemente ves a otro con un bebé, puede que estés siendo testigo de algo nuevo que está naciendo en la vida de esa persona.</p>
+
+<h2>La Parte de Ti que Es un Bebé</h2>
+
+<p>Hay una interpretación de los sueños con bebés que quizás sea la más poderosa: el bebé como representación de la parte más vulnerable y nueva de uno mismo.</p>
+
+<p>Todos tenemos partes en proceso de desarrollo: una habilidad que estamos aprendiendo, una faceta personal que está emergiendo, una confianza que apenas está creciendo. Esa parte es frágil, necesita cuidado, puede ser aplastada si no se la protege.</p>
+
+<p>Cuando sueñas con un bebé, pregúntate: ¿qué parte de mí mismo es todavía pequeña, frágil, nueva? ¿La estoy cuidando o la estoy ignorando?</p>
+
+<h2>Una Forma Práctica de Trabajar con este Sueño</h2>
+
+<ul>
+<li><strong>¿Cómo era el bebé?</strong> Su estado —tranquilo, llorando, enfermo, feliz— es la información más importante del sueño.</li>
+<li><strong>¿Qué hacías tú con él?</strong> ¿Lo cuidabas, lo olvidabas, lo buscabas, lo recibías?</li>
+<li><strong>¿Qué hay en mi vida ahora mismo que sea nuevo y necesite atención?</strong> Un proyecto, una relación, una parte de ti mismo.</li>
+<li><strong>¿Estoy cuidando bien eso nuevo, o lo estoy descuidando?</strong></li>
+</ul>
+
+<p>Los bebés en los sueños son mensajeros de lo que está naciendo. Y lo que está naciendo siempre necesita lo mismo: presencia, atención y la decisión de no abandonarlo cuando las cosas se complican.</p>
+
+<p>Si este sueño aparece junto con sueños de embarazo, puede que te interese leer sobre <a href="/blog/sonar-con-embarazo">el significado de soñar con embarazo</a>. Y si la vulnerabilidad y el miedo a perder algo son temas recurrentes en tus sueños, el artículo sobre <a href="/blog/sonar-con-caidas">soñar con caídas</a> puede complementar esta interpretación.</p>
+    `,
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
