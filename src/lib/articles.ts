@@ -1993,6 +1993,282 @@ export const articles: Article[] = [
 <p>Si este sueño aparece junto con sueños de embarazo, puede que te interese leer sobre <a href="/blog/sonar-con-embarazo">el significado de soñar con embarazo</a>. Y si la vulnerabilidad y el miedo a perder algo son temas recurrentes en tus sueños, el artículo sobre <a href="/blog/sonar-con-caidas">soñar con caídas</a> puede complementar esta interpretación.</p>
     `,
   },
+  {
+    slug: "suenos-con-ansiedad-laboral",
+    title: "Sueños sobre el Trabajo: Qué Procesa tu Mente cuando no Puedes Desconectar",
+    excerpt:
+      "Si el trabajo aparece en tus sueños —reuniones que salen mal, proyectos que se hunden, jefes que presionan— tu mente está procesando algo que no has podido soltar. Aquí entendemos por qué ocurre y qué te está diciendo.",
+    category: "Ansiedad y Miedos",
+    categorySlug: "ansiedad-y-miedos",
+    publishedAt: "2026-03-14",
+    updatedAt: "2026-03-14",
+    readingTime: 8,
+    coverImage: "/images/blog/ansiedad/suenos-ansiedad-laboral.webp",
+    coverAlt: "Persona con la cabeza entre las manos frente a un ordenador de noche",
+    tags: ["ansiedad laboral", "trabajo", "estrés", "sueños recurrentes", "inconsciente", "presión"],
+    cluster: "suenos-de-ansiedad",
+    visual_theme: "ansiedad",
+    pin_titles: [
+      "¿El trabajo aparece en tus sueños? Esto es lo que tu mente está procesando",
+      "Sueños de trabajo: la psicología detrás de no poder desconectar",
+      "Si sueñas con el trabajo todas las noches, léelo esto",
+    ],
+    reel_hook: "Si el trabajo te persigue hasta cuando duermes, tu mente está intentando decirte algo importante. No es estrés normal.",
+    extracto_seo: "Soñar con el trabajo, reuniones, jefes o proyectos fallidos es una señal de ansiedad laboral que el cerebro procesa de noche. Entiende qué está pasando y cómo manejarlo.",
+    imagen_destacada: "/images/blog/ansiedad/suenos-ansiedad-laboral.webp",
+    imagen_vertical: "/images/pinterest/suenos-ansiedad-laboral-pin.webp",
+    tipo: "normal",
+    intencion_practica: ["trabajo", "ansiedad", "salud-emocional"],
+    consejo_practico: "Esta noche, antes de acostarte, escribe en un papel una sola frase sobre lo que más te pesa del trabajo en este momento. No para resolverlo: solo para sacarlo de la cabeza. El cerebro sueña con lo que no ha podido procesar de día. Darle un pequeño espacio consciente puede interrumpir el ciclo.",
+    fuentes: [
+      { autor: "Matthew Walker", obra: "Por qué dormimos (2017)" },
+      { autor: "Rosalind Cartwright", obra: "The Twenty-four Hour Mind (2010)" },
+      { autor: "Deirdre Barrett", obra: "The Committee of Sleep (2001)" },
+    ],
+    interpretacion_humana: "<p>Las personas que nos escriben sobre sueños de trabajo casi siempre describen la misma sensación al despertar: agotamiento. No el cansancio normal de una noche de sueño, sino el de haber trabajado toda la noche sin descansar de verdad.</p><p>Lo que más llama la atención es el momento en que aparecen estos sueños. No cuando el trabajo va mal necesariamente, sino cuando hay algo sin resolver: una conversación que no se tuvo, una decisión que se pospone, una situación que se aguanta sin nombrar. El trabajo en los sueños no es un informe de estado del empleo: es la mente procesando lo que la conciencia no ha querido mirar.</p>",
+    faqItems: [
+      {
+        question: "¿Es normal soñar con el trabajo constantemente?",
+        answer: "Es más común de lo que parece, especialmente en épocas de alta presión o cambios. No es peligroso en sí mismo, pero si ocurre varias noches a la semana y te despiertas agotado, es una señal de que el nivel de estrés laboral está afectando tu descanso y merece atención.",
+      },
+      {
+        question: "¿Por qué sueño con mi jefe aunque me lleve bien con él?",
+        answer: "Los jefes en los sueños no siempre representan a la persona real. Suelen simbolizar figuras de autoridad, evaluación externa o el miedo al juicio. Si en el sueño tu jefe te presiona, te critica o te ignora, probablemente no habla de él sino de cómo te relacionas tú con la aprobación, el rendimiento y el miedo a no ser suficiente.",
+      },
+      {
+        question: "¿Qué significa soñar que pierdo mi trabajo?",
+        answer: "Este sueño aparece frecuentemente cuando hay incertidumbre económica, miedo a no rendir lo suficiente o ansiedad ante cambios inminentes. No es una predicción. Es tu mente procesando el miedo a perder estabilidad o identidad, especialmente si una parte importante de quién eres está ligada a lo que haces.",
+      },
+      {
+        question: "¿Cómo puedo dejar de soñar con el trabajo?",
+        answer: "No existe un interruptor, pero hay cosas que ayudan: crear un ritual de desconexión antes de dormir, escribir pendientes en papel para que la mente no los guarde, hacer ejercicio durante el día para bajar el cortisol, y revisar si hay algo concreto en el trabajo que necesita ser abordado y que estás aplazando.",
+      },
+    ],
+    content: `
+<p>Son las 3 de la madrugada. Te despiertas con el corazón acelerado. Acabas de soñar que perdías una presentación crucial, que tu jefe te llamaba a su despacho, que un proyecto entero se hundía y era culpa tuya. Miras el techo durante unos segundos, compruebas que todo está bien y te das cuenta de algo incómodo: <em>llevas semanas soñando con el trabajo</em>.</p>
+
+<p>Esto no es una coincidencia ni mala suerte. Es tu cerebro haciendo lo que hace todas las noches: procesar emociones que durante el día no tuvieron espacio.</p>
+
+<h2>Por Qué el Trabajo se Cuela en tus Sueños</h2>
+
+<p>El sueño no es un descanso pasivo. Durante la noche, especialmente en la fase REM, el cerebro trabaja activamente revisando lo ocurrido, consolidando memorias y, sobre todo, procesando emociones que han quedado sin resolver.</p>
+
+<p>La investigadora Rosalind Cartwright, una de las mayores expertas en sueños del siglo XX, demostró que el cerebro prioriza durante el sueño aquello que más carga emocional tiene. Lo que no pudiste procesar de día —la reunión tensa, la conversación que evitaste, la presión que aguantaste en silencio— queda pendiente. Y la mente lo retoma de noche.</p>
+
+<p>El trabajo aparece en tus sueños cuando hay algo laboral que no has podido soltar. No necesariamente algo grave: puede ser una incomodidad pequeña pero constante, una situación que se repite, algo que llevas tiempo tolerando sin nombrar.</p>
+
+<h2>Las Situaciones que más Generan Sueños de Trabajo</h2>
+
+<h3>Incertidumbre sobre tu posición o futuro</h3>
+
+<p>Cuando no sabes si tu puesto es seguro, si van a cambiar tu rol, si la empresa atraviesa dificultades o si tú mismo estás pensando en irte, el cerebro trabaja de noche con ese material. Los sueños más frecuentes en este contexto son los de perder el trabajo, no encontrar la oficina, llegar y descubrir que ya no tienes escritorio o que nadie te reconoce.</p>
+
+<p>No son predicciones. Son la mente ensayando escenarios de miedo para prepararte emocionalmente ante algo que todavía no ha pasado pero que tu sistema nervioso ya está procesando como una amenaza posible.</p>
+
+<h3>Sobrecarga sostenida sin recuperación</h3>
+
+<p>Matthew Walker, en <em>Por qué dormimos</em>, explica que cuando el nivel de cortisol —la hormona del estrés— se mantiene elevado durante el día, la calidad del sueño se deteriora y la fase REM se vuelve más intensa e inquietante. No es que trabajes más en tus sueños cuando estás sobrecargado: es que tu sueño se vuelve más agitado y los sueños, más vívidos y perturbadores.</p>
+
+<p>Si llevas semanas con demasiado en el plato y sin tiempo real para descansar, tu cerebro de noche simplemente no puede desconectar porque de día tampoco ha podido hacerlo.</p>
+
+<h3>Algo que no has dicho o decidido</h3>
+
+<p>Esta es quizás la causa más frecuente y menos reconocida. No siempre es que el trabajo sea terrible: a veces es que hay algo específico sin resolver. Una conversación que no has tenido con tu jefe o con un compañero. Una decisión que llevas meses aplazando. Una situación injusta que aguantas en silencio porque no sabes cómo enfrentarla.</p>
+
+<p>El cerebro sueña con lo que no ha cerrado. Mientras esa conversación siga pendiente, mientras esa decisión siga abierta, el trabajo seguirá apareciendo en tus sueños como un recordatorio incómodo.</p>
+
+<h3>Miedo al juicio y a no ser suficiente</h3>
+
+<p>Una categoría especial son los sueños en los que cometes errores delante de otros, en los que te quedas en blanco en una presentación, en los que tu jefe te llama para decirte que tu trabajo no vale. Estos sueños raramente hablan de incompetencia real: hablan de la presión que te has puesto a ti mismo para rendir, para no fallar, para ser visto como capaz.</p>
+
+<p>Si en tu vida cotidiana hay mucha exigencia —propia o ajena— y poco espacio para el error, ese miedo al fallo encuentra en los sueños su campo de expresión.</p>
+
+<h2>El Sueño que se Repite: Una Señal Clara</h2>
+
+<p>Cuando un sueño de trabajo se repite —no una vez sino semana tras semana, siempre con la misma escena o la misma sensación— el mensaje es más urgente. La repetición en los sueños indica que hay algo que la mente no ha podido procesar y cerrar. El sueño vuelve porque el tema sigue abierto.</p>
+
+<p>Cartwright observó que los sueños recurrentes suelen desaparecer cuando la situación que los genera se resuelve o cuando la persona la aborda de alguna forma —aunque sea solo nombrándola claramente para sí misma.</p>
+
+<p>Pregúntate: ¿qué tiene en común cada vez que tienes este sueño? ¿En qué momento laboral aparece? ¿Hay algo que lleva meses sin resolverse?</p>
+
+<h2>Qué Significan los Escenarios más Comunes</h2>
+
+<h3>Soñar que llegas tarde o que no encuentras la sala de reuniones</h3>
+
+<p>Este sueño aparece cuando hay sensación de descontrol o de que no llegas a todo. No es sobre puntualidad: es sobre la presión de cumplir expectativas y el miedo a decepcionar. Si en tu vida real tienes más responsabilidades de las que puedes manejar cómodamente, este sueño será frecuente.</p>
+
+<h3>Soñar que pierdes tu trabajo o te despiden</h3>
+
+<p>No es una predicción. Suele aparecer cuando hay inseguridad real o percibida sobre tu posición, cuando estás en un momento de cambio, o cuando una parte importante de tu identidad está ligada a lo profesional y sientes que eso tambalea.</p>
+
+<h3>Soñar con tu jefe en situaciones de conflicto</h3>
+
+<p>Los jefes en los sueños representan figuras de autoridad y evaluación externa. Si en el sueño tu jefe te presiona, te ignora o te critica, tu inconsciente está procesando algo relacionado con cómo te sientes valorado, visto o juzgado, tanto en el trabajo como en otras áreas de tu vida.</p>
+
+<h3>Soñar que no sabes hacer tu trabajo, que te has olvidado todo</h3>
+
+<p>Este es el sueño del síndrome del impostor en acción. Aparece cuando hay una brecha entre cómo te presentas al mundo y cómo te sientes por dentro. Cuando tienes miedo de que "te descubran", de que alguien se dé cuenta de que no sabes tanto como creen. Es un sueño muy común en personas con alta exigencia interna.</p>
+
+<h2>Cuándo Preocuparse (y Cuándo No)</h2>
+
+<p>Soñar con el trabajo de vez en cuando, especialmente en épocas de más presión, es completamente normal. El cerebro procesa lo que vive, y si pasas muchas horas trabajando o pensando en el trabajo, tiene sentido que aparezca en los sueños.</p>
+
+<p>La señal de alerta llega cuando:</p>
+<ul>
+<li>Te despiertas varias noches a la semana agotado, como si hubieras trabajado durante el sueño.</li>
+<li>Los sueños son tan vívidos o angustiantes que te cuestan volver a dormir.</li>
+<li>Hay un sueño recurrente que llevas semanas o meses teniendo sin cambios.</li>
+<li>Sientes que no puedes desconectar nunca, ni de noche ni de día.</li>
+</ul>
+
+<p>En ese caso, el sueño no es el problema: es el síntoma. Y el problema —el nivel de estrés laboral, algo que no se ha resuelto, un límite que no se ha puesto— merece atención real.</p>
+
+<h2>Qué Puedes Hacer con Esta Información</h2>
+
+<p>La primera pregunta útil no es "¿qué significa este sueño?" sino "¿qué está pasando en mi trabajo ahora mismo que no he podido soltar?"</p>
+
+<p>Hazte estas preguntas:</p>
+<ul>
+<li><strong>¿Hay algo que llevo tiempo aguantando sin decir?</strong> Una incomodidad, una situación injusta, una expectativa poco realista.</li>
+<li><strong>¿Hay una decisión laboral pendiente que me pesa?</strong> Cambiar de trabajo, hablar con alguien, pedir algo, establecer un límite.</li>
+<li><strong>¿Estoy descansando de verdad fuera del trabajo?</strong> No solo desconectando el ordenador, sino dejando de pensar, de revisar el móvil, de planificar.</li>
+<li><strong>¿Qué parte de mi identidad está demasiado ligada al rendimiento laboral?</strong></li>
+</ul>
+
+<p>Escribir las respuestas, aunque sea en un papel que luego tiras, ayuda al cerebro a procesar de forma consciente lo que de otra manera procesará de noche.</p>
+
+<p>Si los sueños de trabajo son frecuentes en tu caso, puede que también te interese leer sobre <a href="/blog/sonar-que-llegas-tarde">por qué sueñas que llegas tarde</a>, uno de los patrones más comunes relacionados con la presión y la exigencia.</p>
+    `,
+  },
+  {
+    slug: "sonar-que-llegas-tarde",
+    title: "Por Qué Sueñas que Llegas Tarde: La Psicología detrás de este Sueño tan Común",
+    excerpt:
+      "Corres pero no avanzas, no encuentras el lugar, el tiempo se acaba y llegas tarde. Este sueño es uno de los más universales. No habla de puntualidad: habla de lo que estás cargando.",
+    category: "Ansiedad y Miedos",
+    categorySlug: "ansiedad-y-miedos",
+    publishedAt: "2026-03-14",
+    updatedAt: "2026-03-14",
+    readingTime: 7,
+    coverImage: "/images/blog/ansiedad/sonar-llegar-tarde.webp",
+    coverAlt: "Reloj de arena con fondo oscuro y sensación de urgencia",
+    tags: ["llegar tarde", "ansiedad", "sueños recurrentes", "estrés", "perfeccionismo", "control"],
+    cluster: "suenos-de-ansiedad",
+    visual_theme: "ansiedad",
+    pin_titles: [
+      "Sueñas que llegas tarde? Esto es lo que tu mente está procesando",
+      "El sueño de llegar tarde: psicología, no simbolismo",
+      "Por qué tienes este sueño una y otra vez (y qué hacer)",
+    ],
+    reel_hook: "Si sueñas que llegas tarde, que corres y no avanzas o que no encuentras el lugar... no es un sueño sobre puntualidad. Es sobre esto.",
+    extracto_seo: "Soñar que llegas tarde es uno de los sueños de ansiedad más comunes. La psicología explica qué emociones y situaciones de vida lo generan y qué puedes hacer.",
+    imagen_destacada: "/images/blog/ansiedad/sonar-llegar-tarde.webp",
+    imagen_vertical: "/images/pinterest/sonar-llegar-tarde-pin.webp",
+    tipo: "normal",
+    intencion_practica: ["ansiedad", "salud-emocional", "trabajo"],
+    consejo_practico: "Si tienes este sueño con frecuencia, pregúntate: ¿en qué área de tu vida sientes que no llegas, que no es suficiente lo que haces? No el sueño, sino la vida real. Escribe una sola frase. Nombrar la presión es el primer paso para dejar de cargarla en silencio.",
+    fuentes: [
+      { autor: "Calvin S. Hall", obra: "The Meaning of Dreams (1966)" },
+      { autor: "G. William Domhoff", obra: "The Scientific Study of Dreams (2003)" },
+      { autor: "Matthew Walker", obra: "Por qué dormimos (2017)" },
+    ],
+    interpretacion_humana: "<p>Entre todos los sueños que nos describen, este es uno de los más reconocibles: el de correr sin avanzar, buscar sin encontrar, y llegar tarde a algo que parece fundamental. Casi todo el mundo lo ha tenido alguna vez, pero hay personas que lo tienen semana tras semana durante meses.</p><p>Lo que más nos sorprende de los relatos que recibimos es que este sueño aparece casi siempre en personas muy responsables, muy comprometidas, que se exigen mucho. No en personas que de verdad llegan tarde a las cosas: sino en las que más miedo tienen a hacerlo.</p>",
+    faqItems: [
+      {
+        question: "¿Por qué sueño que corro pero no puedo avanzar?",
+        answer: "Esta variante —correr sin moverse o avanzar muy despacio— refleja una sensación de impotencia o bloqueo en tu vida real. Hay algo que intentas resolver o alcanzar pero que sientes que no avanza. Puede ser un proyecto, una relación, una meta personal. La frustración del sueño es un eco de la frustración que estás sintiendo de día.",
+      },
+      {
+        question: "¿Qué significa soñar que no encuentro el lugar al que tengo que ir?",
+        answer: "No encontrar el aula, la sala de reuniones, el andén del tren... es uno de los sueños de desorientación más comunes. Suele aparecer en momentos de transición o incertidumbre, cuando no tienes claro adónde vas en algún área importante de tu vida: el trabajo, una relación, un proyecto personal.",
+      },
+      {
+        question: "¿Por qué tengo este sueño si soy una persona muy puntual?",
+        answer: "Precisamente. Este sueño es mucho más frecuente en personas con alta exigencia y miedo al juicio ajeno. No es sobre llegar tarde en la vida real: es sobre el miedo a decepcionar, a no cumplir las expectativas, a ser juzgado negativamente. Las personas más puntuales y responsables suelen ser las que más lo tienen.",
+      },
+      {
+        question: "¿Cuándo desaparece este sueño?",
+        answer: "Suele ir desapareciendo cuando la fuente de presión que lo genera se alivia o se resuelve. También puede reducirse cuando aprendes a poner límites, a gestionar la exigencia interna o simplemente cuando el período de sobrecarga termina. Si es muy frecuente e interfiere con tu descanso, puede ser útil trabajarlo con un psicólogo.",
+      },
+    ],
+    content: `
+<p>Hay un examen que tenías que dar y no aparece el aula. Un avión que sale en diez minutos y no encuentras el pasaporte. Una reunión importante, corres por pasillos que no reconoces y el tiempo se acaba. O simplemente corres y corres sin llegar a ningún sitio.</p>
+
+<p>Si has tenido alguna versión de este sueño, no estás solo. Es uno de los más universales que existen: los investigadores Calvin S. Hall y Robert Van de Castle, que analizaron miles de sueños en el siglo XX, encontraron que los sueños de llegar tarde, perder transportes o no encontrar el destino aparecen en todas las culturas y grupos de edad.</p>
+
+<p>Pero que sea común no significa que no tenga nada que decirte. Al contrario.</p>
+
+<h2>De Qué Habla Realmente este Sueño</h2>
+
+<p>Lo primero que hay que entender es que este sueño no habla de puntualidad. No aparece más en personas impuntuales ni predice que vayas a perder un vuelo. De hecho, investigaciones sobre el perfil de quienes lo tienen con frecuencia muestran lo contrario: suele ser más común en personas muy responsables, con alta exigencia personal, que tienen mucho miedo de decepcionar a otros.</p>
+
+<p>Lo que este sueño refleja es una sensación emocional específica: la de <em>no llegar</em>. No en sentido físico, sino vital. La sensación de que hay demasiado, de que el tiempo no alcanza, de que no eres suficiente para todo lo que se espera de ti —o que tú mismo te exiges.</p>
+
+<h2>Las Situaciones de Vida que lo Generan</h2>
+
+<h3>Sobrecarga y sensación de no llegar a todo</h3>
+
+<p>Esta es la causa más directa. Cuando tienes más responsabilidades de las que puedes manejar cómodamente —en el trabajo, en casa, con la familia, con tus propios proyectos— el cerebro procesa de noche esa presión constante. El sueño de llegar tarde es la representación visual de esa sensación: hay algo importante y tú no llegas.</p>
+
+<p>Si en las últimas semanas has sentido que no hay suficientes horas, que siempre hay algo urgente, que vas corriendo de una cosa a otra sin acabar ninguna del todo, no es raro que este sueño aparezca.</p>
+
+<h3>Miedo al juicio y a decepcionar</h3>
+
+<p>Una variante muy específica es el sueño en el que llegas tarde a algo con consecuencias sociales: un examen, una entrevista, una boda, una reunión de trabajo. En estos casos, lo que el sueño está procesando no es la tardanza sino lo que implica: decepcionar a alguien, ser juzgado negativamente, quedar mal.</p>
+
+<p>G. William Domhoff, uno de los principales investigadores actuales del sueño, señala que los sueños replican las preocupaciones emocionales del estado de vigilia. Si tu vida cotidiana está cargada de presión social —real o autoimpuesta—, ese miedo al juicio encontrará su espacio en los sueños.</p>
+
+<h3>Procrastinación y algo que llevas tiempo aplazando</h3>
+
+<p>Hay una versión más silenciosa de este sueño: la que aparece cuando no estás especialmente sobrecargado, pero hay algo concreto que llevas semanas o meses aplazando. Una conversación, una decisión, un proyecto que no arrancas. El sueño de llegar tarde a veces es literalmente eso: la representación de que el tiempo pasa y hay algo a lo que no estás llegando.</p>
+
+<p>En este caso la pregunta no es "¿qué significa este sueño?" sino "¿a qué no estoy llegando en mi vida real?"</p>
+
+<h3>Periodos de transición e incertidumbre</h3>
+
+<p>Los cambios importantes —empezar un trabajo nuevo, terminar una relación, mudarse, comenzar una etapa— activan una forma específica de ansiedad: la de no saber si vas bien, si vas al lugar correcto, si llegas a tiempo. El sueño de llegar tarde o no encontrar el destino aparece mucho en estas transiciones porque la incertidumbre vital se traduce en desorientación en el sueño.</p>
+
+<h2>Por Qué Corres pero no Avanzas</h2>
+
+<p>Esta variante —la de hacer un esfuerzo enorme sin moverse— tiene su propia carga emocional. Neurológicamente, Matthew Walker explica que durante el sueño REM la corteza motora está parcialmente inhibida: es por eso que en los sueños a veces sentimos que nuestros movimientos son lentos, pesados, ineficaces. El cerebro puede construir esa sensación como escenario cuando las emociones que procesa son de bloqueo, impotencia o esfuerzo sin resultado.</p>
+
+<p>Si sueñas que corres sin avanzar, la pregunta que vale la pena hacerse es: ¿en qué área de mi vida estoy poniendo mucho esfuerzo y siento que no se traduce en resultados? ¿Hay algo que intento resolver que no avanza por más que lo intente?</p>
+
+<h2>El Sueño del Examen que no Encontrabas</h2>
+
+<p>Una de las variantes más universales es la del examen: tienes que dar una prueba, no encuentras el aula o no recuerdas haber estudiado. Este sueño es tan común que aparece incluso en personas que llevan décadas sin pisar una escuela.</p>
+
+<p>No es nostalgia ni memoria. Es que el cerebro usa el escenario del examen —porque todos lo hemos vivido como una situación de evaluación y juicio— para representar cualquier situación actual en la que sientes que estás siendo evaluado. Una presentación de trabajo, una conversación importante, incluso algo tan cotidiano como sentirte observado o juzgado en tu entorno.</p>
+
+<h2>Cuándo Este Sueño se Vuelve una Señal de Alerta</h2>
+
+<p>Tener este sueño de vez en cuando, especialmente en épocas de más presión, es completamente normal y no indica ningún problema. Se vuelve relevante prestarle atención cuando:</p>
+
+<ul>
+<li>Aparece varias veces a la semana durante semanas o meses.</li>
+<li>Siempre tiene la misma escena central o la misma emoción al despertar.</li>
+<li>Te despiertas con ansiedad o con el corazón acelerado.</li>
+<li>Sientes que en tu vida cotidiana tampoco puedes descansar mentalmente.</li>
+</ul>
+
+<p>En ese caso no es el sueño el que necesita tratamiento: es el nivel de presión y exigencia en tu vida real lo que merece revisión.</p>
+
+<h2>Qué Puedes Hacer con Esta Información</h2>
+
+<p>La pregunta más útil que puedes hacerte no es "¿qué significa llegar tarde en los sueños?" sino algo más concreto:</p>
+
+<ul>
+<li><strong>¿En qué área de mi vida siento que no llego?</strong> ¿Trabajo, relaciones, proyectos personales, tiempo para ti mismo?</li>
+<li><strong>¿Hay algo que llevo tiempo aplazando</strong> y cuyo peso noto incluso cuando intento descansar?</li>
+<li><strong>¿De quién o de qué tengo miedo de decepcionar?</strong> ¿Es una exigencia externa real o es algo que te has impuesto tú?</li>
+<li><strong>¿Estoy distribuyendo mi energía de forma sostenible</strong> o hay un desequilibrio importante entre lo que hago y lo que puedo?</li>
+</ul>
+
+<p>Escribir las respuestas —aunque sea en un papel que luego no leas— ayuda al cerebro a procesar de forma consciente lo que de otra manera procesará de noche en forma de sueño angustiante.</p>
+
+<p>Si este sueño aparece junto con otros sueños de trabajo o presión, puede que te interese leer sobre <a href="/blog/suenos-con-ansiedad-laboral">qué procesa tu mente cuando no puedes desconectar del trabajo</a>.</p>
+    `,
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
