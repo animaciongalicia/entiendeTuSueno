@@ -2269,6 +2269,271 @@ export const articles: Article[] = [
 <p>Si este sueño aparece junto con otros sueños de trabajo o presión, puede que te interese leer sobre <a href="/blog/suenos-con-ansiedad-laboral">qué procesa tu mente cuando no puedes desconectar del trabajo</a>.</p>
     `,
   },
+  {
+    slug: "suenos-durante-el-duelo",
+    title: "Sueños durante el Duelo: Por Qué Aparecen los que ya no Están",
+    excerpt:
+      "Soñar con alguien que ha muerto es una de las experiencias más intensas y confusas del duelo. No es supernatural ni una señal: es tu cerebro haciendo el trabajo más difícil que existe.",
+    category: "Emociones",
+    categorySlug: "emociones",
+    publishedAt: "2026-03-14",
+    updatedAt: "2026-03-14",
+    readingTime: 9,
+    coverImage: "/images/blog/emociones/suenos-durante-el-duelo.webp",
+    coverAlt: "Luz suave filtrándose por una ventana en una habitación silenciosa",
+    tags: ["duelo", "muerte", "pérdida", "sueños de visita", "emociones", "inconsciente"],
+    cluster: "suenos-emocionales",
+    visual_theme: "calma",
+    pin_titles: [
+      "Soñar con alguien que murió: qué le pasa a tu mente cuando lo hace",
+      "Sueños de duelo: psicología, no misticismo",
+      "Por qué sigues soñando con quien perdiste (y qué hacer con eso)",
+    ],
+    reel_hook: "Si sueñas con alguien que ya no está, tu cerebro no está fallando ni inventándose cosas. Está haciendo el trabajo más difícil que existe.",
+    extracto_seo: "Soñar con personas fallecidas durante el duelo es un proceso psicológico normal. La ciencia explica qué hace el cerebro y por qué estos sueños son parte fundamental de sanar.",
+    imagen_destacada: "/images/blog/emociones/suenos-durante-el-duelo.webp",
+    imagen_vertical: "/images/pinterest/suenos-durante-el-duelo-pin.webp",
+    tipo: "normal",
+    intencion_practica: ["salud-emocional", "relaciones"],
+    consejo_practico: "Si has soñado con alguien que perdiste y no sabes qué hacer con esa experiencia, no tienes que hacer nada especial. Pero si el sueño dejó algo sin terminar —algo que no pudiste decirle en vida— escríbelo. Una carta que no enviarás a nadie. El cerebro necesita dar salida a lo que no pudo decirse.",
+    fuentes: [
+      { autor: "Matthew Walker", obra: "Por qué dormimos (2017)" },
+      { autor: "Rosalind Cartwright", obra: "The Twenty-four Hour Mind (2010)" },
+      { autor: "Joshua Black", obra: "Grief Dreams: How They Help Us Heal After Loss (2021)" },
+    ],
+    interpretacion_humana: "<p>Los sueños de duelo son, quizás, los que más nos escriben. Y son también los que más nos afectan, porque detrás de cada mensaje hay alguien que perdió a alguien importante y que está intentando entender lo que le pasa de noche.</p><p>Lo que más nos impacta es cómo estas personas describen la diferencia entre los sueños normales y soñar con quien perdieron: la vividez, la sensación de presencia real, el despertar con la certeza de que estaban ahí. No porque sea sobrenatural, sino porque el cerebro en duelo trabaja de forma distinta.</p>",
+    faqItems: [
+      {
+        question: "¿Por qué sueño con alguien que murió como si siguiera vivo?",
+        answer: "Durante el duelo, el cerebro aún tiene representaciones muy activas de esa persona: su voz, sus gestos, sus patrones de comportamiento. En el sueño, esas representaciones pueden activarse completamente, generando la experiencia de que está viva. No es ilusión ni señal: es la forma en que el cerebro almacena a las personas que amamos.",
+      },
+      {
+        question: "¿Es malo soñar con alguien que ha muerto?",
+        answer: "No solo no es malo: los investigadores del duelo consideran que estos sueños forman parte natural del proceso de sanación. Joshua Black, que ha estudiado específicamente los sueños de duelo, encontró que la mayoría de las personas los describen como confortantes o útiles, incluso cuando son intensos o perturbadores.",
+      },
+      {
+        question: "¿Qué significa que en el sueño no saben que están muertos?",
+        answer: "Esta es una de las experiencias más confusas del duelo en los sueños. Cuando en el sueño la persona fallecida actúa como si estuviera viva y tú tampoco lo cuestionas, es porque el cerebro está accediendo a memorias de antes de la pérdida. No hay mensaje oculto: es el registro de cómo era esa relación antes.",
+      },
+      {
+        question: "¿Por qué dejé de soñar con él/ella y ahora me siento culpable?",
+        answer: "La frecuencia de los sueños de duelo disminuye con el tiempo de forma natural. No significa que lo hayas olvidado ni que lo estés traicionando. Significa que el cerebro ha integrado la pérdida y ya no necesita procesarla con la misma intensidad. Es una señal de que el duelo está avanzando, no de que el amor disminuye.",
+      },
+    ],
+    content: `
+<p>Es de madrugada. Estás soñando y de pronto aparece. Te habla, te mira, actúa como siempre lo hacía. Hay un momento —dentro del sueño— en el que todo parece normal. Y luego te despiertas. Y vuelve el golpe. Y tienes que perderle dos veces en el mismo día.</p>
+
+<p>Si estás en duelo y sueñas con quien perdiste, esto es lo que está pasando en tu cerebro y por qué estos sueños, aunque duelan, son parte fundamental del proceso de sanar.</p>
+
+<h2>Lo que Hace el Cerebro cuando Pierde a Alguien</h2>
+
+<p>El duelo no es solo una emoción. Es una reorganización completa de cómo funciona tu mente. Cuando pierdes a alguien importante, el cerebro tiene que revisar y actualizar miles de representaciones: recuerdos, expectativas, patrones de comportamiento, planes futuros. Todo lo que esa persona ocupaba en tu mapa mental tiene que ser renegociado.</p>
+
+<p>Y esa renegociación ocurre principalmente de noche, durante el sueño REM.</p>
+
+<p>Matthew Walker describe el sueño REM como una especie de terapia nocturna: el cerebro revisa las memorias cargadas emocionalmente pero en un estado en el que los niveles de noradrenalina —la hormona del estrés— son más bajos. Es la forma que tiene el cerebro de procesar lo que duele sin que duela con la misma intensidad. De integrar la pérdida sin que te destruya.</p>
+
+<p>Por eso soñamos tanto con quien perdemos. No es el inconsciente enviando mensajes: es el cerebro haciendo el trabajo más difícil que existe.</p>
+
+<h2>Por Qué los Sueños de Duelo se Sienten tan Reales</h2>
+
+<p>Una de las cosas que más confunden a las personas en duelo es la vividez de estos sueños. No se parecen a los sueños normales. La presencia es más intensa, más real. La voz, los gestos, el olor incluso. Cuando te despiertas, la sensación de que estaban ahí persiste unos segundos.</p>
+
+<p>Esto tiene una explicación neurológica. El cerebro almacena a las personas importantes en representaciones muy complejas y distribuidas: no es solo una imagen, sino un conjunto de patrones sensoriales, emocionales, de comportamiento. Cuando esa persona aparece en el sueño, todas esas representaciones se activan simultáneamente, generando una experiencia de presencia mucho más completa que la de un sueño ordinario.</p>
+
+<p>Joshua Black, investigador especializado específicamente en sueños de duelo, documentó en su trabajo que la mayoría de las personas que atraviesan una pérdida significativa describen estos sueños como cualitativamente distintos a los demás: más nítidos, más presentes, con una claridad emocional que los sueños normales no tienen.</p>
+
+<h2>Los Tipos de Sueños más Comunes en el Duelo</h2>
+
+<h3>Los sueños de visita: están vivos y todo parece normal</h3>
+
+<p>En este tipo de sueño, la persona fallecida aparece como si nada hubiera pasado. Habláis, hacéis cosas cotidianas, no hay rastro de la muerte. Es el tipo de sueño que más confunde al despertar, porque el contraste es brutal: dentro del sueño todo estaba bien, y al abrir los ojos vuelve la realidad.</p>
+
+<p>No hay nada sobrenatural en este sueño. El cerebro está accediendo a las memorias de esa relación tal y como era antes de la pérdida. Es como si abriera el archivo de "cómo era estar con esta persona" y lo reprodujera. Es, de alguna forma, el cerebro preservando lo que tuvo.</p>
+
+<h3>Los sueños en los que sabes que murieron pero siguen ahí</h3>
+
+<p>Una variante más compleja: en el sueño sabes que esa persona ya no está, pero está contigo de todas formas. Puede que os despidáis, que os digáis algo que no pudisteis deciros, que simplemente estéis juntos con esa conciencia presente.</p>
+
+<p>Estos sueños suelen aparecer en momentos en los que el duelo está avanzando, cuando el cerebro empieza a integrar la pérdida. Son más frecuentes en personas que sintieron que la despedida fue incompleta —una muerte repentina, una relación con cosas sin resolver— y suelen traer, aunque duelan, una sensación de cierre parcial.</p>
+
+<h3>Los sueños angustiantes: están en peligro, los pierdes de nuevo</h3>
+
+<p>Hay duelos en los que los sueños no son confortantes sino perturbadores: sueñas que están en peligro y no puedes ayudarles, que los pierdes de nuevo, que la muerte ocurre otra vez. Estos sueños son más frecuentes cuando el duelo está en una fase de procesamiento activo, cuando hay mucha culpa, cuando la muerte fue traumática o cuando hay algo que no se pudo hacer o decir.</p>
+
+<p>Son más agotadores, pero no son patológicos en sí mismos. Son el cerebro intentando procesar algo que tiene mucha carga emocional, buscando formas de integrarlo.</p>
+
+<h3>Los sueños en los que te dan un mensaje</h3>
+
+<p>Muchas personas describen sueños en los que la persona fallecida les dice algo específico: que están bien, que no se preocupen, que les perdonan, que les quieren. Independientemente de las creencias de cada uno sobre lo que hay después de la muerte, estos sueños tienen una explicación psicológica clara: el cerebro está construyendo el cierre que no pudo tener.</p>
+
+<p>Si había culpa, el sueño genera el perdón. Si había despedida incompleta, el sueño la completa. Si había amor no expresado, el sueño lo dice. El cerebro es extraordinariamente creativo en la forma en que ayuda a sanar.</p>
+
+<h2>Cuándo los Sueños de Duelo se Vuelven una Señal de Alerta</h2>
+
+<p>La mayoría de los sueños de duelo son parte normal y sana del proceso, incluso cuando duelen. Sin embargo, hay situaciones en las que merece la pena buscar apoyo profesional:</p>
+
+<ul>
+<li>Cuando los sueños son pesadillas recurrentes, muy vívidas, que te impiden descansar durante semanas o meses.</li>
+<li>Cuando al despertar la sensación de pérdida es tan intensa que no puedes funcionar durante el día.</li>
+<li>Cuando los sueños angustiantes se mezclan con síntomas de duelo complicado: incapacidad para aceptar la pérdida, aislamiento extremo, incapacidad para retomar la vida cotidiana meses después.</li>
+</ul>
+
+<p>En esos casos, no es el sueño el problema sino la intensidad del duelo no procesado, y un profesional puede ayudar a transitar ese proceso.</p>
+
+<h2>Qué Hacer con Estos Sueños</h2>
+
+<p>No hay nada que "hacer" con los sueños de duelo en el sentido de interpretarlos o resolverlos. Pero hay algunas cosas que pueden ayudar a transitar mejor el proceso:</p>
+
+<ul>
+<li><strong>Escribe lo que recuerdas del sueño.</strong> No para analizarlo sino para que la experiencia no se pierda. Estos sueños suelen tener algo valioso que no merece olvidarse.</li>
+<li><strong>Si hay algo que no pudiste decirle, escríbeselo.</strong> Una carta que no enviará nadie. El cerebro necesita completar lo que quedó incompleto.</li>
+<li><strong>No busques mensajes ocultos.</strong> Si el sueño te trajo consuelo, quédate con eso. Si te trajo dolor, dale espacio. No necesitas decodificarlo.</li>
+<li><strong>Permite que el proceso tenga el tiempo que necesita.</strong> Los sueños de duelo suelen volverse menos frecuentes e intensos con el tiempo. Eso no significa que el amor disminuya: significa que el cerebro está integrando la pérdida.</li>
+</ul>
+
+<p>Si estás atravesando también el fin de una relación importante —no por muerte sino por separación— puede que te interese leer sobre <a href="/blog/suenos-en-medio-de-una-ruptura">qué procesa tu mente cuando termina una relación</a>. El cerebro hace un trabajo parecido, aunque con diferencias importantes.</p>
+    `,
+  },
+  {
+    slug: "suenos-en-medio-de-una-ruptura",
+    title: "Sueños cuando te Separas: Qué está Cerrando tu Mente mientras tú Intentas Seguir",
+    excerpt:
+      "Después de una ruptura, la ex pareja aparece en sueños con una frecuencia que desespera. No es que no puedas superarlo: es que tu cerebro está haciendo un trabajo enorme. Aquí entendemos cuál.",
+    category: "Relaciones",
+    categorySlug: "relaciones",
+    publishedAt: "2026-03-14",
+    updatedAt: "2026-03-14",
+    readingTime: 8,
+    coverImage: "/images/blog/relaciones/suenos-ruptura.webp",
+    coverAlt: "Persona mirando por la ventana de noche, pensativa",
+    tags: ["ruptura", "separación", "ex pareja", "relaciones", "duelo", "sueños recurrentes"],
+    cluster: "suenos-emocionales",
+    visual_theme: "calma",
+    pin_titles: [
+      "Por qué sueñas con tu ex aunque no quieras (la psicología real)",
+      "Sueños después de una ruptura: lo que tu mente está procesando",
+      "Sueñas con tu ex pareja? No es lo que crees",
+    ],
+    reel_hook: "Soñar con tu ex no significa que sigas enamorado. Significa que tu cerebro está haciendo el trabajo más importante después de una ruptura.",
+    extracto_seo: "Soñar con tu ex pareja después de una ruptura es un proceso psicológico normal. Entender qué procesa el cerebro ayuda a transitar mejor la separación.",
+    imagen_destacada: "/images/blog/relaciones/suenos-ruptura.webp",
+    imagen_vertical: "/images/pinterest/suenos-ruptura-pin.webp",
+    tipo: "normal",
+    intencion_practica: ["relaciones", "salud-emocional", "decisiones-de-vida"],
+    consejo_practico: "Si sueñas con tu ex y te desespera, no lo interpretes como una señal de que no puedes superarlo. Pregúntate en cambio: ¿qué emoción se quedó sin procesar? ¿Hay algo que necesitaba decirse y no se dijo? ¿Hay algo de esa relación que todavía no has podido nombrar con claridad? Escribirlo —aunque sea para ti— ayuda al cerebro a cerrar lo que sigue abierto.",
+    fuentes: [
+      { autor: "Matthew Walker", obra: "Por qué dormimos (2017)" },
+      { autor: "Rosalind Cartwright", obra: "The Twenty-four Hour Mind (2010)" },
+      { autor: "Helen Fisher", obra: "Por qué amamos (2004)" },
+    ],
+    interpretacion_humana: "<p>Si hay un sueño que genera más angustia de la que debería, es este. Las personas que nos escriben sobre soñar con su ex suelen describirlo con una mezcla de frustración y vergüenza: llevan semanas o meses intentando seguir adelante, y el cerebro sigue poniendo a esa persona ahí cada noche.</p><p>Lo que más ayuda entender, y lo que más alivio genera cuando lo explicamos, es esto: soñar con tu ex no es una señal de que no puedes superarlo. Es una señal de que lo estás superando. El cerebro solo hace ese trabajo en las personas a las que les dedicó mucha inversión emocional.</p>",
+    faqItems: [
+      {
+        question: "¿Por qué sueño con mi ex si ya no lo quiero?",
+        answer: "El amor y la presencia en los sueños no van de la mano necesariamente. Tu cerebro puede seguir procesando una relación durante meses después de que hayas dejado de querer a esa persona. Lo que se procesa no es el amor actual, sino la memoria emocional acumulada: el hábito, la historia compartida, las expectativas que tenías. Eso lleva tiempo integrarlo.",
+      },
+      {
+        question: "¿Qué significa soñar que volvemos juntos?",
+        answer: "Soñar que vuelves con tu ex casi nunca significa que quieras hacerlo realmente. Suele indicar que hay algo de esa relación —seguridad, compañía, una parte de ti mismo que expresabas con esa persona— que todavía no has encontrado fuera de ella. El sueño no habla de la persona: habla de lo que representaba para ti.",
+      },
+      {
+        question: "¿Cuánto tiempo dura soñar con la ex pareja después de una ruptura?",
+        answer: "Varía mucho según la duración e intensidad de la relación y el tipo de ruptura. En relaciones largas o muy intensas emocionalmente, soñar con la ex pareja puede durar meses o incluso más de un año. No hay una duración normal ni anormal: es un proceso individual que depende de cuánto material emocional tiene que integrar el cerebro.",
+      },
+      {
+        question: "¿Es malo soñar con la ex pareja cuando ya estás en una relación nueva?",
+        answer: "No indica deslealtad ni que tu nueva relación no te importe. El cerebro procesa las memorias emocionales independientemente del estado civil actual. Soñar con una ex pareja mientras estás en una nueva relación es común, especialmente si la ruptura anterior fue reciente o no se procesó del todo.",
+      },
+    ],
+    content: `
+<p>Llevas semanas intentando no pensar en esa persona. De día lo consigues, más o menos. Pero de noche aparece: en sueños que a veces son dulces, a veces dolorosos, a veces extrañamente cotidianos. Y te despiertas con esa sensación incómoda de tener que volver a empezar.</p>
+
+<p>Si esto te está pasando, lo primero que hay que decir es que no es una señal de debilidad, ni de que no puedas superar la ruptura, ni de que sigas enamorado o enamorada. Es una señal de que tu cerebro está haciendo exactamente lo que tiene que hacer.</p>
+
+<h2>Por Qué el Cerebro Sueña con las ex Parejas</h2>
+
+<p>Cuando tienes una relación importante, el cerebro invierte una cantidad enorme de recursos en construir la representación de esa persona: aprende sus patrones, sus reacciones, sus gestos, el sonido de su voz, lo que puedes esperar de ella. Esa representación se integra en tu modelo del mundo, en tus planes, en tu identidad.</p>
+
+<p>Cuando la relación termina, toda esa estructura tiene que revisarse. El cerebro debe actualizar miles de expectativas: "ya no vendrá el fin de semana", "ya no hay que contar con esa persona para las decisiones", "esa parte de la vida cotidiana ya no existe". Es un trabajo enorme, y ocurre principalmente de noche, durante el sueño REM.</p>
+
+<p>Rosalind Cartwright, que estudió durante décadas la relación entre los sueños y el procesamiento emocional, documentó que las personas en procesos de divorcio o separación sueñan más y con mayor intensidad emocional. Y que quienes procesan activamente la ruptura en sueños tienen mejores resultados emocionales a largo plazo.</p>
+
+<p>Dicho de otra forma: soñar con tu ex no es no poder superarlo. Es el mecanismo por el que lo superas.</p>
+
+<h2>Qué Está Procesando el Cerebro Exactamente</h2>
+
+<h3>El hábito y la rutina compartida</h3>
+
+<p>Una de las cosas más subestimadas de una ruptura es el peso del hábito. No solo echas de menos a la persona: echas de menos la estructura que esa persona daba a tu vida. Los sábados por la mañana, las conversaciones cotidianas, tener a alguien a quien contarle las cosas. El cerebro procesa de noche esos patrones rotos, especialmente al principio.</p>
+
+<h3>Lo que no se dijo o no se resolvió</h3>
+
+<p>Las rupturas raramente son limpias. Hay conversaciones que no se tuvieron, cosas que no se dijeron, momentos en los que alguien se fue sin que el otro entendiera bien por qué. Esas grietas son exactamente el material con el que trabaja el cerebro de noche: lo incompleto, lo no cerrado, lo que quedó en el aire.</p>
+
+<p>Es por eso que los sueños de ruptura suelen tener escenas de confrontación, de conversaciones imposibles, de reencuentros: el cerebro está intentando completar lo que no pudo completarse en la realidad.</p>
+
+<h3>La identidad que construiste dentro de esa relación</h3>
+
+<p>En las relaciones largas o muy significativas, una parte de quién eres estaba entrelazada con esa persona. La forma en que te veías a ti mismo, los planes que tenías, el futuro que imaginabas. Cuando la relación termina, el cerebro también tiene que procesar esa pérdida de identidad: no solo la pérdida de la persona, sino la pérdida de la versión de ti que existía con ella.</p>
+
+<p>Esto es especialmente notable en sueños donde apareces con tu ex en situaciones que representaban vuestra vida juntos: la casa que compartíais, los planes que teníais, el futuro que ya no ocurrirá.</p>
+
+<h3>El apego que no se ha desactivado</h3>
+
+<p>Helen Fisher, que estudió la neurología del amor romántico, demostró que los circuitos cerebrales asociados al apego y al amor no se desactivan cuando termina una relación. El cerebro trata la ruptura de forma similar al duelo: hay una pérdida real de algo a lo que estaba muy vinculado, y necesita tiempo para desvincularse.</p>
+
+<p>Los sueños con la ex pareja son, en parte, el cerebro intentando desactivar esos circuitos de apego. Un trabajo que solo puede hacer a través del tiempo y del procesamiento emocional.</p>
+
+<h2>Los Tipos de Sueños más Comunes tras una Ruptura</h2>
+
+<h3>Sueñas que volvéis juntos</h3>
+
+<p>Es uno de los más frecuentes y de los que más desconcierto generan, especialmente si conscientemente no quieres volver. Este sueño casi nunca habla de deseo real de reconciliación: habla de algo que esa relación te daba y que todavía no has encontrado fuera de ella. Puede ser seguridad, compañía, la sensación de ser querido de una forma específica, o incluso una parte de ti mismo que expresabas en esa relación y que ahora no sabes dónde poner.</p>
+
+<h3>Sueñas que te traiciona, que hace daño, que te ignora</h3>
+
+<p>Los sueños de ruptura no siempre son dulces. Muchas personas sueñan con su ex en situaciones de conflicto, traición o frialdad. Estos sueños suelen aparecer cuando hay rabia, dolor o sensación de injusticia que todavía no se ha podido procesar. El cerebro está trabajando con la carga emocional negativa de la relación o de la forma en que terminó.</p>
+
+<h3>Sueñas con situaciones cotidianas como si nada hubiera pasado</h3>
+
+<p>Quizás el tipo más desconcertante: en el sueño estáis juntos, haciendo cosas normales, sin ninguna carga dramática. Como si la ruptura no hubiera ocurrido. Es el cerebro reproduciendo los patrones de hábito y rutina que más se han grabado, especialmente al principio, cuando esos patrones son los más recientes y los más activos.</p>
+
+<h3>Sueñas que intentas hablar con él/ella y no puedes</h3>
+
+<p>No encuentras su número, no te escucha, hay algo que os separa. Este sueño suele aparecer cuando hay cosas sin decir: una conversación que nunca se tuvo, un cierre que nunca llegó, una explicación que necesitabas y no recibiste. El cerebro no puede cerrar lo que sigue abierto.</p>
+
+<h2>Por Qué a Veces Empeoran los Sueños</h2>
+
+<p>Hay momentos en los que los sueños con la ex pareja se vuelven más frecuentes o más intensos: aniversarios, momentos en los que algo te los recuerda, épocas de más soledad o de más incertidumbre. El cerebro vuelve al material sin procesar cuando algo externo lo activa.</p>
+
+<p>También pueden intensificarse si hay algo en tu vida actual que resuena con la relación pasada: una nueva persona que te genera sentimientos similares, una situación que te recuerda a algo de esa época, o simplemente un momento de mayor vulnerabilidad emocional.</p>
+
+<h2>Cuándo Preocuparse y Cuándo No</h2>
+
+<p>Soñar con una ex pareja, incluso con frecuencia, es normal durante el proceso de una ruptura significativa. No es patológico ni indica que no puedas seguir adelante.</p>
+
+<p>Vale la pena buscar apoyo cuando:</p>
+<ul>
+<li>Los sueños son sistemáticamente perturbadores y te impiden descansar durante meses.</li>
+<li>Al despertar hay una angustia que se extiende por todo el día y no puedes funcionar.</li>
+<li>Hay una obsesión que va más allá de los sueños: pensamientos intrusivos constantes, incapacidad para retomar la vida.</li>
+</ul>
+
+<p>En ese caso, el trabajo no es con los sueños sino con el duelo emocional que hay detrás, y un psicólogo puede ayudarte a transitarlo.</p>
+
+<h2>Qué Puedes Hacer</h2>
+
+<ul>
+<li><strong>No interpretes el sueño como una señal.</strong> Soñar con tu ex no significa que tengas que volver, ni que sigas enamorado, ni que no puedas seguir. Significa que tu cerebro está haciendo su trabajo.</li>
+<li><strong>Pregúntate qué emoción queda sin procesar.</strong> No qué significa el sueño: qué hay en esa relación que todavía no has podido nombrar o soltar.</li>
+<li><strong>Si hay algo sin decir, dilo de otra forma.</strong> Una carta que no enviarás. Una conversación con alguien de confianza. El cerebro necesita completar lo que quedó incompleto.</li>
+<li><strong>Dale tiempo al proceso.</strong> La frecuencia de estos sueños disminuye naturalmente a medida que el cerebro integra la pérdida. No hay atajo.</li>
+</ul>
+
+<p>Si además estás pasando por el duelo de una pérdida por muerte, puede que te interese leer sobre <a href="/blog/suenos-durante-el-duelo">los sueños durante el duelo</a>. El cerebro hace un trabajo parecido, con sus propias particularidades.</p>
+    `,
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
