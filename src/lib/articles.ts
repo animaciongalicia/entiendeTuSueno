@@ -2796,6 +2796,268 @@ export const articles: Article[] = [
 <p>Si los sueños de persecución aparecen junto con otros sueños de ansiedad intensa, puede que te interese leer sobre <a href="/blog/suenos-recurrentes-de-caida">los sueños recurrentes de caída</a>, que comparten con estos la naturaleza de ser señales de alerta del sistema emocional.</p>
     `,
   },
+  {
+    slug: "suenos-de-dientes-que-se-caen",
+    title: "Sueños de Dientes que se Caen: El Sueño más Universal del Mundo y lo que Significa",
+    excerpt:
+      "Soñar que los dientes se caen, se rompen o se aflojan es uno de los sueños más comunes en todas las culturas del planeta. No es una premonición. Es una señal muy concreta sobre cómo estás gestionando algo.",
+    category: "Sueños Recurrentes",
+    categorySlug: "suenos-recurrentes",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 8,
+    coverImage: "/images/blog/suenos-recurrentes/suenos-dientes.webp",
+    coverAlt: "Espejo reflejando una sonrisa, difuminado y onírico",
+    tags: ["dientes", "sueños recurrentes", "ansiedad", "imagen", "control", "pérdida"],
+    cluster: "suenos-recurrentes",
+    visual_theme: "ansiedad",
+    pin_titles: [
+      "Soñar que se te caen los dientes: la explicación real",
+      "Por qué todo el mundo sueña con los dientes (y qué significa)",
+      "Sueños de dientes: no es lo que crees que es",
+    ],
+    reel_hook: "Soñar que se te caen los dientes no es una premonición ni una señal de salud. Es uno de los sueños más universales del mundo, y dice algo muy concreto sobre cómo estás.",
+    extracto_seo: "Los sueños de dientes que se caen o rompen son universales en todas las culturas. La psicología del sueño los relaciona con ansiedad, imagen personal y sensación de pérdida de control.",
+    imagen_destacada: "/images/blog/suenos-recurrentes/suenos-dientes.webp",
+    imagen_vertical: "/images/pinterest/suenos-dientes-pin.webp",
+    tipo: "normal",
+    intencion_practica: ["salud-emocional", "ansiedad"],
+    consejo_practico: "Si has tenido este sueño, pregúntate: ¿hay algo en mi vida donde siento que la imagen que doy no corresponde a lo que soy realmente? ¿O una situación en la que siento que estoy perdiendo el control y no puedo hacer nada? La respuesta suele apuntar directamente a lo que el sueño está procesando.",
+    fuentes: [
+      { autor: "Kelly Bulkeley", obra: "Big Dreams: The Science of Dreaming and the Origins of Religion (2016)" },
+      { autor: "Garma C. C. Chang", obra: "estudios transculturales sobre sueños (1977)" },
+      { autor: "Antonio Zadra & Robert Stickgold", obra: "When Brains Dream (2021)" },
+    ],
+    interpretacion_humana: "<p>Los sueños de dientes son, junto con los de persecución y los de caída, los tres tipos que aparecen en absolutamente todas las culturas documentadas. Da igual el país, la lengua, la época histórica: la gente sueña con los dientes.</p><p>Lo que nos resulta más interesante de estos sueños es lo que revelan cuando preguntas en qué contexto aparecieron. Casi siempre hay una situación de imagen, de cómo se es visto por otros, o de sensación de pérdida de algo importante. La correlación es tan constante que se vuelve difícil ignorarla.</p>",
+    faqItems: [
+      {
+        question: "¿Soñar que se caen los dientes es de mala suerte?",
+        answer: "No. Los sueños no son premoniciones ni presagios. No predicen enfermedades, accidentes ni muertes. Son procesos de procesamiento emocional y cognitivo. El hecho de que este sueño sea muy frecuente y universal hace que muchas culturas le hayan atribuido significados simbólicos a lo largo de la historia, pero no tienen valor predictivo.",
+      },
+      {
+        question: "¿Por qué este sueño es tan universal?",
+        answer: "Los investigadores del sueño lo atribuyen a que los dientes son uno de los pocos elementos del cuerpo que no se regeneran: cuando se pierden, la pérdida es permanente. El cerebro humano, en todas las culturas, ha asociado los dientes con imagen, competencia y permanencia. Eso hace que sean un símbolo especialmente potente para representar miedos relacionados con estos temas.",
+      },
+      {
+        question: "¿Qué diferencia hay entre soñar que se caen y que se rompen?",
+        answer: "En términos de procesamiento emocional, la diferencia no es significativa. Ambas variantes representan una pérdida o deterioro. Lo que suele ser más relevante es el contexto emocional del sueño: ¿hay vergüenza? ¿hay pánico? ¿hay resignación? La emoción acompañante da más información que el detalle técnico de si caen o se rompen.",
+      },
+      {
+        question: "¿Es preocupante tener este sueño repetidamente?",
+        answer: "Como sueño aislado, no. Como sueño que se repite durante semanas en el mismo período vital, puede ser una señal de que hay algo relacionado con la imagen propia, la aprobación externa o el miedo a la pérdida que está generando estrés sostenido. Vale la pena mirarlo, no como señal de alarma, sino como información.",
+      },
+    ],
+    content: `
+<p>Estás en algún lugar —a veces en público, a veces solo— y de repente notas que algo va mal en tu boca. Un diente se afloja. Lo tocas con la lengua y cede. O simplemente caen, uno tras otro, o se rompen en pedazos entre los dedos. La sensación es vívida, desagradable, y cuando te despiertas el alivio de que no era real es tan grande que tardas unos segundos en calmarte.</p>
+
+<p>Si has tenido este sueño, no estás solo. Es, junto con los sueños de persecución y de caída, uno de los tres tipos de sueños más reportados universalmente. Aparece en todas las culturas documentadas, en todos los continentes, en todas las épocas históricas. Y tiene una explicación muy concreta.</p>
+
+<h2>Por Qué este Sueño es Universal</h2>
+
+<p>Kelly Bulkeley, que ha estudiado los sueños desde una perspectiva transcultural, señala que muy pocos contenidos oníricos son verdaderamente universales: la mayoría de los sueños están profundamente influidos por la cultura, la experiencia personal y el contexto vital. Los sueños de dientes son una excepción notable.</p>
+
+<p>La razón más probable es simbólica y evolutiva. Los dientes son uno de los pocos elementos del cuerpo humano que no se regeneran en la edad adulta: cuando se pierden, la pérdida es permanente. Y en términos evolutivos, los dientes han estado asociados durante millones de años con la capacidad de comer, de defenderse, de mostrar salud y competencia. Perderlos, incluso en sueños, activa circuitos de amenaza muy antiguos.</p>
+
+<p>Pero hay algo más específico que explica por qué el cerebro moderno sigue generando este sueño: los dientes, en casi todas las culturas, están íntimamente ligados a la imagen que damos a los demás. Una sonrisa, una apariencia, una primera impresión. Cuando el cerebro quiere procesar algo relacionado con cómo nos ven o cómo nos vemos, los dientes son un símbolo especialmente potente.</p>
+
+<h2>Los Tres Núcleos Emocionales más Frecuentes</h2>
+
+<p>La psicología del sueño no trabaja con interpretaciones fijas —el mismo sueño puede tener significados distintos según la persona y el momento— pero sí hay patrones emocionales que aparecen consistentemente asociados a los sueños de dientes.</p>
+
+<h3>Ansiedad por la imagen y por cómo te ven los demás</h3>
+
+<p>Es el patrón más frecuente. El sueño aparece en momentos en los que hay una presión real o percibida relacionada con la aprobación externa: una presentación importante, una entrevista, una situación nueva donde sientes que te están evaluando, o un período en el que te preocupa mucho lo que piensan de ti.</p>
+
+<p>Los dientes representan la fachada, la imagen pública, lo que muestras al mundo. Perderlos en sueños es perder esa imagen o ese control sobre cómo te ven. No tiene que ser una situación objetivamente amenazante: basta con que el cerebro la esté procesando como tal.</p>
+
+<h3>Miedo a la pérdida o al deterioro de algo importante</h3>
+
+<p>El segundo patrón tiene que ver con la permanencia. Los dientes, como dijimos, son de las pocas cosas que no se recuperan. Soñar que se pierden puede reflejar un miedo a perder algo que no podrá recuperarse: una relación, una oportunidad, la salud, la juventud, una etapa de la vida que está cerrándose.</p>
+
+<p>Este patrón es más frecuente en períodos de transición o en momentos donde hay algo que sientes que está acabando y ante lo que te sientes impotente.</p>
+
+<h3>Sensación de pérdida de control o de poder</h3>
+
+<p>El tercer patrón está relacionado con la agencia. Cuando sientes que no tienes control sobre algo importante en tu vida —una situación laboral, una relación, una decisión que otros están tomando por ti— el cerebro puede traducir esa sensación en la imagen de perder algo que debería ser tuyo y que simplemente se va.</p>
+
+<p>Hay una ironía en este sueño: los dientes son algo que en la vigilia puedes cuidar activamente. En el sueño, simplemente caen, sin que puedas hacer nada. Esa impotencia es, con frecuencia, el núcleo de lo que se está procesando.</p>
+
+<h2>Las Variantes más Comunes y Qué Cambia en Ellas</h2>
+
+<h3>Se caen uno a uno, lentamente</h3>
+<p>Suele correlacionar con algo que se está deteriorando de forma gradual: una situación que empeora poco a poco, una sensación de que las cosas se van escapando sin que haya un momento de crisis claro.</p>
+
+<h3>Se rompen o se desmenuzan</h3>
+<p>La imagen de fragmentación tiene más carga emocional de impotencia: algo que debería ser sólido simplemente colapsa. Frecuente en períodos de mucho estrés acumulado o en situaciones donde algo que parecía estable resulta frágil.</p>
+
+<h3>Intentas esconder que se han caído</h3>
+<p>Esta variante —en la que tratas de que nadie se dé cuenta— añade la capa de vergüenza y apariencia. Lo que se procesa no solo es la pérdida sino la idea de que otros lo vean, de que descubran algo que quieres mantener oculto.</p>
+
+<h3>Estás en público cuando ocurre</h3>
+<p>El contexto social amplifica el componente de imagen. El cerebro está procesando específicamente el miedo a ser visto en un estado de vulnerabilidad o imperfección.</p>
+
+<h3>Los dientes vuelven a crecer o no es tan grave</h3>
+<p>Una variante menos frecuente pero significativa: el sueño empieza con la pérdida pero el desenlace es neutro o incluso positivo. Suele aparecer en momentos de mayor resiliencia emocional o cuando ya se está saliendo de un período difícil.</p>
+
+<h2>Lo que No Significa este Sueño</h2>
+
+<p>Dada la universalidad de este sueño, a lo largo de la historia se le han atribuido muchos significados culturales y supersticiosos: presagio de muerte, señal de enfermedad, anuncio de algo malo. En algunas culturas, soñar con dientes está directamente asociado con la pérdida de un familiar.</p>
+
+<p>Lo que sabemos sobre el funcionamiento del cerebro durante el sueño no apoya ninguna de estas interpretaciones. Los sueños no tienen acceso a información del futuro ni son mensajes del más allá: son el resultado del procesamiento de memorias, emociones y experiencias del pasado y del presente. No predicen nada.</p>
+
+<p>Si tienes este sueño y te genera ansiedad por su posible significado premonitorio, ese miedo es en sí mismo más información: puede ser que haya algo en tu vida que temes perder y que esa preocupación se esté expresando también en el sueño.</p>
+
+<h2>Qué Hacer con este Sueño</h2>
+
+<p>No hay nada que "solucionar" en los sueños de dientes, pero sí hay preguntas útiles para entender qué está procesando tu cerebro:</p>
+
+<ul>
+<li>¿Hay una situación en la que sientes que la imagen que das no corresponde a quién eres realmente?</li>
+<li>¿Estás en un período en el que la aprobación externa tiene mucho peso?</li>
+<li>¿Hay algo importante que sientes que podrías perder y que no podrías recuperar?</li>
+<li>¿Hay una situación donde sientes que no tienes control y que las cosas simplemente ocurren?</li>
+</ul>
+
+<p>Si el sueño es recurrente y cada vez que lo tienes hay una respuesta clara a alguna de esas preguntas, esa es la información relevante. No el sueño en sí, sino lo que señala.</p>
+
+<p>Si sueñas con los dientes en el contexto de otros sueños de ansiedad corporal, puede que te interese leer sobre <a href="/blog/suenos-recurrentes-de-caida">los sueños de caída</a>, que comparten con este la naturaleza de pérdida súbita de algo que debería ser estable.</p>
+    `,
+  },
+  {
+    slug: "suenos-de-volar",
+    title: "Sueños de Volar: Por Qué son tan Intensos y Qué Dice tu Cerebro cuando los Tiene",
+    excerpt:
+      "Volar en sueños es una de las experiencias más extraordinarias que puede tener el cerebro humano. No es random. Ocurre en momentos muy específicos y dice algo muy concreto sobre tu estado emocional.",
+    category: "Sueños Recurrentes",
+    categorySlug: "suenos-recurrentes",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/suenos-recurrentes/suenos-de-volar.webp",
+    coverAlt: "Vista aérea de nubes desde arriba, luz cálida al amanecer",
+    tags: ["volar", "sueños positivos", "libertad", "control", "sueño lúcido", "expansión"],
+    cluster: "suenos-recurrentes",
+    visual_theme: "espiritual",
+    pin_titles: [
+      "Soñar que vuelas: qué le está pasando a tu cerebro",
+      "Por qué volar en sueños se siente tan real (y qué significa)",
+      "Sueños de volar: la psicología detrás de la experiencia más libre",
+    ],
+    reel_hook: "Volar en sueños es una de las experiencias más intensas del cerebro humano. Y casi nunca ocurre al azar: hay patrones muy claros sobre cuándo aparece.",
+    extracto_seo: "Los sueños de volar son algunos de los más vívidos e intensos. La psicología del sueño los relaciona con sensación de libertad, superación de obstáculos y dominio emocional.",
+    imagen_destacada: "/images/blog/suenos-recurrentes/suenos-de-volar.webp",
+    imagen_vertical: "/images/pinterest/suenos-de-volar-pin.webp",
+    tipo: "normal",
+    intencion_practica: ["salud-emocional", "decisiones-de-vida"],
+    consejo_practico: "Si tienes sueños de volar con frecuencia, anota en qué período de tu vida ocurren. Casi siempre hay una correlación con momentos de mayor confianza, de haber superado algo o de sentirte más libre de una presión habitual. Esa información es valiosa: el cerebro te está diciendo en qué condiciones funciona mejor.",
+    fuentes: [
+      { autor: "Stephen LaBerge", obra: "Lucid Dreaming (1985)" },
+      { autor: "Antonio Zadra & Robert Stickgold", obra: "When Brains Dream (2021)" },
+      { autor: "Kelly Bulkeley", obra: "Big Dreams (2016)" },
+    ],
+    interpretacion_humana: "<p>Los sueños de volar son los que más alegría generan cuando la gente los recuerda. Hay algo en esa experiencia —la sensación física de elevación, la perspectiva desde arriba, la ausencia de gravedad— que se queda grabado de una forma distinta a otros sueños.</p><p>Lo que más nos interesa de estos sueños es cuándo aparecen. Cuando preguntamos a personas qué estaba pasando en su vida cuando soñaron que volaban, los patrones son sorprendentemente consistentes: momentos de superación, de mayor libertad, de haber dejado atrás algo que pesaba. El cerebro celebra a su manera.</p>",
+    faqItems: [
+      {
+        question: "¿Por qué volar en sueños se siente tan real?",
+        answer: "El sueño REM activa el sistema vestibular —el que procesa el equilibrio y la orientación espacial— de forma independiente al cuerpo físico. Eso genera sensaciones reales de movimiento, elevación y cambio de orientación, aunque el cuerpo esté quieto. Por eso volar en sueños no se parece a imaginar que vuelas: se siente como volar.",
+      },
+      {
+        question: "¿Qué significa no poder volar alto en el sueño?",
+        answer: "Las variantes donde intentas volar pero no consigues altura, o vuelas muy bajo rozando el suelo, suelen asociarse con sensación de limitación o de no tener suficiente impulso para lo que quieres hacer. Pueden aparecer en momentos de mayor inseguridad o de bloqueo ante algo que quieres avanzar.",
+      },
+      {
+        question: "¿Por qué a veces pierdo el control y caigo?",
+        answer: "Los sueños que empiezan como vuelo y terminan en caída suelen reflejar una ambivalencia: hay un impulso hacia algo (la elevación), pero también un miedo al fracaso o a las consecuencias (la caída). Es común en momentos de decisiones importantes o de riesgos que quieres tomar pero que te generan incertidumbre.",
+      },
+      {
+        question: "¿Se pueden provocar los sueños de volar?",
+        answer: "Los practicantes de sueño lúcido aprenden a inducir vuelo una vez que son conscientes de que están soñando. Stephen LaBerge, pionero en la investigación del sueño lúcido en Stanford, documentó cómo el vuelo es una de las primeras cosas que los soñantes lúcidos intentan cuando toman control del sueño. Con práctica, es posible.",
+      },
+    ],
+    content: `
+<p>Hay un momento en el sueño —difícil de describir pero imposible de confundir— en el que el suelo desaparece bajo los pies y el cuerpo sube. No como en un avión, no con vértigo. Como si la gravedad simplemente dejara de aplicar. Y la sensación es tan física, tan real, que cuando te despiertas el cuerpo todavía la recuerda.</p>
+
+<p>Los sueños de volar son algunos de los más vívidos que existe el cerebro humano capaz de generar. Y aunque parecen aleatorios, no lo son. Hay patrones muy claros sobre cuándo aparecen y qué está procesando el cerebro cuando los tiene.</p>
+
+<h2>Por Qué Volar en Sueños se Siente tan Real</h2>
+
+<p>La intensidad física de los sueños de vuelo tiene una explicación neurológica directa. Durante el sueño REM, el cerebro activa de forma independiente el sistema vestibular: el sistema responsable de procesar el equilibrio, la orientación espacial y el movimiento del cuerpo. No hay instrucciones del cuerpo físico —que está quieto— pero el cerebro genera las señales de todas formas.</p>
+
+<p>El resultado es que el soñante experimenta sensaciones reales de elevación, aceleración, giro y cambio de orientación espacial. No es una metáfora ni una imagen: es una experiencia sensorial generada internamente con la misma maquinaria que usamos para percibir el movimiento real. Por eso volar en sueños no se parece a imaginar que vuelas: se siente como volar.</p>
+
+<p>Es también por esto que las personas que han tenido estos sueños suelen describirlos con mucho detalle físico: la sensación del viento, el frío a mayor altura, la perspectiva desde arriba, la forma en que el cuerpo se inclina para cambiar de dirección. El cerebro no está improvisando: está usando sus sistemas sensoriales reales.</p>
+
+<h2>Cuándo Aparecen: los Patrones más Frecuentes</h2>
+
+<p>Los sueños de volar no son distribuidos aleatoriamente a lo largo de la vida. Cuando se documentan los contextos en los que aparecen, emergen patrones consistentes.</p>
+
+<h3>Después de superar algo o resolver un problema</h3>
+
+<p>Es el patrón más frecuente. Los sueños de vuelo tienden a aparecer después de que algo pesado se ha resuelto: una situación difícil que terminó, una decisión que se tomó, una conversación que se tuvo, un miedo que se enfrentó. El cerebro, que durante el conflicto generaba sueños de ansiedad, pasa a generar sueños de elevación cuando la presión desaparece.</p>
+
+<p>Es una forma de que el sistema emocional registre el cambio: "la carga que tenías ya no está".</p>
+
+<h3>En momentos de mayor confianza o expansión</h3>
+
+<p>Los sueños de volar también aparecen en períodos en los que la persona se siente más capaz, más libre o más dueña de su vida. Pueden coincidir con un proyecto nuevo que genera entusiasmo, con una etapa de mayor seguridad en uno mismo, o con momentos en los que se están tomando decisiones que se alineaban con lo que uno realmente quiere.</p>
+
+<h3>En la infancia y adolescencia</h3>
+
+<p>Son más frecuentes en etapas tempranas de la vida, probablemente porque la plasticidad emocional es mayor y los procesos de expansión —aprender cosas nuevas, descubrir el mundo, imaginar futuros— son más intensos. Muchos adultos recuerdan haber volado mucho en sueños de niños y menos en la edad adulta, lo que suele correlacionar con una mayor acumulación de restricciones y responsabilidades.</p>
+
+<h3>En el sueño lúcido</h3>
+
+<p>El vuelo es una de las primeras cosas que las personas intentan cuando toman conciencia de que están soñando. Stephen LaBerge, que investigó el sueño lúcido en Stanford durante décadas, documentó cómo el vuelo aparece de forma casi universal en los primeros sueños lúcidos controlados: en cuanto el soñante se da cuenta de que puede elegir, elige volar.</p>
+
+<h2>Qué Está Procesando el Cerebro</h2>
+
+<p>Los sueños de volar suelen estar asociados a varias dimensiones emocionales que vale la pena distinguir.</p>
+
+<h3>Libertad y ausencia de restricciones</h3>
+
+<p>El vuelo es, por definición, la superación de la gravedad: la fuerza que nos mantiene sujetos al suelo. Como símbolo, es difícil encontrar algo más claro para representar liberarse de lo que pesa, de lo que nos limita, de lo que nos mantiene en un lugar que no queremos estar.</p>
+
+<p>Cuando el cerebro genera un sueño de vuelo, con frecuencia está procesando una sensación —real o deseada— de haber salido de algo que limitaba.</p>
+
+<h3>Perspectiva y visión de conjunto</h3>
+
+<p>Volar implica ver desde arriba. Desde la altura, el suelo parece más pequeño, los problemas tienen otra escala, las cosas que desde abajo parecen enormes se reducen. El cerebro puede usar el vuelo para procesar un cambio de perspectiva: una comprensión nueva de una situación, la capacidad de ver algo con más distancia.</p>
+
+<h3>Dominio y agencia</h3>
+
+<p>En los sueños de vuelo en los que el soñante controla bien adónde va —puede acelerar, cambiar de dirección, bajar y subir a voluntad— hay una dimensión clara de poder y agencia. El cuerpo hace exactamente lo que uno quiere, sin obstáculos. En personas que en su vida cotidiana sienten poca agencia, estos sueños pueden ser especialmente intensos.</p>
+
+<h2>Las Variantes y lo que Cambia en Ellas</h2>
+
+<h3>Vuelo alto y libre, con control total</h3>
+<p>La variante más positiva: puedes ir donde quieres, la altura es la que eliges, hay sensación de disfrute puro. Suele correlacionar con períodos de mayor confianza y libertad emocional.</p>
+
+<h3>Vuelo bajo, rozando el suelo o con obstáculos</h3>
+<p>Intentas volar pero no consigues altura, o tienes que esquivar árboles, cables, edificios. Hay un impulso pero también una limitación. Suele aparecer en momentos de mayor inseguridad o de bloqueo ante algo que se quiere hacer pero no se está pudiendo.</p>
+
+<h3>Vuelo que se convierte en caída</h3>
+<p>Empieza bien pero en algún momento pierdes sustentación y caes. Refleja ambivalencia: hay deseo de expansión y al mismo tiempo miedo a las consecuencias o al fracaso. Común en momentos de decisiones importantes con riesgo.</p>
+
+<h3>Volar pero con miedo o ansiedad</h3>
+<p>No todo el mundo disfruta de volar en sueños: algunas personas lo viven con angustia, como si la altura fuera una amenaza. En estos casos, la interpretación se invierte: la expansión o el cambio que el vuelo representa genera miedo más que alivio.</p>
+
+<h2>Los Sueños de Volar y el Sueño Lúcido</h2>
+
+<p>Hay algo particular en los sueños de vuelo que los conecta especialmente con el sueño lúcido: su intensidad sensorial los hace más propicios para que el soñante se dé cuenta de que está soñando. La experiencia es tan extraordinaria —el cuerpo humano no vuela— que puede activar la conciencia dentro del sueño.</p>
+
+<p>Por eso muchos practicantes de sueño lúcido usan el vuelo como técnica de verificación: si en un sueño intentas volar y puedes, es una señal de que estás soñando. Y a la inversa, una vez que sabes que estás soñando, el vuelo es una de las primeras cosas que el cerebro quiere explorar.</p>
+
+<p>LaBerge documentó que el vuelo en sueño lúcido tiene efectos emocionales positivos que persisten después de despertar. No en términos supersticiosos, sino en términos de estado de ánimo: la experiencia de libertad y control en el sueño puede dejar una huella positiva en las primeras horas del día.</p>
+
+<h2>Qué Hacer con estos Sueños</h2>
+
+<p>Los sueños de volar no requieren intervención. Son, en la mayoría de los casos, señales positivas del estado emocional. Pero hay algo que vale la pena hacer con ellos: anotarlos.</p>
+
+<p>No para interpretarlos en profundidad, sino para identificar el patrón. ¿Cuándo vuelan tus sueños? ¿En qué momentos de tu vida? Si logras responder esa pregunta, tienes información muy valiosa sobre las condiciones en las que tu cerebro se siente más libre y más capaz.</p>
+
+<p>Si los sueños de volar alternan con sueños de caída, puede que te interese leer sobre <a href="/blog/suenos-recurrentes-de-caida">los sueños recurrentes de caída</a>, que representan la otra cara del mismo eje: la expansión versus el miedo a perder el suelo bajo los pies.</p>
+    `,
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
