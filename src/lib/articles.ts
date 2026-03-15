@@ -4919,6 +4919,259 @@ export const articles: Article[] = [
 <p>Si la sangre aparece en sueños relacionados con pérdida o duelo, puede conectar con lo que describes en <a href="/blog/suenos-durante-el-duelo">cómo funcionan los sueños durante el duelo</a>.</p>
     `,
   },
+
+  // ─── ARTÍCULO 32: Relaciones — Alguien que te gusta ─────────────────────────
+  {
+    slug: "sonar-con-alguien-que-te-gusta",
+    title: "Soñar con alguien que te gusta: deseo, miedo y lo que procesa el cerebro",
+    excerpt:
+      "Soñar con la persona que te gusta puede ser agradable o angustioso según cómo salga. En cualquier caso, lo que el cerebro está haciendo es más interesante que el sueño en sí.",
+    category: "Relaciones",
+    categorySlug: "relaciones",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/relaciones/sonar-con-alguien-que-te-gusta.webp",
+    coverAlt: "Dos siluetas bajo luz suave con distancia entre ellas",
+    tags: ["atracción", "deseo", "crush", "relaciones", "expectativas", "miedo al rechazo", "amor"],
+    content: `
+<p>Es de los sueños que más gente busca, y con razón: soñar con alguien que te gusta deja una huella emocional que cuesta sacudir. A veces el sueño es tan bueno que despertar duele. Otras veces sale mal: rechazo, indiferencia, o algo que no querías ver.</p>
+
+<p>En ambos casos, lo que el cerebro está haciendo tiene más información de la que parece.</p>
+
+<h2>Por qué el cerebro sueña con esa persona</h2>
+
+<p>La respuesta más directa: porque le dedicas mucho espacio mental. Cuando alguien ocupa pensamientos durante el día, cuando hay una carga emocional asociada a esa persona, el cerebro la procesa también por la noche. No es magia ni señal de destino: es que el REM trabaja con el material emocionalmente relevante del día.</p>
+
+<p>Cuanta más carga emocional tiene algo (deseo, incertidumbre, esperanza, miedo al rechazo), más probabilidad de que aparezca en los sueños.</p>
+
+<h2>El sueño sale bien: os acercáis, hay conexión</h2>
+
+<p>Los sueños positivos con alguien que te gusta suelen dejar una sensación de calidez que puede durar horas. Son el cerebro elaborando el deseo, ensayando escenarios de acercamiento, procesando la atracción de forma segura.</p>
+
+<p>No son predicciones de lo que va a pasar. Pero sí pueden ser señal de que el deseo está activo y que hay algo que quizás merece moverse en la vida real, si es que no lo ha hecho ya.</p>
+
+<h2>El sueño sale mal: rechazo, indiferencia o humillación</h2>
+
+<p>Es el patrón que más angustia genera, especialmente cuando al despertar la emoción sigue ahí. Soñar que esa persona te rechaza, que ni te mira o que hay algo humillante en la interacción casi siempre refleja el miedo, no la realidad.</p>
+
+<p>El cerebro ensaya los escenarios que más energía emocional llevan, incluyendo los que más temes. Si hay inseguridad sobre si gustas, si hay miedo al rechazo o a quedar en ridículo, el sueño puede escenificarlo con mucha nitidez.</p>
+
+<p>La pregunta útil al despertar de uno de estos sueños: ¿qué miedo concreto hay detrás? ¿Miedo a no ser suficiente, a que te ignoren, a quedar expuesto? Esa respuesta dice más sobre ti que sobre la otra persona.</p>
+
+<h2>Soñar que estáis juntos de forma natural</h2>
+
+<p>Cuando el sueño no es ni de acercamiento intenso ni de rechazo, sino que simplemente estáis juntos como si fuera lo normal, el cerebro está elaborando una posibilidad de forma tranquila. Es menos dramático pero a veces más revelador: hay una comodidad imaginada con esa persona que puede decir algo sobre lo que buscas.</p>
+
+<h2>Soñar con alguien que te gustó en el pasado</h2>
+
+<p>Esto confunde mucho: de repente sueñas con alguien que te gustó hace años y que ya no está en tu vida. La primera pregunta es si sigues sintiendo algo, y la segunda es si ese sueño tiene algún significado.</p>
+
+<p>Como con otras personas del pasado, la respuesta suele ser que el cerebro está usando esa persona como símbolo de algo: una época, un tipo de atracción, una versión de ti mismo en esa etapa. Si hay algo en tu vida actual que activa emociones similares a las de entonces, puede que sea eso lo que el sueño está procesando.</p>
+
+<p>Hay más sobre este mecanismo en <a href="/blog/suenos-con-personas-del-pasado">soñar con personas del pasado</a>.</p>
+
+<h2>Soñar con alguien que te gusta cuando ya tienes pareja</h2>
+
+<p>Genera mucha culpa. Pero soñar con atracción hacia alguien que no es tu pareja no es una traición ni una señal de que algo está mal en la relación. Es el cerebro procesando la atracción, que existe aunque no se actúe sobre ella.</p>
+
+<p>Si el sueño se repite, puede merecer la pena preguntarse si hay algo que falta en la relación actual o si hay algo sobre esa otra persona (una cualidad, una energía) que representa algo que se desea en algún ámbito de la vida. Pero sin convertirlo automáticamente en un problema.</p>
+
+<h2>Lo que el sueño no puede decirte</h2>
+
+<p>Los sueños con alguien que te gusta no dicen si esa persona siente lo mismo. No son señales del universo ni comunicaciones telepáticas. Son el procesamiento de tu propio estado emocional.</p>
+
+<p>Lo que sí pueden decirte es qué necesitas, qué temes y qué deseas. Esa información es tuya, no de la otra persona.</p>
+
+<p>Si hay una pareja actual y los sueños generan confusión, puede ser útil leer también <a href="/blog/sonar-con-tu-pareja-actual">cómo funcionan los sueños sobre la pareja</a>.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 33: Animales — Arañas ─────────────────────────────────────────
+  {
+    slug: "sonar-con-aranas",
+    title: "Soñar con arañas: lo que representa uno de los sueños más comunes",
+    excerpt:
+      "Las arañas generan una reacción física inmediata incluso en sueños. Pero lo que simbolizan tiene poco que ver con el miedo y mucho con las trampas, los vínculos y la creatividad.",
+    category: "Animales",
+    categorySlug: "animales",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/animales/sonar-con-aranas.webp",
+    coverAlt: "Araña en el centro de su tela con luz difusa al fondo",
+    tags: ["arañas", "animales", "miedo", "trampa", "manipulación", "creatividad", "telaraña", "símbolos"],
+    content: `
+<p>Las arañas provocan una respuesta instintiva en muchísimas personas, y en los sueños esa reacción se amplifica. Pero la simbología de las arañas va mucho más allá del miedo: son uno de los símbolos más ricos y ambivalentes que aparecen en los sueños.</p>
+
+<h2>Por qué las arañas tienen tanto peso simbólico</h2>
+
+<p>La araña construye, atrapa y espera. Esas tres acciones resumen buena parte de lo que representa en los sueños: la construcción de algo (una red, un plan, una estructura), la trampa o lo que enreda, y la paciencia o el control silencioso.</p>
+
+<p>Dependiendo del contexto del sueño y de la emoción que genera, la araña puede estar apuntando a cualquiera de esos aspectos.</p>
+
+<h2>Una araña que te da miedo o te persigue</h2>
+
+<p>El escenario más frecuente para quienes tienen aracnofobia o simplemente incomodidad con las arañas. Cuando la araña del sueño genera terror, suele reflejar algo en la vida real que también genera esa sensación visceral: algo amenazante que está cerca, algo que sientes que podría atraparte, o una situación que evitas enfrentar.</p>
+
+<p>Si la araña te persigue, la estructura es similar a otros sueños de persecución: hay algo de lo que intentas huir. Si la araña baja hacia ti sin que puedas moverte, puede reflejar una sensación de indefensión ante algo que se acerca.</p>
+
+<h2>Una telaraña: la trampa y la red</h2>
+
+<p>La telaraña como símbolo tiene dos lecturas que coexisten.</p>
+
+<p>Por un lado, la trampa: algo en tu vida que sientes que te tiene atrapado, que no te deja moverte libremente, o que fue diseñado para retenerte. Puede ser una relación, una situación laboral, una dinámica familiar o incluso una creencia propia que te limita.</p>
+
+<p>Por otro, la red: algo construido con paciencia y precisión, una estructura que sostiene o que conecta. En este sentido, la telaraña puede ser una imagen de algo que estás creando, de vínculos que has tejido, o de un plan que tiene más complejidad de lo que parece.</p>
+
+<p>El estado de la telaraña en el sueño orienta: ¿está intacta o rota? ¿Estás dentro o fuera? ¿La ves con admiración o con angustia?</p>
+
+<h2>Una araña grande o enorme</h2>
+
+<p>El tamaño en los sueños casi siempre señala la magnitud emocional de lo que representa. Una araña desproporcionadamente grande apunta a algo que se siente muy amenazante o muy poderoso: una figura de control en tu vida, una situación que se ha vuelto demasiado grande para manejar, o un miedo que ha crecido más allá de sus proporciones reales.</p>
+
+<h2>Una araña que teje o trabaja tranquilamente</h2>
+
+<p>Cuando la araña del sueño no genera miedo sino que simplemente está ahí, construyendo su tela, el símbolo es más neutro o incluso positivo. Puede representar paciencia, creatividad, la capacidad de construir algo complejo paso a paso, o la figura de alguien en tu vida que opera de forma silenciosa pero efectiva.</p>
+
+<h2>Que te pique una araña</h2>
+
+<p>La picadura activa el símbolo del veneno: algo que entra, que se instala, que afecta desde dentro. Puede reflejar que algo o alguien ha dicho o hecho algo que te ha "envenenado" emocionalmente, que ha dejado un efecto que no ves pero que sientes. Críticas que se quedan dentro, palabras que hacen daño, o una situación que tiene efectos que no son inmediatamente visibles.</p>
+
+<h2>Matar a la araña en el sueño</h2>
+
+<p>Cuando en el sueño matas a la araña, hay un acto de resolución. Puede reflejar el deseo de terminar con algo que sientes que te amenaza o te atrapa. Si la sensación después es de alivio, es coherente con ese significado. Si hay culpa o malestar, puede que el símbolo sea más ambivalente: algo que quieres eliminar pero que también tiene un papel en tu vida.</p>
+
+<h2>La figura de la araña como persona</h2>
+
+<p>En algunos sueños, la araña representa claramente a alguien del entorno: una persona que sientes que manipula, que tiende trampas, que opera desde las sombras, o que tiene mucho control sobre ti o sobre otros. Si reconoces esa resonancia, el sueño puede estar procesando esa dinámica relacional.</p>
+
+<p>Los animales en los sueños suelen conectar entre sí por la carga instintiva que comparten. Si las arañas aparecen junto a otros animales de carga similar, puede ser interesante comparar con <a href="/blog/sonar-con-serpientes">lo que representan las serpientes en los sueños</a>, otro símbolo de amenaza y transformación con lecturas muy distintas.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 34: Ansiedad y Miedos — Accidente de coche ────────────────────
+  {
+    slug: "sonar-con-accidente-de-coche",
+    title: "Soñar con un accidente de coche: pérdida de control y miedo al daño",
+    excerpt:
+      "Los accidentes de coche en sueños son intensos y se sienten muy reales. Casi siempre hablan de control, dirección y el miedo a que algo se salga de su curso.",
+    category: "Ansiedad y Miedos",
+    categorySlug: "ansiedad-y-miedos",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/ansiedad-y-miedos/sonar-con-accidente-de-coche.webp",
+    coverAlt: "Carretera nocturna con luces difusas y sensación de velocidad",
+    tags: ["accidente", "coche", "control", "miedo", "conductor", "dirección", "ansiedad", "pérdida de control"],
+    content: `
+<p>El impacto, los frenos que no responden, el volante que gira solo. Los sueños con accidentes de coche se sienten físicamente reales y dejan una activación que cuesta sacudir al despertar. Son uno de los sueños de ansiedad más frecuentes, y tienen una lectura bastante consistente.</p>
+
+<h2>El coche como símbolo de dirección y control</h2>
+
+<p>En los sueños, el coche casi siempre representa la trayectoria vital: hacia dónde vas, a qué velocidad, si tú llevas el control o lo lleva otro. No es el vehículo en sí lo que importa, es la dinámica de conducción.</p>
+
+<p>Un accidente, entonces, es la interrupción violenta de esa trayectoria. Algo que se sale de curso, que impacta, que daña. El cerebro usa esa imagen cuando hay algo en la vida real que amenaza con desviarse o salirse de control.</p>
+
+<h2>Quién conduce en el sueño</h2>
+
+<p>Es uno de los detalles más reveladores:</p>
+
+<ul>
+<li><strong>Tú conduces y pierdes el control:</strong> hay algo en tu vida donde sientes que llevas las riendas pero algo falla. Los frenos que no responden son la imagen más directa de una situación que no puedes detener aunque quieras. El volante que gira solo señala que algo que creías controlar está actuando por su cuenta.</li>
+<li><strong>Otro conduce y hay accidente:</strong> hay una situación donde no eres tú quien decide, y eso genera miedo. Puede ser una relación, un proyecto, una circunstancia donde dependes de las decisiones de otra persona y temes que salga mal.</li>
+<li><strong>Eres pasajero y no puedes hacer nada:</strong> impotencia pura. Algo está pasando y tú solo puedes observar sin capacidad de intervenir.</li>
+</ul>
+
+<h2>El tipo de accidente también orienta</h2>
+
+<h3>Frenos que no funcionan</h3>
+<p>Es el sueño de accidente más común. Los frenos que fallan representan la incapacidad de detener algo: una situación que va demasiado rápido, una dinámica que se ha acelerado más allá de lo que puedes manejar, o decisiones que ya se han puesto en marcha y no puedes deshacer.</p>
+
+<h3>Caer por un precipicio o salirse de la carretera</h3>
+<p>La pérdida de trayectoria: algo que debería seguir un camino claro se desvía de forma radical. Puede reflejar el miedo a que una situación importante (trabajo, relación, proyecto) tome un giro irreversible.</p>
+
+<h3>Choque frontal con otro coche</h3>
+<p>Dos trayectorias que colisionan. Suele reflejar un conflicto entre dos fuerzas o dos personas cuyas direcciones son incompatibles. Algo que va a chocar si no cambia algo.</p>
+
+<h3>Accidente con víctimas</h3>
+<p>Cuando en el sueño hay personas heridas o fallecidas, la carga emocional es mayor. Puede reflejar miedo a causar daño con tus decisiones, responsabilidad por el bienestar de otros, o culpa relacionada con algo que salió mal y afectó a personas cercanas.</p>
+
+<h2>Si has tenido un accidente real</h2>
+
+<p>Si has vivido un accidente de coche (o algo traumático relacionado con el tráfico), los sueños pueden ser parte del procesamiento de esa experiencia. El cerebro repite los eventos con alta carga emocional como parte de su mecanismo de integración. Si los sueños son frecuentes, muy vívidos y generan activación intensa al despertar, puede valer la pena hablar con alguien sobre ese procesamiento.</p>
+
+<h2>Si conduces habitualmente y tienes ansiedad al volante</h2>
+
+<p>También puede ser un procesamiento directo de esa ansiedad. El cerebro ensaya los escenarios que más teme. En ese caso, el sueño no tiene mucho más simbolismo que la ansiedad real: es el miedo al accidente siendo procesado por la noche.</p>
+
+<h2>La pregunta que conecta el sueño con la vida real</h2>
+
+<p>¿Qué situación en tu vida ahora mismo sientes que va a demasiada velocidad, que podría salirse de curso, o donde sientes que no tienes suficiente control?</p>
+
+<p>Si los sueños de accidente aparecen junto con otros sueños de ansiedad, hay más sobre cómo el cerebro procesa esa presión en <a href="/blog/por-que-suenas-mas-cuando-estas-estresado">por qué los sueños se intensifican cuando estás estresado</a>. Y si hay una sensación más amplia de que las cosas se escapan de las manos, puede conectar con <a href="/blog/sonar-que-no-puedes-correr">soñar que no puedes correr o que el cuerpo no responde</a>.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 35: Sueños Recurrentes — No puedes hablar o gritar ────────────
+  {
+    slug: "sonar-que-no-puedes-hablar-o-gritar",
+    title: "Soñar que no puedes hablar, gritar o que nadie te escucha",
+    excerpt:
+      "Intentas gritar y no sale nada. Hablas pero nadie responde. Es uno de los sueños más frustrantes y tiene una relación directa con situaciones donde sientes que tu voz no llega.",
+    category: "Sueños Recurrentes",
+    categorySlug: "suenos-recurrentes",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/suenos-recurrentes/sonar-que-no-puedes-hablar.webp",
+    coverAlt: "Figura con boca abierta en silencio sobre fondo oscuro",
+    tags: ["no puedes hablar", "gritar", "voz", "silencio", "ignorado", "expresión", "sueños recurrentes", "frustración"],
+    content: `
+<p>Abres la boca y no sale nada. O sale un susurro donde debería haber un grito. O hablas con claridad pero la persona que tienes delante actúa como si no existieras. Es uno de los sueños más frustrantes que hay, y también uno de los que más información directa da sobre lo que está pasando.</p>
+
+<h2>Por qué el cerebro bloquea la voz en el sueño</h2>
+
+<p>Hay una razón fisiológica parcial: durante el REM, la musculatura está inhibida, incluyendo la de la garganta. Intentar gritar en un sueño puede activar esa inhibición y producir exactamente la experiencia de voz bloqueada.</p>
+
+<p>Pero como con otros sueños de bloqueo físico, eso no explica por qué aparece en ciertos momentos más que en otros. La parte emocional tiene tanto peso como la biológica.</p>
+
+<h2>Lo que casi siempre hay detrás</h2>
+
+<p>La voz en los sueños representa la capacidad de expresarse, de ser escuchado, de hacer llegar lo que uno piensa o siente. Cuando esa voz no funciona en el sueño, casi siempre hay algo paralelo en la vida real:</p>
+
+<ul>
+<li><strong>Algo que quieres decir y no dices:</strong> una conversación pendiente, algo que te callas por miedo al conflicto, a decepcionar o a las consecuencias.</li>
+<li><strong>Sensación de no ser escuchado:</strong> hablas pero sientes que no importa, que las decisiones ya están tomadas, que tu opinión no cambia nada.</li>
+<li><strong>Contextos donde te sientes sin voz:</strong> trabajo, relación, familia. Entornos donde la dinámica de poder hace que expresarte se sienta inútil o peligroso.</li>
+<li><strong>Emoción reprimida que necesita salir:</strong> rabia, dolor, miedo que lleva tiempo sin expresarse. El grito que no sale en el sueño puede ser la imagen de eso.</li>
+</ul>
+
+<h2>Las variantes y qué señalan</h2>
+
+<h3>Intentas gritar pero no sale sonido</h3>
+<p>La versión más intensa. Hay algo urgente que comunicar (peligro, dolor, necesidad) y el canal está bloqueado. Casi siempre apunta a una situación donde sientes que necesitas que te escuchen de verdad y no encuentras la forma o el momento.</p>
+
+<h3>Hablas pero nadie te escucha o te ignoran</h3>
+<p>Aquí la voz funciona pero el efecto no llega. Esto es distinto al bloqueo: la sensación es de invisibilidad más que de mudez. Puede reflejar dinámicas donde sientes que expresas lo que necesitas pero no tiene ningún impacto, que tus palabras no tienen peso para los demás.</p>
+
+<h3>Tu voz sale diferente (demasiado suave, distorsionada, incomprensible)</h3>
+<p>Algo se pierde en la traducción entre lo que quieres decir y cómo llega. Puede señalar dificultad para articular algo importante, la sensación de que no encuentras las palabras correctas para algo que sientes con claridad, o que cuando te expresas no resulta como querías.</p>
+
+<h3>Intentas pedir ayuda y nadie responde</h3>
+<p>La combinación de necesidad + ausencia de respuesta es especialmente cargada. Puede reflejar una etapa en que sientes que necesitas apoyo y no lo encuentras, o el miedo a necesitar ayuda y no recibirla.</p>
+
+<h2>Si el sueño se repite</h2>
+
+<p>Como con otros sueños recurrentes, la repetición señala que algo lleva tiempo sin resolverse. Si el sueño de voz bloqueada aparece una y otra vez, hay algo en la vida real que sigue sin decirse o sin ser escuchado.</p>
+
+<p>La pregunta concreta: ¿qué hay que no estás diciendo? ¿A quién? ¿Y qué impide que lo digas?</p>
+
+<p>Si el bloqueo va más allá de la voz y hay una sensación más amplia de que el cuerpo no responde como debería, puede conectar con <a href="/blog/sonar-que-no-puedes-correr">soñar que no puedes correr o que las piernas no responden</a>. Ambos sueños comparten la misma estructura de impotencia, solo cambia el canal bloqueado.</p>
+
+<p>Y si hay un patrón más amplio de sueños recurrentes con bloqueo o pérdida de control, hay más sobre por qué el cerebro vuelve a esos patrones en <a href="/blog/suenos-recurrentes-por-que-el-cerebro-repite">por qué se repiten los sueños</a>.</p>
+    `,
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
