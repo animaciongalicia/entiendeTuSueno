@@ -3811,6 +3811,326 @@ export const articles: Article[] = [
 <p>Si los sueños con agua aparecen junto con otros sueños de ansiedad o presión, puede que también te interese leer sobre <a href="/blog/suenos-recurrentes-por-que-el-cerebro-repite">por qué el cerebro repite los mismos patrones</a> en sus sueños cuando hay algo sin resolver.</p>
     `,
   },
+
+  // ─── ARTÍCULO 17: Sueños Recurrentes ────────────────────────────────────────
+  {
+    slug: "sonar-que-te-mueres",
+    title: "Soñar que te mueres: lo que tu cerebro está procesando",
+    excerpt:
+      "Soñar con la propia muerte es uno de los sueños que más asustan, pero casi nunca significa lo que parece. Entender qué hay detrás puede convertirlo en una señal útil.",
+    category: "Sueños Recurrentes",
+    categorySlug: "suenos-recurrentes",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 8,
+    coverImage: "/images/blog/suenos-recurrentes/sonar-que-te-mueres.webp",
+    coverAlt: "Figura difuminada disolviéndose en luz suave",
+    tags: ["muerte", "morir en sueños", "transformación", "cambio", "estrés", "sueños recurrentes"],
+    content: `
+<p>Despiertas con el corazón acelerado. Acabas de soñar que morías, y aunque todo era un sueño, la sensación tarda en irse. Es normal que el primer impulso sea buscar qué significa, o preocuparse por si es un presagio.</p>
+
+<p>No lo es. Soñar con la propia muerte es uno de los sueños más comunes, y raramente tiene que ver con la muerte literal. Lo que sí suele tener es un mensaje claro sobre lo que estás viviendo.</p>
+
+<h2>Por qué el cerebro escenifica la muerte</h2>
+
+<p>Durante el sueño, el cerebro usa imágenes extremas para representar estados emocionales intensos. La muerte es la metáfora definitiva del cambio radical, del final de algo, del cierre. No es casualidad que aparezca justo en momentos de transición, presión o transformación.</p>
+
+<p>No es una predicción ni una advertencia sobrenatural. Es el lenguaje del cerebro cuando quiere decir: <em>algo en ti está terminando, o siente que podría terminar.</em></p>
+
+<h2>Las situaciones que lo desencadenan más</h2>
+
+<p>Estos sueños son especialmente frecuentes en tres tipos de momentos:</p>
+
+<ul>
+<li><strong>Cambios de etapa:</strong> terminar una relación, un trabajo, una fase de la vida. El cerebro escenifica el fin de una identidad anterior.</li>
+<li><strong>Presión o agotamiento extremo:</strong> cuando la carga emocional o física lleva semanas acumulada sin salida, el sueño puede simbolizar el deseo de que todo pare.</li>
+<li><strong>Miedo al fracaso o a decepcionar:</strong> en personas con alta autoexigencia, soñar con la propia muerte a veces representa el miedo a "morir simbólicamente" ante los demás, a fallar de un modo irreparable.</li>
+</ul>
+
+<p>Si estás en una etapa de mucho estrés laboral, puede haber conexión con lo que describes en <a href="/blog/suenos-con-ansiedad-laboral">sueños relacionados con la ansiedad en el trabajo</a>.</p>
+
+<h2>Las formas más comunes del sueño y qué representan</h2>
+
+<h3>Morir de forma violenta o repentina</h3>
+<p>Suele asociarse con situaciones que se sienten fuera de control. Algo en la vida real parece que puede "acabar con todo" de golpe: un conflicto, una deuda, una decisión que no se puede deshacer. El cerebro lo traduce literalmente.</p>
+
+<h3>Morirse lentamente o estar enfermo en el sueño</h3>
+<p>Este patrón aparece más cuando hay un desgaste gradual: una relación que se agota, un trabajo que drena sin dar nada a cambio, o una situación que lleva meses deteriorándose. La muerte lenta en el sueño refleja ese proceso de erosión.</p>
+
+<h3>Saber que vas a morir pero no haber muerto aún</h3>
+<p>Uno de los patrones más extraños: en el sueño sabes que vas a morir, lo asumes, pero el sueño termina antes. Esto suele aparecer cuando hay algo pendiente de resolver, una decisión postergada, una conversación que no se ha tenido. El cerebro mantiene la tensión abierta porque tú también la mantienes.</p>
+
+<h3>Morir y observarlo desde fuera</h3>
+<p>Cuando en el sueño te ves morir como si fueras un espectador, hay más distancia emocional. Puede indicar que estás procesando el fin de una versión de ti mismo con cierta perspectiva: algo está cambiando, lo percibes, y parte de ti ya lo ha aceptado.</p>
+
+<h2>¿Qué pasa si el sueño se repite?</h2>
+
+<p>Un sueño puntual de muerte propia suele ser la respuesta a un evento concreto. Si se repite varias veces seguidas, hay algo que el cerebro está intentando procesar sin conseguirlo del todo.</p>
+
+<p>La pregunta útil no es "¿qué significa que me muera en el sueño?" sino: ¿qué situación en mi vida real tiene la misma estructura emocional? ¿Hay algo que siente que podría "destruirte", o que ya está terminando aunque no lo hayas aceptado del todo?</p>
+
+<p>Los sueños repetitivos en general funcionan como señales de que el cerebro sigue dando vueltas a algo. Si quieres entender mejor ese mecanismo, hay más sobre <a href="/blog/suenos-recurrentes-por-que-el-cerebro-repite">por qué el cerebro repite ciertos sueños</a> cuando hay algo sin resolver.</p>
+
+<h2>Lo que no significa</h2>
+
+<p>Vale la pena nombrarlo directamente, porque es lo primero que mucha gente teme:</p>
+
+<ul>
+<li>No es un presagio de muerte real.</li>
+<li>No indica deseos inconscientes de hacerse daño (si esos pensamientos existen en vigilia, eso ya es otra cosa y merece atención profesional).</li>
+<li>No significa que tu subconsciente "sepa algo" que tú no sabes.</li>
+</ul>
+
+<p>Es el cerebro usando la imagen más extrema que tiene disponible para representar algo que le preocupa o que está procesando. Nada más, nada menos.</p>
+
+<h2>Cómo trabajar con este sueño</h2>
+
+<p>Si el sueño te inquieta o se repite, un ejercicio sencillo:</p>
+
+<ol>
+<li>Escribe cómo fue la muerte en el sueño: las circunstancias, quién estaba, cómo te sentiste.</li>
+<li>Pregúntate: ¿qué hay en mi vida real que tenga esa misma estructura? ¿Algo que se siente amenazado, que está terminando, que podría colapsar?</li>
+<li>Si identifies algo concreto, el sueño ya ha cumplido su función: señalar lo que merece atención.</li>
+</ol>
+
+<p>Los sueños con muerte también pueden aparecer en momentos de pérdida o duelo. Si estás en ese proceso, puede ser útil leer sobre <a href="/blog/suenos-durante-el-duelo">cómo funcionan los sueños cuando estás de duelo</a>.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 18: Trabajo y Dinero ──────────────────────────────────────────
+  {
+    slug: "suenos-con-dinero",
+    title: "Sueños con dinero: encontrarlo, perderlo o que te lo roban",
+    excerpt:
+      "El dinero en los sueños casi nunca es literal. Descubre qué representa según cómo aparece: si lo encuentras, lo pierdes, te lo roban o no te alcanza.",
+    category: "Trabajo y Dinero",
+    categorySlug: "trabajo-y-dinero",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/trabajo-y-dinero/suenos-con-dinero.webp",
+    coverAlt: "Monedas y billetes difuminados sobre superficie oscura",
+    tags: ["dinero", "riqueza", "pérdida", "robo", "recursos", "trabajo", "seguridad"],
+    content: `
+<p>Soñar con dinero es mucho más frecuente de lo que parece. Y tiene sentido: el dinero no es solo un medio de pago, es una carga emocional enorme. Representa seguridad, libertad, valía, control. Cuando el cerebro lo usa en un sueño, casi nunca está hablando de tu cuenta bancaria.</p>
+
+<h2>Qué simboliza el dinero en los sueños</h2>
+
+<p>Para entender estos sueños, ayuda separar lo que el dinero significa en la vida real de lo que representa emocionalmente. En la mayoría de los sueños, el dinero funciona como símbolo de:</p>
+
+<ul>
+<li><strong>Recursos personales:</strong> energía, tiempo, capacidad, autoestima.</li>
+<li><strong>Seguridad y control:</strong> la sensación de que tienes suficiente, o de que algo se te escapa.</li>
+<li><strong>Intercambio y valor:</strong> lo que das y lo que recibes en tus relaciones, trabajo o proyectos.</li>
+</ul>
+
+<p>Con ese marco, los distintos escenarios tienen lecturas distintas.</p>
+
+<h2>Encontrar dinero en el sueño</h2>
+
+<p>Es uno de los sueños con dinero que más gustan, y también uno de los que más confusión generan porque la gente espera que se cumpla en la vida real.</p>
+
+<p>Encontrar dinero inesperado suele reflejar:</p>
+<ul>
+<li>El reconocimiento de recursos o capacidades que tenías pero no valorabas.</li>
+<li>Una sensación reciente de que algo se está abriendo: una oportunidad, un cambio, una solución que no veías.</li>
+<li>Autoestima en alza o la sensación de que algo que hiciste tuvo más valor del que pensabas.</li>
+</ul>
+
+<p>La emoción dentro del sueño importa mucho aquí. Encontrar dinero y sentir alegría genuina es distinto a encontrarlo y sentir ansiedad (¿de quién es?, ¿me van a reclamar?, ¿es real?). Esa segunda versión apunta más a ambivalencia frente a algo que se presenta como buena noticia pero genera inseguridad.</p>
+
+<h2>Perder dinero en el sueño</h2>
+
+<p>Soñar que pierdes dinero, que lo malgastas o que de repente no tienes suficiente es muy común en personas que viven con presión financiera real, pero también aparece mucho en personas con miedo al fracaso o a no estar a la altura.</p>
+
+<p>Los patrones más habituales:</p>
+
+<ul>
+<li><strong>Perder la cartera o el efectivo:</strong> sensación de perder el control de algo que creías tener asegurado. No siempre es dinero real, puede ser una oportunidad, una relación, una posición.</li>
+<li><strong>Gastar de más sin querer:</strong> estrés por recursos que se agotan, ya sean económicos, emocionales o de tiempo. Si llevas semanas sintiéndote "vacío" tras dar mucho a los demás, este sueño es coherente.</li>
+<li><strong>No tener suficiente para pagar algo:</strong> miedo a no estar a la altura de una exigencia concreta. En el trabajo, en una relación, en un proyecto.</li>
+</ul>
+
+<h2>Que te roben el dinero</h2>
+
+<p>Este es uno de los sueños con más carga emocional. La diferencia entre perder dinero y que te lo roben es la injusticia, alguien te lo quita.</p>
+
+<p>Soñar con un robo suele conectar con situaciones donde sientes que:</p>
+<ul>
+<li>Alguien se está aprovechando de tu trabajo o de tu esfuerzo sin reconocerlo.</li>
+<li>Una relación o situación te está costando mucho más de lo que te aporta.</li>
+<li>Sientes que tu tiempo, tu energía o tu valía no se están respetando.</li>
+</ul>
+
+<p>Si en el sueño reconoces al ladrón, la lectura es más directa: puede que esa persona o ese contexto (un trabajo, una relación) sea donde se concentra esa sensación de que algo se te está quitando.</p>
+
+<h2>Tener mucho dinero de repente</h2>
+
+<p>Soñar con una fortuna inesperada, con ganar la lotería o con tener más dinero del que puedes gestionar, a veces no es tan positivo como parece dentro del sueño. Puede generar ansiedad, confusión o miedo a perderlo.</p>
+
+<p>Este tipo de sueño aparece cuando hay un cambio o una oportunidad real que se siente demasiado grande para manejar. El cerebro procesa la abundancia repentina como algo desconcertante si no estás acostumbrado a recibirla, o si hay creencias internas sobre no merecer demasiado.</p>
+
+<h2>Dinero sucio, falso o sospechoso</h2>
+
+<p>Si en el sueño el dinero tiene algo raro, es falso, está manchado o viene de un lugar dudoso, hay una capa moral en el procesamiento. Puede reflejar dilemas éticos en el trabajo o en decisiones que tienes que tomar, la sensación de que algo que estás consiguiendo no es del todo limpio, o culpa relacionada con cómo estás ganando o gastando recursos.</p>
+
+<h2>La pregunta que conecta todo</h2>
+
+<p>Sea cual sea la variante, la pregunta útil con los sueños de dinero es: ¿en qué área de mi vida siento que los recursos (tiempo, energía, reconocimiento, oportunidades) no están equilibrados ahora mismo?</p>
+
+<p>Si los sueños con dinero coinciden con una etapa de mucha presión laboral, puede haber una conexión directa con lo que describes en <a href="/blog/suenos-con-ansiedad-laboral">sueños relacionados con el trabajo y la ansiedad</a>. Y si nots que estos sueños se repiten sin que entiendas por qué, puede valer la pena leer sobre <a href="/blog/suenos-recurrentes-por-que-el-cerebro-repite">por qué el cerebro repite ciertos patrones</a> cuando algo sigue sin resolverse.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 19: Ciencia del Sueño ─────────────────────────────────────────
+  {
+    slug: "por-que-suenas-mas-cuando-estas-estresado",
+    title: "Por qué sueñas más (y peor) cuando estás estresado",
+    excerpt:
+      "En etapas de estrés, los sueños se vuelven más intensos, más raros y más difíciles de olvidar. Hay una razón biológica clara para eso, y entenderla ayuda.",
+    category: "Ciencia del Sueño",
+    categorySlug: "ciencia-del-sueno",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/ciencia-del-sueno/suenos-estres.webp",
+    coverAlt: "Cabeza humana con ondas cerebrales activas sobre fondo oscuro",
+    tags: ["estrés", "cortisol", "REM", "pesadillas", "calidad del sueño", "neurociencia", "ansiedad"],
+    content: `
+<p>Hay algo que mucha gente nota en etapas difíciles: los sueños se disparan. Se vuelven más vívidos, más raros, más cargados emocionalmente, y cuesta más sacudírselos al despertar. No es casualidad ni imaginación.</p>
+
+<p>El estrés altera el sueño de formas muy concretas, y entender qué pasa puede quitarle parte de la angustia a esas noches.</p>
+
+<h2>Qué le hace el estrés al sueño</h2>
+
+<p>Cuando el sistema nervioso está activado, el cuerpo libera cortisol, la hormona del estrés. Esta hormona tiene un ritmo natural: alta por la mañana para activarte, baja por la noche para que puedas descansar. En situaciones de estrés prolongado, ese ritmo se desajusta.</p>
+
+<p>El resultado más directo es que el sueño se fragmenta. Te cuesta más conciliar el sueño, te despiertas más veces durante la noche, y las fases de sueño profundo se acortan. Pero hay un efecto secundario menos conocido: las fases REM, donde ocurren la mayoría de los sueños, se alargan y se intensifican.</p>
+
+<h2>El REM bajo estrés: más activo, más cargado</h2>
+
+<p>En condiciones normales, el REM tiene una función principal: procesar las emociones del día, consolidar recuerdos y crear conexiones entre experiencias. Cuando el estrés es alto, hay mucho más material emocional para procesar, y el cerebro responde con más REM.</p>
+
+<p>Pero no es un REM reparador. Es un REM de trabajo intenso: el cerebro revisa situaciones sin resolver, escenifica miedos, ensaya respuestas posibles. De ahí que los sueños en etapas de estrés sean más narrativos, más emocionales y más difíciles de ignorar.</p>
+
+<p>Esto también explica por qué en esas etapas sueñas más con el trabajo, con conflictos pendientes o con situaciones que generan ansiedad. El cerebro no "elige" esos temas para torturarte, los procesa porque son los que más energía emocional llevan encima. Si quieres entender más sobre cómo ese proceso afecta a los sueños laborales específicamente, hay más en <a href="/blog/suenos-con-ansiedad-laboral">sueños relacionados con la ansiedad en el trabajo</a>.</p>
+
+<h2>Por qué recuerdas más los sueños cuando estás estresado</h2>
+
+<p>Hay una paradoja: la gente cree que recuerda más sus sueños en etapas de estrés porque sueña más. En parte es cierto, pero la razón principal es otra.</p>
+
+<p>Los sueños se recuerdan mejor cuando te despiertas durante o justo después de una fase REM. El estrés fragmenta el sueño y provoca más despertares nocturnos, muchos de ellos en medio del REM. Resultado: más sueños recordados, más intensos, con más detalle.</p>
+
+<p>En etapas de sueño tranquilo y continuo, las fases REM ocurren pero te despiertas después de sueño profundo, no en medio de ellas, y los sueños se borran. No es que sueñes menos, es que no te despiertas en el momento adecuado para recordarlos.</p>
+
+<h2>Las pesadillas como herramienta de procesamiento</h2>
+
+<p>Otro efecto del estrés sobre los sueños son las pesadillas. No todas las pesadillas indican un problema: muchas son el cerebro ensayando escenarios de amenaza para prepararse mejor.</p>
+
+<p>Las investigaciones sobre sueño y trauma sugieren que las pesadillas frecuentes en etapas de estrés agudo son parte del proceso de regulación emocional. El cerebro repite el escenario perturbador no para torturarte sino para intentar procesarlo y reducir su carga emocional. El problema aparece cuando ese proceso no funciona bien y las pesadillas se vuelven crónicas sin que la carga disminuya.</p>
+
+<h2>Estrés crónico vs. estrés puntual</h2>
+
+<p>Hay una diferencia importante entre los sueños de una semana de mucha presión y los sueños de alguien que lleva meses o años bajo estrés continuo.</p>
+
+<p>En el estrés puntual, los sueños intensos son temporales. Cuando la situación se resuelve, el sueño vuelve a regularse y los sueños pierden intensidad. Es el ciclo normal.</p>
+
+<p>En el estrés crónico, el ciclo no cierra. Los sueños siguen siendo intensos, los mismos temas aparecen una y otra vez, y el sueño nunca acaba de ser reparador. Aquí es donde empieza a tener sentido hablar de sueños recurrentes como señal de algo más arraigado. Si reconoces ese patrón, hay más sobre <a href="/blog/suenos-recurrentes-por-que-el-cerebro-repite">por qué el cerebro repite ciertos sueños</a> cuando algo lleva tiempo sin resolverse.</p>
+
+<h2>Qué puedes hacer con esta información</h2>
+
+<p>Entender el mecanismo no elimina el estrés, pero sí cambia la relación con los sueños que genera. Algunos puntos prácticos:</p>
+
+<ul>
+<li><strong>No interpretes los sueños de estrés como presagios.</strong> Son procesamiento emocional, no predicciones.</li>
+<li><strong>Observa los temas que se repiten.</strong> Si el cerebro vuelve siempre a lo mismo, ahí hay algo que merece atención en vigilia.</li>
+<li><strong>Lo que mejora el estrés mejora los sueños.</strong> No hay atajos: reducir la carga emocional durante el día es lo que más impacto tiene en la calidad del sueño nocturno.</li>
+<li><strong>Si los sueños intensos te despiertan muy activado,</strong> unos minutos antes de dormirte haciendo algo que baje la activación (respiración lenta, lectura tranquila) pueden suavizar el REM de las primeras horas.</li>
+</ul>
+
+<p>Si además de soñar más estás teniendo dificultades para recordar los sueños en otros momentos, puede interesarte leer <a href="/blog/por-que-no-recuerdas-tus-suenos">por qué no recuerdas los sueños</a> y qué factores influyen en eso.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 20: Relaciones ─────────────────────────────────────────────────
+  {
+    slug: "suenos-con-personas-del-pasado",
+    title: "Soñar con personas del pasado que ya no están en tu vida",
+    excerpt:
+      "Un amigo de la infancia, un ex, alguien con quien perdiste el contacto. Soñar con personas del pasado no significa que quieras volver, sino que hay algo que todavía procesas.",
+    category: "Relaciones",
+    categorySlug: "relaciones",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 8,
+    coverImage: "/images/blog/relaciones/suenos-personas-pasado.webp",
+    coverAlt: "Silueta mirando hacia atrás en un corredor iluminado",
+    tags: ["personas del pasado", "ex pareja", "nostalgia", "duelo", "relaciones", "recuerdos", "inconsciente"],
+    content: `
+<p>Aparece alguien en tu sueño que hace años que no ves. Puede ser un amigo de la infancia, una ex pareja, un familiar con quien te distanciaste, o alguien que murió. Despiertas con una sensación extraña, y la primera pregunta es: ¿por qué esta persona, ahora?</p>
+
+<p>La respuesta casi nunca tiene que ver con esa persona en sí.</p>
+
+<h2>Por qué el cerebro convoca a personas del pasado</h2>
+
+<p>El cerebro no organiza los recuerdos por fechas. Los organiza por emociones y patrones. Cuando una situación actual activa el mismo circuito emocional que algo que viviste antes, el cerebro puede traer la imagen de aquella persona o aquel momento como referencia.</p>
+
+<p>En la práctica: si sueñas con un amigo de la infancia, puede que no estés procesando esa amistad en sí, sino algo relacionado con lo que esa persona representaba. Despreocupación, pertenencia, una versión de ti que era distinta, una época antes de cierta pérdida.</p>
+
+<h2>Las personas del pasado como símbolos</h2>
+
+<p>Una forma útil de leer estos sueños es tratar a la persona que aparece no como ella misma sino como un símbolo de algo:</p>
+
+<ul>
+<li>¿Qué te viene a la cabeza cuando piensas en esa persona? ¿Qué época de tu vida representa?</li>
+<li>¿Qué emoción te generaba esa relación? ¿Seguridad, admiración, conflicto, culpa, nostalgia?</li>
+<li>¿Hay algo en tu vida actual que tenga esa misma textura emocional?</li>
+</ul>
+
+<p>Cuando encuentras esa conexión, el sueño deja de ser confuso y empieza a tener sentido.</p>
+
+<h2>Soñar con una ex pareja</h2>
+
+<p>Es el caso que más preguntas genera, y el que más malentendidos produce. La gente teme que soñar con una ex pareja signifique que todavía tiene sentimientos, que no ha superado la relación, o que querría volver.</p>
+
+<p>A veces puede ser así. Pero la mayoría de las veces no.</p>
+
+<p>Las ex parejas aparecen en sueños por varios motivos que no tienen que ver con desear volver:</p>
+<ul>
+<li><strong>Una nueva relación o situación romántica</strong> activa comparaciones o inseguridades que el cerebro procesa trayendo imágenes de antes.</li>
+<li><strong>Algo sin cerrar emocionalmente:</strong> no tiene que ser amor no resuelto, puede ser una conversación que no se tuvo, una injusticia que no se procesó, culpa que quedó pendiente.</li>
+<li><strong>Nostalgia de una versión de ti mismo:</strong> a veces no echas de menos a la persona, sino a quién eras durante esa etapa.</li>
+</ul>
+
+<p>Si estás en medio de una ruptura reciente y los sueños son intensos, hay más sobre cómo funciona ese proceso en <a href="/blog/suenos-en-medio-de-una-ruptura">sueños durante una ruptura</a>.</p>
+
+<h2>Soñar con alguien que ha fallecido</h2>
+
+<p>Estos sueños tienen una cualidad diferente. Cuando la persona que aparece ya no está viva, el sueño suele cargarse de más emoción, y muchas veces la gente despierta con una mezcla de consuelo y tristeza.</p>
+
+<p>No hay evidencia de que estos sueños sean visitas o mensajes del más allá, aunque para quien los vive pueden sentirse exactamente así. Lo que sí hay es evidencia de que el cerebro sigue procesando la relación con esa persona mucho después de la muerte, especialmente si el duelo fue complicado o si quedaron cosas sin decir.</p>
+
+<p>Soñar con alguien fallecido durante el proceso de duelo es completamente normal y, en muchos casos, forma parte del procesamiento emocional. Hay más sobre esto en <a href="/blog/suenos-durante-el-duelo">cómo funcionan los sueños cuando estás de duelo</a>.</p>
+
+<h2>Soñar con alguien con quien hubo un conflicto</h2>
+
+<p>Cuando la persona del pasado es alguien con quien hubo una ruptura dolorosa, una traición, o un conflicto que nunca se resolvió bien, el sueño suele traer emociones más intensas: rabia, tristeza, confusión, o a veces una reconciliación que en la vida real no ocurrió.</p>
+
+<p>Esas reconciliaciones en sueños no significan que "en el fondo" quieras perdonar o retomar la relación. A menudo son el cerebro buscando resolución emocional para algo que todavía pesa. La mente necesita cierre aunque la situación real no lo haya dado.</p>
+
+<h2>Cuando el sueño se repite</h2>
+
+<p>Si la misma persona del pasado aparece una y otra vez, hay algo que el cerebro sigue intentando procesar sin conseguirlo. En ese caso vale la pena ir un poco más allá de "¿qué significa esta persona?" y preguntarse: ¿qué patrón emocional sigo sin resolver en mi vida actual?</p>
+
+<p>Los sueños repetitivos con personas concretas suelen ser señal de que algo relacionado con lo que esa persona representaba, una dinámica, un tipo de vínculo, una emoción pendiente, sigue activo. Más sobre cómo funciona ese mecanismo en <a href="/blog/suenos-recurrentes-por-que-el-cerebro-repite">por qué el cerebro repite ciertos sueños</a>.</p>
+
+<h2>La pregunta que más ayuda</h2>
+
+<p>Después de un sueño con alguien del pasado, en lugar de preguntarte "¿por qué soñé con esta persona?", prueba con: ¿qué emoción me dejó el sueño, y dónde está esa emoción en mi vida ahora mismo?</p>
+
+<p>Esa pregunta conecta el sueño con lo que realmente está pasando, que es donde está la información útil.</p>
+    `,
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
