@@ -4131,6 +4131,292 @@ export const articles: Article[] = [
 <p>Esa pregunta conecta el sueño con lo que realmente está pasando, que es donde está la información útil.</p>
     `,
   },
+
+  // ─── ARTÍCULO 21: Símbolos en Sueños ────────────────────────────────────────
+  {
+    slug: "sonar-con-tu-casa",
+    title: "Soñar con tu casa o una habitación desconocida: qué representa",
+    excerpt:
+      "La casa es uno de los símbolos más ricos en los sueños. Cada espacio refleja algo distinto: quién eres, lo que ocultas, lo que has olvidado o lo que todavía no has explorado.",
+    category: "Símbolos en Sueños",
+    categorySlug: "simbolos-en-suenos",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 8,
+    coverImage: "/images/blog/simbolos-en-suenos/sonar-con-tu-casa.webp",
+    coverAlt: "Interior de una casa antigua con puertas entornadas y luz cálida al fondo",
+    tags: ["casa", "habitación", "hogar", "infancia", "identidad", "símbolos", "inconsciente"],
+    content: `
+<p>La casa es uno de los escenarios más frecuentes en los sueños, y también uno de los que más información puede dar. No es solo un telón de fondo: en los sueños, la casa suele representar a la persona que sueña, su psique, su mundo interior.</p>
+
+<p>La estructura del edificio, el estado en que se encuentra, las habitaciones que aparecen y las que están cerradas, todo eso tiene su lectura.</p>
+
+<h2>La casa como representación de uno mismo</h2>
+
+<p>En psicología del sueño, la casa aparece repetidamente como símbolo del yo. Cada planta, cada habitación, cada espacio tiene su propia carga:</p>
+
+<ul>
+<li><strong>El sótano o las habitaciones subterráneas:</strong> lo que está enterrado, los aspectos que no sueles mirar, recuerdos o emociones que han quedado al margen.</li>
+<li><strong>La planta baja:</strong> la vida cotidiana, las relaciones más inmediatas, lo que está a la vista.</li>
+<li><strong>Las habitaciones superiores o el ático:</strong> pensamientos, aspiraciones, lo que está "por encima" de la vida diaria.</li>
+<li><strong>Las habitaciones cerradas o desconocidas:</strong> partes de uno mismo sin explorar, aspectos que no se han integrado, o cosas que se prefieren no mirar.</li>
+</ul>
+
+<h2>Soñar con tu casa de la infancia</h2>
+
+<p>Es uno de los sueños más comunes y de los que más emociones despiertan. Volver a la casa donde creciste en un sueño casi siempre activa una mezcla de nostalgia, extrañeza y, a veces, angustia.</p>
+
+<p>Estos sueños suelen aparecer en momentos de cambio o incertidumbre. El cerebro vuelve a un espacio conocido como forma de procesar algo nuevo que genera inseguridad. No es necesariamente un deseo de volver atrás; muchas veces es una búsqueda de estabilidad o de referencia.</p>
+
+<p>También pueden señalar que algo de esa etapa sigue influyendo en el presente, una dinámica familiar, una forma de relacionarse, una creencia que se formó entonces y que sigue activa sin que te hayas dado cuenta del todo.</p>
+
+<h2>Encontrar habitaciones que no sabías que existían</h2>
+
+<p>Este es uno de los sueños de casa más particulares, y uno de los que más llaman la atención a quien los tiene: de repente descubres una habitación nueva, un pasillo oculto, una planta que no existía.</p>
+
+<p>Suele aparecer en momentos de apertura o crecimiento: cuando algo nuevo está empezando, cuando hay una capacidad o posibilidad que empieza a surgir. La habitación desconocida representa algo que estaba en ti pero que todavía no habías reconocido.</p>
+
+<p>Si la reacción en el sueño es de curiosidad y entusiasmo, el tono es exploratorio. Si es de miedo o rechazo, puede haber algo que se está resistiendo a ver o integrar.</p>
+
+<h2>Una casa en ruinas o deteriorada</h2>
+
+<p>Soñar que tu casa está en mal estado, con grietas, humedades, paredes cayéndose, suele reflejar una sensación de deterioro en algún área de la vida. No tiene que ser literal: puede ser el estado de una relación, de la salud emocional, de un proyecto que se está descuidando.</p>
+
+<p>La parte de la casa que está dañada puede orientar hacia qué área es. Una fachada deteriorada puede apuntar a la imagen que proyectas. Una cocina en ruinas puede relacionarse con el cuidado de uno mismo o de los demás. Un techo que se hunde puede señalar algo que se siente amenazado desde arriba, una presión externa, una responsabilidad que pesa demasiado.</p>
+
+<h2>Una casa desconocida que en el sueño "es la tuya"</h2>
+
+<p>Otro patrón frecuente: en el sueño estás en una casa que no reconoces, pero de alguna manera sabes que es tu casa. Esta disonancia entre lo conocido y lo extraño es significativa.</p>
+
+<p>Puede reflejar que estás en un momento de transición, que la imagen que tienes de ti mismo o de tu vida está cambiando. Ya no eres exactamente quien eras, pero la nueva versión todavía no se siente del todo familiar.</p>
+
+<h2>Una casa con personas dentro</h2>
+
+<p>Cuando la casa del sueño no está sola sino que hay otras personas en ella, el foco se desplaza hacia las relaciones. ¿Quiénes son, qué hacen, cómo te sientes tú en ese espacio compartido? ¿Tienes tu lugar, o alguien ocupa demasiado espacio?</p>
+
+<p>Si hay personas que no deberían estar ahí, intrusos o visitas incómodas, puede que haya algo en tu vida real que sientes que invade un espacio que es tuyo.</p>
+
+<h2>Cómo leer el sueño con tu casa</h2>
+
+<p>Las tres preguntas que más ayudan:</p>
+
+<ol>
+<li>¿En qué estado estaba la casa: cuidada, deteriorada, enorme, pequeña, familiar, extraña?</li>
+<li>¿Cómo te sentiste dentro: cómodo, agobiado, explorador, asustado, nostálgico?</li>
+<li>¿Qué parte de tu vida real tiene ahora mismo esa misma textura?</li>
+</ol>
+
+<p>Si los sueños con espacios aparecen junto a sueños de agua o de persecución, puede que haya un patrón emocional más amplio que vale la pena observar. Puedes leer sobre <a href="/blog/suenos-con-agua">lo que simboliza el agua en los sueños</a> o sobre <a href="/blog/suenos-recurrentes-por-que-el-cerebro-repite">por qué el cerebro repite ciertos escenarios</a> cuando algo sigue sin resolverse.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 22: Cuerpo y Mente ────────────────────────────────────────────
+  {
+    slug: "sonar-con-embarazo",
+    title: "Soñar con un embarazo (aunque no estés embarazada ni quieras estarlo)",
+    excerpt:
+      "Los sueños con embarazos son muy frecuentes en personas que no están embarazadas. Casi siempre tienen que ver con algo que está naciendo en tu vida, no con un bebé real.",
+    category: "Cuerpo y Mente",
+    categorySlug: "cuerpo-y-mente",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/cuerpo-y-mente/sonar-con-embarazo.webp",
+    coverAlt: "Figura femenina de perfil con luz suave y formas redondeadas difuminadas",
+    tags: ["embarazo", "bebé", "creación", "proyecto", "transformación", "cuerpo", "fertilidad"],
+    content: `
+<p>Sueñas que estás embarazada. Y al despertar lo primero que piensas es: ¿qué significa esto? Especialmente si no estás embarazada, si no quieres estarlo, o si incluso la idea te genera ansiedad.</p>
+
+<p>Los sueños con embarazos son mucho más comunes de lo que parece, y en la mayoría de los casos no tienen ninguna relación con el deseo real de tener un hijo.</p>
+
+<h2>El embarazo como símbolo de algo que está gestando</h2>
+
+<p>En el lenguaje de los sueños, el embarazo es una de las metáforas más directas para algo que está creciendo dentro de ti sin haber nacido todavía. Puede ser:</p>
+
+<ul>
+<li>Un proyecto o idea que llevas tiempo desarrollando y que aún no has lanzado.</li>
+<li>Un cambio personal que ya está en marcha pero que todavía no es visible para los demás.</li>
+<li>Una nueva etapa de tu vida que sientes que se acerca pero que no ha llegado aún.</li>
+<li>Algo que quieres crear, ya sea en el trabajo, en tu vida personal o en cualquier otro ámbito.</li>
+</ul>
+
+<p>La clave no está en el bebé, está en el proceso de gestar: algo está creciendo, tomando forma, pero todavía no ha salido al mundo.</p>
+
+<h2>Variantes del sueño y qué pueden indicar</h2>
+
+<h3>Estar embarazada y sentirte bien</h3>
+<p>Suele reflejar que hay algo en tu vida que se está desarrollando bien, aunque todavía no sea visible. Puede haber una confianza tranquila en un proceso que está en marcha.</p>
+
+<h3>Estar embarazada y sentir angustia o miedo</h3>
+<p>La ansiedad dentro del sueño es la información más importante. Si el embarazo en el sueño genera miedo, puede que algo que está creciendo en tu vida (un proyecto, un cambio, una relación) también genere ambivalencia o incertidumbre. ¿Estás lista? ¿Puedes con ello? ¿Es lo que realmente quieres?</p>
+
+<h3>Saber que estás embarazada pero no notarlo físicamente</h3>
+<p>Un patrón más abstracto que suele aparecer cuando hay algo que "sabes" que está cambiando a nivel interno pero que todavía no se ha manifestado. Una evolución que ya empezó pero que todavía no tiene forma concreta.</p>
+
+<h3>Descubrir el embarazo por sorpresa</h3>
+<p>Cuando en el sueño no sabías que estabas embarazada y lo descubres de golpe, puede reflejar una toma de conciencia sobre algo que ya estaba pasando sin que lo hubieras visto. Una situación que llevaba tiempo desarrollándose y que ahora se hace evidente.</p>
+
+<h3>Perder el embarazo</h3>
+<p>Este es uno de los sueños más dolorosos de esta categoría. Puede reflejar el miedo a que algo que estás construyendo no llegue a término, o la sensación de que un proyecto o etapa no salió como esperabas. Si hay un duelo real por una pérdida gestacional, el sueño puede también ser parte del procesamiento emocional de esa experiencia concreta.</p>
+
+<h2>Cuando sueñas que otra persona está embarazada</h2>
+
+<p>Si en el sueño no eres tú quien está embarazada sino alguien cercano, el foco se desplaza. Esa persona puede representar una parte de ti (si es alguien con quien te identificas) o puede ser una señal de que percibes un cambio o crecimiento en esa relación o en esa persona.</p>
+
+<h2>¿Y si en la vida real hay presión o deseo de quedarse embarazada?</h2>
+
+<p>En ese contexto, los sueños con embarazo pueden ser más literales: el cerebro procesa el deseo, la espera, el miedo al fracaso o la esperanza. Aquí el sueño no necesita una interpretación simbólica complicada, es el procesamiento emocional directo de algo que ocupa mucho espacio en la vida consciente.</p>
+
+<p>Lo mismo ocurre si hubo una pérdida reciente: los sueños pueden ser parte del duelo. Hay más sobre ese proceso en <a href="/blog/suenos-durante-el-duelo">cómo funcionan los sueños cuando estás de duelo</a>.</p>
+
+<h2>La pregunta que conecta el sueño con tu vida</h2>
+
+<p>Independientemente de las circunstancias personales, la pregunta más útil después de un sueño con embarazo es: ¿qué hay en mi vida ahora mismo que esté en proceso de nacer, que todavía no ha llegado pero que ya está creciendo?</p>
+
+<p>Si hay algo, el sueño casi siempre encaja con eso. Y si no encuentras nada, puede ser que haya algo que está empezando a formarse sin que hayas prestado mucha atención todavía.</p>
+
+<p>Los sueños con bebés tienen una lectura complementaria y a veces distinta. Si en el sueño el embarazo ya termina y aparece el bebé, puede ser útil leer también sobre <a href="/blog/sonar-con-bebes">qué representa soñar con bebés</a>.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 23: Ciencia del Sueño ─────────────────────────────────────────
+  {
+    slug: "suenos-profeticos-puede-el-cerebro-predecir",
+    title: "Sueños proféticos: ¿puede el cerebro predecir el futuro?",
+    excerpt:
+      "Muchas personas han soñado algo que luego ocurrió. No es magia ni casualidad ciega. Hay una explicación que tiene más que ver con cómo funciona el cerebro que con lo sobrenatural.",
+    category: "Ciencia del Sueño",
+    categorySlug: "ciencia-del-sueno",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 8,
+    coverImage: "/images/blog/ciencia-del-sueno/suenos-profeticos.webp",
+    coverAlt: "Reloj de arena sobre fondo oscuro con luz difusa en el centro",
+    tags: ["sueños proféticos", "predicción", "precognición", "neurociencia", "sesgo de confirmación", "patrones"],
+    content: `
+<p>Ha pasado algo que soñaste. Quizás fue un accidente, una conversación, una noticia. Y la sensación es inequívoca: lo viste antes de que ocurriera. ¿Cómo se explica eso?</p>
+
+<p>Es una de las preguntas más fascinantes sobre los sueños, y también una de las que más confusión genera. La respuesta honesta es que no existe evidencia científica de que los sueños puedan predecir el futuro. Pero eso no explica completamente por qué tantas personas tienen experiencias que se sienten exactamente así.</p>
+
+<h2>Por qué el cerebro parece "predecir" mientras duerme</h2>
+
+<p>El cerebro es una máquina de detección de patrones. Durante el día, recibe miles de señales: lo que ves, lo que escuchas, lo que sientes, los cambios en el entorno, las tensiones en las relaciones. Procesa todo eso, pero no todo llega a la conciencia. Muchas señales débiles quedan por debajo del umbral de atención.</p>
+
+<p>Durante el sueño, especialmente en el REM, el cerebro trabaja con ese material sin filtros. Puede conectar señales que en vigilia no habías relacionado, completar patrones que estaban incompletos, y construir escenarios basados en probabilidades que había calculado sin que tú lo supieras.</p>
+
+<p>El resultado puede ser un sueño que anticipa algo que luego ocurre. No porque el cerebro haya visto el futuro, sino porque había procesado suficiente información para hacer una proyección plausible.</p>
+
+<h2>El sesgo de confirmación: por qué recordamos lo que se cumplió</h2>
+
+<p>Hay un mecanismo cognitivo fundamental para entender los sueños proféticos: el sesgo de confirmación.</p>
+
+<p>Sueñas con cientos de cosas cada semana. La gran mayoría no ocurre, y las olvidas sin más. Pero cuando algo que soñaste coincide con algo real, esa coincidencia se graba con mucha fuerza. La memoria es selectiva: retiene lo que confirma una creencia y descarta lo que la contradice.</p>
+
+<p>No es que sueñes pocas cosas que luego se cumplen. Es que recuerdas desproporcionadamente las que se cumplen y olvidas las que no.</p>
+
+<h2>La coincidencia y la probabilidad</h2>
+
+<p>Otro factor: los sueños tienen contenido que se solapa inevitablemente con la vida real. Sueñas con personas cercanas, con situaciones que ya existen, con miedos y esperanzas que tienen base en lo que está pasando. La probabilidad de que alguna de esas cosas ocurra en la vida real no es baja.</p>
+
+<p>Si durante un mes sueñas con que alguien se pone enfermo, con que tienes un accidente, con que algo cambia en el trabajo, con que hay una discusión, y una de esas cosas ocurre, ¿fue profético? ¿O era estadísticamente probable que algo de eso sucediera?</p>
+
+<h2>Cuando el sueño "profético" tiene sentido real</h2>
+
+<p>Hay casos donde la anticipación en el sueño tiene una explicación más concreta. Por ejemplo:</p>
+
+<ul>
+<li><strong>Señales físicas que el cerebro detecta antes que tú:</strong> hay casos documentados de sueños relacionados con enfermedades que luego se diagnosticaron. El cerebro puede procesar señales corporales sutiles durante el sueño que no han llegado aún a la conciencia. Esto no es profecía: es que el cuerpo ya estaba dando señales que el cerebro, sin el ruido del día, pudo captar.</li>
+<li><strong>Intuición basada en patrones relacionales:</strong> si llevas tiempo observando una relación o una situación, el cerebro puede proyectar un desenlace plausible. Soñar con una ruptura que luego ocurre puede ser que a nivel inconsciente ya habías procesado señales que apuntaban a eso.</li>
+<li><strong>Sueños de ansiedad que se "cumplen":</strong> si tienes miedo a algo y sueñas con ello repetidamente, hay también un componente de conducta que puede influir. La ansiedad sobre algo puede llevarte a actuar de formas que aumentan la probabilidad de que ocurra.</li>
+</ul>
+
+<h2>¿Y los sueños que no tienen ninguna explicación aparente?</h2>
+
+<p>Hay personas que describen sueños con detalles muy específicos que luego se cumplen de formas que parecen imposibles de explicar por los mecanismos anteriores. La ciencia actual no tiene una respuesta satisfactoria para estos casos.</p>
+
+<p>Lo que sí es cierto es que la investigación en precognición (la capacidad de conocer eventos futuros) no ha encontrado evidencia sólida y reproducible de que esto sea posible. Los estudios que parecían apuntar en esa dirección no han resistido la replicación bajo condiciones controladas.</p>
+
+<p>Eso no significa que las experiencias de las personas no sean reales. Significa que el mecanismo detrás de ellas probablemente es otro: memoria selectiva, procesamiento de patrones, coincidencias estadísticas, o algo que todavía no comprendemos bien.</p>
+
+<h2>Lo que sí hace bien el cerebro soñante</h2>
+
+<p>Aunque el cerebro probablemente no prediga el futuro, sí hace algo impresionante durante el sueño: integra información dispersa y construye escenarios plausibles. Esa capacidad de síntesis es lo que a veces produce sueños que parecen proféticos pero que son, en realidad, proyecciones bien fundamentadas.</p>
+
+<p>Y en ese sentido, vale prestarles atención. No como oráculos, sino como señales de lo que el cerebro ha estado procesando y calculando por debajo de la superficie.</p>
+
+<p>Si te interesa entender mejor cómo el cerebro trabaja durante el sueño, puedes leer sobre <a href="/blog/por-que-suenas-mas-cuando-estas-estresado">por qué los sueños se intensifican en etapas de estrés</a>, o sobre <a href="/blog/suenos-lucidos-que-son-y-como-empezar">qué son los sueños lúcidos</a> y cómo el cerebro puede volverse consciente dentro del propio sueño.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 24: Relaciones / Familia ──────────────────────────────────────
+  {
+    slug: "sonar-con-tu-madre-o-tu-padre",
+    title: "Soñar con tu madre o tu padre: lo que el cerebro procesa",
+    excerpt:
+      "Soñar con los padres es muy común, ya estén vivos o no, cerca o lejos. El vínculo con ellos es uno de los más cargados emocionalmente, y los sueños lo reflejan con mucha frecuencia.",
+    category: "Relaciones",
+    categorySlug: "relaciones",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 8,
+    coverImage: "/images/blog/relaciones/sonar-con-madre-padre.webp",
+    coverAlt: "Dos siluetas frente a una ventana iluminada, una mayor y una más joven",
+    tags: ["madre", "padre", "familia", "vínculo", "relaciones", "duelo", "infancia", "apego"],
+    content: `
+<p>Los padres son las personas con quienes tenemos el vínculo más antiguo. Antes de entender el mundo, ya teníamos una relación con ellos, ya fuera de presencia o de ausencia, de cercanía o de distancia. Es normal que aparezcan en los sueños con una frecuencia e intensidad propias.</p>
+
+<h2>Por qué los padres aparecen tanto en los sueños</h2>
+
+<p>El vínculo parental es el primero y el más formativo. Las dinámicas que se establecieron en la infancia, la forma en que nos relacionamos con la autoridad, el afecto, la aprobación, el conflicto, todo eso quedó registrado con mucha profundidad.</p>
+
+<p>El cerebro usa esas figuras con frecuencia porque representan patrones emocionales muy arraigados. No es solo que sueñes con tu madre o tu padre: muchas veces estás soñando con lo que ellos representan en tu estructura emocional, la figura que da seguridad o que la niega, la que aprueba o critica, la que está o la que falta.</p>
+
+<h2>Soñar con tu madre</h2>
+
+<p>La figura materna en los sueños suele asociarse con el cuidado, la seguridad emocional, el hogar interior. Pero como todo símbolo, depende de cómo fue y es la relación real.</p>
+
+<p>Algunos patrones comunes:</p>
+
+<ul>
+<li><strong>Tu madre en el sueño está bien y la relación es tranquila:</strong> puede reflejar una sensación de base segura, de que algo en tu vida te sostiene o te cuida.</li>
+<li><strong>Tu madre en el sueño está enferma, en peligro o necesita ayuda:</strong> suele reflejar ansiedad por esa relación en la vida real, o una etapa en la que sientes que tienes que cuidar a alguien (o a ti mismo).</li>
+<li><strong>Tu madre en el sueño te critica, te exige o te genera angustia:</strong> puede que la voz crítica que llevas dentro, esa que juzga lo que haces, esté tomando su imagen. No dice nada necesariamente de tu madre real: dice algo de la exigencia interna que has interiorizado.</li>
+<li><strong>Tu madre en el sueño y tú tenéis una relación reparada o diferente a la real:</strong> el cerebro puede ensayar versiones alternativas de relaciones que han sido difíciles o que tienen heridas sin cerrar.</li>
+</ul>
+
+<h2>Soñar con tu padre</h2>
+
+<p>La figura paterna en los sueños suele relacionarse con la autoridad, los límites, el reconocimiento, la dirección. Igual que con la madre, la lectura depende mucho de cómo fue esa relación.</p>
+
+<ul>
+<li><strong>Un padre que apoya o reconoce en el sueño:</strong> puede reflejar una necesidad de validación o, si la relación real es buena, una sensación de respaldo.</li>
+<li><strong>Un padre ausente o que no aparece aunque debería:</strong> puede señalar algo en la vida real relacionado con la falta de dirección, o con una sensación de no tener guía en un momento de decisión.</li>
+<li><strong>Un padre que genera miedo o conflicto en el sueño:</strong> puede estar procesando dinámicas de autoridad, ya sea en el trabajo, en una relación, o a nivel interno.</li>
+</ul>
+
+<h2>Soñar con un padre o madre que ya ha fallecido</h2>
+
+<p>Cuando uno de los padres ya no está, los sueños con ellos tienen una carga emocional especial. Muchas personas describen estos sueños como los más vívidos y los más difíciles de soltar al despertar.</p>
+
+<p>Estos sueños son parte normal del duelo y del procesamiento del vínculo. El cerebro sigue elaborando la relación mucho después de la muerte, especialmente si quedaron cosas sin decir o sin resolver.</p>
+
+<p>A veces el padre o la madre fallecida aparece en el sueño vivo y sano, como si no hubiera muerto. El sueño puede generar confusión al despertar, incluso dolor renovado. Otras veces hay una despedida, una conversación que no se tuvo, o simplemente una presencia tranquila. Todo eso forma parte de un proceso que el cerebro hace a su ritmo. Hay más sobre cómo funcionan estos procesos en <a href="/blog/suenos-durante-el-duelo">sueños durante el duelo</a>.</p>
+
+<h2>Cuando los padres del sueño no se parecen a los reales</h2>
+
+<p>Un patrón que confunde mucho: en el sueño hay alguien que "es tu madre" o "es tu padre", pero no se parece en nada a la persona real. La cara es otra, el comportamiento es distinto.</p>
+
+<p>Aquí el cerebro está usando la etiqueta "madre" o "padre" para referirse a lo que esa figura representa emocionalmente, no a la persona concreta. Puede ser una autoridad en el trabajo, una pareja que ocupa ese rol de forma inconsciente, o incluso una parte de ti mismo que ejerce esa función interna.</p>
+
+<h2>La relación con los padres como plantilla</h2>
+
+<p>Una de las razones por las que soñar con los padres puede ser tan informativo es que las dinámicas de esa relación tienden a repetirse en otros vínculos. La forma en que aprendiste a relacionarte con la autoridad, el afecto o el conflicto en la infancia suele aparecer en el trabajo, en las relaciones de pareja, en la amistad.</p>
+
+<p>Cuando el cerebro trae a los padres en un sueño, a veces está señalando una de esas repeticiones: algo que está pasando ahora mismo que tiene la misma estructura que algo aprendido entonces.</p>
+
+<p>Si los sueños con tus padres o personas del pasado se repiten con frecuencia, puede que haya un patrón emocional que sigue activo. Hay más sobre ese mecanismo en <a href="/blog/suenos-con-personas-del-pasado">soñar con personas del pasado</a> y en <a href="/blog/suenos-recurrentes-por-que-el-cerebro-repite">por qué el cerebro repite ciertos sueños</a>.</p>
+    `,
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
