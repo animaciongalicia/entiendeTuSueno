@@ -5172,6 +5172,456 @@ export const articles: Article[] = [
 <p>Y si hay un patrón más amplio de sueños recurrentes con bloqueo o pérdida de control, hay más sobre por qué el cerebro vuelve a esos patrones en <a href="/blog/suenos-recurrentes-por-que-el-cerebro-repite">por qué se repiten los sueños</a>.</p>
     `,
   },
+
+  // ─── ARTÍCULO 36: Trabajo y Dinero — El jefe ────────────────────────────────
+  {
+    slug: "sonar-con-el-jefe",
+    title: "Soñar con tu jefe: autoridad, miedo a fallar y lo que no te atreves a decir",
+    excerpt:
+      "El jefe es una de las figuras que más aparece en los sueños laborales. No siempre representa a la persona real: muchas veces es el símbolo de la autoridad, la evaluación y la exigencia.",
+    category: "Trabajo y Dinero",
+    categorySlug: "trabajo-y-dinero",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 8,
+    coverImage: "/images/blog/trabajo-y-dinero/sonar-con-el-jefe.webp",
+    coverAlt: "Silueta de figura de autoridad al otro lado de un escritorio con luz cenital",
+    tags: ["jefe", "autoridad", "trabajo", "evaluación", "miedo a fallar", "poder", "aprobación", "ansiedad laboral"],
+    content: `
+<p>El jefe aparece en sueños con mucha frecuencia, incluso en personas que tienen una buena relación con él en la vida real. Incluso en personas que no tienen jefe. La figura del superior jerárquico lleva una carga simbólica que va mucho más allá de la persona concreta.</p>
+
+<h2>El jefe como símbolo de autoridad</h2>
+
+<p>En los sueños, el jefe raramente es solo tu jefe. Es la figura que evalúa, que aprueba o rechaza, que tiene poder sobre algo importante para ti. Esa estructura, la del que juzga y el que es juzgado, es una de las más antiguas y arraigadas en la psicología humana. Empieza mucho antes del primer trabajo: con los padres, los profesores, cualquier figura que tuvo poder sobre tu bienestar o tu valía.</p>
+
+<p>Por eso soñar con el jefe puede estar procesando la relación con esa persona concreta, pero también puede estar procesando algo más amplio: tu relación con la autoridad, con la evaluación, con la necesidad de aprobación.</p>
+
+<h2>El jefe te critica o te llama la atención</h2>
+
+<p>Es el sueño laboral más común y el que más ansiedad genera. Despiertas con esa sensación de haber fallado, aunque todo fuera un sueño.</p>
+
+<p>Algunas de las situaciones que lo desencadenan:</p>
+
+<ul>
+<li><strong>Hay algo en el trabajo que no está saliendo bien</strong> y la preocupación por cómo será recibido está activa, aunque no haya pasado nada todavía.</li>
+<li><strong>Tienes una evaluación, reunión o entrega importante</strong> próxima. El cerebro ensaya el escenario de peor caso.</li>
+<li><strong>Cometiste un error o algo no salió como esperabas</strong> y la preocupación por las consecuencias no se ha resuelto.</li>
+<li><strong>Hay una voz crítica interna muy activa</strong> que el sueño proyecta en la figura del jefe. No es tu jefe real quien te critica: es la parte de ti mismo que lo hace, usando su imagen.</li>
+</ul>
+
+<p>Este último punto es uno de los más importantes. Muchas personas con alta autoexigencia sueñan con jefes críticos aunque en la vida real su relación laboral sea buena. El jefe del sueño representa su propio estándar interno, no a la persona real.</p>
+
+<h2>El jefe te elogia o reconoce tu trabajo</h2>
+
+<p>El reverso del anterior, y también significativo. Si este tipo de sueño genera una calidez especial o aparece repetidamente, puede señalar una necesidad de reconocimiento que no está siendo satisfecha en la vida real. No es un defecto: es información sobre algo que importa y que falta.</p>
+
+<p>Si el reconocimiento en el sueño se siente como un alivio enorme, puede que haya una presión acumulada de demostrar el propio valor que merece atención.</p>
+
+<h2>Tienes un conflicto o enfrentamiento con el jefe</h2>
+
+<p>Las discusiones con el jefe en sueños suelen procesar tensiones reales que no se han verbalizado. Algo que te ha molestado y que no dijiste, una decisión con la que no estás de acuerdo pero que no has expresado, o una dinámica de poder que se siente injusta.</p>
+
+<p>El sueño puede ser el único espacio donde esa tensión se escenifica, precisamente porque en la vida real no tiene salida. Eso es información: hay algo que necesita un canal de expresión que ahora mismo no tiene.</p>
+
+<h2>El jefe del sueño no es el tuyo real</h2>
+
+<p>A veces en el sueño hay un jefe, pero no es la persona que ocupa ese rol en tu trabajo actual. Puede ser un jefe anterior, alguien completamente desconocido, o incluso alguien que en la vida real no tiene ninguna relación contigo laboralmente.</p>
+
+<p>En este caso, el símbolo "jefe" está funcionando de forma pura: la figura de autoridad y evaluación sin referencia concreta. Puede que haya algo fuera del trabajo, una relación, una dinámica familiar, un rol social, donde esa estructura de evaluación y aprobación también está activa.</p>
+
+<h2>Soñar con un jefe antiguo</h2>
+
+<p>Los jefes del pasado aparecen con frecuencia, especialmente si hubo una relación intensa: muy positiva o muy conflictiva. El cerebro los convoca cuando algo en el presente activa la misma estructura emocional que tenía esa relación.</p>
+
+<p>Un jefe que te apoyó mucho puede aparecer en momentos en que necesitas ese tipo de respaldo y no lo tienes. Un jefe que fue muy crítico o injusto puede aparecer cuando hay algo en el presente que activa esa misma sensación de injusticia o de no tener voz.</p>
+
+<h2>La diferencia entre procesar y señalar</h2>
+
+<p>Algunos sueños con el jefe son puro procesamiento de la jornada: repaso de lo que pasó, preparación para lo que viene. Otros tienen más peso y señalan algo que merece atención fuera del sueño.</p>
+
+<p>La pista para distinguirlos es la intensidad emocional. Un sueño que deja una emoción fuerte al despertar (mucha ansiedad, mucho alivio, mucha rabia) está señalando algo activo. Un sueño que simplemente transcurre y no deja huella es más procesamiento rutinario.</p>
+
+<p>Si los sueños con el jefe forman parte de un patrón más amplio de ansiedad laboral nocturna, hay más sobre ese mecanismo en <a href="/blog/suenos-con-ansiedad-laboral">sueños y ansiedad en el trabajo</a>. Y si hay miedo a las consecuencias de fallar, puede conectar con <a href="/blog/sonar-que-te-despiden">soñar que te despiden</a>.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 37: Ciencia del Sueño — Qué pasa en el cerebro ────────────────
+  {
+    slug: "que-pasa-en-el-cerebro-cuando-suenas",
+    title: "Qué pasa en el cerebro cuando sueñas: la ciencia completa",
+    excerpt:
+      "Los sueños no son ruido aleatorio. Son el resultado de un proceso neurológico muy activo y bien organizado. Entender qué hace el cerebro mientras duermes cambia la forma de leer los sueños.",
+    category: "Ciencia del Sueño",
+    categorySlug: "ciencia-del-sueno",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 10,
+    coverImage: "/images/blog/ciencia-del-sueno/que-pasa-en-el-cerebro-cuando-suenas.webp",
+    coverAlt: "Ilustración de cerebro con zonas activas iluminadas sobre fondo oscuro",
+    tags: ["neurociencia", "REM", "cerebro", "amígdala", "corteza prefrontal", "sueños", "biología", "ciencia del sueño"],
+    content: `
+<p>Durante siglos, los sueños se interpretaron como mensajes divinos, visiones proféticas o manifestaciones del alma. Hoy sabemos bastante más sobre lo que ocurre realmente, y lo que ocurre es, si cabe, más fascinante que cualquier mito.</p>
+
+<p>El cerebro dormido no descansa. En muchos sentidos, trabaja más que despierto.</p>
+
+<h2>Las fases del sueño: el contexto necesario</h2>
+
+<p>El sueño no es un estado uniforme. A lo largo de la noche, el cerebro pasa por ciclos de aproximadamente 90 minutos que incluyen varias fases:</p>
+
+<ul>
+<li><strong>Fase N1 (somnolencia):</strong> la transición entre vigilia y sueño. Dura pocos minutos. Pueden aparecer sacudidas musculares y sensaciones de caída.</li>
+<li><strong>Fase N2 (sueño ligero):</strong> la más larga en términos de tiempo total. El cerebro empieza a desconectarse del entorno. Aparecen los husos del sueño, ráfagas de actividad neuronal que ayudan a consolidar la memoria.</li>
+<li><strong>Fase N3 (sueño profundo):</strong> la más reparadora físicamente. El cerebro produce ondas delta lentas. Es muy difícil despertar en esta fase, y si ocurre hay desorientación. La mayoría de los sueños en esta fase, si los hay, son fragmentarios y poco narrativos.</li>
+<li><strong>Fase REM (Rapid Eye Movement):</strong> donde ocurren la gran mayoría de los sueños vívidos y narrativos. El cerebro está extraordinariamente activo, casi tanto como en vigilia.</li>
+</ul>
+
+<p>Los ciclos se repiten durante la noche, pero la proporción cambia: las primeras horas tienen más sueño profundo, las últimas tienen más REM. Por eso los sueños más intensos suelen ocurrir justo antes de despertar.</p>
+
+<h2>Qué hace el cerebro durante el REM</h2>
+
+<p>El REM es la fase más investigada y la más sorprendente. Varias cosas ocurren simultáneamente:</p>
+
+<h3>La corteza visual se activa sin input externo</h3>
+<p>Las áreas del cerebro responsables de procesar lo que ves se activan casi igual que cuando estás despierto mirando algo. El cerebro genera imágenes desde dentro, sin luz, sin ojos abiertos. Por eso los sueños se "ven" con tanta nitidez.</p>
+
+<h3>La amígdala trabaja a plena potencia</h3>
+<p>La amígdala es el centro de procesamiento emocional del cerebro, especialmente del miedo y la amenaza. Durante el REM está especialmente activa, más que en vigilia. Eso explica por qué los sueños tienen una carga emocional tan intensa: el cerebro está procesando emociones a máxima intensidad.</p>
+
+<h3>La corteza prefrontal queda en segundo plano</h3>
+<p>La corteza prefrontal es la zona responsable del pensamiento lógico, la toma de decisiones racionales y la evaluación crítica de la realidad. Durante el REM, su actividad desciende significativamente. Esto explica varias cosas características de los sueños:</p>
+<ul>
+<li>Aceptamos situaciones absurdas sin cuestionarlas.</li>
+<li>No nos preguntamos si estamos soñando (salvo en los sueños lúcidos, donde la corteza prefrontal se reactiva parcialmente).</li>
+<li>Las narrativas pueden ser incoherentes y aun así se sienten completamente reales.</li>
+</ul>
+
+<h3>El sistema motor se paraliza</h3>
+<p>El tronco encefálico envía señales que inhiben la musculatura voluntaria. Es un mecanismo de protección: sin él, actuaríamos físicamente lo que soñamos. Esta inhibición es la base de la parálisis del sueño cuando el proceso se desincroniza.</p>
+
+<h2>Para qué sirve soñar: las funciones conocidas</h2>
+
+<p>Durante décadas la pregunta fue si los sueños servían para algo o eran subproductos sin función. La investigación actual apunta a varias funciones concretas:</p>
+
+<h3>Procesamiento emocional</h3>
+<p>Esta es probablemente la función más importante. Durante el REM, el cerebro reprocesa experiencias emocionalmente cargadas, pero lo hace en un entorno neuroquímico diferente al de la vigilia: los niveles de noradrenalina (la hormona del estrés) están significativamente reducidos.</p>
+
+<p>El resultado es que el cerebro puede "revisar" memorias dolorosas o intensas con menos activación del sistema de alarma. Con el tiempo, esto reduce la carga emocional de esas experiencias. Los sueños son, literalmente, una forma de procesar el dolor sin revivir toda la intensidad.</p>
+
+<h3>Consolidación de la memoria</h3>
+<p>Durante el sueño, el cerebro transfiere información del hipocampo (almacenamiento a corto plazo) a la corteza (almacenamiento a largo plazo). Este proceso de consolidación es más eficiente durante el REM para memorias de tipo procedimental y emocional, y durante el sueño profundo para memorias declarativas.</p>
+
+<p>Estudiar y luego dormir produce mejor retención que estudiar sin dormir o con sueño fragmentado. No es un mito: es neurología.</p>
+
+<h3>Integración y conexión de información</h3>
+<p>El cerebro dormido conecta información que en vigilia permanece en compartimentos separados. Asocia experiencias recientes con memorias antiguas, detecta patrones que no eran evidentes, y construye conexiones nuevas. Eso es parte de lo que hace que los sueños sean tan extraños: combinan elementos que en vigilia nunca estarían juntos.</p>
+
+<p>También es por qué muchas personas tienen insights creativos o soluciones a problemas después de dormir. El cerebro los había estado trabajando por la noche.</p>
+
+<h3>Simulación de amenazas</h3>
+<p>Una teoría con bastante soporte es que los sueños, especialmente los que incluyen amenazas o situaciones difíciles, son simulaciones de escenarios para preparar respuestas. El cerebro ensaya situaciones peligrosas o complicadas en un entorno donde las consecuencias no son reales.</p>
+
+<p>Desde este punto de vista, las pesadillas no son solo perturbadoras: son ensayos de supervivencia emocional.</p>
+
+<h2>Por qué los sueños son tan raros</h2>
+
+<p>La combinación de corteza prefrontal reducida, amígdala muy activa y corteza visual generando imágenes sin input externo produce exactamente la experiencia del sueño: intensa, emocional, visualmente vívida, narrativamente incoherente y completamente convincente mientras ocurre.</p>
+
+<p>No es que el cerebro "enloquezca" de noche. Es que opera bajo reglas diferentes, con diferentes partes al mando.</p>
+
+<h2>Lo que todavía no sabemos</h2>
+
+<p>La neurociencia del sueño ha avanzado mucho, pero hay preguntas abiertas. No sabemos con certeza por qué los sueños tienen el contenido específico que tienen, qué determina que el cerebro elija una imagen sobre otra, ni si la experiencia subjetiva del sueño tiene alguna función en sí misma más allá del proceso neurológico que lo genera.</p>
+
+<p>Lo que sí sabemos es suficiente para cambiar la relación con los propios sueños: no son ruido, no son mensajes de otra dimensión, y no son accidentales. Son el resultado de un cerebro haciendo un trabajo muy específico y muy importante.</p>
+
+<p>Si quieres entender mejor cómo ese trabajo cambia cuando hay estrés, hay más en <a href="/blog/por-que-suenas-mas-cuando-estas-estresado">por qué sueñas más cuando estás estresado</a>. Y si te interesa el caso particular del REM consciente, hay más sobre <a href="/blog/suenos-lucidos-que-son-y-como-empezar">qué son los sueños lúcidos</a> y cómo ocurren.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 38: Relaciones — Hermanos ─────────────────────────────────────
+  {
+    slug: "sonar-con-hermanos",
+    title: "Soñar con tus hermanos: rivalidad, vínculo y lo que arrastra la infancia",
+    excerpt:
+      "Los hermanos son de los vínculos más complejos que existen. En los sueños, esa complejidad aparece sin filtro: celos, protección, complicidad, heridas viejas y lealtades profundas.",
+    category: "Relaciones",
+    categorySlug: "relaciones",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 8,
+    coverImage: "/images/blog/relaciones/sonar-con-hermanos.webp",
+    coverAlt: "Dos siluetas de distinto tamaño caminando en paralelo con luz lateral",
+    tags: ["hermanos", "familia", "rivalidad", "infancia", "vínculos", "celos", "protección", "relaciones"],
+    content: `
+<p>El vínculo con los hermanos es uno de los más largos y de los más cargados emocionalmente que existen. Empieza en la infancia, cuando todo era más intenso e inmediato, y lleva décadas de historia acumulada. Los sueños con hermanos suelen traer a la superficie exactamente eso: la historia, las dinámicas que se formaron entonces y que a veces siguen activas aunque nadie las nombre.</p>
+
+<h2>Por qué los hermanos aparecen en los sueños</h2>
+
+<p>Los hermanos representan algunas de las primeras relaciones de igualdad que tenemos, con alguien que comparte el mismo origen, los mismos padres, el mismo espacio. Pero también representan la primera competencia: por atención, por recursos, por lugar.</p>
+
+<p>En los sueños, los hermanos pueden aparecer como ellos mismos, o como símbolos de esa dinámica más amplia: el vínculo horizontal entre iguales, la rivalidad, la complicidad, la lealtad no elegida.</p>
+
+<h2>Soñar con conflicto o pelea con un hermano</h2>
+
+<p>Las peleas con hermanos en sueños son frecuentes incluso en personas que tienen una relación adulta tranquila. El cerebro puede estar procesando:</p>
+
+<ul>
+<li><strong>Tensiones actuales no dichas.</strong> Algo que ha generado roce y que no se ha hablado directamente. Los sueños escenifican lo que en la vigilia se calla.</li>
+<li><strong>Dinámicas de la infancia que siguen activas.</strong> Celos, injusticias percibidas, jerarquías que se establecieron entonces y que de alguna manera persisten. El cerebro puede revivir esa estructura aunque hayan pasado décadas.</li>
+<li><strong>Un conflicto en otra relación con estructura similar.</strong> Si tienes un conflicto con alguien en quien percibes una dinámica parecida a la de tu hermano (rivalidad, competencia entre iguales, sensación de trato desigual), el cerebro puede usar la imagen del hermano para procesarlo.</li>
+</ul>
+
+<h2>Soñar con un hermano que te protege o te ayuda</h2>
+
+<p>El reverso: la complicidad y el apoyo. Este tipo de sueño suele aparecer en momentos en que necesitas ese tipo de vínculo y lo tienes, o en momentos en que lo echas de menos porque no está disponible.</p>
+
+<p>Si la relación real con el hermano es distante o difícil, soñar con una versión cálida y protectora puede reflejar el deseo de que fuera así, o el procesamiento de cómo podría haber sido.</p>
+
+<h2>Soñar que un hermano está en peligro</h2>
+
+<p>Los sueños donde un hermano sufre, está en peligro o necesita ayuda tienen una carga de responsabilidad y protección. Pueden reflejar:</p>
+
+<ul>
+<li>Preocupación real por el estado de esa persona si hay algo que en la vida real te genera inquietud sobre ella.</li>
+<li>Sensación de deuda o responsabilidad no resuelta: algo en lo que sientes que podrías haber hecho más, o una situación donde la relación quedó en un lugar incómodo.</li>
+<li>La proyección de tu propio estado en la figura del hermano: si en el sueño él está en peligro y tú lo intentas salvar, puede que seas tú quien se siente en una situación difícil y necesita rescate.</li>
+</ul>
+
+<h2>Soñar con un hermano que ya no está</h2>
+
+<p>Si has perdido a un hermano, estos sueños forman parte del duelo y del proceso de integrar esa pérdida. El cerebro sigue procesando el vínculo mucho después de la muerte, especialmente porque un hermano es parte de la historia más larga de la vida.</p>
+
+<p>A veces el hermano fallecido aparece en sueños como estaba en vida, sin que haya referencia a la muerte. Esos sueños pueden ser perturbadores al despertar pero son una parte normal del procesamiento. Hay más sobre cómo funcionan en <a href="/blog/suenos-durante-el-duelo">sueños durante el duelo</a>.</p>
+
+<h2>Si eres hijo único: soñar con hermanos que no existen</h2>
+
+<p>Personas sin hermanos también sueñan con figuras fraternales, ya sea alguien que "en el sueño es tu hermano" aunque no lo sea en la realidad, o figuras completamente inventadas que tienen ese rol.</p>
+
+<p>En este caso, el símbolo apunta directamente a lo que los hermanos representan: un igual, alguien que comparte tu origen o tu historia, un vínculo de larga duración entre pares. Puede reflejar la búsqueda de ese tipo de vínculo en la vida real, o el procesamiento de una relación cercana que tiene esa estructura.</p>
+
+<h2>La dinámica que no envejece</h2>
+
+<p>Una de las características más llamativas de los sueños con hermanos es que pueden traer de vuelta dinámicas de la infancia con una nitidez sorprendente. El lugar en la jerarquía familiar, la sensación de ser el preferido o el postergado, las alianzas y las rivalidades que se formaron cuando éramos niños, todo eso puede aparecer en los sueños aunque en la vida adulta ya no tenga el mismo peso.</p>
+
+<p>Cuando eso ocurre, el sueño no está reviviendo el pasado sin razón: hay algo en el presente que activa esa estructura. Una relación con alguien que ocupa un rol similar, una situación que activa la misma emoción, o algo que nunca terminó de cerrarse.</p>
+
+<p>Para entender mejor cómo el cerebro usa las figuras familiares en los sueños, puede complementarse con <a href="/blog/sonar-con-tu-madre-o-tu-padre">soñar con la madre o el padre</a>, otro vínculo de larga historia con su propia simbología.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 39: Animales — Pájaros ────────────────────────────────────────
+  {
+    slug: "sonar-con-pajaros",
+    title: "Soñar con pájaros: libertad, mensajes y lo que quiere escapar",
+    excerpt:
+      "Los pájaros en los sueños casi siempre hablan de libertad, de aspiraciones o de algo que quiere alzar el vuelo. El tipo de pájaro y lo que hace en el sueño cambia completamente la lectura.",
+    category: "Animales",
+    categorySlug: "animales",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/animales/sonar-con-pajaros.webp",
+    coverAlt: "Silueta de pájaro en vuelo contra cielo luminoso al amanecer",
+    tags: ["pájaros", "animales", "libertad", "vuelo", "aspiraciones", "mensajes", "símbolos", "jaula"],
+    content: `
+<p>Los pájaros son de los pocos animales que dominan un espacio que los humanos no pueden alcanzar sin ayuda: el aire. Eso los convierte, en los sueños, en símbolo natural de libertad, de perspectiva elevada y de todo lo que aspira a ir más allá de lo cotidiano.</p>
+
+<h2>El pájaro como símbolo general</h2>
+
+<p>Antes de entrar en variantes, el marco: los pájaros en sueños suelen representar alguna de estas dimensiones:</p>
+
+<ul>
+<li><strong>Libertad y aspiraciones:</strong> algo que quiere alzar el vuelo, que no quiere quedarse en el suelo.</li>
+<li><strong>Perspectiva:</strong> la capacidad de ver desde arriba, de tener una visión más amplia de una situación.</li>
+<li><strong>Mensajes o intuiciones:</strong> culturalmente los pájaros han sido mensajeros. En los sueños pueden señalar algo que llega, una información, una señal.</li>
+<li><strong>El pensamiento o la mente:</strong> lo que vuela, lo que no se puede atrapar fácilmente, lo que va y viene.</li>
+</ul>
+
+<h2>Pájaros volando libres</h2>
+
+<p>Ver pájaros volando en el sueño, especialmente si es un vuelo amplio y hermoso, suele ser uno de los sueños más positivos dentro de esta categoría. Puede señalar una sensación de apertura, de que algo se está liberando, o de que hay potencial sin explotar que está empezando a moverse.</p>
+
+<p>Si el pájaro vuela lejos y hay una sensación de pérdida, puede reflejar algo que se escapa o que se aleja, una oportunidad, una persona, una etapa.</p>
+
+<h2>Un pájaro enjaulado</h2>
+
+<p>La imagen opuesta, y una de las más cargadas simbólicamente. Un pájaro en jaula en un sueño es casi siempre una imagen de algo que se siente atrapado: una parte de ti, una aspiración, un deseo de libertad que no encuentra salida.</p>
+
+<p>La jaula puede ser una situación laboral, una relación, una circunstancia de vida o incluso una creencia propia que limita. El pájaro enjaulado es lo que querría moverse y no puede.</p>
+
+<p>Si en el sueño liberas al pájaro, hay un acto de resolución: algo que se suelta, que se permite ir o ser. Si intentas liberarlo y no puedes, la sensación de bloqueo sigue activa.</p>
+
+<h2>Un pájaro herido o muerto</h2>
+
+<p>La energía baja o la pérdida de algo ligero y libre. Un pájaro herido puede señalar una aspiración o una ilusión que ha recibido un golpe, algo que quería crecer y que se ha visto limitado o dañado.</p>
+
+<p>Un pájaro muerto en el sueño puede reflejar el fin de una esperanza, el cierre de algo que tenía potencial pero no llegó a despegar. No tiene que ser catastrófico: también puede ser el final necesario de algo que ya no podía continuar.</p>
+
+<h2>Un pájaro que te ataca</h2>
+
+<p>Menos común pero muy impactante. Pájaros agresivos, especialmente en grupo, pueden reflejar pensamientos intrusivos o preocupaciones que se sienten como un ataque desde fuera pero que vienen de dentro. Los cuervos o pájaros oscuros que atacan suelen asociarse con miedos o con algo que se siente amenazante y que llega desde un espacio que no puedes controlar.</p>
+
+<h2>El tipo de pájaro importa</h2>
+
+<p>La simbología cambia según el pájaro específico:</p>
+
+<ul>
+<li><strong>Águila o halcón:</strong> poder, visión aguda, dominio desde lo alto. Puede señalar ambición, capacidad de liderazgo o la necesidad de tener perspectiva sobre algo.</li>
+<li><strong>Paloma:</strong> paz, reconciliación, mensaje de calma. Suele aparecer en momentos de resolución o de deseo de tranquilidad.</li>
+<li><strong>Cuervo o pájaro negro:</strong> como el gato negro, lleva carga cultural de presagio, pero en los sueños suele señalar algo en la sombra, algo que no se ha querido mirar, una verdad incómoda que está presente.</li>
+<li><strong>Loro o pájaro hablador:</strong> comunicación, algo que se repite, palabras que tienen más peso del que parece.</li>
+<li><strong>Búho:</strong> sabiduría, visión nocturna, la capacidad de ver lo que otros no ven. También puede señalar algo que ocurre en la oscuridad, un proceso que no es visible pero que está ahí.</li>
+</ul>
+
+<h2>Muchos pájaros a la vez: bandada o murmuración</h2>
+
+<p>Una bandada de pájaros suele señalar algo colectivo: un grupo, una comunidad, un movimiento de muchas partes a la vez. Si la bandada es armónica, hay coherencia en ese colectivo. Si es caótica o aterradora, puede reflejar una sensación de caos en el entorno social o en un grupo del que formas parte.</p>
+
+<p>Las murmuraciones, esos movimientos coordinados de miles de pájaros, son una imagen de sincronía: muchas cosas moviéndose a la vez en la misma dirección. Puede señalar un momento de confluencia o de que varias cosas están alineándose.</p>
+
+<p>Si los pájaros aparecen en sueños relacionados con el vuelo, puede ser interesante comparar con <a href="/blog/suenos-de-volar">soñar que vuelas tú mismo</a>, donde la libertad en el aire se experimenta de forma directa y no a través de un animal.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 40: Ciencia del Sueño — Color vs blanco y negro ───────────────
+  {
+    slug: "suenos-en-color-vs-blanco-y-negro",
+    title: "Soñar en color o en blanco y negro: qué dice la ciencia",
+    excerpt:
+      "Hay quien jura que solo sueña en blanco y negro. Hay quien ve colores vivos. La diferencia tiene una explicación y dice algo interesante sobre cómo el cerebro construye los sueños.",
+    category: "Ciencia del Sueño",
+    categorySlug: "ciencia-del-sueno",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/ciencia-del-sueno/suenos-color-blanco-negro.webp",
+    coverAlt: "Imagen dividida entre zona en color vibrante y zona en escala de grises",
+    tags: ["color en sueños", "blanco y negro", "neurociencia", "percepción", "memoria visual", "sueños", "televisión"],
+    content: `
+<p>Es una de las preguntas más curiosas sobre los sueños, y la que más divide: ¿sueñas en color o en blanco y negro? La respuesta varía mucho de una persona a otra, y no es una cuestión de imaginación o de intensidad onírica. Hay ciencia detrás, y es más interesante de lo que parece.</p>
+
+<h2>Lo que dicen los datos</h2>
+
+<p>Los estudios sobre el color en los sueños han dado resultados llamativos. En investigaciones realizadas en los años 50, cuando la televisión en blanco y negro era la norma, una proporción significativa de personas afirmaba soñar en blanco y negro. En estudios más recientes, la mayoría de los participantes dice soñar en color, y quienes dicen soñar en blanco y negro son minoría.</p>
+
+<p>Esto sugiere que la televisión influyó. Las personas que crecieron con televisión en blanco y negro como principal referencia visual tienen más probabilidad de reportar sueños en blanco y negro que quienes crecieron con televisión en color. Es uno de los ejemplos más claros de cómo el entorno visual moldea el cerebro incluso durante el sueño.</p>
+
+<h2>El problema de la memoria del color</h2>
+
+<p>Hay un matiz importante: la mayoría de los estudios sobre color en sueños trabajan con lo que las personas recuerdan, no con lo que ocurre mientras sueñan. Y la memoria del color es notoriamente imprecisa, incluso en la vigilia.</p>
+
+<p>Es posible que muchos sueños tengan color pero que el color no se consolide en la memoria al despertar. El cerebro retiene la narrativa, los personajes, la emoción, antes que los detalles sensoriales como el color. Cuando alguien dice que sueña en blanco y negro, puede ser que sus sueños tengan color y simplemente no lo recuerde.</p>
+
+<h2>Cómo genera el cerebro el color en los sueños</h2>
+
+<p>Durante el REM, las áreas visuales del cerebro se activan sin input externo. El cerebro construye las imágenes desde dentro, usando memorias visuales almacenadas, patrones aprendidos y la actividad de las áreas de procesamiento visual.</p>
+
+<p>El color en la visión normal lo procesan áreas específicas de la corteza visual (principalmente V4). Esas mismas áreas pueden activarse durante el REM, generando experiencias de color en los sueños. Pero no siempre se activan con la misma intensidad, y eso puede explicar por qué algunos sueños se recuerdan con colores vívidos y otros parecen apagados o sin color definido.</p>
+
+<h2>Los colores simbólicos en los sueños</h2>
+
+<p>Más allá de si el sueño es en color o en blanco y negro, hay personas que recuerdan colores muy específicos y llamativos dentro de un sueño. Esos colores pueden tener resonancia simbólica:</p>
+
+<ul>
+<li><strong>Rojo intenso:</strong> suele asociarse con emoción intensa, ya sea energía, peligro, pasión o alarma. Si el rojo domina un sueño, hay algo emocionalmente muy activo.</li>
+<li><strong>Azul profundo:</strong> calma, profundidad, algo que se siente vasto o difícil de abarcar. También puede asociarse con tristeza o con distancia emocional.</li>
+<li><strong>Negro o gris dominante:</strong> un ambiente oscuro en el sueño suele reflejar estados emocionales de baja energía, confusión o algo que no se ve con claridad.</li>
+<li><strong>Colores muy vívidos y saturados:</strong> sueños con colores más intensos de lo normal suelen tener una carga emocional mayor. El cerebro puede exagerar el color como parte de la amplificación emocional propia del REM.</li>
+<li><strong>Blanco puro:</strong> varía mucho culturalmente y según el contexto del sueño. Puede señalar claridad, vacío, comienzo, o en algunos contextos, muerte o ausencia.</li>
+</ul>
+
+<h2>Sueños especialmente vívidos en color</h2>
+
+<p>Algunas personas experimentan sueños donde el color es parte central de la experiencia, donde la intensidad visual es tal que el sueño se siente más real que la realidad. Esto suele ocurrir en fases REM más prolongadas o intensas, como las que aparecen en las últimas horas del sueño o durante el sueño con deprivación previa.</p>
+
+<p>También es más frecuente en personas con alta actividad visual en el día (artistas, diseñadores, personas que trabajan con imágenes) y en algunas personas con uso de ciertos medicamentos que afectan al REM.</p>
+
+<h2>¿Soñar en blanco y negro indica algo?</h2>
+
+<p>No indica ningún problema. No es señal de que el cerebro funcione diferente, de que los sueños sean menos significativos, ni de ningún trastorno. Es simplemente una variación en cómo el cerebro construye y almacena la experiencia onírica.</p>
+
+<p>Si de repente empiezas a soñar en color cuando antes no lo hacías, o viceversa, puede que haya un cambio en tu actividad visual diaria, en la calidad del sueño, o en el estado emocional general. Pero sin otros síntomas, es una curiosidad más que una señal.</p>
+
+<h2>La trampa del recuerdo</h2>
+
+<p>Vale la pena cerrar con el punto más importante: la mayoría de lo que "sabemos" sobre nuestros sueños es lo que recordamos de ellos, y la memoria del sueño es fragmentaria, selectiva y se borra en minutos. El color, los detalles visuales, la coherencia narrativa: todo eso se pierde rápido. Si quieres saber realmente cómo son tus sueños, la única herramienta que funciona es anotar los detalles inmediatamente al despertar.</p>
+
+<p>Hay más sobre por qué la memoria de los sueños es tan frágil y cómo mejorarla en <a href="/blog/por-que-no-recuerdas-tus-suenos">por qué no recuerdas tus sueños</a>.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 41: Símbolos — Tren o avión ───────────────────────────────────
+  {
+    slug: "sonar-con-tren-o-avion",
+    title: "Soñar con trenes y aviones: trayectorias, cambios y lo que no quieres perder",
+    excerpt:
+      "Los transportes en los sueños son símbolos de trayectoria vital. Perder el tren, no llegar al avión, volar sin saber adónde: cada escenario tiene una lectura precisa.",
+    category: "Símbolos en Sueños",
+    categorySlug: "simbolos-en-suenos",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 8,
+    coverImage: "/images/blog/simbolos-en-suenos/sonar-con-tren-avion.webp",
+    coverAlt: "Andén de estación vacío con luz al fondo y vías que se pierden en el horizonte",
+    tags: ["tren", "avión", "transporte", "viaje", "trayectoria", "perder el tren", "cambio", "destino", "símbolos"],
+    content: `
+<p>Los transportes son uno de los símbolos más ricos en el lenguaje de los sueños. Un tren, un avión, un autobús: todos representan algo en movimiento hacia algún lugar. Y todo lo que ocurra en torno a ese transporte, si lo pierdes, si va demasiado rápido, si no sabes adónde va, dice algo sobre cómo sientes tu propia trayectoria.</p>
+
+<h2>El transporte como símbolo de trayectoria vital</h2>
+
+<p>En los sueños, los medios de transporte casi siempre representan el curso de la vida o de un proyecto concreto: hacia dónde vas, a qué velocidad, si tú decides el destino o lo decide otro, si vas a tiempo o te quedas atrás.</p>
+
+<p>El tren y el avión tienen matices distintos entre sí. El tren va por raíles: hay un recorrido fijo, unas paradas establecidas, un sistema que sigue una lógica predefinida. El avión va por el aire: más rapidez, más altitud, más alejamiento del suelo cotidiano, pero también más dependencia de factores externos y menos posibilidad de parar a mitad.</p>
+
+<h2>Perder el tren</h2>
+
+<p>Es uno de los sueños de transporte más frecuentes, y tiene una lectura bastante directa: hay una oportunidad, un momento, una ventana de tiempo que sientes que se ha cerrado o que está a punto de cerrarse.</p>
+
+<p>Perder el tren en el sueño puede reflejar:</p>
+<ul>
+<li>Una decisión postergada que ahora se siente urgente.</li>
+<li>Una oportunidad laboral, relacional o vital que percibías como disponible y que sientes que se está alejando.</li>
+<li>La sensación de que los demás avanzan y tú te quedas en el andén.</li>
+<li>Una etapa de la vida que sientes que ya pasó sin que pudieras subirte a ella.</li>
+</ul>
+
+<p>El detalle de por qué pierdes el tren en el sueño también orienta: ¿llegaste tarde?, ¿estabas listo pero algo te retuvo?, ¿no encontrabas el andén? Cada variante tiene su matiz sobre qué está generando la sensación de perder el momento.</p>
+
+<h2>Estar en un tren sin saber adónde va</h2>
+
+<p>Este sueño tiene una estructura distinta: ya estás en movimiento, pero el destino no está claro. Puede reflejar una etapa de transición donde las cosas avanzan pero el rumbo no es evidente. Hay movimiento, hay proceso, pero la dirección no está definida.</p>
+
+<p>Si en el sueño esto genera ansiedad, hay algo que necesita más claridad sobre el destino. Si genera curiosidad o incluso comodidad, puede que haya una aceptación de la incertidumbre que el sueño está reflejando.</p>
+
+<h2>Perder el avión</h2>
+
+<p>Similar a perder el tren en estructura, pero con más urgencia. Los aviones tienen horarios más rígidos, menos frecuencia, consecuencias mayores si se pierden. Soñar que pierdes el avión suele tener una carga de oportunidad única o de plazos que no se pueden mover.</p>
+
+<p>También puede reflejar ansiedad real por un viaje próximo, especialmente en personas con miedo a volar o con historial de pérdidas de vuelos.</p>
+
+<h2>Volar en avión con turbulencias o problemas</h2>
+
+<p>Las turbulencias en el avión del sueño casi siempre reflejan inestabilidad en un proceso que está en marcha. Algo que avanzaba bien y que de repente se vuelve incierto, que sacude, que genera miedo a que no llegue a destino.</p>
+
+<p>Si el avión cae en el sueño, la intensidad es máxima: algo que se siente en caída libre, fuera de control, con el riesgo de un impacto. Es una de las imágenes de pérdida de control más fuertes del repertorio onírico.</p>
+
+<h2>Conducir un tren o pilotar el avión</h2>
+
+<p>Cuando en el sueño eres tú quien conduce el transporte, especialmente si no sabes cómo hacerlo, hay una responsabilidad que se siente demasiado grande: llevar algo (un proyecto, una situación, a personas que dependen de ti) hacia un destino, con una capacidad que no sientes suficiente.</p>
+
+<p>Si conduces y todo va bien, puede señalar una sensación de control sobre tu propio rumbo que está en buen momento.</p>
+
+<h2>Un tren o andén vacío</h2>
+
+<p>La ausencia de movimiento, el tren que no llega, el andén desierto donde esperas sin que ocurra nada: suele reflejar una espera que se siente indefinida, algo que debería moverse y no lo hace, o una sensación de estar en un punto muerto.</p>
+
+<h2>La pregunta que conecta el símbolo con tu vida</h2>
+
+<p>Con cualquier sueño de transporte, la pregunta útil es: ¿qué trayectoria en mi vida tiene ahora mismo esa misma textura? ¿Hay algo que siento que va demasiado rápido, que se me escapa, que no sé adónde lleva, o que está parado cuando debería moverse?</p>
+
+<p>Los sueños de transporte comparten estructura con otros sueños de trayectoria y control. Si el tema del control es recurrente, puede conectar con <a href="/blog/sonar-con-accidente-de-coche">soñar con accidentes de coche</a> o con <a href="/blog/sonar-que-no-puedes-correr">soñar que el cuerpo no responde</a>, otros sueños donde la capacidad de dirigirse hacia algún lugar falla de formas distintas.</p>
+    `,
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
