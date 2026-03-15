@@ -4417,6 +4417,236 @@ export const articles: Article[] = [
 <p>Si los sueños con tus padres o personas del pasado se repiten con frecuencia, puede que haya un patrón emocional que sigue activo. Hay más sobre ese mecanismo en <a href="/blog/suenos-con-personas-del-pasado">soñar con personas del pasado</a> y en <a href="/blog/suenos-recurrentes-por-que-el-cerebro-repite">por qué el cerebro repite ciertos sueños</a>.</p>
     `,
   },
+
+  // ─── ARTÍCULO 25: Ciencia del Sueño — Parálisis del sueño ───────────────────
+  {
+    slug: "paralisis-del-sueno",
+    title: "Parálisis del sueño: qué es, por qué ocurre y cómo salir",
+    excerpt:
+      "Despiertas pero no puedes moverte. A veces hay una presencia. Es aterrador, pero tiene una explicación completamente biológica. Aquí está todo lo que necesitas saber.",
+    category: "Ciencia del Sueño",
+    categorySlug: "ciencia-del-sueno",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 9,
+    coverImage: "/images/blog/ciencia-del-sueno/paralisis-del-sueno.webp",
+    coverAlt: "Figura tumbada inmóvil con sombra sobre ella y luz tenue lateral",
+    tags: ["parálisis del sueño", "REM", "alucinaciones", "miedo", "neurociencia", "presencia", "atonia"],
+    content: `
+<p>Te despiertas. O eso crees. Eres consciente del cuarto, de la cama, quizás de la luz que entra por la ventana. Pero no puedes mover ni un dedo. No puedes gritar. A veces hay algo más: una figura en la habitación, una presión en el pecho, una presencia que no ves pero que sientes con absoluta certeza.</p>
+
+<p>Es una de las experiencias más aterradoras que puede vivir una persona. Y tiene una explicación completamente biológica.</p>
+
+<h2>Qué es exactamente la parálisis del sueño</h2>
+
+<p>La parálisis del sueño ocurre cuando el cerebro sale de la fase REM pero el cuerpo todavía no. Durante el REM, el cerebro envía señales para paralizar la musculatura voluntaria: es un mecanismo de protección para que no actúes físicamente lo que estás soñando. Cuando el tránsito entre el sueño y la vigilia se desincroniza, la mente se activa antes de que el cuerpo recupere el movimiento.</p>
+
+<p>El resultado: estás despierto, consciente, pero completamente paralizado. Puede durar desde unos segundos hasta varios minutos, aunque suele sentirse mucho más largo.</p>
+
+<h2>Por qué hay visiones y presencias</h2>
+
+<p>La parte que más asusta no es siempre la inmovilidad, sino lo que la acompaña. Muchas personas describen:</p>
+
+<ul>
+<li>Una figura oscura en la habitación o en la cama.</li>
+<li>Una presión sobre el pecho, como si algo o alguien estuviera encima.</li>
+<li>Sonidos (pasos, voces, respiración).</li>
+<li>La certeza absoluta de que no están solos.</li>
+</ul>
+
+<p>Esto no es supernatural ni señal de ningún trastorno psiquiátrico. Es alucinación hipnopómpica: el cerebro, que acaba de salir del REM, todavía genera imágenes y sensaciones como si soñara. La corteza visual y las áreas de procesamiento emocional siguen activas. La amígdala, que gestiona el miedo, está especialmente encendida. El cerebro combina esa actividad residual con el entorno real y crea percepciones que se sienten completamente reales.</p>
+
+<p>La figura oscura, la presencia, la presión en el pecho: son construcciones del cerebro soñante que no ha terminado de desconectarse. Distintas culturas del mundo han descrito esta experiencia durante siglos con nombres diferentes (el íncubo, la vieja, el fantasma que oprime), todas como entidades externas. Todos estaban describiendo el mismo fenómeno neurológico.</p>
+
+<h2>Quién lo experimenta y con qué frecuencia</h2>
+
+<p>Se estima que entre el 25 y el 40% de las personas han tenido al menos un episodio de parálisis del sueño a lo largo de su vida. Para la mayoría es algo puntual. Para una minoría, entre el 5 y el 10%, ocurre con frecuencia suficiente como para ser perturbador.</p>
+
+<p>No es un indicador de enfermedad mental. Aparece más en personas con:</p>
+
+<ul>
+<li>Privación de sueño o horarios irregulares.</li>
+<li>Estrés o ansiedad elevados.</li>
+<li>Hábito de dormir boca arriba.</li>
+<li>Jet lag o cambios de turno.</li>
+<li>Narcolepsia (aquí sí es un síntoma clínico relevante).</li>
+</ul>
+
+<h2>Qué hacer durante un episodio</h2>
+
+<p>La trampa es intentar mover el cuerpo entero de golpe. Eso generalmente no funciona y aumenta el pánico. Lo que sí funciona para muchas personas:</p>
+
+<ol>
+<li><strong>Intentar mover solo los ojos</strong> o mover la lengua dentro de la boca. Los músculos faciales pequeños a veces responden antes que el resto.</li>
+<li><strong>Cambiar el patrón de respiración.</strong> Respirar más profundo o más rápido puede ayudar a romper el estado.</li>
+<li><strong>No luchar contra la parálisis.</strong> Contra-intuitivo, pero intentar forzar el movimiento puede prolongar el estado. Algunas personas aprenden a "quedarse quietas" conscientemente hasta que pasa.</li>
+<li><strong>Recordar que es temporal y no es peligroso.</strong> No te puedes quedar paralizado para siempre. El episodio termina.</li>
+</ol>
+
+<h2>Cómo reducir la frecuencia</h2>
+
+<p>No hay un tratamiento específico para la parálisis del sueño aislada, pero hay factores que claramente aumentan la probabilidad de que ocurra, y que puedes modificar:</p>
+
+<ul>
+<li><strong>Regulariza el horario de sueño.</strong> Los episodios son mucho más frecuentes cuando el ciclo circadiano está desajustado.</li>
+<li><strong>Reduce la privación de sueño.</strong> Acumular deuda de sueño y luego dormir mucho de golpe aumenta el REM rebote, que es cuando más parálisis ocurren.</li>
+<li><strong>Evita dormir boca arriba.</strong> Hay evidencia de que esta posición aumenta la frecuencia de episodios.</li>
+<li><strong>Gestiona el estrés.</strong> No como solución mágica, sino porque el estrés alto fragmenta el sueño y desincroniza el tránsito entre fases.</li>
+</ul>
+
+<h2>Cuando sí vale la pena consultar</h2>
+
+<p>Si la parálisis del sueño es frecuente (varias veces por semana) y viene acompañada de somnolencia extrema durante el día, episodios de cataplejía (pérdida repentina de tono muscular cuando estás despierto) o alucinaciones al quedarse dormido, puede ser síntoma de narcolepsia y merece evaluación médica.</p>
+
+<p>Si es un fenómeno puntual o poco frecuente sin otros síntomas, no es necesario hacer nada más que entender qué ocurre.</p>
+
+<p>Si llevas una etapa de sueño agitado en general, con sueños intensos y despertares frecuentes, puede que haya algo más amplio que revisar. Hay más sobre cómo el estrés afecta al sueño en <a href="/blog/por-que-suenas-mas-cuando-estas-estresado">por qué sueñas más cuando estás estresado</a>.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 26: Animales — Perros ─────────────────────────────────────────
+  {
+    slug: "sonar-con-perros",
+    title: "Soñar con perros: lealtad, amenaza o lo que necesitas ver",
+    excerpt:
+      "Un perro que te protege, uno que te ataca, uno que aparece y desaparece. Los perros en los sueños hablan casi siempre de vínculos: de lealtad, confianza, traición o instinto.",
+    category: "Animales",
+    categorySlug: "animales",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/animales/sonar-con-perros.webp",
+    coverAlt: "Silueta de perro sobre fondo oscuro con luz cálida lateral",
+    tags: ["perros", "animales", "lealtad", "confianza", "instinto", "vínculos", "símbolos"],
+    content: `
+<p>Los perros son de los animales que más aparecen en los sueños, y tiene sentido: llevamos miles de años conviviendo con ellos. En los sueños, los perros casi siempre tienen que ver con vínculos, con la parte instintiva de las relaciones, con la lealtad y su contrario.</p>
+
+<h2>Qué representa el perro en los sueños</h2>
+
+<p>Antes de entrar en variantes, el marco general: el perro en sueños suele simbolizar alguna de estas cosas:</p>
+
+<ul>
+<li><strong>Un vínculo cercano</strong>: una amistad, una relación de confianza, alguien leal en tu vida.</li>
+<li><strong>Una parte de ti mismo</strong>: el instinto, la lealtad que das, la protección que necesitas o que ofreces.</li>
+<li><strong>La parte emocional más directa</strong>: los perros en sueños suelen aparecer con emociones claras, sin ambigüedad.</li>
+</ul>
+
+<p>El estado del perro y tu relación con él en el sueño importan mucho más que el hecho de que sea un perro.</p>
+
+<h2>Un perro amistoso o que te protege</h2>
+
+<p>Es el escenario más común y el más tranquilizador. Un perro que te acompaña, que está a tu lado, que parece protegerte, suele reflejar una sensación de apoyo en la vida real: una persona de confianza, una relación sólida, o una parte de ti mismo que está actuando como guía o protección.</p>
+
+<p>Si el perro del sueño es uno que conoces o conociste en la vida real, el vínculo emocional con ese animal concreto puede ser parte de lo que el sueño está procesando.</p>
+
+<h2>Un perro que te ataca o te persigue</h2>
+
+<p>Uno de los sueños con perros más frecuentes y más perturbadores. Un perro que gruñe, ataca o persigue raramente indica un peligro literal. Casi siempre apunta a:</p>
+
+<ul>
+<li>Una amenaza percibida en una relación cercana: alguien en quien confiabas que sientes que podría traicionarte o que ya lo hizo.</li>
+<li>Una parte de ti mismo que se siente agresiva o bajo presión: el instinto "perro" propio que está activado por algo.</li>
+<li>Una situación que en la vida real sientes que podría "morderte" si no tienes cuidado.</li>
+</ul>
+
+<p>Si el perro del sueño es grande y oscuro y genera terror, puede que haya algo en tu vida que se siente más amenazante de lo que has reconocido conscientemente.</p>
+
+<h2>Un perro herido, enfermo o abandonado</h2>
+
+<p>Este patrón tiene una carga emocional distinta: más tristeza que miedo. Un perro en mal estado en el sueño suele reflejar algo que se está descuidando, una amistad que se ha enfriado, una relación a la que no se está prestando atención, o una parte emocional propia que lleva tiempo sin cuidado.</p>
+
+<p>La pregunta útil: ¿hay algo en tu vida que antes era fuerte o leal y que ahora está deteriorado?</p>
+
+<h2>Un perro desconocido que aparece de repente</h2>
+
+<p>Cuando el perro del sueño no es uno que conoces y simplemente aparece, el foco está en su comportamiento y en cómo te sientes tú. ¿Lo recibes bien o te genera desconfianza? ¿Te acercas o retrocedes?</p>
+
+<p>Un perro desconocido que genera curiosidad puede simbolizar un vínculo nuevo que está entrando en tu vida, o la posibilidad de confiar en algo o alguien que no conoces todavía bien. Si genera recelo, puede que haya algo nuevo en tu entorno que todavía no sabes si es de fiar.</p>
+
+<h2>Varios perros a la vez</h2>
+
+<p>Cuando en el sueño hay una manada o varios perros juntos, el símbolo se amplía hacia lo colectivo: un grupo, un entorno social, una dinámica de equipo o comunidad. El estado de esos perros (si están en calma, si están agresivos, si son caóticos) refleja cómo se siente ese grupo en tu percepción.</p>
+
+<h2>Si tienes perro en la vida real</h2>
+
+<p>Si convives con un perro, estos sueños pueden tener simplemente que ver con ese vínculo concreto: preocupación por su salud, afecto, o el procesamiento de algo relacionado con él. No todo tiene una lectura simbólica profunda.</p>
+
+<p>Para distinguirlo: si el perro del sueño se comporta como tu perro real y el sueño genera emociones similares a las de vuestra relación, probablemente estás procesando ese vínculo directo. Si el perro del sueño tiene una presencia muy diferente a la de tu perro real, el símbolo va más allá.</p>
+
+<h2>La pregunta clave</h2>
+
+<p>¿Cómo era la relación con el perro en el sueño, y qué relación o vínculo en tu vida real tiene esa misma textura emocional ahora mismo?</p>
+
+<p>Los animales en sueños suelen representar la parte más instintiva e inmediata de las emociones. Si los perros aparecen junto con otras figuras animales, puede ser útil leer también sobre <a href="/blog/sonar-con-serpientes">lo que representan las serpientes en los sueños</a>, otro de los animales que más aparecen y con una simbología muy distinta.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 27: Trabajo y Dinero — Despido ────────────────────────────────
+  {
+    slug: "sonar-que-te-despiden",
+    title: "Soñar que te despiden o que pierdes tu trabajo",
+    excerpt:
+      "Es uno de los sueños laborales más comunes, y aparece tanto en personas con trabajo estable como en las que están en precario. El miedo a perder lo que da seguridad tiene mucho peso en el cerebro.",
+    category: "Trabajo y Dinero",
+    categorySlug: "trabajo-y-dinero",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/trabajo-y-dinero/sonar-que-te-despiden.webp",
+    coverAlt: "Escritorio vacío con caja de objetos personales y silla apartada",
+    tags: ["despido", "trabajo", "seguridad", "miedo", "ansiedad laboral", "pérdida", "identidad"],
+    content: `
+<p>Estás en el trabajo y de repente te llaman a un despacho. O simplemente te lo dicen: ya no trabajas aquí. Despiertas con una sensación de vértigo que tarda en irse, incluso cuando recuerdas que era un sueño.</p>
+
+<p>Soñar que te despiden es mucho más frecuente de lo que parece, y no solo en personas que tienen una situación laboral inestable.</p>
+
+<h2>Por qué el cerebro escenifica el despido</h2>
+
+<p>El trabajo no es solo una fuente de ingresos. Para la mayoría de personas es también identidad, rutina, pertenencia, propósito. Perderlo activa los mismos circuitos que otras pérdidas importantes. El cerebro lo trata como una amenaza seria.</p>
+
+<p>Cuando hay algo en la vida laboral que genera inseguridad, aunque sea vaga e indefinida, el cerebro puede construir el escenario más extremo para procesarlo: el despido. No es una predicción. Es el cerebro ensayando el peor caso para prepararse.</p>
+
+<h2>Situaciones que desencadenan este sueño</h2>
+
+<p>No hace falta que el trabajo esté en peligro para que este sueño aparezca:</p>
+
+<ul>
+<li><strong>Hay una evaluación, cambio de jefe o reestructuración</strong> que genera incertidumbre, aunque todavía no haya pasado nada concreto.</li>
+<li><strong>Hay un conflicto no resuelto</strong> con alguien del trabajo que deja una sensación de inestabilidad.</li>
+<li><strong>Has cometido un error</strong> o algo salió mal, y aunque nadie ha dicho nada, hay una preocupación latente.</li>
+<li><strong>El trabajo en sí mismo genera agotamiento o insatisfacción</strong>, y hay una parte de ti que querría salir aunque no lo hayas verbalizado.</li>
+<li><strong>Hay una presión de rendimiento</strong> que se acumula sin salida.</li>
+</ul>
+
+<h2>Lo que cambia según el contexto del sueño</h2>
+
+<h3>Te despiden y la emoción principal es alivio</h3>
+<p>Este es uno de los patrones más reveladores. Si en el sueño te despiden y, por debajo del susto inicial, hay algo que se parece al alivio o incluso a la liberación, merece atención. Puede ser una señal de que hay un deseo de salida que no has admitido del todo. No necesariamente del trabajo, pero sí de algo relacionado con él: una dinámica, una responsabilidad, una situación que pesa.</p>
+
+<h3>Te despiden y es completamente injusto</h3>
+<p>Cuando el despido del sueño es arbitrario o injusto, sin razón aparente o por algo que no hiciste, la lectura apunta más hacia la sensación de falta de control o de vulnerabilidad. La sensación de que algo puede quitarte lo que has construido sin que puedas hacer nada.</p>
+
+<h3>Te despiden y no sabes por qué</h3>
+<p>La ambigüedad del despido en el sueño refleja ambigüedad en la vida real: hay algo que no acabas de entender sobre tu situación laboral, una señal que no sabes cómo interpretar, o una incertidumbre que no tiene forma concreta todavía.</p>
+
+<h3>Internas convencer a alguien para no ser despedido</h3>
+<p>Este patrón tiene una carga de autoexigencia importante. El cerebro escenifica la necesidad de justificarse, de demostrar el propio valor. Puede reflejar una sensación de que no eres suficiente, de que tu posición depende de convencer a alguien constantemente.</p>
+
+<h2>Cuando el trabajo del sueño no es el tuyo real</h2>
+
+<p>A veces en el sueño el contexto laboral es completamente diferente al real: otro trabajo, otra empresa, un rol que no reconoces. Aquí el símbolo "trabajo" está funcionando de forma más genérica: puede ser cualquier área donde sientes que tu valor o tu posición está siendo evaluada.</p>
+
+<p>Puede ser una relación, un proyecto personal, un rol familiar. La estructura emocional es la misma: miedo a que algo que defines como tuyo te sea quitado.</p>
+
+<h2>La relación entre identidad y trabajo</h2>
+
+<p>Una de las razones por las que estos sueños pueden ser tan intensos es que para mucha gente el trabajo está muy entrelazado con la identidad. Perder el trabajo no es solo perder un salario, es perder parte de quién eres.</p>
+
+<p>Si ese entrelazamiento es muy fuerte, los sueños de despido pueden aparecer con más frecuencia que en personas que tienen una identidad más separada de lo que hacen profesionalmente.</p>
+
+<p>Si estos sueños van acompañados de otros sueños de ansiedad laboral, puede ser útil leer <a href="/blog/suenos-con-ansiedad-laboral">cómo funciona la ansiedad laboral en los sueños</a>. Y si hay una preocupación económica más amplia detrás, hay más sobre cómo el cerebro procesa eso en <a href="/blog/suenos-con-dinero">sueños con dinero</a>.</p>
+    `,
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
