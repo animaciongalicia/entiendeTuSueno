@@ -4647,6 +4647,278 @@ export const articles: Article[] = [
 <p>Si estos sueños van acompañados de otros sueños de ansiedad laboral, puede ser útil leer <a href="/blog/suenos-con-ansiedad-laboral">cómo funciona la ansiedad laboral en los sueños</a>. Y si hay una preocupación económica más amplia detrás, hay más sobre cómo el cerebro procesa eso en <a href="/blog/suenos-con-dinero">sueños con dinero</a>.</p>
     `,
   },
+
+  // ─── ARTÍCULO 28: Animales — Gatos ──────────────────────────────────────────
+  {
+    slug: "sonar-con-gatos",
+    title: "Soñar con gatos: independencia, intuición y lo que no controlas",
+    excerpt:
+      "Los gatos en los sueños son esquivos por naturaleza. Aparecen cuando hay algo relacionado con la autonomía, el instinto o aspectos de la vida que resisten el control.",
+    category: "Animales",
+    categorySlug: "animales",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/animales/sonar-con-gatos.webp",
+    coverAlt: "Gato en penumbra con ojos luminosos sobre fondo oscuro",
+    tags: ["gatos", "animales", "independencia", "intuición", "instinto", "misterio", "símbolos"],
+    content: `
+<p>Los gatos son uno de los animales que más aparecen en los sueños, y su simbología es radicalmente distinta a la de los perros. Si los perros apuntan a lealtad y vínculos directos, los gatos apuntan a otra cosa: la independencia, lo esquivo, lo que no se deja atrapar fácilmente.</p>
+
+<h2>Qué representan los gatos en los sueños</h2>
+
+<p>El gato como símbolo lleva asociado históricamente lo misterioso, lo intuitivo, lo femenino en el sentido arquetípico, y también lo que escapa al control. En los sueños, suele aparecer cuando hay algo relacionado con:</p>
+
+<ul>
+<li><strong>Autonomía y límites propios:</strong> una parte de ti que quiere su espacio, que no quiere ser controlada.</li>
+<li><strong>Intuición o percepción:</strong> algo que "sabes" sin saber cómo lo sabes, una sensación que no terminas de poner en palabras.</li>
+<li><strong>Algo que se resiste:</strong> en la vida real o en uno mismo, algo que no se deja agarrar, que se escapa cuando más lo necesitas.</li>
+<li><strong>Aspectos ocultos o no reconocidos:</strong> especialmente si el gato del sueño es negro o está en la sombra.</li>
+</ul>
+
+<h2>Un gato amistoso que se acerca o se deja acariciar</h2>
+
+<p>Cuando el gato del sueño es tranquilo y hay un contacto cálido con él, el tono es de aceptación. Puede reflejar que estás en un momento de buena relación con tu propia intuición, con tu espacio personal, o con alguna persona que comparte esas cualidades de independencia y calidez a la vez.</p>
+
+<p>También puede señalar que algo esquivo en tu vida, una situación o una parte de ti mismo que sueles mantener a distancia, se está volviendo más accesible.</p>
+
+<h2>Un gato que araña, muerde o ataca</h2>
+
+<p>El gato agresivo en el sueño tiene una lectura más directa. Algo que parecía manejable o bajo control ha mostrado otra cara. Puede ser una persona que percibías como inofensiva y que ha actuado de forma inesperada, o una situación que creías tener controlada y que de repente reacciona.</p>
+
+<p>También puede apuntar a una parte de ti mismo: ¿hay algo que estás reprimiendo que "araña" cuando no le das espacio?</p>
+
+<h2>Un gato que huye o no se deja coger</h2>
+
+<p>Este es uno de los patrones de sueño con gatos más comunes y también uno de los más frustrantes: intentas cogerlo, se escapa. Lo persigues, desaparece. Lo llamas, no viene.</p>
+
+<p>Casi siempre refleja algo en la vida real que se siente inaprensible: una oportunidad que no termina de concretarse, una respuesta que no llega, una persona que mantiene distancia, o una parte de uno mismo (creatividad, calma, confianza) que en este momento parece inalcanzable.</p>
+
+<h2>Un gato negro</h2>
+
+<p>El gato negro en sueños activa toda la carga cultural que arrastra, pero raramente indica algo negativo en sí mismo. Más bien señala algo que está en la sombra: aspectos no reconocidos, intuiciones que no has escuchado, o algo que llevas tiempo ignorando.</p>
+
+<p>Si el gato negro del sueño genera miedo, puede que haya algo que evitas mirar. Si genera curiosidad, puede que estés más abierto a explorar esos territorios menos reconocidos de ti mismo.</p>
+
+<h2>Muchos gatos a la vez</h2>
+
+<p>Una habitación llena de gatos, o sentirte rodeado de ellos, suele reflejar una sensación de caos o de demasiados frentes a la vez, cada uno con su propia agenda, ninguno del todo controlable. Puede estar señalando una etapa de saturación o de múltiples situaciones que demandan atención simultánea.</p>
+
+<h2>Si tienes gato en la vida real</h2>
+
+<p>Como con cualquier animal cercano, el sueño puede simplemente estar procesando el vínculo real. Si el gato del sueño se comporta como tu gato y la emoción es coherente con vuestra relación, no hace falta buscar más. Si el gato del sueño es diferente al tuyo o la emoción tiene otra textura, el símbolo va más allá.</p>
+
+<h2>La diferencia con soñar con perros</h2>
+
+<p>Vale la pena nombrarlo porque mucha gente sueña con ambos en etapas distintas. Los perros en sueños suelen apuntar a vínculos explícitos, lealtad declarada, relaciones donde hay un pacto claro. Los gatos apuntan a lo más implícito: lo que no se dice, lo que se siente sin nombrarse, los bordes más esquivos de las relaciones o de uno mismo.</p>
+
+<p>Si te interesa comparar, hay más sobre <a href="/blog/sonar-con-perros">lo que representan los perros en los sueños</a>. Y si los gatos aparecen junto a otros animales con carga simbólica fuerte, puede ser útil leer también sobre <a href="/blog/sonar-con-serpientes">las serpientes en los sueños</a>.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 29: Relaciones — Pareja actual ────────────────────────────────
+  {
+    slug: "sonar-con-tu-pareja-actual",
+    title: "Soñar con tu pareja: lo que el cerebro procesa mientras duermes",
+    excerpt:
+      "Soñar con la persona con quien estás es normal y muy frecuente. Lo que varía es lo que esos sueños revelan: desde la conexión hasta los miedos que no has nombrado.",
+    category: "Relaciones",
+    categorySlug: "relaciones",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 8,
+    coverImage: "/images/blog/relaciones/sonar-con-tu-pareja.webp",
+    coverAlt: "Dos siluetas frente a frente con luz cálida entre ellas",
+    tags: ["pareja", "relaciones", "amor", "celos", "confianza", "infidelidad", "vínculo", "intimidad"],
+    content: `
+<p>Soñar con tu pareja es de las cosas más naturales que puede hacer el cerebro. Es la persona con quien pasas más tiempo, con quien compartes más carga emocional, con quien el vínculo es más complejo. Que aparezca en los sueños es inevitable. Lo interesante es cómo aparece y qué dice eso de lo que está pasando.</p>
+
+<h2>Cuando el sueño es tranquilo y positivo</h2>
+
+<p>Los sueños con la pareja no siempre tienen una lectura complicada. Cuando el sueño simplemente refleja cercanía, afecto o situaciones cotidianas compartidas, es el cerebro procesando el vínculo de forma ordinaria. No todo necesita interpretación.</p>
+
+<p>Dicho esto, los sueños con pareja que generan una calidez especial, que se sienten más íntimos de lo habitual, suelen aparecer en momentos en que la conexión real también está en buen momento, o en momentos en que la echas de menos o valoras más de lo que expresas en el día a día.</p>
+
+<h2>Soñar que tu pareja te es infiel</h2>
+
+<p>Es uno de los sueños más comunes dentro de esta categoría, y también uno de los que más conflicto genera al despertar. La pregunta inmediata: ¿significa algo?</p>
+
+<p>La respuesta directa: casi nunca es una señal de que la infidelidad esté ocurriendo o vaya a ocurrir. Lo que sí refleja casi siempre es alguna de estas cosas:</p>
+
+<ul>
+<li><strong>Inseguridad en la relación o en uno mismo:</strong> miedo a no ser suficiente, a que la otra persona encuentre algo mejor, a perder el vínculo.</li>
+<li><strong>Sensación de distancia reciente:</strong> si lleváis una temporada con menos conexión, el cerebro puede escenificar el miedo de fondo que esa distancia activa.</li>
+<li><strong>Algo no dicho:</strong> una conversación pendiente, algo que te ha molestado y no has nombrado, una tensión que existe pero no se ha verbalizado.</li>
+<li><strong>Procesamiento de experiencias pasadas:</strong> si hubo infidelidad en relaciones anteriores, el cerebro puede activar ese miedo aprendido sin que haya nada concreto en la relación actual.</li>
+</ul>
+
+<p>Despertar enfadado con tu pareja por algo que hizo en el sueño es comprensible, pero vale la pena reconocer que la emoción es real aunque el evento no lo sea. Si el sueño te inquieta de forma recurrente, la pregunta útil no es "¿me estará engañando?" sino "¿qué inseguridad propia está activa ahora mismo?"</p>
+
+<h2>Soñar que tú eres infiel</h2>
+
+<p>Genera tanta o más incomodidad. Muchas personas se despiertan con culpa por algo que ocurrió en un sueño.</p>
+
+<p>Soñar que eres infiel no indica un deseo real de serlo (aunque a veces puede que haya algo de atracción que el sueño está procesando, lo cual tampoco es un problema moral en sí mismo). Más frecuentemente refleja:</p>
+
+<ul>
+<li>Una necesidad de algo que no está en la relación actual: libertad, novedad, reconocimiento, conexión emocional de un tipo concreto.</li>
+<li>Una parte de ti que siente que está traicionando algo, no necesariamente en la relación, sino en otro ámbito: tus propios valores, un compromiso contigo mismo, alguien más.</li>
+<li>Una tensión entre lo que quieres y lo que crees que "deberías" querer.</li>
+</ul>
+
+<h2>Soñar que discutís o que la relación termina</h2>
+
+<p>Las discusiones en sueños con la pareja casi siempre procesan tensiones reales, aunque sean pequeñas. El cerebro amplifica para poder procesarlas. Si hay algo que ha generado roce y no se ha hablado, el sueño puede escenificarlo de forma exagerada.</p>
+
+<p>Soñar que la relación termina es uno de los sueños que más angustia generan. Como soñar con la muerte propia, raramente es una predicción. Suele aparecer cuando hay algo en la relación que se está transformando (lo cual puede ser positivo), cuando hay miedo a la pérdida aunque no haya ninguna señal concreta, o cuando hay una insatisfacción que no se ha nombrado.</p>
+
+<h2>Soñar que tu pareja actúa de forma completamente distinta a como es</h2>
+
+<p>Cuando en el sueño tu pareja hace o dice cosas que en la vida real nunca haría, es el cerebro usando su imagen para representar otra cosa. Puede ser una parte de ti mismo proyectada en ella, una dinámica que percibes en la relación pero que no has articulado, o simplemente el material onírico mezclando personas y características de forma no literal.</p>
+
+<h2>La pareja como espejo</h2>
+
+<p>Una de las lecturas más útiles de los sueños con pareja es entender que a veces no son sobre la relación sino sobre ti: lo que proyectas en la otra persona, lo que temes perder, lo que necesitas y no pides, lo que sientes pero no dices.</p>
+
+<p>Si los sueños de pareja se mezclan con sueños sobre personas del pasado o ex parejas, hay más sobre ese patrón en <a href="/blog/suenos-con-personas-del-pasado">soñar con personas del pasado</a>. Y si hay una etapa de tensión en la relación que está afectando al sueño, puede conectar con lo que describes en <a href="/blog/por-que-suenas-mas-cuando-estas-estresado">por qué los sueños se intensifican cuando hay estrés</a>.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 30: Sueños Recurrentes — No puedes correr ─────────────────────
+  {
+    slug: "sonar-que-no-puedes-correr",
+    title: "Soñar que no puedes correr o que tus piernas no responden",
+    excerpt:
+      "Intentas correr y las piernas pesan, van a cámara lenta o simplemente no funcionan. Es uno de los sueños más frustrantes y también uno de los más reveladores sobre la impotencia y el bloqueo.",
+    category: "Sueños Recurrentes",
+    categorySlug: "suenos-recurrentes",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/suenos-recurrentes/sonar-que-no-puedes-correr.webp",
+    coverAlt: "Figura humana moviéndose en cámara lenta entre sombras difusas",
+    tags: ["no puedes correr", "piernas pesadas", "bloqueo", "impotencia", "huir", "sueños recurrentes", "ansiedad"],
+    content: `
+<p>Hay algo que te persigue o que necesitas alcanzar, y tus piernas no responden. Van a cámara lenta. Pesan demasiado. Intentas correr y no avanzas. Es uno de los sueños más frustrantes que existen, y también uno de los más comunes.</p>
+
+<h2>Por qué ocurre físicamente este sueño</h2>
+
+<p>Hay una explicación neurológica parcial. Durante el REM, el cerebro inhibe la actividad muscular voluntaria para que no actúes físicamente lo que estás soñando. Esa atonía muscular puede "filtrarse" al contenido del sueño: el cerebro siente que el cuerpo no responde y construye un escenario donde las piernas no funcionan.</p>
+
+<p>Pero eso no explica completamente por qué este sueño aparece más en ciertos momentos que en otros. La parte emocional importa tanto como la biológica.</p>
+
+<h2>Lo que casi siempre hay detrás</h2>
+
+<p>Soñar que no puedes correr, sea porque te persiguen o porque necesitas llegar a algún sitio, tiene una estructura emocional muy clara: quieres actuar y no puedes. Hay un objetivo o una amenaza, y tu capacidad de respuesta está bloqueada.</p>
+
+<p>Las situaciones de la vida real que más lo desencadenan:</p>
+
+<ul>
+<li><strong>Sentirse atrapado o sin salida:</strong> una situación laboral, una relación o una circunstancia de la que no ves cómo salir aunque quieras.</li>
+<li><strong>Impotencia ante algo que no puedes controlar:</strong> algo que está ocurriendo y ante lo cual no tienes capacidad real de actuar o de cambiar.</li>
+<li><strong>Parálisis en la toma de decisiones:</strong> llevar tiempo dando vueltas a algo sin decidir. El cerebro escenifica esa parálisis de forma literal.</li>
+<li><strong>Agotamiento o sobrecarga:</strong> cuando hay demasiado encima, el cuerpo y la mente "no dan más". Las piernas que no corren son la imagen de eso.</li>
+<li><strong>Miedo a no estar a la altura:</strong> la sensación de que aunque lo intentes, no será suficiente.</li>
+</ul>
+
+<h2>Las variantes del sueño</h2>
+
+<h3>Te persiguen y no puedes huir</h3>
+<p>La combinación de amenaza + incapacidad de respuesta es la más intensa. Aquí hay algo que se siente amenazante en la vida real y ante lo que te sientes sin recursos para protegerte. Si reconoces al perseguidor en el sueño, el símbolo es más directo. Si no, la amenaza puede ser más difusa: una situación, una responsabilidad, una emoción que huyes de ver.</p>
+
+<h3>Necesitas llegar a algún sitio y no avanzas</h3>
+<p>Aquí no hay amenaza, hay frustración. Algo que quieres alcanzar, a lo que intentas llegar, y el cuerpo no acompaña. Puede reflejar un objetivo en la vida real que sientes bloqueado, o la sensación de que por más que te esfuerzas, el progreso no llega.</p>
+
+<h3>Las piernas pesan como plomo</h3>
+<p>La sensación de peso es la imagen del agotamiento. Cuando el cuerpo y la mente llevan tiempo bajo una carga que no se ha aligerado, el sueño puede traducirlo literalmente: todo pesa, moverse cuesta un esfuerzo desproporcionado.</p>
+
+<h3>Corres pero sin avanzar, como en una cinta</h3>
+<p>Mucho movimiento, cero progreso. Muy habitual en personas con mucha actividad y poca sensación de avance real: el cerebro señala el desacople entre el esfuerzo y el resultado.</p>
+
+<h2>Qué hacer con este sueño</h2>
+
+<p>La pregunta que más claridad da: ¿en qué área de mi vida siento ahora mismo que quiero moverme pero no puedo, o que me esfuerzo sin avanzar?</p>
+
+<p>Si identificas algo concreto, el sueño ya ha servido su propósito: señalar lo que merece atención. Si el bloqueo es real, la información útil no está en el sueño sino en lo que genera ese bloqueo.</p>
+
+<p>Si el sueño se repite mucho, es señal de que el bloqueo lleva tiempo sin resolverse. Hay más sobre por qué el cerebro vuelve a los mismos patrones en <a href="/blog/suenos-recurrentes-por-que-el-cerebro-repite">por qué se repiten los sueños</a>. Y si hay una sensación general de persecución o amenaza, puede conectar con lo que describes en <a href="/blog/suenos-de-persecucion">sueños de persecución</a>.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 31: Símbolos en Sueños — Sangre ───────────────────────────────
+  {
+    slug: "sonar-con-sangre",
+    title: "Soñar con sangre: miedo, vitalidad y lo que realmente significa",
+    excerpt:
+      "La sangre en los sueños genera reacción inmediata. Pero su significado depende completamente del contexto: no es lo mismo sangrar que ver sangre, ni sangrar tú que sangrar otro.",
+    category: "Símbolos en Sueños",
+    categorySlug: "simbolos-en-suenos",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/simbolos-en-suenos/sonar-con-sangre.webp",
+    coverAlt: "Mancha roja difuminada sobre superficie oscura con luz lateral",
+    tags: ["sangre", "herida", "vitalidad", "pérdida", "miedo", "símbolos", "cuerpo", "emoción intensa"],
+    content: `
+<p>La sangre en un sueño casi siempre genera una reacción fuerte, aunque no haya dolor. Es uno de los símbolos más cargados que existen, y también uno de los más malinterpretados porque se asume directamente que significa algo malo.</p>
+
+<p>No es así de simple. Lo que significa depende completamente del contexto, y hay versiones del sueño con sangre que no apuntan al peligro sino a lo contrario.</p>
+
+<h2>La sangre como símbolo: los dos polos</h2>
+
+<p>En el lenguaje simbólico, la sangre tiene dos caras que coexisten:</p>
+
+<ul>
+<li><strong>Pérdida, herida, vulnerabilidad:</strong> sangre que sale, que se pierde, que mancha. Todo lo relacionado con el daño, el agotamiento, lo que está costando demasiado.</li>
+<li><strong>Vida, energía, vitalidad:</strong> la sangre como lo que circula, lo que alimenta, lo que sostiene. En este polo, ver sangre puede ser una imagen de fuerza o de actividad intensa.</li>
+</ul>
+
+<p>La emoción en el sueño es lo que decide en cuál de los dos polos está el símbolo. Sangre con miedo o angustia apunta al primero. Sangre sin miedo, o en un contexto de poder, puede apuntar al segundo.</p>
+
+<h2>Sangrar tú en el sueño</h2>
+
+<p>El escenario más común y el que más alarma genera. Algunas lecturas según el contexto:</p>
+
+<ul>
+<li><strong>Una herida que sangra mucho y no para:</strong> sensación de que algo te está costando demasiado, que estás dando más de lo que puedes sostener, que hay una pérdida (de energía, de recursos, de ti mismo) que no se detiene.</li>
+<li><strong>Una herida pequeña que apenas sangra:</strong> puede señalar algo concreto que ha "hecho daño" pero que es manejable. Una crítica, una situación, un conflicto que ha dejado marca pero no ha sido devastador.</li>
+<li><strong>Sangrar sin que haya dolor:</strong> disociación entre el daño externo y la experiencia interna. A veces indica que hay algo que objetivamente está causando desgaste pero que todavía no lo estás sintiendo del todo.</li>
+<li><strong>Sangrar y sentirte bien o fuerte:</strong> imagen de vitalidad intensa, de algo que está muy activo en ti aunque sea un proceso exigente.</li>
+</ul>
+
+<h2>Ver sangrar a otra persona</h2>
+
+<p>Cuando la sangre es de otra persona, la lectura se desplaza hacia esa relación. Puede reflejar:</p>
+
+<ul>
+<li>Preocupación real por esa persona, miedo a que esté sufriendo o en peligro.</li>
+<li>Culpa relacionada con algo que crees que le has causado, aunque no sea de forma literal.</li>
+<li>Una dinámica en la que sientes que esa persona está siendo dañada por algo o alguien (incluso por una situación) y tú no puedes hacer nada.</li>
+</ul>
+
+<h2>Mucha sangre, en el suelo o en las paredes</h2>
+
+<p>Cuando la sangre no tiene fuente clara y simplemente está presente en el entorno del sueño, el símbolo se amplía hacia el ambiente: algo en el contexto general (una situación, un entorno, una época) se siente marcado por el daño o la pérdida.</p>
+
+<p>También puede reflejar la intensidad emocional de un momento concreto, algo que ha impactado tanto que el cerebro lo traduce como una presencia física y visible.</p>
+
+<h2>Sangre que mancha la ropa o las manos</h2>
+
+<p>Este patrón tiene una carga moral más clara. Manos manchadas de sangre en los sueños suelen relacionarse con culpa, con la sensación de haber hecho daño a alguien aunque sea indirectamente, o con una responsabilidad que pesa. La ropa manchada puede señalar algo que "se nota", algo que sientes que los demás pueden ver aunque tú intentes cubrirlo.</p>
+
+<h2>Sangre en contexto médico o de cuidado</h2>
+
+<p>Cuando en el sueño la sangre aparece en un contexto sanitario (una herida que se cura, una operación, alguien que recibe ayuda), el tono es diferente. Aquí la sangre forma parte de un proceso de curación, no solo de daño. Puede reflejar que algo difícil está siendo atendido, que hay un proceso de recuperación en marcha.</p>
+
+<h2>Lo que el sueño no significa</h2>
+
+<p>La sangre en los sueños casi nunca es una predicción de daño físico real. Es el cerebro usando uno de los símbolos más potentes que tiene para representar estados emocionales intensos: pérdida, vulnerabilidad, vitalidad o culpa.</p>
+
+<p>Si el sueño genera mucha angustia y aparece de forma repetida, puede que haya algo que merece atención no en el sueño sino en la vida real. Los sueños con mucha carga emocional que se repiten suelen señalar algo sin resolver. Hay más sobre ese mecanismo en <a href="/blog/suenos-recurrentes-por-que-el-cerebro-repite">por qué el cerebro repite ciertos sueños</a>.</p>
+
+<p>Si la sangre aparece en sueños relacionados con pérdida o duelo, puede conectar con lo que describes en <a href="/blog/suenos-durante-el-duelo">cómo funcionan los sueños durante el duelo</a>.</p>
+    `,
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
