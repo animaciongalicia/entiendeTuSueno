@@ -5622,6 +5622,561 @@ export const articles: Article[] = [
 <p>Los sueños de transporte comparten estructura con otros sueños de trayectoria y control. Si el tema del control es recurrente, puede conectar con <a href="/blog/sonar-con-accidente-de-coche">soñar con accidentes de coche</a> o con <a href="/blog/sonar-que-no-puedes-correr">soñar que el cuerpo no responde</a>, otros sueños donde la capacidad de dirigirse hacia algún lugar falla de formas distintas.</p>
     `,
   },
+
+  // ─── ARTÍCULO 42: Símbolos — Comida ─────────────────────────────────────────
+  {
+    slug: "sonar-con-comida",
+    title: "Soñar con comida: hambre, placer, culpa y lo que el cuerpo pide",
+    excerpt:
+      "La comida en los sueños raramente es solo comida. Comer, no poder comer, que la comida tenga algo raro: cada variante apunta a una necesidad diferente que va más allá del hambre física.",
+    category: "Símbolos en Sueños",
+    categorySlug: "simbolos-en-suenos",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/simbolos-en-suenos/sonar-con-comida.webp",
+    coverAlt: "Mesa con alimentos bajo luz cálida, algunos en sombra",
+    tags: ["comida", "hambre", "placer", "culpa", "necesidad", "cuerpo", "satisfacción", "símbolos"],
+    content: `
+<p>Soñar con comida es más frecuente de lo que la gente reconoce, y tiene muchas más capas de lo que parece a primera vista. La comida en los sueños casi nunca es solo comida: es el símbolo de lo que el cuerpo, la mente o las emociones necesitan y no siempre tienen.</p>
+
+<h2>La comida como símbolo de necesidad y satisfacción</h2>
+
+<p>En el lenguaje de los sueños, la comida representa de forma general las necesidades y su satisfacción: el placer, el sustento, el cuidado, lo que alimenta. No solo en el sentido físico, sino en el emocional y relacional.</p>
+
+<p>Comer en sueños puede ser el cerebro procesando la satisfacción o la carencia en cualquier área donde hay una necesidad activa: afecto, reconocimiento, descanso, creatividad, conexión.</p>
+
+<h2>Comer con placer y satisfacción</h2>
+
+<p>Uno de los sueños más directamente agradables. Cuando en el sueño comes algo delicioso y la sensación es de placer puro, el cerebro puede estar procesando una satisfacción real: algo en la vida que está yendo bien, algo que nutre de verdad.</p>
+
+<p>También puede aparecer como compensación: en etapas de restricción, ya sea de comida real, de placer, de descanso o de cualquier cosa que se haya estado privando, el sueño puede ofrecer esa satisfacción que falta en la vigilia.</p>
+
+<h2>Hambre en el sueño pero no poder comer</h2>
+
+<p>La estructura de la necesidad sin satisfacción. Hay comida pero no puedes alcanzarla, o desaparece cuando intentas comerla, o hay algo que te lo impide.</p>
+
+<p>Es uno de los sueños de comida con más carga emocional, y casi siempre refleja una carencia en la vida real que no está siendo atendida. No necesariamente hambre literal: puede ser necesidad de afecto, de reconocimiento, de tiempo para uno mismo, de algo que se ve pero que no llega.</p>
+
+<p>La frustración de la comida que no se puede alcanzar es exactamente la frustración de la necesidad que no se satisface.</p>
+
+<h2>Comida en mal estado, podrida o que da asco</h2>
+
+<p>Algo que debería nutrir pero que está dañado. Este patrón puede reflejar:</p>
+<ul>
+<li>Una situación o relación que parecía prometedora pero que al acercarse no resultó lo que parecía.</li>
+<li>Algo que se ofrece como bueno pero que genera rechazo intuitivo.</li>
+<li>Una necesidad que está siendo satisfecha de una forma que no es la adecuada: la forma equivocada de conseguir lo que necesitas.</li>
+</ul>
+
+<h2>Comer en exceso o sin control</h2>
+
+<p>La ingesta compulsiva en los sueños casi siempre refleja un exceso emocional en alguna área: demasiado de algo que no nutre de verdad, o el intento de llenar con cantidad algo que falta en calidad.</p>
+
+<p>Si en el sueño hay culpa o malestar por comer de más, puede haber una dinámica de culpa o autoexigencia activa que vale la pena observar.</p>
+
+<h2>No tener hambre aunque debería o no querer comer</h2>
+
+<p>La pérdida de apetito en un sueño puede señalar una desconexión de las propias necesidades: una etapa donde se ha apagado el deseo o la motivación, donde algo que antes importaba ya no genera el mismo interés.</p>
+
+<h2>Compartir comida con otros</h2>
+
+<p>La dimensión relacional de comer. Compartir una mesa en sueños suele señalar el estado de los vínculos: si la comida compartida es agradable, hay conexión y generosidad en ese contexto. Si hay tensión, escasez o alguien acapara y otros no tienen, las dinámicas de ese grupo o relación están siendo procesadas.</p>
+
+<h2>Comida prohibida o que no deberías estar comiendo</h2>
+
+<p>Algo que deseas pero que sientes que no está permitido. Puede reflejar una tensión entre el deseo y la norma: algo que quieres y que te has prohibido, ya sea por razones externas o por autoexigencia interna. La culpa al despertar de este tipo de sueño es información sobre esa tensión.</p>
+
+<h2>La pregunta directa</h2>
+
+<p>Con los sueños de comida, la pregunta más útil es: ¿qué necesidad tengo ahora mismo que no está siendo satisfecha, o que se está satisfaciendo de una forma que no funciona del todo?</p>
+
+<p>Si los sueños de comida coinciden con una etapa de mucho estrés o desgaste, puede haber conexión con lo que procesa el cerebro en esas circunstancias. Hay más en <a href="/blog/por-que-suenas-mas-cuando-estas-estresado">por qué los sueños se intensifican cuando estás estresado</a>.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 43: Trabajo y Dinero — Trabajo antiguo ────────────────────────
+  {
+    slug: "sonar-con-el-trabajo-antiguo",
+    title: "Soñar con un trabajo anterior: por qué el cerebro vuelve a lo que dejaste",
+    excerpt:
+      "Volver en sueños a un trabajo que ya no tienes es más común de lo que parece. No siempre significa que lo echas de menos. A veces significa exactamente lo contrario.",
+    category: "Trabajo y Dinero",
+    categorySlug: "trabajo-y-dinero",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/trabajo-y-dinero/sonar-con-trabajo-antiguo.webp",
+    coverAlt: "Escritorio antiguo con objetos de otra época bajo luz cálida",
+    tags: ["trabajo antiguo", "ex trabajo", "nostalgia", "identidad", "pasado laboral", "cambio", "comparación"],
+    content: `
+<p>Estás de vuelta en el trabajo que dejaste hace años. Las caras son las mismas, el espacio es el mismo, y en el sueño todo funciona como si nunca te hubieras ido. Al despertar, la primera reacción suele ser: ¿por qué he soñado con eso?</p>
+
+<p>Los sueños con trabajos anteriores son muy frecuentes, especialmente después de cambios laborales importantes, y tienen lecturas que van mucho más allá de la nostalgia.</p>
+
+<h2>Por qué el cerebro vuelve a trabajos pasados</h2>
+
+<p>Los trabajos no son solo tareas y salarios. Son identidad, estructura, relaciones, una forma de estar en el mundo. Cuando dejas un trabajo, especialmente uno que duró mucho tiempo o que tuvo peso emocional, el cerebro no borra esa experiencia: la archiva con toda su carga.</p>
+
+<p>El trabajo antiguo reaparece en sueños cuando algo en el presente activa la misma estructura emocional que tenía ese trabajo. No necesariamente porque quieras volver, sino porque hay una resonancia entre lo de entonces y lo de ahora.</p>
+
+<h2>Volver al trabajo antiguo y sentirte bien</h2>
+
+<p>La versión más común en personas que dejaron un trabajo que les gustaba o que tenía cosas buenas. Puede reflejar nostalgia real: algo de aquella etapa que echado de menos, ya sea las relaciones, la sensación de competencia, la estructura, el propósito.</p>
+
+<p>Pero también puede aparecer cuando el trabajo actual no está dando algo que el anterior sí daba. El cerebro compara, y cuando la comparación es desfavorable para el presente, puede traer imágenes del pasado como referencia de lo que era posible.</p>
+
+<h2>Volver al trabajo antiguo y sentirte atrapado</h2>
+
+<p>La versión más perturbadora: estás de vuelta en un trabajo que dejaste con alivio, y en el sueño te sientes atrapado, como si no pudieras salir.</p>
+
+<p>Esto suele aparecer cuando hay algo en el presente que tiene la misma estructura de confinamiento que tenía aquel trabajo. Una relación, una situación, una dinámica que se siente parecida a lo que ya dejaste una vez. El cerebro usa la imagen del trabajo antiguo porque ya tiene esa experiencia archivada con esa emoción.</p>
+
+<p>También puede reflejar el miedo de que, pese a haber salido, algo te lleve de vuelta: que los cambios que hiciste no sean permanentes, que el progreso se revierta.</p>
+
+<h2>Volver al trabajo antiguo y no recordar por qué lo dejaste</h2>
+
+<p>Un patrón más ambiguo: en el sueño estás ahí y parece normal, como si nunca te hubieras ido. Al despertar hay una sensación extraña, de tiempo dislocado.</p>
+
+<p>Puede señalar que la distancia emocional con esa etapa ya no es tan grande, que hay algo de ese tiempo que todavía no está del todo integrado o cerrado. No un deseo de volver, sino algo que no ha terminado de cerrarse.</p>
+
+<h2>Que en el trabajo antiguo del sueño algo va mal</h2>
+
+<p>Los errores, los conflictos o los fracasos en el trabajo antiguo del sueño suelen procesar dos cosas distintas:</p>
+
+<ul>
+<li><strong>Algo que salió mal en aquella etapa y que no se ha terminado de digerir:</strong> un error, una situación difícil, una relación que quedó en mal lugar.</li>
+<li><strong>Un miedo actual proyectado en un escenario conocido:</strong> el cerebro escenifica el miedo a fallar usando el espacio que ya conoce bien.</li>
+</ul>
+
+<h2>Los compañeros del trabajo antiguo</h2>
+
+<p>A veces lo que el cerebro procesa no es el trabajo en sí sino las personas de ese entorno. Un compañero específico que aparece puede representar esa relación concreta o algo que esa persona simbolizaba: un tipo de vínculo, una dinámica, algo que se tenía entonces y que falta ahora.</p>
+
+<h2>La estructura temporal que trae el sueño</h2>
+
+<p>Uno de los aspectos más llamativos de estos sueños es cómo manejan el tiempo: en el sueño, el trabajo antiguo existe en el presente, como si no hubiera pasado nada. Esa superposición de tiempos es característica de cómo el cerebro archiva y convoca las experiencias: sin cronología lineal, por resonancia emocional.</p>
+
+<p>Si el trabajo anterior aparece en sueños junto con otras personas del pasado, puede que haya un patrón más amplio de procesamiento de etapas. Hay más sobre ese mecanismo en <a href="/blog/suenos-con-personas-del-pasado">soñar con personas del pasado</a>. Y si el trabajo actual genera ansiedad que se filtra en los sueños, puede conectar con <a href="/blog/suenos-con-ansiedad-laboral">cómo funciona la ansiedad laboral en los sueños</a>.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 44: Ansiedad y Miedos — Perder algo importante ────────────────
+  {
+    slug: "sonar-que-pierdes-algo-importante",
+    title: "Soñar que pierdes algo importante: llaves, móvil, cartera o a una persona",
+    excerpt:
+      "Buscar algo que no aparece, perder algo que no puedes recuperar. Los sueños de pérdida son de los más comunes y casi siempre señalan algo concreto que se siente en riesgo.",
+    category: "Ansiedad y Miedos",
+    categorySlug: "ansiedad-y-miedos",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/ansiedad-y-miedos/sonar-que-pierdes-algo.webp",
+    coverAlt: "Manos vacías extendidas sobre fondo oscuro con luz tenue",
+    tags: ["pérdida", "llaves", "móvil", "cartera", "buscar", "ansiedad", "control", "seguridad"],
+    content: `
+<p>Buscas las llaves y no las encuentras. El móvil ha desaparecido. La cartera no está. O peor: has perdido a alguien en un lugar lleno de gente y no consigues encontrarlo. Los sueños de pérdida son de los más frecuentes y de los que más ansiedad dejan al despertar, incluso cuando te das cuenta de que era un sueño.</p>
+
+<h2>La estructura emocional de los sueños de pérdida</h2>
+
+<p>Perder algo en un sueño no es lo mismo que no tenerlo desde el principio. La pérdida implica que lo tenías, que era tuyo, y que ya no está. Esa estructura, tener y perder, es la que el cerebro está procesando: algo que sientes que podría quitarse, que se escapa, que no puedes retener.</p>
+
+<p>No siempre se trata del objeto que aparece en el sueño. Casi siempre el objeto es el símbolo de algo más.</p>
+
+<h2>Perder las llaves</h2>
+
+<p>Las llaves dan acceso: a la casa, al coche, a espacios seguros. Perderlas en un sueño suele reflejar una sensación de no tener acceso a algo que necesitas: un recurso, una solución, una forma de entrar en algún lugar (literal o metafórico).</p>
+
+<p>También puede señalar una sensación de inseguridad respecto a lo que protegen esas llaves. El hogar, la estabilidad, algo que sientes que podría quedar expuesto o inaccesible.</p>
+
+<h2>Perder el móvil</h2>
+
+<p>El móvil es hoy el objeto con más funciones simbólicas posibles: comunicación, identidad digital, agenda, memoria, conexión con los demás. Perderlo en un sueño puede reflejar:</p>
+
+<ul>
+<li>Miedo a quedar desconectado, a perder el contacto con personas importantes.</li>
+<li>Sensación de vulnerabilidad respecto a la identidad o la privacidad.</li>
+<li>Sobrecarga de comunicación o responsabilidad: el cerebro escenifica el deseo de que se pierda lo que genera tanta demanda.</li>
+<li>Ansiedad sobre algo que depende de ese canal: una respuesta esperada, una conversación pendiente.</li>
+</ul>
+
+<h2>Perder la cartera o el dinero</h2>
+
+<p>La cartera contiene identidad (documentos) y recursos (dinero). Perderla combina ambas dimensiones: la sensación de quedar sin recursos y la de perder algo que te identifica o acredita.</p>
+
+<p>Hay más sobre la simbología específica del dinero en los sueños en <a href="/blog/suenos-con-dinero">sueños con dinero</a>.</p>
+
+<h2>Perder a una persona entre la multitud</h2>
+
+<p>Uno de los sueños de pérdida más angustiosos, especialmente cuando se pierde a un hijo, una pareja o alguien muy cercano. La búsqueda frenética, la multitud que lo hace imposible, la sensación de que se fue y no vuelve.</p>
+
+<p>Casi siempre refleja miedo a perder ese vínculo en la vida real, aunque no haya ninguna señal concreta de que esté en peligro. También puede aparecer en momentos donde la relación está pasando por un cambio: que la persona se independice, que haya distancia, que algo esté modificando la dinámica.</p>
+
+<p>En el caso de hijos, este sueño es especialmente frecuente en padres y madres con mucha ansiedad de protección. El miedo a perder al hijo en el sueño no es una predicción: es el amor y el miedo procesándose juntos.</p>
+
+<h2>Buscar sin encontrar</h2>
+
+<p>Muchas veces la pérdida en el sueño no es un objeto concreto sino algo indefinido que buscas sin saber exactamente qué es. Ese patrón de búsqueda sin objeto claro suele reflejar una sensación de que falta algo en la vida real que no sabes nombrar del todo: un propósito, una dirección, algo que antes tenías y que ya no está pero que no puedes identificar con precisión.</p>
+
+<h2>Encontrar lo perdido dentro del sueño</h2>
+
+<p>Cuando en el sueño encuentras lo que buscabas, hay una resolución que puede tener su propio significado. Si la emoción es de alivio enorme, el objeto perdido tenía una carga muy grande. Si la encuentras de forma inesperada, puede que el cerebro esté procesando que hay recursos o soluciones disponibles que no estás viendo.</p>
+
+<h2>La ansiedad que genera la pérdida</h2>
+
+<p>Lo que hace que estos sueños sean tan perturbadores no es el objeto en sí sino la emoción que genera: la vulnerabilidad, la sensación de haber fallado, el caos de no poder controlarlo. Si esa emoción es muy intensa y recurrente, merece preguntarse qué hay en la vida real que activa esa misma sensación de que algo se escapa del control.</p>
+
+<p>Si hay un patrón más amplio de sueños de pérdida de control, puede conectar con <a href="/blog/sonar-que-no-puedes-correr">soñar que el cuerpo no responde</a> o con <a href="/blog/sonar-con-accidente-de-coche">soñar con accidentes</a>, donde la estructura emocional es similar.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 45: Ansiedad y Miedos — Catástrofes ───────────────────────────
+  {
+    slug: "sonar-con-catastrofes",
+    title: "Soñar con catástrofes: terremotos, inundaciones, guerras y el fin del mundo",
+    excerpt:
+      "Los sueños catastrofistas son intensos y dejan una sensación de amenaza que tarda en disiparse. Casi nunca son predicciones. Son el cerebro procesando una amenaza que ya sientes.",
+    category: "Ansiedad y Miedos",
+    categorySlug: "ansiedad-y-miedos",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 8,
+    coverImage: "/images/blog/ansiedad-y-miedos/sonar-con-catastrofes.webp",
+    coverAlt: "Horizonte con nubes oscuras y luz dramática sobre paisaje vacío",
+    tags: ["catástrofe", "terremoto", "inundación", "guerra", "fin del mundo", "apocalipsis", "amenaza", "ansiedad"],
+    content: `
+<p>El suelo tiembla. El agua sube. Hay una explosión en el horizonte. Estás en medio de algo que se derrumba y no hay salida clara. Los sueños catastrofistas son de los más intensos y de los que más activación dejan al despertar. Y son más frecuentes de lo que la mayoría cree.</p>
+
+<h2>Por qué el cerebro construye catástrofes</h2>
+
+<p>El cerebro tiene un sistema de detección de amenazas muy sensible, y durante el REM ese sistema trabaja sin los filtros racionales de la vigilia. Cuando hay algo en la vida real que se siente amenazante, aunque sea de forma vaga e indefinida, el cerebro puede amplificarlo hasta sus consecuencias más extremas: la catástrofe.</p>
+
+<p>No es una predicción. Es el cerebro usando la escala más grande que tiene disponible para representar una amenaza que siente real.</p>
+
+<h2>Terremotos: lo que se tambalea</h2>
+
+<p>El terremoto es la imagen del suelo que falla. Todo lo que parecía sólido de repente no lo es. En los sueños, casi siempre refleja una sensación de que algo en lo que se apoyaba la seguridad emocional o material se ha vuelto inestable.</p>
+
+<p>Puede ser la economía personal, una relación que parecía estable, la salud, una certeza sobre el futuro. No hace falta que haya ocurrido nada dramático: basta con que haya una sensación de que el suelo no es tan firme como parecía.</p>
+
+<p>La intensidad del terremoto en el sueño suele escalar con la intensidad de esa inseguridad percibida.</p>
+
+<h2>Inundaciones: lo que desborda</h2>
+
+<p>El agua que sube sin control es la imagen del desbordamiento emocional. Algo que no se ha gestionado bien y que ha crecido hasta ser inmanejable. Puede ser trabajo, responsabilidades, emociones que se han acumulado, o una situación que empezó pequeña y que ahora es demasiado grande.</p>
+
+<p>La inundación también puede señalar algo que viene de fuera y que se siente imposible de detener: una presión externa, un cambio que nadie pidió, algo que avanza sin que puedas hacer nada.</p>
+
+<p>La lectura del agua como símbolo en general tiene más matices en <a href="/blog/suenos-con-agua">sueños con agua</a>.</p>
+
+<h2>Guerras y violencia masiva</h2>
+
+<p>Los sueños de guerra tienen una carga colectiva que otros no tienen. Pueden aparecer después de consumir mucho contenido bélico (noticias, documentales, películas), pero cuando aparecen sin ese contexto suelen procesar conflicto: entre grupos, entre fuerzas opuestas, entre partes internas.</p>
+
+<p>La guerra en sueños puede señalar:</p>
+<ul>
+<li>Un conflicto real en la vida que se siente como una batalla: laboral, familiar, interno.</li>
+<li>La sensación de estar en medio de dos fuerzas opuestas que no dependen de ti.</li>
+<li>Un estado de hipervigilancia o de amenaza constante que el cerebro está procesando.</li>
+<li>Ansiedad derivada de la exposición a conflictos reales en el mundo: el cerebro procesa también lo que absorbe a través de las noticias.</li>
+</ul>
+
+<h2>El fin del mundo y los sueños apocalípticos</h2>
+
+<p>Los sueños de apocalipsis son interesantes porque suelen tener una ambivalencia que otros sueños catastrofistas no tienen. A veces hay terror, pero otras veces hay algo que se parece a la aceptación, incluso a cierta liberación.</p>
+
+<p>El fin del mundo en sueños raramente procesa el miedo a la extinción literal. Más frecuentemente representa el fin de algo concreto en la vida: una etapa, una versión de uno mismo, una forma de vivir. Los finales grandes pueden sentirse como el fin del mundo antes de que lleguen a su forma más pequeña y manejable.</p>
+
+<p>Si el apocalipsis del sueño viene acompañado de cierta calma o de sensación de nuevo comienzo, puede que haya algo que está terminando en la vida real y que el cerebro ya está procesando como una transformación, no solo como una pérdida.</p>
+
+<h2>Estar solo durante la catástrofe vs. estar acompañado</h2>
+
+<p>Un detalle que cambia mucho la lectura: ¿estás solo en el sueño catastrófico o hay otras personas? ¿Quién está contigo?</p>
+
+<p>Estar solo en una catástrofe amplifica la sensación de vulnerabilidad e indefensión. Estar acompañado, incluso en el caos, señala que hay recursos relacionales disponibles. Si las personas que están contigo en el sueño son personas reales de tu vida, puede haber algo en esas relaciones que el cerebro está procesando en ese contexto.</p>
+
+<h2>El efecto de las noticias en los sueños catastrofistas</h2>
+
+<p>Es imposible separar este tipo de sueños del contexto informativo actual. La exposición constante a noticias sobre catástrofes reales, guerras, crisis climáticas y colapsos de distinto tipo tiene un efecto directo en el contenido de los sueños.</p>
+
+<p>El cerebro no distingue entre amenaza vivida directamente y amenaza absorbida a través de pantallas. Procesa ambas. Reducir la exposición a contenido de alta carga amenazante, especialmente antes de dormir, tiene un efecto real en la frecuencia de este tipo de sueños.</p>
+
+<h2>La pregunta que orienta</h2>
+
+<p>¿Qué se está derrumbando, desbordando o destruyendo en tu vida real ahora mismo, aunque sea de forma más pequeña que en el sueño?</p>
+
+<p>Si hay estrés elevado sostenido en el fondo, los sueños catastrofistas pueden ser parte de ese procesamiento. Hay más sobre la relación entre estrés y la intensidad de los sueños en <a href="/blog/por-que-suenas-mas-cuando-estas-estresado">por qué sueñas más cuando estás estresado</a>.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 46: Relaciones — Amigos ───────────────────────────────────────
+  {
+    slug: "sonar-con-amigos",
+    title: "Soñar con amigos: lo que el cerebro procesa sobre los vínculos que eliges",
+    excerpt:
+      "Los amigos en los sueños son los vínculos que elegiste. Cuando aparecen, el cerebro suele estar procesando algo sobre esa relación, sobre lo que significa o sobre lo que necesitas de ella.",
+    category: "Relaciones",
+    categorySlug: "relaciones",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/relaciones/sonar-con-amigos.webp",
+    coverAlt: "Siluetas de varias personas en conversación bajo luz cálida",
+    tags: ["amigos", "amistad", "vínculos", "relaciones", "distancia", "traición", "pertenencia", "complicidad"],
+    content: `
+<p>Los amigos son los vínculos que elegimos: no los impone la familia ni el trabajo, los construimos. Cuando aparecen en los sueños, hay algo en esa elección y en lo que representa que el cerebro está procesando.</p>
+
+<h2>Por qué los amigos aparecen en los sueños</h2>
+
+<p>La amistad lleva una carga emocional propia: pertenencia, confianza elegida, reciprocidad. Cuando algo en esas dimensiones está activo, ya sea porque va bien o porque hay algo que no funciona, el cerebro lo procesa por la noche usando la imagen de esas personas.</p>
+
+<p>No siempre el amigo del sueño representa a esa persona concreta. A veces representa lo que esa amistad simboliza: un tipo de vínculo, una época, una parte de ti mismo que solo sale con esa persona.</p>
+
+<h2>Soñar con un amigo con quien tienes buena relación</h2>
+
+<p>Cuando el sueño con un amigo es tranquilo y agradable, el cerebro puede simplemente estar procesando ese vínculo de forma positiva. También puede aparecer cuando echas de menos a esa persona, cuando llevas tiempo sin verla, o cuando hay algo en la vida actual que te recuerda a lo que esa amistad te da.</p>
+
+<p>Si en el sueño hay una conversación importante o una situación significativa, puede que haya algo que quieras decirle o que la relación esté pasando por un momento que merece atención.</p>
+
+<h2>Soñar con un conflicto o traición de un amigo</h2>
+
+<p>Los sueños donde un amigo te traiciona, te falla o actúa de forma completamente distinta a como es generan mucha confusión al despertar. La tentación es buscar si hay algo real detrás.</p>
+
+<p>A veces lo hay: si hay una tensión real en la amistad que no se ha verbalizado, el sueño puede escenificarla de forma amplificada. Pero muchas veces no hay nada concreto: el cerebro usa la imagen del amigo para procesar una emoción de traición o decepción que viene de otro lugar.</p>
+
+<p>La pregunta útil no es "¿me habrá fallado este amigo?" sino "¿hay algo en mi vida ahora mismo donde me siento traicionado o decepcionado?"</p>
+
+<h2>Soñar con un amigo del pasado con quien ya no tienes contacto</h2>
+
+<p>Los amigos que perdiste de vista aparecen con frecuencia, especialmente amigos de la infancia o de épocas muy concretas. Como con otras personas del pasado, casi siempre representan algo de esa época: lo que sentías entonces, quién eras, algo que tenías y que ya no tienes de la misma forma.</p>
+
+<p>Si la amistad terminó mal o hay algo que quedó sin resolver, el cerebro puede seguir procesándolo mucho después. Una despedida que no se dio, algo que no se dijo, una ruptura de la amistad que dejó residuo.</p>
+
+<h2>Soñar que estás solo cuando deberían estar los amigos</h2>
+
+<p>El sueño donde hay un contexto social pero tú estás solo, donde los demás están juntos y tú separado, tiene una carga de exclusión que puede ser muy dolorosa. Suele procesar una sensación de no pertenencia, de estar fuera de algo, de que los vínculos no están disponibles cuando los necesitas.</p>
+
+<p>No tiene que basarse en nada real. Puede ser simplemente una etapa de más soledad o de menos conexión de lo que necesitas.</p>
+
+<h2>Soñar con un grupo de amigos: la dinámica grupal</h2>
+
+<p>Cuando en el sueño aparece un grupo y hay una dinámica entre todos, el cerebro puede estar procesando algo sobre ese grupo concreto o sobre el sentido de pertenencia en general. ¿Eres parte del grupo o estás en el margen? ¿Hay jerarquías o tensiones? ¿Cómo te sientes dentro?</p>
+
+<p>Las dinámicas de grupo en sueños suelen reflejar con bastante fidelidad cómo se percibe ese grupo en la vida real, o cómo se percibe el lugar de uno dentro de él.</p>
+
+<h2>La amistad como elección que puede revisarse</h2>
+
+<p>Una de las cosas que hace distintos a los sueños con amigos de los sueños con familia es que la amistad es elegida. Cuando un amigo aparece en sueños de forma intensa, a veces hay una pregunta implícita sobre si esa elección sigue siendo la correcta, si la relación sigue respondiendo a lo que era, si hay algo que ha cambiado.</p>
+
+<p>No como un juicio, sino como una revisión natural de los vínculos que mantenemos.</p>
+
+<p>Si los amigos del sueño son personas del pasado, puede ser útil leer también <a href="/blog/suenos-con-personas-del-pasado">soñar con personas del pasado</a> para entender cómo el cerebro procesa esos vínculos que ya no son activos.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 47: Animales — Insectos ───────────────────────────────────────
+  {
+    slug: "sonar-con-insectos",
+    title: "Soñar con insectos: lo pequeño que se acumula hasta ser insoportable",
+    excerpt:
+      "Las cucarachas, hormigas, moscas o enjambres en los sueños raramente son solo bichos. Casi siempre son la imagen de algo que se ha ido acumulando en pequeño hasta volverse abrumador.",
+    category: "Animales",
+    categorySlug: "animales",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/animales/sonar-con-insectos.webp",
+    coverAlt: "Siluetas de insectos sobre superficie clara con luz lateral",
+    tags: ["insectos", "cucarachas", "hormigas", "moscas", "enjambre", "acumulación", "molestia", "invasión"],
+    content: `
+<p>Los insectos en los sueños generan una respuesta visceral inmediata en la mayoría de personas. Cucarachas que aparecen de la nada, hormigas que invaden, moscas que no paran, un enjambre que se acerca. La reacción es de asco o de miedo, a veces de los dos a la vez.</p>
+
+<p>Pero los insectos como símbolo en sueños tienen una característica que los hace distintos a otros animales: son pequeños, pero aparecen en cantidad. Y esa es exactamente la clave de su significado.</p>
+
+<h2>Lo pequeño que se acumula</h2>
+
+<p>El rasgo más definitorio de los insectos en sueños es la acumulación. Un insecto solo casi nunca genera la misma reacción que una plaga. En los sueños, los insectos casi siempre representan cosas pequeñas que se han ido acumulando hasta llegar a un punto de saturación:</p>
+
+<ul>
+<li>Pequeños problemas o molestias que individualmente son manejables pero que juntos resultan abrumadores.</li>
+<li>Pensamientos intrusivos o preocupaciones menores que se acumulan y no dejan espacio.</li>
+<li>Tareas pendientes, responsabilidades pequeñas, cosas sin resolver que se han ido apilando.</li>
+<li>Irritaciones en relaciones o en el entorno que no se han dicho y que han crecido sin que se atienda a ellas.</li>
+</ul>
+
+<h2>Cucarachas</h2>
+
+<p>Las cucarachas son de los insectos con más carga simbólica negativa, y en los sueños suelen apuntar a algo que se siente sucio, vergonzoso o que se quiere mantener oculto. Algo que está ahí, que sabes que existe, pero que prefieres no mirar.</p>
+
+<p>También se asocian con lo que sobrevive: la cucaracha es el animal que persiste aunque todo lo demás falle. Si aparecen en sueños de forma persistente, puede que haya algo en la vida que no desaparece aunque lo ignores, que sigue ahí esperando a ser atendido.</p>
+
+<h2>Hormigas</h2>
+
+<p>Las hormigas tienen una simbología más ambivalente. Por un lado, son el símbolo del trabajo incansable, la organización, la colectividad que funciona. Por otro, una invasión de hormigas es la imagen de lo que se infiltra en todos los rincones sin que puedas detenerlo.</p>
+
+<p>Soñar con hormigas que trabajan ordenadamente puede tener una lectura más neutral o incluso positiva: algo que se construye poco a poco, con constancia. Soñar con una invasión de hormigas es otra cosa: algo que se ha metido en todos los espacios, que ocupa demasiado, que es difícil de controlar.</p>
+
+<h2>Moscas</h2>
+
+<p>Las moscas se asocian con lo que ronda lo que ya está en descomposición: una situación que ha empezado a deteriorarse, algo que ya no es lo que era pero que no se ha terminado de cerrar. También pueden señalar algo molesto y persistente que no tiene mucho peso por sí solo pero que no para.</p>
+
+<h2>Enjambres: la amenaza colectiva</h2>
+
+<p>Cuando en el sueño los insectos son un enjambre que se acerca o que ataca, la amenaza se vuelve colectiva e incontrolable. Puede señalar una sensación de estar rodeado de algo que no puedes manejar, de que son demasiadas cosas a la vez, o de que algo que era pequeño se ha convertido en una fuerza que sientes que podría aplastarte.</p>
+
+<h2>Insectos que salen del cuerpo</h2>
+
+<p>Uno de los sueños de insectos más perturbadores: salen de la piel, de la boca, de las manos. La combinación de invasión y origen interno es especialmente intensa.</p>
+
+<p>Este patrón suele señalar algo que viene de dentro y que ya no puede contenerse: pensamientos, emociones, algo que has estado suprimiendo y que está saliendo aunque no quieras. No es literal, no indica ningún problema físico real, pero sí puede señalar que hay algo interno que lleva tiempo sin espacio para expresarse.</p>
+
+<h2>Matar los insectos en el sueño</h2>
+
+<p>Cuando en el sueño consigues eliminar los insectos, hay un acto de resolución. Si la sensación es de alivio claro, puede que haya algo en la vida real que necesita una acción concreta: atender esas pequeñas cosas acumuladas, limpiar algo que lleva tiempo sin atención, cerrar algo que está abierto.</p>
+
+<h2>La pregunta central</h2>
+
+<p>¿Qué hay en mi vida que se ha ido acumulando en pequeño hasta llegar a un punto donde ya no puedo ignorarlo?</p>
+
+<p>Los insectos en los sueños son la señal de que algo que se podría haber atendido antes ahora ocupa demasiado espacio. La buena noticia es que, en los sueños como en la vida, lo acumulado también puede despejarse.</p>
+
+<p>Si los insectos aparecen en el contexto de sueños de ansiedad más amplia, puede conectar con <a href="/blog/por-que-suenas-mas-cuando-estas-estresado">por qué los sueños se intensifican cuando hay estrés</a>.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 48: Símbolos — Oscuridad ──────────────────────────────────────
+  {
+    slug: "sonar-con-oscuridad",
+    title: "Soñar con oscuridad: miedo, lo desconocido y lo que no se quiere ver",
+    excerpt:
+      "La oscuridad en los sueños no siempre es amenazante. A veces es el espacio donde algo se está gestando. Pero cuando genera miedo, suele señalar algo que el cerebro prefiere no iluminar.",
+    category: "Símbolos en Sueños",
+    categorySlug: "simbolos-en-suenos",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/simbolos-en-suenos/sonar-con-oscuridad.webp",
+    coverAlt: "Corredor oscuro con pequeño punto de luz al fondo",
+    tags: ["oscuridad", "sombra", "miedo", "desconocido", "incertidumbre", "inconsciente", "símbolos", "noche"],
+    content: `
+<p>La oscuridad es uno de los escenarios más frecuentes en los sueños, y también uno de los más ambivalentes. No siempre es amenazante. Pero cuando genera miedo, casi siempre hay algo específico que señala.</p>
+
+<h2>La oscuridad como símbolo: los dos polos</h2>
+
+<p>Como el agua o la sangre, la oscuridad tiene dos caras en el lenguaje de los sueños:</p>
+
+<ul>
+<li><strong>Lo desconocido que da miedo:</strong> lo que no se ve, lo que puede estar ahí sin que lo sepas, la incertidumbre llevada a su forma más pura.</li>
+<li><strong>El espacio de gestación:</strong> lo que todavía no ha tomado forma, lo que se está preparando antes de emerger. La oscuridad del útero antes del nacimiento, la oscuridad de la semilla antes de brotar.</li>
+</ul>
+
+<p>La emoción en el sueño decide en cuál de los dos polos se está moviendo el símbolo.</p>
+
+<h2>Oscuridad con miedo: lo que no se quiere ver</h2>
+
+<p>Cuando la oscuridad del sueño genera ansiedad o terror, casi siempre hay algo en la vida real que se está evitando mirar. No hace falta que sea algo dramático: puede ser una conversación, un aspecto de uno mismo, una situación que se sabe que existe pero que se mantiene en penumbra porque iluminarla obliga a actuar.</p>
+
+<p>La oscuridad que da miedo en los sueños suele ser proporcional a cuánto se está evitando en la vigilia. Cuanto más se evita algo, más grande y amenazante se vuelve la sombra en los sueños.</p>
+
+<h2>Estar perdido en la oscuridad</h2>
+
+<p>No sabes dónde estás, no hay referencias, cada dirección parece igual de incierta. Este patrón refleja una etapa de desorientación real: no tener claro el rumbo, no ver bien las opciones, sentir que falta luz sobre algo importante.</p>
+
+<p>Puede aparecer en momentos de transición, cuando una etapa ha terminado y la siguiente no está todavía definida. El espacio entre lo que era y lo que será, que el cerebro traduce como oscuridad.</p>
+
+<h2>Algo que acecha en la oscuridad</h2>
+
+<p>Sientes que hay algo ahí, pero no lo ves. A veces lo oyes, a veces simplemente lo percibes. Es uno de los sueños de oscuridad más perturbadores precisamente porque lo desconocido es más amenazante que lo conocido.</p>
+
+<p>Lo que acecha en la sombra suele representar algo que existe en la vida real pero que no se ha mirado directamente: un problema que se sabe presente pero que no se ha reconocido del todo, una emoción que está ahí pero que no se ha nombrado, algo que se teme y que se ha evitado pensar con claridad.</p>
+
+<p>Dar forma a lo que acecha, en el sueño o en la vigilia, casi siempre reduce su amenaza. Lo indefinido asusta más que lo concreto.</p>
+
+<h2>Un túnel oscuro con luz al final</h2>
+
+<p>Una de las imágenes de oscuridad más cargadas de significado. El tránsito por algo difícil hacia algo mejor, el proceso de pasar por una etapa dura sabiendo que hay salida. Si en el sueño la luz al final es real y hay movimiento hacia ella, el cerebro puede estar procesando que hay un camino aunque ahora sea oscuro.</p>
+
+<h2>La oscuridad sin miedo: el descanso y la gestación</h2>
+
+<p>Cuando en el sueño hay oscuridad pero sin angustia, cuando simplemente estás en un espacio oscuro y la sensación es de calma o de recogimiento, el símbolo es más positivo. Puede señalar una etapa de reposo necesario, un proceso interno que ocurre sin ser visible todavía, o simplemente una necesidad de oscuridad real: de menos estímulos, de más silencio.</p>
+
+<h2>Luz que aparece en la oscuridad del sueño</h2>
+
+<p>Cuando en medio de un sueño oscuro aparece una luz, ya sea una vela, una ventana, alguien que lleva una linterna, el foco se desplaza hacia esa fuente. ¿Qué o quién es la luz? Puede representar una persona que aporta claridad, una solución que aparece, o una parte de uno mismo que empieza a ver algo con más nitidez.</p>
+
+<h2>Lo que la oscuridad no puede hacer</h2>
+
+<p>Vale la pena nombrarlo: la oscuridad en los sueños, por intensa que sea, no puede hacerte daño en sí misma. Lo que asusta es lo que imaginas que hay ahí. Y esa es exactamente la información: lo que temes que haya, lo que no quieres ver. Llevar eso a la consciencia, nombrarlo, suele ser el primer paso para que deje de acechar.</p>
+
+<p>Si la oscuridad aparece en sueños relacionados con algo sin resolver que se repite, hay más sobre ese mecanismo en <a href="/blog/suenos-recurrentes-por-que-el-cerebro-repite">por qué el cerebro repite ciertos patrones</a>. Y si lo que acecha en la oscuridad tiene forma de persecución, puede conectar con <a href="/blog/suenos-de-persecucion">sueños de persecución</a>.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 49: Símbolos — Ropa ───────────────────────────────────────────
+  {
+    slug: "sonar-con-ropa",
+    title: "Soñar con ropa: identidad, imagen y lo que muestras al mundo",
+    excerpt:
+      "La ropa en los sueños habla de cómo te presentas y de cómo te percibes. Ir mal vestido, no encontrar qué ponerte o llevar ropa que no es tuya: cada variante dice algo sobre la imagen que proyectas.",
+    category: "Símbolos en Sueños",
+    categorySlug: "simbolos-en-suenos",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/simbolos-en-suenos/sonar-con-ropa.webp",
+    coverAlt: "Armario abierto con ropa colgada y luz suave lateral",
+    tags: ["ropa", "vestimenta", "identidad", "imagen", "apariencia", "rol", "disfraz", "presentación"],
+    content: `
+<p>La ropa tiene una función que va más allá de abrigar: es lo que mostramos al mundo, la capa entre nosotros y los demás, la señal de quiénes somos o de quiénes queremos parecer. En los sueños, esa función simbólica se amplifica.</p>
+
+<h2>La ropa como símbolo de identidad y presentación</h2>
+
+<p>En el lenguaje de los sueños, la ropa casi siempre apunta a la imagen que proyectas, al rol que desempeñas o a cómo te percibes a ti mismo en relación con los demás. No es solo estética: es identidad externa.</p>
+
+<p>El estado de la ropa, si es la tuya o no, si encaja o no, si la llevas bien o mal: todo eso tiene su lectura.</p>
+
+<h2>Ir mal vestido para la ocasión</h2>
+
+<p>Uno de los sueños de ropa más frecuentes: estás en una situación importante y llevas ropa completamente inadecuada. Demasiado informal para una reunión, demasiado formal para una fiesta, o simplemente algo que no pega con el contexto.</p>
+
+<p>Suele reflejar una sensación de no encajar o de no estar a la altura de algo: una situación nueva, un rol que se siente demasiado grande, un contexto donde no te sientes del todo en tu lugar. La ropa inadecuada es la imagen del desajuste entre quién eres y lo que se espera de ti.</p>
+
+<h2>No encontrar qué ponerte</h2>
+
+<p>El armario lleno pero sin nada que valga. O el armario vacío cuando necesitas algo urgente. Este sueño suele aparecer en momentos de crisis de identidad o de rol: ¿quién soy yo en esta situación?, ¿qué imagen quiero dar?, ¿hay algo en mí que encaje con lo que viene?</p>
+
+<p>La parálisis ante el armario en el sueño es la imagen de la dificultad para definirse en un momento de transición o de exigencia.</p>
+
+<h2>Llevar ropa que no es tuya</h2>
+
+<p>Cuando en el sueño llevas la ropa de otra persona, o ropa que claramente no es para ti, hay algo sobre el rol o la identidad que no encaja. Puede reflejar que estás desempeñando un papel que no sientes como propio: en el trabajo, en una relación, en un contexto social.</p>
+
+<p>También puede señalar que estás adoptando la perspectiva o el estilo de otra persona de una forma que no se siente auténtica.</p>
+
+<h2>Ropa sucia, rota o en mal estado</h2>
+
+<p>La imagen de algo que se ha desgastado o que no se ha cuidado. Puede reflejar una sensación de que la imagen que proyectas, o la percepción que tienes de ti mismo, está deteriorada. Puede haber algo que antes funcionaba y que ahora ya no.</p>
+
+<p>También puede señalar vergüenza o incomodidad con algo que se muestra, algo que preferiría mantenerse más oculto pero que se nota.</p>
+
+<h2>Ropa nueva o especialmente hermosa</h2>
+
+<p>El reverso positivo: estrenar algo, llevar algo que sienta bien, sentirte bien en lo que llevas. Suele reflejar una etapa de buen momento con la propia identidad o con la imagen que proyectas, o el deseo de una renovación: de empezar algo de nuevo, de mostrarse de otra forma.</p>
+
+<h2>Un disfraz o llevar ropa de otro personaje</h2>
+
+<p>El disfraz es el símbolo del rol que se adopta conscientemente, de la máscara que se elige. En los sueños, llevar un disfraz puede señalar que hay algo que se está representando en la vida real de forma no completamente auténtica: un papel social, una expectativa que se cumple pero que no se siente del todo propia.</p>
+
+<p>Si en el sueño el disfraz es agradable o liberador, puede que haya algo en ese rol que también da algo. Si genera incomodidad o sensación de trampa, la autenticidad está en tensión con lo que se está mostrando.</p>
+
+<h2>Conectando con otros sueños de imagen</h2>
+
+<p>Los sueños de ropa comparten territorio con otros sueños relacionados con la imagen y la vulnerabilidad. Soñar que vas mal vestido tiene estructura similar a soñar que estás desnudo en público, donde la ausencia de ropa lleva la exposición a su extremo. Si reconoces ese patrón, hay más sobre él en <a href="/blog/suenos-de-estar-desnudo-en-publico">soñar que estás desnudo en público</a>.</p>
+
+<p>Y si la sensación es de no encajar en el rol o en el contexto, puede conectar con <a href="/blog/sonar-que-llegas-tarde">soñar que llegas tarde</a>, otro sueño de inadecuación ante una situación de exigencia.</p>
+    `,
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
