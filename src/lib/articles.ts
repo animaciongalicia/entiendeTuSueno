@@ -3058,6 +3058,273 @@ export const articles: Article[] = [
 <p>Si los sueños de volar alternan con sueños de caída, puede que te interese leer sobre <a href="/blog/suenos-recurrentes-de-caida">los sueños recurrentes de caída</a>, que representan la otra cara del mismo eje: la expansión versus el miedo a perder el suelo bajo los pies.</p>
     `,
   },
+  {
+    slug: "suenos-lucidos-que-son-y-como-empezar",
+    title: "Sueños Lúcidos: Qué Son, Cómo Funcionan y Cómo Empezar a Tenerlos",
+    excerpt:
+      "El sueño lúcido es el estado en el que eres consciente de que estás soñando mientras lo haces. No es ciencia ficción ni técnica esotérica: es un fenómeno bien documentado con décadas de investigación científica detrás.",
+    category: "Ciencia del Sueño",
+    categorySlug: "ciencia-del-sueno",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 10,
+    coverImage: "/images/blog/ciencia-del-sueno/suenos-lucidos.webp",
+    coverAlt: "Figura contemplando un paisaje onírico imposible, colores vibrantes",
+    tags: ["sueño lúcido", "lucid dreaming", "MILD", "WILD", "LaBerge", "conciencia", "técnicas"],
+    cluster: "ciencia-del-sueno",
+    visual_theme: "espiritual",
+    pin_titles: [
+      "Sueños lúcidos: la guía real para empezar (sin misterio)",
+      "Cómo tener un sueño lúcido: lo que dice la ciencia",
+      "Qué es el sueño lúcido y por qué funciona",
+    ],
+    reel_hook: "El sueño lúcido no es magia ni meditación avanzada. Es un estado cerebral real que puedes aprender a inducir con técnicas concretas. La ciencia lleva 40 años estudiándolo.",
+    extracto_seo: "El sueño lúcido es el estado en que eres consciente de que sueñas. Tiene décadas de investigación científica detrás y técnicas concretas para aprenderlo. Aquí la guía real.",
+    imagen_destacada: "/images/blog/ciencia-del-sueno/suenos-lucidos.webp",
+    imagen_vertical: "/images/pinterest/suenos-lucidos-pin.webp",
+    tipo: "normal",
+    intencion_practica: ["salud-emocional", "ansiedad"],
+    consejo_practico: "Si quieres empezar con el sueño lúcido, la única técnica indispensable al principio es la más simple: el diario de sueños. Escribe lo que recuerdas cada mañana, aunque sean fragmentos. Después de dos o tres semanas, el cerebro empieza a prestar más atención a sus propios sueños — y esa atención es exactamente lo que hace falta para volverse lúcido.",
+    fuentes: [
+      { autor: "Stephen LaBerge", obra: "Lucid Dreaming (1985)" },
+      { autor: "Stephen LaBerge & Howard Rheingold", obra: "Exploring the World of Lucid Dreaming (1990)" },
+      { autor: "Ursula Voss et al.", obra: "Lucid dreaming: a state of consciousness with features of both waking and non-lucid dreaming (Nature Neuroscience, 2009)" },
+    ],
+    interpretacion_humana: "<p>El sueño lúcido es uno de los temas que más preguntas genera. Y también uno de los que más desinformación acumula: hay mucho misticismo, mucha promesa de resultados inmediatos, y poca claridad sobre lo que realmente implica aprenderlo.</p><p>Lo que nos parece más importante comunicar es esto: el sueño lúcido es real, está documentado científicamente, y es una habilidad que la mayoría de las personas puede desarrollar. Pero requiere práctica y paciencia. No es una técnica de una noche.</p>",
+    faqItems: [
+      {
+        question: "¿Todo el mundo puede tener sueños lúcidos?",
+        answer: "La mayoría de las personas han tenido algún sueño lúcido espontáneo en algún momento de su vida, aunque no lo hayan reconocido como tal. La capacidad parece ser universal; lo que varía es la frecuencia y el grado de control. Con práctica, la mayoría de personas puede aprender a inducirlos, aunque hay variabilidad individual en la facilidad con la que se adquiere la habilidad.",
+      },
+      {
+        question: "¿Es peligroso el sueño lúcido?",
+        answer: "No hay evidencia de que el sueño lúcido sea peligroso en personas sanas. Los estudios de LaBerge y otros investigadores no documentan efectos negativos sobre la calidad del sueño ni sobre la salud mental en practicantes. Se recomienda precaución en personas con tendencia a la disociación o con ciertas condiciones psiquiátricas, que deben consultarlo con un profesional.",
+      },
+      {
+        question: "¿Cuánto tiempo lleva aprender a tener sueños lúcidos?",
+        answer: "Varía considerablemente. Algunas personas consiguen su primer sueño lúcido inducido en pocas semanas de práctica consistente; otras tardan varios meses. La variable más importante no es el tiempo sino la consistencia: mantener un diario de sueños y practicar las técnicas cada día tiene mucho más impacto que hacer sesiones intensivas esporádicas.",
+      },
+      {
+        question: "¿Qué diferencia hay entre sueño lúcido y parálisis del sueño?",
+        answer: "Son estados distintos aunque relacionados. La parálisis del sueño ocurre cuando la mente se despierta antes de que el cuerpo salga de la atonía muscular del sueño REM: eres consciente pero no puedes moverte. El sueño lúcido es el estado contrario: estás completamente dentro del sueño pero con conciencia de que estás soñando. Algunas técnicas avanzadas usan la parálisis del sueño como puerta de entrada al sueño lúcido.",
+      },
+    ],
+    content: `
+<p>Estás soñando. Y de repente, algo te lo dice: esto es un sueño. No te despiertas. Sigues ahí, pero ahora con una conciencia que normalmente no existe en el sueño. Puedes mirar a tu alrededor y saber que todo lo que ves lo está generando tu cerebro en este momento. Puedes decidir qué hacer a continuación.</p>
+
+<p>Eso es el sueño lúcido. Y no es un fenómeno raro ni una práctica esotérica: es un estado de conciencia bien documentado que la neurociencia lleva estudiando desde los años ochenta.</p>
+
+<h2>La Ciencia que lo Respalda</h2>
+
+<p>El sueño lúcido fue demostrado científicamente por primera vez en 1980 por Stephen LaBerge en el laboratorio del sueño de Stanford. El problema hasta entonces era metodológico: ¿cómo demuestras que alguien está soñando y siendo consciente a la vez, si no puedes comunicarte con él mientras duerme?</p>
+
+<p>LaBerge ideó una solución elegante. Sabía que durante el sueño REM los músculos del cuerpo están paralizados, pero los ojos pueden moverse. Entrenó a soñantes lúcidos para que realizaran una señal acordada con los ojos —un patrón específico de movimientos— en el momento en que se volvieran lúcidos dentro del sueño. Registró la actividad cerebral, la actividad ocular y la señal convenida.</p>
+
+<p>Funcionó. Los registros mostraban inequívocamente que los sujetos estaban en sueño REM profundo cuando realizaban la señal con los ojos. El sueño lúcido quedó verificado como un estado de conciencia real y distinguible.</p>
+
+<p>En 2009, Ursula Voss y su equipo publicaron en Nature Neuroscience un estudio que identificó la firma neurológica específica del sueño lúcido: un aumento de actividad en la banda gamma (25-40 Hz) en las regiones frontales del cerebro, justo las asociadas con la conciencia reflexiva y la metacognición. El cerebro lúcido tiene, literalmente, una actividad diferente al cerebro que sueña sin conciencia.</p>
+
+<h2>Qué Ocurre en el Cerebro durante el Sueño Lúcido</h2>
+
+<p>El sueño lúcido es un estado híbrido: el cerebro está simultáneamente en sueño REM (con toda su actividad vívida e imaginativa) y con una capa de conciencia frontal activa que normalmente está suprimida durante el sueño.</p>
+
+<p>Es como si la parte del cerebro que observa y reflexiona —el córtex prefrontal— se encendiera parcialmente mientras el resto del cerebro sigue soñando. El resultado es que el soñante puede pensar "esto es un sueño" sin que eso interrumpa el sueño.</p>
+
+<p>Lo que no puede hacer el soñante lúcido es controlar el sueño de forma ilimitada: puede influir en él, puede decidir cosas, puede enfrentarse a lo que le da miedo en lugar de huir. Pero el sueño tiene su propia dinámica y no siempre responde a las intenciones del soñante de forma directa.</p>
+
+<h2>Por Qué Aprender Sueño Lúcido</h2>
+
+<p>Más allá de la curiosidad, hay aplicaciones documentadas del sueño lúcido que tienen valor real:</p>
+
+<h3>Reducción de pesadillas recurrentes</h3>
+<p>Es la aplicación con más evidencia clínica. En los sueños lúcidos, el soñante puede reconocer que está en una pesadilla y cambiar su respuesta: en lugar de huir, enfrentarse. En lugar de ser víctima, tomar una posición activa. Esta capacidad, combinada con la técnica de terapia de ensayo en imágenes (IRT), es una de las intervenciones más efectivas para las pesadillas crónicas.</p>
+
+<h3>Práctica de habilidades</h3>
+<p>Varios estudios han explorado si practicar una habilidad física dentro de un sueño lúcido tiene efecto en el rendimiento real. Los resultados son modestos pero positivos: ensayar movimientos —tocar un instrumento, realizar una secuencia deportiva— en un sueño lúcido activa los mismos circuitos motores que ensayarlos despierto, aunque con menos intensidad.</p>
+
+<h3>Procesamiento emocional</h3>
+<p>El sueño lúcido permite, a quienes lo desarrollan, enfrentarse conscientemente a situaciones emocionales difíciles dentro del sueño: hablar con alguien que ya no está, confrontar miedos en un entorno controlado, explorar emociones que en la vigilia resultan inaccesibles.</p>
+
+<h3>Creatividad y resolución de problemas</h3>
+<p>Deirdre Barrett documentó casos de personas que usaban el sueño lúcido deliberadamente para explorar soluciones a problemas creativos o intelectuales. El estado onírico tiene una capacidad asociativa que la mente despierta no tiene, y la lucidez permite navegar ese espacio con intención.</p>
+
+<h2>Las Técnicas Principales</h2>
+
+<h3>El diario de sueños: la base de todo</h3>
+
+<p>Antes de cualquier técnica de inducción, el paso indispensable es entrenar la memoria de sueños. El cerebro recuerda sueños mejor cuando sabe que vas a prestarles atención. Tener un cuaderno o una aplicación al lado de la cama y escribir lo que recuerdas cada mañana —aunque sean fragmentos— entrena esa atención.</p>
+
+<p>Después de dos o tres semanas, la mayoría de las personas empieza a recordar más sueños con más detalle. Y más importante: empieza a reconocer los patrones propios de sus sueños, lo que hace que sea más fácil reconocer que está soñando cuando ocurre.</p>
+
+<h3>Reality checks: la verificación de realidad</h3>
+
+<p>Los reality checks son pequeñas verificaciones que realizas durante el día para preguntarte si estás soñando. La lógica es que si lo haces suficientemente a menudo despierto, el hábito se transfiere al sueño.</p>
+
+<p>Los más efectivos son los que explotan diferencias reales entre vigilia y sueño:</p>
+
+<ul>
+<li><strong>Mira tus manos.</strong> En sueños, las manos suelen tener dedos de más, de menos, o una forma extraña. Mírate las manos varias veces al día y pregúntate: ¿esto parece real?</li>
+<li><strong>Lee un texto dos veces.</strong> En sueños, el texto cambia entre una lectura y otra. Si lees algo, aparta la vista, y al volver el texto ha cambiado: estás soñando.</li>
+<li><strong>Intenta taparse la nariz y respirar.</strong> En sueños, puedes respirar aunque tengas la nariz tapada. Es uno de los checks más fiables.</li>
+</ul>
+
+<h3>MILD: Mnemonic Induction of Lucid Dreams</h3>
+
+<p>Desarrollada por LaBerge, es la técnica con más respaldo científico para principiantes. Consiste en:</p>
+
+<ol>
+<li>Antes de dormir, visualiza un sueño reciente que recuerdes bien.</li>
+<li>Imagina que en ese sueño te vuelves lúcido: que en un momento dado te das cuenta de que estás soñando.</li>
+<li>Repite mentalmente, mientras te duermes, una intención: "Esta noche, cuando esté soñando, me daré cuenta de que estoy soñando."</li>
+</ol>
+
+<p>La eficacia aumenta si se practica después de despertar en mitad de la noche (por ejemplo, poniendo una alarma a las 5 o 6 horas de sueño), pasar 20-30 minutos despierto, y luego volver a dormir con la técnica. Este método se llama WBTB (Wake Back to Bed) y potencia considerablemente la MILD.</p>
+
+<h3>WILD: Wake Initiated Lucid Dream</h3>
+
+<p>Es la técnica más avanzada y la más difícil de aprender. Consiste en mantener la conciencia mientras el cuerpo se queda dormido: es decir, entrar directamente en el sueño lúcido desde la vigilia sin perder la conciencia en ningún momento.</p>
+
+<p>Requiere mucha práctica y puede generar experiencias de parálisis del sueño en el proceso. No es recomendable como técnica inicial, pero es la que permite los sueños lúcidos más estables y controlados.</p>
+
+<h2>Qué Esperar al Principio</h2>
+
+<p>Los primeros sueños lúcidos suelen ser breves. El cerebro, al detectar que hay conciencia dentro del sueño, tiende a despertarte: es una respuesta automática. Con práctica, aprendes a estabilizar el estado —una técnica común es frotar las manos en el sueño, lo que genera estimulación táctil que "ancla" al cerebro en el sueño.</p>
+
+<p>También es común que los primeros intentos de controlar el sueño resulten frustrantes: quieres volar y no puedes, intentas cambiar el escenario y no ocurre, o simplemente te despiertas. Todo esto es normal y parte del proceso de aprendizaje.</p>
+
+<p>Lo más importante al principio no es el control sino el reconocimiento: darte cuenta de que estás soñando aunque solo sea por unos segundos antes de despertar. Eso ya es un sueño lúcido, y con el tiempo esos segundos se extienden.</p>
+
+<p>Si quieres entender mejor cómo funciona el cerebro durante el sueño REM antes de explorar el sueño lúcido, puede que te interese leer sobre <a href="/blog/suenos-de-volar">los sueños de volar</a>, que son frecuentemente el primer objetivo de los practicantes de sueño lúcido y un buen punto de entrada para entender la vividez sensorial del estado.</p>
+    `,
+  },
+  {
+    slug: "suenos-de-estar-desnudo-en-publico",
+    title: "Soñar que Estás Desnudo en Público: Qué Procesa tu Cerebro cuando lo Hace",
+    excerpt:
+      "Estás en clase, en el trabajo, en una tienda. Y de repente te das cuenta: no llevas ropa. Es uno de los sueños más frecuentes del planeta y dice algo muy específico sobre cómo gestionas la vulnerabilidad.",
+    category: "Sueños Recurrentes",
+    categorySlug: "suenos-recurrentes",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    readingTime: 7,
+    coverImage: "/images/blog/suenos-recurrentes/suenos-desnudo-publico.webp",
+    coverAlt: "Figura solitaria en un espacio abierto y luminoso, difuminada",
+    tags: ["desnudo en público", "vergüenza", "vulnerabilidad", "imagen", "sueños recurrentes", "ansiedad social"],
+    cluster: "suenos-recurrentes",
+    visual_theme: "ansiedad",
+    pin_titles: [
+      "Soñar que estás desnudo en público: la psicología real",
+      "Por qué todo el mundo tiene este sueño (y qué significa)",
+      "Sueño de desnudez en público: vulnerabilidad, no vergüenza",
+    ],
+    reel_hook: "Soñar que estás desnudo en público no es un sueño sobre el cuerpo. Es un sueño sobre cuánto de ti mismo estás mostrando — o ocultando — en este momento de tu vida.",
+    extracto_seo: "Soñar que estás desnudo en público es universal en todas las culturas. La psicología lo relaciona con vulnerabilidad, autenticidad y miedo a ser juzgado. Aquí la explicación completa.",
+    imagen_destacada: "/images/blog/suenos-recurrentes/suenos-desnudo-publico.webp",
+    imagen_vertical: "/images/pinterest/suenos-desnudo-publico-pin.webp",
+    tipo: "normal",
+    intencion_practica: ["salud-emocional", "relaciones"],
+    consejo_practico: "Si tienes este sueño, la pregunta más útil no es '¿qué significa?' sino '¿en qué parte de mi vida me siento expuesto sin haberlo elegido?' O la contraria: '¿hay algo de mí que estoy ocultando y que me pesa ocultar?' Las dos caras del mismo sueño.",
+    fuentes: [
+      { autor: "Kelly Bulkeley", obra: "Big Dreams (2016)" },
+      { autor: "Carl Jung", obra: "El hombre y sus símbolos (1964)" },
+      { autor: "Antonio Zadra & Robert Stickgold", obra: "When Brains Dream (2021)" },
+    ],
+    interpretacion_humana: "<p>El sueño de la desnudez pública tiene una característica que lo hace especialmente revelador: casi siempre incluye una reacción emocional muy marcada dentro del propio sueño. Vergüenza, pánico, el intento desesperado de cubrirse. Y esa emoción es precisamente la información más valiosa.</p><p>Lo que más nos interesa de estos sueños es la variante donde nadie parece darse cuenta. Cuando preguntamos a las personas cómo reaccionaba el entorno en el sueño, y dicen 'nadie lo veía', eso abre una conversación completamente diferente: ¿estás mostrando algo que crees que debería ser más visible?</p>",
+    faqItems: [
+      {
+        question: "¿Por qué en el sueño nadie parece notarlo?",
+        answer: "Esta variante —estás desnudo pero los demás actúan con normalidad— es tan frecuente como la de vergüenza aguda. Y tiene una lectura distinta: puede reflejar que te sientes más expuesto o vulnerable de lo que el entorno percibe. O que hay algo tuyo que muestras y que temes que sea visible, pero que en realidad pasa desapercibido para los demás.",
+      },
+      {
+        question: "¿Este sueño tiene que ver con la imagen del cuerpo?",
+        answer: "En la mayoría de los casos, no. El sueño de desnudez pública rara vez procesa inseguridades sobre el aspecto físico. Lo que representa la desnudez en el sueño es la ausencia de la capa protectora que llevamos en público: la ropa como metáfora del rol, la imagen construida, el control de lo que mostramos. Es un sueño sobre vulnerabilidad, no sobre el cuerpo.",
+      },
+      {
+        question: "¿Es diferente si soy yo quien está desnudo o si lo está otra persona?",
+        answer: "Sí. Cuando eres tú, el sueño procesa tu propia exposición y vulnerabilidad. Cuando es otra persona, puede reflejar una proyección de algo que percibes en esa persona —que se está exponiendo demasiado, que hay algo que no debería ver o saber de ella— o algo relacionado con la forma en que te relacionas con esa persona.",
+      },
+      {
+        question: "¿Por qué sigo teniendo este sueño si creo que no me importa lo que piensen los demás?",
+        answer: "El sueño no procesa lo que crees conscientemente: procesa lo que el cerebro emocional está gestionando. Es posible que a un nivel racional no te importe la opinión ajena, pero que haya situaciones específicas —en el trabajo, en una relación, ante ciertas personas— donde la vulnerabilidad de ser visto sí genere ansiedad. El sueño suele ser más honesto que la narrativa que nos contamos.",
+      },
+    ],
+    content: `
+<p>El escenario cambia —puede ser la oficina, un aula, un supermercado, la calle— pero la sensación es siempre la misma: en algún momento del sueño miras hacia abajo y lo comprendes. No llevas ropa. Estás completamente expuesto. Y entonces empieza el pánico, el intento de cubrirte con lo que sea, la desesperación por que nadie te vea.</p>
+
+<p>O en una variante menos angustiante: estás desnudo, pero nadie parece notarlo.</p>
+
+<p>Es uno de los sueños más universales que existen. Y como casi todos los sueños universales, tiene una explicación que no tiene nada que ver con el cuerpo.</p>
+
+<h2>La Desnudez como Metáfora: lo que Procesa el Cerebro</h2>
+
+<p>La clave para entender este sueño es comprender qué representa la ropa en el contexto psicológico. La ropa no es solo abrigo: es el control de la imagen pública. Es lo que elegimos mostrar y lo que elegimos cubrir. Es el rol, la presentación, la versión de nosotros mismos que llevamos al mundo.</p>
+
+<p>Soñar que no llevas ropa no es, en la mayoría de los casos, un sueño sobre el cuerpo. Es un sueño sobre la ausencia de esa capa protectora: estar expuesto sin haberlo elegido, sin control sobre lo que ven los demás.</p>
+
+<p>Jung describía la desnudez en los sueños como uno de los símbolos más directos de la exposición del self: el ser que está detrás de la persona pública, sin la máscara social que usamos habitualmente. La pregunta que plantea este sueño no es "¿tienes vergüenza de tu cuerpo?" sino "¿hay algo de ti mismo que sientes que está quedando expuesto sin que hayas elegido mostrarlo?"</p>
+
+<h2>Los Contextos en los que Aparece con más Frecuencia</h2>
+
+<h3>Situaciones de evaluación o exposición pública</h3>
+
+<p>Es el contexto más frecuente. El sueño aparece antes o durante períodos en los que vas a ser evaluado, juzgado o visto de una forma que no controlas del todo: una presentación importante, una entrevista, una relación nueva, una situación donde hay mucho en juego en términos de cómo te perciben.</p>
+
+<p>El cerebro traduce esa vulnerabilidad de exposición en la imagen más directa que tiene para representarla: sin ropa delante de los demás.</p>
+
+<h3>Períodos de impostorismo o discrepancia entre imagen y realidad</h3>
+
+<p>Una de las variantes más reveladoras de este sueño aparece cuando hay una distancia entre quién eres realmente y la imagen que estás proyectando. Si estás en un rol nuevo que todavía no dominas, si estás manteniendo una apariencia que no corresponde a lo que sientes, o si hay algo importante de ti que estás ocultando activamente, el cerebro puede generar este sueño como procesamiento de esa discrepancia.</p>
+
+<p>En este caso, la desnudez no representa exposición indeseada: representa la verdad que hay debajo de lo que muestras.</p>
+
+<h3>Momentos de vulnerabilidad emocional en relaciones</h3>
+
+<p>El sueño también aparece en períodos donde una relación —amorosa, de amistad, familiar— está requiriendo un nivel de apertura emocional que genera incomodidad. Mostrar quién eres realmente a alguien, bajar las defensas, ser visto en un estado de vulnerabilidad genuina: todo eso puede procesarse de noche como desnudez.</p>
+
+<h2>La Reacción del Entorno: una Información Clave</h2>
+
+<p>Uno de los detalles más significativos de este sueño no es el hecho de estar desnudo sino cómo reacciona el entorno. Hay dos variantes principales y dicen cosas muy distintas.</p>
+
+<h3>Todos te miran, hay vergüenza y pánico</h3>
+
+<p>La variante más angustiante. El entorno percibe la exposición y el soñante siente vergüenza aguda. Suele correlacionar con miedo real a ser juzgado, con situaciones donde la opinión ajena tiene mucho peso, o con un momento de alta exposición pública que genera ansiedad.</p>
+
+<h3>Nadie parece notarlo</h3>
+
+<p>Esta variante es más sutil y tiene una lectura diferente. Si estás desnudo pero los demás actúan con normalidad o directamente no se dan cuenta, puede indicar una de dos cosas: que te sientes más expuesto o vulnerable de lo que el entorno percibe realmente (la ansiedad de exposición es interna, no objetiva), o que hay algo tuyo que estás mostrando o siendo, y que temes que sea visible, pero que en realidad pasa desapercibido para los demás.</p>
+
+<p>Algunas personas encuentran esta variante más perturbadora que la anterior, precisamente porque la invisibilidad puede ser igualmente incómoda: no solo me estoy exponiendo, sino que ni siquiera importa.</p>
+
+<h2>Lo que No Significa este Sueño</h2>
+
+<p>Como con otros sueños universales, la desnudez pública acumula muchas interpretaciones culturales que vale la pena desactivar:</p>
+
+<ul>
+<li>No indica inseguridad con el propio cuerpo, aunque la persona la tenga. El cuerpo en el sueño es metáfora, no objeto de análisis.</li>
+<li>No es una señal de que tengas que "mostrarte más" ni un mensaje de que debas cambiar algo en tu vida pública. Es procesamiento, no instrucción.</li>
+<li>No predice ninguna situación embarazosa real. Los sueños no son premoniciones.</li>
+</ul>
+
+<h2>La Conexión con los Sueños de Dientes</h2>
+
+<p>Los sueños de desnudez pública y los <a href="/blog/suenos-de-dientes-que-se-caen">sueños de dientes que se caen</a> comparten un núcleo emocional muy parecido: ambos procesan la imagen pública, el miedo a perder el control sobre lo que los demás ven, y la vulnerabilidad de la exposición.</p>
+
+<p>La diferencia principal es que los sueños de dientes procesan más la pérdida de algo permanente, mientras que los de desnudez procesan más la ausencia de protección en el presente. Si tienes ambos tipos con frecuencia, es probable que haya algo relacionado con cómo te ves a ti mismo en relación a los demás que merece atención.</p>
+
+<h2>Qué Hacer con este Sueño</h2>
+
+<p>No hay nada que hacer con el sueño en sí. Pero hay dos preguntas que, si te las haces después de tenerlo, suelen abrir algo útil:</p>
+
+<ul>
+<li><strong>¿En qué parte de mi vida me siento expuesto sin haberlo elegido?</strong> ¿Hay una situación donde sientes que los demás ven algo de ti que no decidiste mostrar?</li>
+<li><strong>¿Hay algo de mí que estoy ocultando y que me pesa ocultar?</strong> ¿Hay una versión de ti más auténtica que la que estás mostrando en algún contexto importante?</li>
+</ul>
+
+<p>Las dos preguntas son las dos caras del mismo sueño: exposición involuntaria por un lado, ocultamiento costoso por el otro. La respuesta a cuál de las dos aplica en tu caso es, con frecuencia, lo más valioso que puede darte este sueño.</p>
+
+<p>Si los sueños de vulnerabilidad e imagen son frecuentes en tu vida, puede que te interese leer sobre <a href="/blog/suenos-de-dientes-que-se-caen">los sueños de dientes</a>, que procesan una dimensión parecida desde otro ángulo.</p>
+    `,
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
