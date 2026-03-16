@@ -14,62 +14,60 @@ const client = new Anthropic();
 // Edita esta lista para añadir nuevos posts
 // Borra una entrada cuando ya esté publicada
 // ============================================================
+// Artículos ya publicados (no regenerar):
+// - sonar-que-no-puedes-correr → existe en articles.ts
+// - suenos-de-dientes-que-se-caen → existe en articles.ts
+// - sonar-con-tu-ex → existe en articles.ts
+// - suenos-de-persecucion → existe en articles.ts
+// - suenos-de-volar → existe en articles.ts
+// - sonar-con-caballos → añadido manualmente 2026-03-16
+// - sonar-que-estas-perdido → añadido manualmente 2026-03-16
+// - sonar-con-enfermedad-o-dolor → añadido manualmente 2026-03-16
+// - sonar-con-exito-o-ascenso-laboral → añadido manualmente 2026-03-16
+// - sonar-con-lobos → añadido manualmente 2026-03-16
+
 const PENDING_POSTS = [
   {
     title: "Soñar con agua turbia",
     category: "Símbolos en Sueños",
     categorySlug: "simbolos-en-suenos",
-    tags: ["agua", "símbolos", "emociones"],
-    relatedSlugs: ["suenos-recurrentes-que-significan", "paralisis-del-sueno"],
-  },
-  {
-    title: "Soñar que no puedes correr",
-    category: "Ansiedad y Miedos",
-    categorySlug: "ansiedad-y-miedos",
-    tags: ["ansiedad", "cuerpo", "parálisis"],
-    relatedSlugs: ["paralisis-del-sueno", "suenos-recurrentes-que-significan"],
+    tags: ["agua turbia", "símbolos", "emociones", "incertidumbre"],
+    relatedSlugs: ["suenos-con-agua", "paralisis-del-sueno"],
   },
   {
     title: "Soñar con tu casa de la infancia",
     category: "Símbolos en Sueños",
     categorySlug: "simbolos-en-suenos",
-    tags: ["casa", "infancia", "nostalgia", "memoria"],
-    relatedSlugs: ["suenos-recurrentes-que-significan", "sonar-con-tu-madre"],
+    tags: ["casa", "infancia", "nostalgia", "memoria", "pasado"],
+    relatedSlugs: ["sonar-con-tu-casa", "sonar-con-tu-madre-o-tu-padre"],
   },
   {
-    title: "Soñar con dientes que se caen",
-    category: "Símbolos en Sueños",
-    categorySlug: "simbolos-en-suenos",
-    tags: ["dientes", "ansiedad", "pérdida", "miedo"],
-    relatedSlugs: ["paralisis-del-sueno", "suenos-recurrentes-que-significan"],
-  },
-  {
-    title: "Soñar con ex pareja",
-    category: "Relaciones",
-    categorySlug: "relaciones",
-    tags: ["ex", "pareja", "amor", "pasado"],
-    relatedSlugs: ["sonar-con-tu-madre", "sonar-con-perros"],
-  },
-  {
-    title: "Soñar que te persiguen",
-    category: "Ansiedad y Miedos",
-    categorySlug: "ansiedad-y-miedos",
-    tags: ["persecución", "miedo", "ansiedad", "huir"],
-    relatedSlugs: ["paralisis-del-sueno", "sonar-que-te-despiden-del-trabajo"],
-  },
-  {
-    title: "Soñar con víboras",
+    title: "Soñar con toros",
     category: "Animales",
     categorySlug: "animales",
-    tags: ["serpiente", "víbora", "peligro", "transformación"],
-    relatedSlugs: ["sonar-con-perros", "sonar-con-gatos"],
+    tags: ["toros", "animales", "fuerza", "agresividad", "instinto"],
+    relatedSlugs: ["sonar-con-caballos", "sonar-con-serpientes"],
   },
   {
-    title: "Soñar que vuelas",
-    category: "Sueños Recurrentes",
-    categorySlug: "suenos-recurrentes",
-    tags: ["volar", "libertad", "control", "lúcido"],
-    relatedSlugs: ["suenos-recurrentes-que-significan", "paralisis-del-sueno"],
+    title: "Soñar con el teléfono o con no poder llamar",
+    category: "Ansiedad y Miedos",
+    categorySlug: "ansiedad-y-miedos",
+    tags: ["teléfono", "comunicación", "aislamiento", "urgencia", "ansiedad"],
+    relatedSlugs: ["sonar-que-no-puedes-hablar-o-gritar", "suenos-de-persecucion"],
+  },
+  {
+    title: "Soñar con tu padre o figura paterna",
+    category: "Relaciones",
+    categorySlug: "relaciones",
+    tags: ["padre", "figura paterna", "autoridad", "familia", "infancia"],
+    relatedSlugs: ["sonar-con-tu-madre-o-tu-padre", "sonar-con-hermanos"],
+  },
+  {
+    title: "Soñar que no tienes dinero o que pierdes todo",
+    category: "Trabajo y Dinero",
+    categorySlug: "trabajo-y-dinero",
+    tags: ["dinero", "pobreza", "pérdida económica", "ansiedad financiera", "seguridad"],
+    relatedSlugs: ["suenos-con-dinero", "sonar-que-te-despiden"],
   },
 ];
 

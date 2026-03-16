@@ -5210,6 +5210,281 @@ export const articles: Article[] = [
 <p>Y si la sensación es de no encajar en el rol o en el contexto, puede conectar con <a href="/blog/sonar-que-llegas-tarde">soñar que llegas tarde</a>, otro sueño de inadecuación ante una situación de exigencia.</p>
     `,
   },
+
+  // ─── ARTÍCULO 56: Animales — Caballos ───────────────────────────────────────
+  {
+    slug: "sonar-con-caballos",
+    title: "Soñar con caballos: libertad, fuerza y lo que necesitas soltar",
+    excerpt:
+      "El caballo en los sueños es uno de los símbolos más potentes de energía vital. Su aparición suele estar relacionada con la necesidad de libertad, con la fuerza que tienes o que te falta.",
+    category: "Animales",
+    categorySlug: "animales",
+    publishedAt: "2026-03-16",
+    updatedAt: "2026-03-16",
+    readingTime: 6,
+    coverImage: "/images/blog/animales/sonar-con-caballos.webp",
+    coverAlt: "Caballo al galope en campo abierto bajo cielo nublado",
+    tags: ["caballos", "animales", "libertad", "fuerza", "energía", "instinto", "poder"],
+    content: `
+<p>Un caballo en los sueños no pasa desapercibido. Tiene presencia, peso, energía. Cuando aparece, algo relacionado con la fuerza o con la libertad está siendo procesado.</p>
+
+<p>El caballo es uno de los animales más cargados simbólicamente en la historia humana: compañero de trabajo, símbolo de poder, representación de la libertad de movimiento. En los sueños, concentra todo eso.</p>
+
+<h2>Qué puede estar representando el caballo</h2>
+
+<p>El caballo aparece cuando hay algo en juego relacionado con la energía vital: la fuerza que tienes disponible, la que sientes que te falta, o la que estás conteniendo sin necesidad.</p>
+
+<p>También puede representar un impulso que quieres seguir pero que no terminas de soltar. El caballo al galope es libertad en movimiento. Si en el sueño no puedes montarlo, si lo tienes atado o enjaulado, la pregunta es qué es lo que estás frenando en tu vida real.</p>
+
+<h2>Lo que cambia según el sueño</h2>
+
+<h3>Caballo libre o al galope</h3>
+<p>Un caballo corriendo en campo abierto suele ser un sueño positivo: refleja energía disponible, sensación de expansión o un momento en que algo fluye bien. También puede representar un deseo de más libertad en algún área de la vida.</p>
+
+<h3>Cabalgas el caballo con control</h3>
+<p>Montar bien un caballo en el sueño indica que hay una energía o una situación que estás manejando con habilidad. Hay algo que podrías ver como amenazante o difícil de controlar, pero lo estás llevando bien.</p>
+
+<h3>El caballo se desboca o no puedes controlarlo</h3>
+<p>Este es uno de los patrones más frecuentes y más directos: hay algo en tu vida que sientes que se está yendo de las manos. Una situación, una emoción, un proceso que ya tiene su propio impulso y que te cuesta dirigir.</p>
+
+<h3>El caballo está herido, enfermo o muerto</h3>
+<p>Un caballo que sufre en el sueño puede reflejar energía agotada, vitalidad disminuida, o la sensación de que algo que antes te movía —una motivación, una relación, un proyecto— está perdiendo fuerza. Es un aviso del inconsciente para prestar atención a tu nivel de energía real.</p>
+
+<h3>El caballo es negro, blanco o de otro color especial</h3>
+<p>El color tiene peso emocional en estos sueños. Un caballo negro puede representar lo desconocido, lo instintivo, algo que impone respeto. Uno blanco suele asociarse con claridad, pureza o resolución. Pero lo más importante siempre es cómo te sentiste en el sueño, no el color en sí.</p>
+
+<h2>Si tienes miedo del caballo en el sueño</h2>
+
+<p>El miedo al caballo en el sueño merece atención específica. No siempre es miedo a la libertad, aunque a veces lo es. Puede ser miedo a una situación que tiene más fuerza que tú, o a una persona que ejerce poder o autoridad en tu vida.</p>
+
+<p>Pregúntate: ¿hay algo en tu entorno real que te genera la misma sensación de ser pequeño frente a algo demasiado grande o poderoso?</p>
+
+<h2>Qué hacer con este sueño</h2>
+
+<p>Si el sueño del caballo deja una impresión fuerte, vale la pena preguntarse qué área de la vida está más relacionada con la energía y la libertad en este momento. ¿Hay algo que quieres hacer y que estás postergando? ¿Hay una situación que has estado controlando en exceso cuando quizás necesita más espacio?</p>
+
+<p>Los sueños con animales de fuerza como el caballo a menudo aparecen en momentos de transición. Si también hay sueños recurrentes de otro tipo, puede ser útil revisar <a href="/blog/suenos-recurrentes-por-que-el-cerebro-repite">por qué el cerebro repite ciertos patrones</a>.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 57: Ansiedad y Miedos — Estar perdido ────────────────────────
+  {
+    slug: "sonar-que-estas-perdido",
+    title: "Soñar que estás perdido: qué significa cuando no encuentras el camino",
+    excerpt:
+      "Soñar que no sabes dónde estás o que no encuentras el camino de vuelta es uno de los sueños de ansiedad más comunes. Casi siempre señala una desorientación real en algún área de la vida.",
+    category: "Ansiedad y Miedos",
+    categorySlug: "ansiedad-y-miedos",
+    publishedAt: "2026-03-16",
+    updatedAt: "2026-03-16",
+    readingTime: 6,
+    coverImage: "/images/blog/ansiedad-y-miedos/sonar-que-estas-perdido.webp",
+    coverAlt: "Persona sola en una calle desconocida de noche",
+    tags: ["perdido", "desorientación", "ansiedad", "camino", "dirección", "incertidumbre", "decisiones"],
+    content: `
+<p>Estás en un lugar que no reconoces, intentas volver a algún sitio y no encuentras la salida. O sí reconoces el lugar pero algo está mal: las calles no llevan a donde deberían, el mapa no cuadra. Ese sueño deja una sensación particular de angustia.</p>
+
+<p>Soñar que estás perdido es uno de los patrones de ansiedad más frecuentes, y su lectura suele ser bastante directa.</p>
+
+<h2>Lo que representa estar perdido en el sueño</h2>
+
+<p>El cerebro usa el espacio físico para representar la orientación vital. Cuando hay algo en la vida real que genera sensación de desorientación —no saber hacia dónde ir, no tener clara una decisión, sentir que has perdido el hilo de algo— el sueño lo convierte en un escenario literal: un lugar desconocido, un laberinto, calles que no llevan a ningún sitio.</p>
+
+<p>No es una señal de que vayas a perderte. Es el cerebro procesando la sensación de no tener dirección clara.</p>
+
+<h2>Variantes del sueño</h2>
+
+<h3>Estás perdido en una ciudad o edificio desconocido</h3>
+<p>El entorno desconocido amplifica la desorientación. Suele aparecer en momentos de cambio: una ciudad nueva, un trabajo nuevo, una etapa de vida diferente donde los referentes habituales ya no aplican. El cerebro todavía no ha construido el mapa mental de esa nueva realidad.</p>
+
+<h3>Reconoces el lugar pero no encuentras el camino</h3>
+<p>Este patrón es más inquietante porque el lugar debería ser conocido pero no responde como esperas. Puede reflejar que algo que antes era claro o familiar ahora se siente confuso: una relación, un trabajo, una rutina que ya no funciona igual.</p>
+
+<h3>Llegas tarde a algo porque estás perdido</h3>
+<p>Aquí la ansiedad tiene una capa añadida de presión temporal. Combina la desorientación con el miedo a fallar o a llegar tarde a algo importante. Si esto resuena, hay más contexto en <a href="/blog/suenos-de-llegar-tarde-o-perderse">soñar que llegas tarde</a>.</p>
+
+<h3>Estás perdido y hay alguien contigo, o estás solo</h3>
+<p>Estar perdido acompañado puede reflejar que hay una relación en la que ninguno de los dos sabe bien hacia dónde va. Estar perdido completamente solo intensifica la sensación de aislamiento en la incertidumbre.</p>
+
+<h2>Qué área de la vida suele estar detrás</h2>
+
+<p>Vale la pena preguntarse, al despertar de este sueño, en qué área de la vida sientes más desorientación ahora mismo:</p>
+
+<ul>
+<li>¿Hay una decisión que llevas tiempo aplazando?</li>
+<li>¿Hay una etapa que ha terminado pero todavía no tienes claro qué sigue?</li>
+<li>¿Hay un objetivo que antes era claro y ahora no lo es tanto?</li>
+</ul>
+
+<p>No es necesario tener respuestas inmediatas. Pero el sueño es una señal de que algo pide orientación.</p>
+
+<h2>Si el sueño se repite</h2>
+
+<p>Cuando estar perdido aparece de forma recurrente, suele indicar que la fuente de desorientación en la vida real es persistente, no resuelta. No el sueño en sí, sino la situación que lo genera. Explorar <a href="/blog/suenos-recurrentes-por-que-el-cerebro-repite">por qué el cerebro repite ciertos sueños</a> puede ayudar a entender qué está intentando procesar.</p>
+
+<p>Y si hay ansiedad más general que aparece en varios sueños distintos, puede ser útil leer sobre <a href="/blog/por-que-suenas-mas-cuando-estas-estresado">por qué el estrés intensifica los sueños</a>.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 58: Cuerpo y Mente — Enfermedad o dolor ──────────────────────
+  {
+    slug: "sonar-con-enfermedad-o-dolor",
+    title: "Soñar que estás enfermo o sientes dolor: el cuerpo habla mientras duermes",
+    excerpt:
+      "Soñar que tienes una enfermedad o que sientes dolor físico puede tener varias lecturas: desde el procesamiento de una preocupación real hasta la manera en que el cerebro traduce el estrés emocional.",
+    category: "Cuerpo y Mente",
+    categorySlug: "cuerpo-y-mente",
+    publishedAt: "2026-03-16",
+    updatedAt: "2026-03-16",
+    readingTime: 6,
+    coverImage: "/images/blog/cuerpo-y-mente/sonar-con-enfermedad-o-dolor.webp",
+    coverAlt: "Silueta de persona con luz tenue que evoca fragilidad y vulnerabilidad",
+    tags: ["enfermedad", "dolor", "cuerpo", "vulnerabilidad", "salud", "hipocondría", "estrés físico"],
+    content: `
+<p>Te despiertas de un sueño en el que tenías una enfermedad grave, o en el que sentías un dolor físico intenso. La experiencia puede ser tan vívida que tardas unos segundos en comprobar que estás bien.</p>
+
+<p>Estos sueños generan inquietud, especialmente si hay alguna preocupación de salud en el fondo. Pero en la mayoría de casos, no tienen un significado médico literal.</p>
+
+<h2>Por qué el cerebro construye sueños de enfermedad</h2>
+
+<p>Hay varias razones por las que este tipo de sueños aparece, y conviene distinguirlas:</p>
+
+<p><strong>El cuerpo está enviando señales reales.</strong> Durante el sueño, el cerebro sigue procesando señales corporales. Una molestia física leve —un dolor de cabeza incipiente, tensión muscular, temperatura elevada— puede integrarse en el contenido del sueño. Si el sueño de dolor corresponde a una zona específica y ese dolor también está al despertar, tiene sentido revisarlo.</p>
+
+<p><strong>Hay una preocupación de salud no resuelta.</strong> Si llevas tiempo con una preocupación sobre tu salud, o la de alguien cercano, el cerebro puede escenificar el escenario temido para procesarlo. No es una predicción. Es el mecanismo de anticipación del cerebro trabajando.</p>
+
+<p><strong>El estrés se traduce en síntomas físicos en el sueño.</strong> La ansiedad y el estrés crónico tienen correlatos físicos: tensión, fatiga, sensación de malestar general. El cerebro durmiente puede convertir esa carga emocional en una narrativa de enfermedad.</p>
+
+<h2>Variantes frecuentes</h2>
+
+<h3>Sueñas que tienes una enfermedad grave o terminal</h3>
+<p>Este es el sueño más angustiante de este tipo, y casi nunca es una predicción. Suele aparecer en momentos de gran estrés o de cambios importantes, cuando hay una sensación de que algo se está acabando o de que hay mucho en juego. La enfermedad grave puede ser una metáfora de algo que sientes que no puedes controlar.</p>
+
+<h3>Sueñas con dolor en una parte específica del cuerpo</h3>
+<p>Si el dolor del sueño tiene ubicación concreta, vale la pena comprobar si esa zona tiene alguna tensión o molestia real. Pero también puede ser simbólico: el dolor en el pecho puede conectar con una carga emocional, el dolor en la espalda con una responsabilidad que pesa.</p>
+
+<h3>Sueñas que cuidas a alguien enfermo</h3>
+<p>Este patrón habla de una preocupación por alguien cercano, o de la carga de ser quien cuida a otros. También puede reflejar una parte de ti mismo que necesita atención y que estás externalizando en otra persona.</p>
+
+<h3>Sueñas que te recuperas o que te curan</h3>
+<p>Un sueño de enfermedad que termina en recuperación tiene una lectura diferente: el cerebro está procesando algo difícil, pero con un desenlace hacia la resolución. Puede ser esperanzador si hay una situación real que está en proceso de mejorar.</p>
+
+<h2>Cuándo prestar atención</h2>
+
+<p>Si los sueños de enfermedad son muy frecuentes y van acompañados de ansiedad persistente sobre la salud en la vida de vigilia, puede ser síntoma de hipocondría o de ansiedad que vale la pena trabajar. No porque los sueños sean señales de enfermedad, sino porque la ansiedad subyacente merece atención.</p>
+
+<p>El cuerpo y la mente están conectados durante el sueño de formas complejas. Para entender más sobre cómo el cerebro procesa el estrés físico y emocional, puede ser útil leer <a href="/blog/que-pasa-en-el-cerebro-cuando-suenas">qué pasa en el cerebro cuando sueñas</a>.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 59: Trabajo y Dinero — Éxito o ascenso laboral ───────────────
+  {
+    slug: "sonar-con-exito-o-ascenso-laboral",
+    title: "Soñar con éxito o un ascenso en el trabajo: ambición, validación y miedo a merecer",
+    excerpt:
+      "Soñar que te ascienden, que tienes éxito o que recibes reconocimiento en el trabajo no siempre es un buen augurio: a veces revela lo mucho que necesitas esa validación, o el miedo a que no llegue.",
+    category: "Trabajo y Dinero",
+    categorySlug: "trabajo-y-dinero",
+    publishedAt: "2026-03-16",
+    updatedAt: "2026-03-16",
+    readingTime: 6,
+    coverImage: "/images/blog/trabajo-y-dinero/sonar-con-exito-o-ascenso-laboral.webp",
+    coverAlt: "Escritorio ordenado con trofeo o diploma sobre fondo de luz cálida",
+    tags: ["éxito", "ascenso", "trabajo", "reconocimiento", "ambición", "validación", "logro"],
+    content: `
+<p>Te ascienden, te felicitan, logras algo importante en el trabajo. Despiertas con una sensación agradable... o con una extraña melancolía al darte cuenta de que no era real.</p>
+
+<p>Soñar con éxito laboral parece, a primera vista, un sueño positivo. Y a veces lo es. Pero merece una lectura más matizada.</p>
+
+<h2>Lo que puede estar procesando el cerebro</h2>
+
+<p>Los sueños de éxito no son predicciones ni "buenas señales". Son el cerebro procesando algo relacionado con el reconocimiento, la ambición o la autoestima laboral.</p>
+
+<p>Pueden aparecer en varios contextos:</p>
+
+<ul>
+<li>Cuando hay una <strong>evaluación, proyecto importante o momento de reconocimiento</strong> próximo y el cerebro lo anticipa.</li>
+<li>Cuando hay una <strong>necesidad de validación que no está siendo satisfecha</strong> en la vida real: el sueño la compensa.</li>
+<li>Cuando hay <strong>ambición contenida</strong>: algo que quieres pero que no te has dado permiso para perseguir con claridad.</li>
+<li>Cuando hay una <strong>sensación de que mereces más</strong> de lo que tienes pero no sabes cómo pedirlo o conseguirlo.</li>
+</ul>
+
+<h2>Variantes del sueño</h2>
+
+<h3>Te ascienden o te dan más responsabilidad</h3>
+<p>El ascenso en el sueño puede reflejar un deseo real de avanzar. Pero también puede aparecer cuando hay una tensión entre querer crecer y el miedo a las responsabilidades que ese crecimiento conlleva. ¿El ascenso del sueño te genera solo satisfacción, o también algo que se parece a la presión?</p>
+
+<h3>Recibes un elogio o reconocimiento público</h3>
+<p>Este patrón habla muy directamente de la necesidad de ser visto y valorado. Si en la vida real sientes que tu trabajo no recibe el reconocimiento que merece, el sueño puede estar compensando esa carencia. O puede reflejar que te importa mucho más la opinión de los demás de lo que reconoces conscientemente.</p>
+
+<h3>Logras algo difícil o superas un gran reto</h3>
+<p>Soñar con un logro después de un esfuerzo intenso es el cerebro procesando la tensión de ese esfuerzo. Puede ser muy motivador, pero también puede reflejar el agotamiento de quien lleva mucho tiempo esforzándose sin ver resultados tangibles.</p>
+
+<h3>El éxito del sueño se desvanece o algo va mal justo al final</h3>
+<p>Este es uno de los patrones más reveladores: todo va bien hasta que algo falla en el último momento, o el reconocimiento no llega, o no puedes disfrutarlo. Puede reflejar el síndrome del impostor, la dificultad para creer que mereces lo que consigues, o el miedo a que algo externo arruine lo que construyes.</p>
+
+<h2>El miedo a merecer</h2>
+
+<p>Una de las lecturas más interesantes de los sueños de éxito es la que tiene que ver con el merecimiento. Para muchas personas, soñar con el éxito deja una incomodidad sutil al despertar: como si no estuviera bien querer tanto, como si la ambición fuera algo que hay que disculpar.</p>
+
+<p>Si el sueño deja esa sensación, puede valer la pena preguntarse qué mensaje has recibido sobre el éxito y sobre si mereces conseguirlo.</p>
+
+<h2>Conectando con otros sueños laborales</h2>
+
+<p>El éxito y el fracaso laboral son dos caras del mismo tema. Si soñar con éxito alterna con sueños de despido o de fracaso, hay una tensión importante alrededor de la seguridad y el reconocimiento. Hay más contexto sobre el lado de la ansiedad en <a href="/blog/suenos-con-ansiedad-laboral">sueños con ansiedad laboral</a> y en <a href="/blog/sonar-que-te-despiden">soñar que te despiden</a>.</p>
+    `,
+  },
+
+  // ─── ARTÍCULO 60: Animales — Lobos ──────────────────────────────────────────
+  {
+    slug: "sonar-con-lobos",
+    title: "Soñar con lobos: instinto, manada y amenazas que sientes pero no ves",
+    excerpt:
+      "El lobo en los sueños es un símbolo de instinto puro, de amenaza percibida o de una parte salvaje que no siempre se puede integrar. Su presencia raramente es neutral.",
+    category: "Animales",
+    categorySlug: "animales",
+    publishedAt: "2026-03-16",
+    updatedAt: "2026-03-16",
+    readingTime: 6,
+    coverImage: "/images/blog/animales/sonar-con-lobos.webp",
+    coverAlt: "Lobo aullando bajo la luna en un bosque oscuro",
+    tags: ["lobos", "animales", "instinto", "amenaza", "manada", "poder", "naturaleza"],
+    content: `
+<p>Un lobo en los sueños no es solo un animal. Es presencia. Puede ser amenaza, puede ser guía, puede ser algo en ti mismo que tiene más fuerza de la que reconoces.</p>
+
+<p>Los lobos ocupan un lugar singular en el imaginario humano: son animales de manada, de instinto, de lealtad feroz y también de peligro. Todo eso llega al sueño.</p>
+
+<h2>Las dos lecturas principales del lobo</h2>
+
+<p>Dependiendo del contexto del sueño y de cómo te sentiste, el lobo puede representar cosas bastante diferentes:</p>
+
+<p><strong>Amenaza externa.</strong> El lobo como algo que acecha, que persigue, que amenaza. En este caso, el cerebro está procesando algo del entorno real que genera una sensación de peligro o de ser vulnerable. Puede ser una persona, una situación o un proceso que sientes como una amenaza aunque no puedas articularlo del todo.</p>
+
+<p><strong>Energía instintiva propia.</strong> El lobo como parte de ti mismo: el instinto, la ferocidad, la capacidad de defenderte, la lealtad hacia tu manada. Cuando el lobo del sueño no te amenaza o cuando conectas con él, la lectura apunta más hacia una energía interna que quizás no estás usando o que estás aprendiendo a integrar.</p>
+
+<h2>Lo que cambia según el sueño</h2>
+
+<h3>El lobo te persigue o te ataca</h3>
+<p>Este es el patrón más frecuente y comparte territorio con los <a href="/blog/suenos-de-persecucion">sueños de persecución</a>. Hay algo que sientes que te acecha. La pregunta relevante es: ¿qué tiene ese lobo en el sueño que se parece a algo de tu vida real? ¿Su agresividad, su silencio, su imprevisibilidad?</p>
+
+<h3>Hay una manada de lobos</h3>
+<p>Una manada puede representar la presión del grupo, la sensación de estar rodeado de personas que actúan con una sola voluntad que no es la tuya. También puede reflejar la dinámica de un entorno —laboral, familiar, social— donde hay una lógica colectiva que te incomoda o que sientes como amenazante.</p>
+
+<h3>El lobo es amistoso o te protege</h3>
+<p>Un lobo que no amenaza, que está de tu lado, tiene una lectura muy diferente. Puede representar un aliado inesperado, tu propio instinto de protección, o una energía que hasta ahora has visto como peligrosa pero que en realidad puede estar de tu lado si aprendes a relacionarte con ella.</p>
+
+<h3>El lobo aúlla</h3>
+<p>El aullido del lobo es comunicación, no solo amenaza. Soñar con un lobo que aúlla puede representar algo que quiere ser escuchado —dentro de ti o en tu entorno— y que todavía no ha encontrado la manera de decirse con claridad.</p>
+
+<h2>El lobo y el instinto</h2>
+
+<p>Una de las preguntas que vale la pena hacerse después de un sueño con lobos es si hay algún instinto o intuición que estás ignorando. El lobo, como símbolo, está muy conectado con lo que se sabe sin poder explicar del todo: la sensación de que algo no cuadra, de que una persona no es de fiar, de que una situación tiene un riesgo que no has podido nombrar todavía.</p>
+
+<p>Si hay algo así en tu vida real ahora mismo, puede valer la pena prestarle atención.</p>
+
+<p>Para explorar más sobre los animales en los sueños y lo que revelan sobre el instinto, puede ser útil revisar <a href="/blog/sonar-con-serpientes">soñar con serpientes</a> o <a href="/blog/sonar-con-aranas">soñar con arañas</a>, dos símbolos con una carga similar de intensidad instintiva.</p>
+    `,
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
