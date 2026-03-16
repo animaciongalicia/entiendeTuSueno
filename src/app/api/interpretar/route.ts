@@ -52,7 +52,6 @@ export async function POST(request: NextRequest) {
         const messageStream = client.messages.stream({
           model: "claude-opus-4-6",
           max_tokens: 1024,
-          thinking: { type: "adaptive" },
           system: SYSTEM_PROMPT,
           messages: [{ role: "user", content: userMessage }],
         });

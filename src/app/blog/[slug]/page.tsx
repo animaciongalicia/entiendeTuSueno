@@ -40,9 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         modifiedTime: article.updatedAt,
         authors: ["EntiendetuSueño"],
         tags: article.tags,
-        ...(article.imagen_destacada && {
-          images: [{ url: article.imagen_destacada, width: 1200, height: 630 }],
-        }),
+        images: [{ url: article.imagen_destacada ?? article.coverImage, width: 1200, height: 630 }],
       },
       twitter: {
         card: "summary_large_image",
@@ -222,16 +220,14 @@ export default function ArticlePage({ params }: Props) {
 
             {/* Cover image (destacada 1200×630 for Discover) */}
             <div className="w-full h-64 md:h-80 rounded-xl bg-gradient-to-br from-[#2a2a4a] to-[#12121e] flex items-center justify-center mb-8 overflow-hidden">
-              {art.imagen_destacada ? (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  src={art.imagen_destacada}
-                  alt={art.coverAlt}
-                  className="w-full h-full object-cover"
-                />
-              ) : (
-                <span className="text-7xl opacity-30" aria-hidden="true">🌙</span>
-              )}
+              <CoverImage
+                src={art.imagen_destacada ?? art.coverImage}
+                alt={art.coverAlt}
+                categorySlug={art.categorySlug}
+                className="w-full h-full"
+                priority
+                sizes="(max-width: 1200px) 100vw, 1200px"
+              />
             </div>
 
             {/* Content with mid-ad injected */}

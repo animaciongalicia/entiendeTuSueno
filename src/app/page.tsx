@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "es_ES",
     url: "https://entiendetusueno.com",
+    images: [{ url: "/og-image.svg", width: 1200, height: 630 }],
   },
 };
 

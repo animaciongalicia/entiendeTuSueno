@@ -538,7 +538,7 @@ export const articles: Article[] = [
 
 <p>Soñar con la muerte de alguien que quieres es uno de los sueños más humanos que existen. Refleja la profundidad de los vínculos, el peso de los afectos, la conciencia —aunque sea inconsciente— de que todo lo que amamos es también vulnerable. No es una amenaza. Es una invitación a tomar en serio lo que más importa.</p>
 
-<p>Si este sueño ha aparecido junto con otros sueños intensos de miedo o persecución, es posible que estés en un período de mayor actividad onírica relacionada con la ansiedad. Los <a href="/blog/sonar-que-te-persiguen">sueños de persecución</a> y los de pérdida suelen compartir una raíz: algo importante que el inconsciente está procesando con urgencia. Y si estos sueños se repiten una y otra vez, vale la pena leer sobre <a href="/blog/suenos-recurrentes-guia-completa">los sueños recurrentes</a> y qué hacer con ellos.</p>
+<p>Si este sueño ha aparecido junto con otros sueños intensos de miedo o persecución, es posible que estés en un período de mayor actividad onírica relacionada con la ansiedad. Los <a href="/blog/suenos-de-persecucion">sueños de persecución</a> y los de pérdida suelen compartir una raíz: algo importante que el inconsciente está procesando con urgencia. Y si estos sueños se repiten una y otra vez, vale la pena leer sobre <a href="/blog/suenos-recurrentes-guia-completa">los sueños recurrentes</a> y qué hacer con ellos.</p>
     `,
   },
 
@@ -631,7 +631,7 @@ export const articles: Article[] = [
 
 <h3>Sueños de persecución</h3>
 
-<p>Los más frecuentes a nivel global. Algo o alguien te persigue y tú huyes. Suelen ser señal de que hay algo en tu vida —una situación, una emoción, un aspecto de ti mismo— que estás evitando confrontar. Cuanto más intensa la huida en el sueño, mayor suele ser la evasión en la vida real. Los <a href="/blog/sonar-que-te-persiguen">sueños de persecución</a> tienen su propio artículo con más detalle sobre sus variaciones y significados.</p>
+<p>Los más frecuentes a nivel global. Algo o alguien te persigue y tú huyes. Suelen ser señal de que hay algo en tu vida —una situación, una emoción, un aspecto de ti mismo— que estás evitando confrontar. Cuanto más intensa la huida en el sueño, mayor suele ser la evasión en la vida real. Los <a href="/blog/suenos-de-persecucion">sueños de persecución</a> tienen su propio artículo con más detalle sobre sus variaciones y significados.</p>
 
 <h3>Sueños de caída</h3>
 
@@ -643,7 +643,7 @@ export const articles: Article[] = [
 
 <h3>Sueños de dientes que se caen</h3>
 
-<p>También uno de los más frecuentes a nivel mundial. Los <a href="/blog/sonar-con-dientes-que-se-caen">sueños de dientes</a> suelen hablar de ansiedad sobre la imagen propia, el miedo a perder algo valioso o sentimientos de vulnerabilidad. La recurrencia de este sueño suele estar relacionada con períodos de inseguridad sostenida.</p>
+<p>También uno de los más frecuentes a nivel mundial. Los <a href="/blog/suenos-de-dientes-que-se-caen">sueños de dientes</a> suelen hablar de ansiedad sobre la imagen propia, el miedo a perder algo valioso o sentimientos de vulnerabilidad. La recurrencia de este sueño suele estar relacionada con períodos de inseguridad sostenida.</p>
 
 <h3>Sueños de lugares conocidos que se transforman</h3>
 
@@ -806,7 +806,7 @@ export const articles: Article[] = [
 
 <p>Jung notó que el fuego y el agua son arquetipos complementarios y en ciertos sentidos opuestos: el fuego transforma destruyendo, el agua transforma fluyendo. El fuego es masculino-activo en muchas tradiciones, el agua es femenino-receptivo.</p>
 
-<p>Si en tus sueños aparecen ambos elementos, puede que estés procesando una tensión entre dos energías en tu vida: la urgencia de transformar activamente versus la necesidad de fluir y adaptarte. Si los <a href="/blog/sonar-con-agua">sueños con agua</a> también son frecuentes para ti, ambos elementos juntos suelen señalar un período de transformación profunda en el que diferentes fuerzas internas están buscando equilibrio.</p>
+<p>Si en tus sueños aparecen ambos elementos, puede que estés procesando una tensión entre dos energías en tu vida: la urgencia de transformar activamente versus la necesidad de fluir y adaptarte. Si los <a href="/blog/suenos-con-agua">sueños con agua</a> también son frecuentes para ti, ambos elementos juntos suelen señalar un período de transformación profunda en el que diferentes fuerzas internas están buscando equilibrio.</p>
 
 <p>El fuego en los sueños no es ni bueno ni malo. Es intenso. Y la intensidad, en los sueños como en la vida, siempre tiene algo importante que decir.</p>
     `,
@@ -924,7 +924,7 @@ export const articles: Article[] = [
 
 <p>Los sueños de infidelidad son incómodos precisamente porque tocan algo real: el miedo a perder a quien amamos, la vulnerabilidad de abrirnos a otro, la conciencia de que ninguna relación está libre de riesgo. Pero ese miedo, trabajado honestamente, puede ser una puerta hacia una conexión más profunda.</p>
 
-<p>Si los sueños sobre tu ex también te visitan con frecuencia, puede ayudarte leer sobre <a href="/blog/sonar-con-tu-ex">qué significa soñar con tu ex</a>. Y si los sueños de ansiedad son habituales, el artículo sobre <a href="/blog/sonar-que-te-persiguen">soñar que te persiguen</a> puede darte más contexto.</p>
+<p>Si los sueños sobre tu ex también te visitan con frecuencia, puede ayudarte leer sobre <a href="/blog/sonar-con-tu-ex">qué significa soñar con tu ex</a>. Y si los sueños de ansiedad son habituales, el artículo sobre <a href="/blog/suenos-de-persecucion">soñar que te persiguen</a> puede darte más contexto.</p>
     `,
   },
   // ─── ARTÍCULO 15 ────────────────────────────────────────────────────────────
@@ -1033,7 +1033,7 @@ export const articles: Article[] = [
 
 <p>Y la buena noticia es que las personas que tienen este sueño frecuentemente son exactamente las que más se exigen a sí mismas. El sueño no es un defecto; es el precio de importarte profundamente lo que haces.</p>
 
-<p>Si este sueño es parte de un patrón más amplio de ansiedad nocturna, puede interesarte leer sobre <a href="/blog/sonar-que-te-persiguen">soñar que te persiguen</a> o comprender el fenómeno de los <a href="/blog/suenos-recurrentes-guia-completa">sueños recurrentes</a>. Y si la ansiedad de rendimiento te limita en la vida real, el artículo sobre <a href="/blog/sonar-con-caidas">soñar con caídas</a> también puede resonar contigo.</p>
+<p>Si este sueño es parte de un patrón más amplio de ansiedad nocturna, puede interesarte leer sobre <a href="/blog/suenos-de-persecucion">soñar que te persiguen</a> o comprender el fenómeno de los <a href="/blog/suenos-recurrentes-guia-completa">sueños recurrentes</a>. Y si la ansiedad de rendimiento te limita en la vida real, el artículo sobre <a href="/blog/sonar-con-caidas">soñar con caídas</a> también puede resonar contigo.</p>
     `,
   },
   // ─── ARTÍCULO 16 ────────────────────────────────────────────────────────────
@@ -1299,7 +1299,7 @@ export const articles: Article[] = [
 
 <p>Escribir las respuestas, aunque sea en un papel que luego tiras, ayuda al cerebro a procesar de forma consciente lo que de otra manera procesará de noche.</p>
 
-<p>Si los sueños de trabajo son frecuentes en tu caso, puede que también te interese leer sobre <a href="/blog/sonar-que-llegas-tarde">por qué sueñas que llegas tarde</a>, uno de los patrones más comunes relacionados con la presión y la exigencia.</p>
+<p>Si los sueños de trabajo son frecuentes en tu caso, puede que también te interese leer sobre <a href="/blog/suenos-de-llegar-tarde-o-perderse">por qué sueñas que llegas tarde</a>, uno de los patrones más comunes relacionados con la presión y la exigencia.</p>
     `,
   },
     {
@@ -1826,7 +1826,7 @@ export const articles: Article[] = [
 
 <p>En ese caso, un psicólogo especializado en sueño o en trauma puede trabajar específicamente con estas pesadillas con técnicas bien documentadas.</p>
 
-<p>Si los sueños de persecución aparecen junto con otros sueños de ansiedad intensa, puede que te interese leer sobre <a href="/blog/suenos-recurrentes-de-caida">los sueños recurrentes de caída</a>, que comparten con estos la naturaleza de ser señales de alerta del sistema emocional.</p>
+<p>Si los sueños de persecución aparecen junto con otros sueños de ansiedad intensa, puede que te interese leer sobre <a href="/blog/sonar-con-caidas">los sueños recurrentes de caída</a>, que comparten con estos la naturaleza de ser señales de alerta del sistema emocional.</p>
     `,
   },
   {
@@ -1953,7 +1953,7 @@ export const articles: Article[] = [
 
 <p>Si el sueño es recurrente y cada vez que lo tienes hay una respuesta clara a alguna de esas preguntas, esa es la información relevante. No el sueño en sí, sino lo que señala.</p>
 
-<p>Si sueñas con los dientes en el contexto de otros sueños de ansiedad corporal, puede que te interese leer sobre <a href="/blog/suenos-recurrentes-de-caida">los sueños de caída</a>, que comparten con este la naturaleza de pérdida súbita de algo que debería ser estable.</p>
+<p>Si sueñas con los dientes en el contexto de otros sueños de ansiedad corporal, puede que te interese leer sobre <a href="/blog/sonar-con-caidas">los sueños de caída</a>, que comparten con este la naturaleza de pérdida súbita de algo que debería ser estable.</p>
     `,
   },
   {
@@ -2088,7 +2088,7 @@ export const articles: Article[] = [
 
 <p>No para interpretarlos en profundidad, sino para identificar el patrón. ¿Cuándo vuelan tus sueños? ¿En qué momentos de tu vida? Si logras responder esa pregunta, tienes información muy valiosa sobre las condiciones en las que tu cerebro se siente más libre y más capaz.</p>
 
-<p>Si los sueños de volar alternan con sueños de caída, puede que te interese leer sobre <a href="/blog/suenos-recurrentes-de-caida">los sueños recurrentes de caída</a>, que representan la otra cara del mismo eje: la expansión versus el miedo a perder el suelo bajo los pies.</p>
+<p>Si los sueños de volar alternan con sueños de caída, puede que te interese leer sobre <a href="/blog/sonar-con-caidas">los sueños recurrentes de caída</a>, que representan la otra cara del mismo eje: la expansión versus el miedo a perder el suelo bajo los pies.</p>
     `,
   },
   {
@@ -5207,7 +5207,7 @@ export const articles: Article[] = [
 
 <p>Los sueños de ropa comparten territorio con otros sueños relacionados con la imagen y la vulnerabilidad. Soñar que vas mal vestido tiene estructura similar a soñar que estás desnudo en público, donde la ausencia de ropa lleva la exposición a su extremo. Si reconoces ese patrón, hay más sobre él en <a href="/blog/suenos-de-estar-desnudo-en-publico">soñar que estás desnudo en público</a>.</p>
 
-<p>Y si la sensación es de no encajar en el rol o en el contexto, puede conectar con <a href="/blog/sonar-que-llegas-tarde">soñar que llegas tarde</a>, otro sueño de inadecuación ante una situación de exigencia.</p>
+<p>Y si la sensación es de no encajar en el rol o en el contexto, puede conectar con <a href="/blog/suenos-de-llegar-tarde-o-perderse">soñar que llegas tarde</a>, otro sueño de inadecuación ante una situación de exigencia.</p>
     `,
   },
 

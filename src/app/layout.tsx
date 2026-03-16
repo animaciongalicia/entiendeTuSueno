@@ -24,7 +24,7 @@ export const metadata: Metadata = {
       "Descubre el significado de tus sueños con interpretaciones detalladas, cercanas y basadas en psicología.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.svg",
         width: 1200,
         height: 630,
         alt: "EntiendetuSueño",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "EntiendetuSueño — Interpretación de Sueños",
     description: "Descubre el significado de tus sueños en español.",
-    images: ["/og-image.jpg"],
+    images: ["/og-image.svg"],
   },
   robots: {
     index: true,
@@ -68,7 +68,7 @@ const globalSchema = {
         "@type": "SearchAction",
         target: {
           "@type": "EntryPoint",
-          urlTemplate: "https://entiendetusueno.com/blog?q={search_term_string}",
+          urlTemplate: "https://entiendetusueno.com/interpretador?q={search_term_string}",
         },
         "query-input": "required name=search_term_string",
       },
@@ -80,7 +80,7 @@ const globalSchema = {
       url: "https://entiendetusueno.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://entiendetusueno.com/logo.png",
+        url: "https://entiendetusueno.com/logo.svg",
         width: 512,
         height: 512,
       },
