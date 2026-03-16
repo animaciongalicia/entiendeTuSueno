@@ -482,6 +482,8 @@ function PillarArticlePage({ pillar }: { pillar: PillarPage }) {
               alt={pillar.coverAlt}
               categorySlug={pillar.categorySlug}
               className="w-full h-full"
+              priority
+              sizes="(max-width: 1200px) 100vw, 1200px"
             />
           </div>
 
