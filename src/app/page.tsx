@@ -173,7 +173,7 @@ export default function HomePage() {
               Artículo destacado
             </p>
           </div>
-          <ArticleCard article={featuredArticle} featured />
+          <ArticleCard article={featuredArticle} featured priority />
         </section>
       )}
 

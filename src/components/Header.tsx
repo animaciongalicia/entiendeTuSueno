@@ -58,7 +58,9 @@ export default function Header() {
           <button
             className="md:hidden text-[#8b87a0] hover:text-[#e8e6f0] transition-colors p-2"
             onClick={() => setMenuOpen(!menuOpen)}
-            aria-label="Abrir menú"
+            aria-label={menuOpen ? "Cerrar menú" : "Abrir menú"}
+            aria-expanded={menuOpen}
+            aria-controls="mobile-menu"
           >
             {menuOpen ? (
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -74,7 +76,7 @@ export default function Header() {
 
         {/* Mobile menu — todas las categorías */}
         {menuOpen && (
-          <nav className="md:hidden border-t border-[#2a2a4a] py-4 flex flex-col gap-1">
+          <nav id="mobile-menu" className="md:hidden border-t border-[#2a2a4a] py-4 flex flex-col gap-1">
             <Link
               href="/blog"
               className="text-sm text-[#8b87a0] hover:text-[#e8e6f0] transition-colors py-2 px-1"

@@ -15,12 +15,14 @@ import { NextRequest, NextResponse } from "next/server";
  */
 export async function POST(req: NextRequest) {
   try {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { email, contexto } = await req.json();
 
     if (!email || typeof email !== "string" || !email.includes("@")) {
       return NextResponse.json({ error: "Email inválido" }, { status: 400 });
     }
 
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const sanitizedEmail = email.trim().toLowerCase();
 
     // ── A) ConvertKit / Kit ──────────────────────────────────────────────────
@@ -73,8 +75,7 @@ export async function POST(req: NextRequest) {
     //   return NextResponse.json({ ok: true });
     // }
 
-    // Proveedor no configurado — log y respuesta OK (modo desarrollo)
-    console.log(`[newsletter] nuevo suscriptor: ${sanitizedEmail} | contexto: ${contexto ?? "—"}`);
+    // Proveedor no configurado — respuesta OK (configurar proveedor en .env)
     return NextResponse.json({ ok: true });
   } catch (err) {
     console.error("[newsletter] error:", err);

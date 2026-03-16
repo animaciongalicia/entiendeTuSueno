@@ -40,6 +40,13 @@ export async function POST(request: NextRequest) {
     );
   }
 
+  if (dream.trim().length > 2000) {
+    return new Response(
+      JSON.stringify({ error: "Descripción demasiado larga. Máximo 2000 caracteres." }),
+      { status: 400, headers: { "Content-Type": "application/json" } }
+    );
+  }
+
   const userMessage = contexto
     ? `Mi sueño: ${dream.trim()}\n\nContexto adicional: ${contexto.trim()}`
     : `Mi sueño: ${dream.trim()}`;

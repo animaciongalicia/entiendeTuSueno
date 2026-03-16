@@ -5,9 +5,10 @@ import CoverImage from "@/components/CoverImage";
 interface ArticleCardProps {
   article: Article;
   featured?: boolean;
+  priority?: boolean;
 }
 
-export default function ArticleCard({ article, featured = false }: ArticleCardProps) {
+export default function ArticleCard({ article, featured = false, priority = false }: ArticleCardProps) {
   if (featured) {
     return (
       <article className="group rounded-2xl border border-[#2a2a4a] bg-[#1a1a2e] overflow-hidden hover:border-[#7c6af7]/50 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-[#7c6af7]/5">
@@ -19,6 +20,7 @@ export default function ArticleCard({ article, featured = false }: ArticleCardPr
               alt={article.coverAlt}
               categorySlug={article.categorySlug}
               className="w-full h-full"
+              priority={priority}
             />
           </div>
 
