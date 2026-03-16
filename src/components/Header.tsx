@@ -2,6 +2,12 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { NAV_CATEGORIES } from "@/lib/navCategories";
+
+// 4 categorías que aparecen en desktop (las más buscadas)
+const DESKTOP_CATS = NAV_CATEGORIES.filter((c) =>
+  ["animales", "ansiedad-y-miedos", "trabajo-y-dinero", "simbolos-en-suenos"].includes(c.slug)
+);
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -27,27 +33,20 @@ export default function Header() {
               Artículos
             </Link>
 
-            {/* Separador */}
             <span className="text-[#2a2a4a] mx-1">|</span>
 
-            {/* Tags de categorías rápidas */}
-            {[
-              { label: "🐾 Animales", href: "/categoria/suenos-con-animales" },
-              { label: "😰 Ansiedad", href: "/categoria/suenos-con-muerte-y-miedo" },
-              { label: "💼 Trabajo", href: "/categoria/suenos-de-dinero-y-trabajo" },
-              { label: "🔮 Símbolos", href: "/categoria/simbolos-en-suenos" },
-            ].map((tag) => (
+            {DESKTOP_CATS.map((cat) => (
               <Link
-                key={tag.href}
-                href={tag.href}
+                key={cat.slug}
+                href={`/categoria/${cat.slug}`}
                 className="text-xs text-[#6b6880] hover:text-[#c0b8f0] transition-colors px-2.5 py-1 rounded-full hover:bg-[#1a1a2e]"
               >
-                {tag.label}
+                {cat.emoji} {cat.name}
               </Link>
             ))}
           </nav>
 
-          {/* CTA botón (único) */}
+          {/* CTA botón */}
           <Link
             href="/interpretador"
             className="hidden md:inline-block rounded-full bg-[#7c6af7] px-4 py-1.5 text-sm font-medium text-white hover:bg-[#9580ff] transition-colors shrink-0"
@@ -73,7 +72,7 @@ export default function Header() {
           </button>
         </div>
 
-        {/* Mobile menu */}
+        {/* Mobile menu — todas las categorías */}
         {menuOpen && (
           <nav className="md:hidden border-t border-[#2a2a4a] py-4 flex flex-col gap-1">
             <Link
@@ -81,26 +80,19 @@ export default function Header() {
               className="text-sm text-[#8b87a0] hover:text-[#e8e6f0] transition-colors py-2 px-1"
               onClick={() => setMenuOpen(false)}
             >
-              Artículos
+              Todos los artículos
             </Link>
 
-            {/* Categorías en mobile */}
             <p className="text-xs text-[#4a4760] uppercase tracking-widest mt-3 mb-1 px-1">Categorías</p>
-            {[
-              { label: "🐾 Animales", href: "/categoria/suenos-con-animales" },
-              { label: "😰 Ansiedad y miedos", href: "/categoria/suenos-con-muerte-y-miedo" },
-              { label: "💼 Trabajo y dinero", href: "/categoria/suenos-de-dinero-y-trabajo" },
-              { label: "🔮 Símbolos en sueños", href: "/categoria/simbolos-en-suenos" },
-              { label: "🫂 Relaciones", href: "/categoria/relaciones" },
-              { label: "🧠 Ciencia del sueño", href: "/categoria/ciencia-del-sueno" },
-            ].map((tag) => (
+            {NAV_CATEGORIES.map((cat) => (
               <Link
-                key={tag.href}
-                href={tag.href}
-                className="text-sm text-[#6b6880] hover:text-[#e8e6f0] transition-colors py-1.5 px-1"
+                key={cat.slug}
+                href={`/categoria/${cat.slug}`}
+                className="flex items-center gap-2 text-sm text-[#6b6880] hover:text-[#e8e6f0] transition-colors py-1.5 px-1"
                 onClick={() => setMenuOpen(false)}
               >
-                {tag.label}
+                <span>{cat.emoji}</span>
+                <span>{cat.name}</span>
               </Link>
             ))}
 

@@ -1,9 +1,9 @@
 import Link from "next/link";
 import type { Article } from "@/lib/articles";
-import { clusters } from "@/lib/clusters";
+import { NAV_CATEGORIES } from "@/lib/navCategories";
 
 interface ArticleSidebarProps {
-  relatedArticles: Article[];  // artículos del mismo cluster/categoría
+  relatedArticles: Article[];
   categorySlug: string;
   categoryName: string;
   currentSlug: string;
@@ -43,7 +43,6 @@ export default function ArticleSidebar({
           <h3 className="text-[10px] font-bold uppercase tracking-widest text-[#4a4760] mb-3">
             En la misma categoría
           </h3>
-
           <ul className="space-y-1">
             {related.map((article) => (
               <li key={article.slug}>
@@ -64,7 +63,6 @@ export default function ArticleSidebar({
               </li>
             ))}
           </ul>
-
           <Link
             href={`/categoria/${categorySlug}`}
             className="mt-2 pt-3 border-t border-[#2a2a4a] flex items-center justify-between text-xs text-[#7c6af7] hover:text-[#9580ff] transition-colors"
@@ -75,24 +73,24 @@ export default function ArticleSidebar({
         </div>
       )}
 
-      {/* ── Explorar temas ─────────────────────────────────────────── */}
+      {/* ── Explorar categorías ────────────────────────────────────── */}
       <div className="rounded-xl border border-[#2a2a4a] bg-[#1a1a2e] p-4">
         <h3 className="text-[10px] font-bold uppercase tracking-widest text-[#4a4760] mb-3">
-          Explorar temas
+          Explorar categorías
         </h3>
-        <div className="flex flex-col gap-1">
-          {clusters.slice(0, 9).map((cluster) => (
+        <div className="flex flex-col gap-0.5">
+          {NAV_CATEGORIES.map((cat) => (
             <Link
-              key={cluster.slug}
-              href={`/categoria/${cluster.slug}`}
+              key={cat.slug}
+              href={`/categoria/${cat.slug}`}
               className={`flex items-center gap-2 rounded-lg px-2.5 py-1.5 text-xs transition-colors
-                ${cluster.categorySlug === categorySlug
+                ${cat.slug === categorySlug
                   ? "bg-[#7c6af7]/15 text-[#c0b8f0] border border-[#7c6af7]/25"
                   : "text-[#8b87a0] hover:bg-[#12121e] hover:text-[#c0b8f0]"
                 }`}
             >
-              <span className="shrink-0 text-sm">{cluster.emoji}</span>
-              <span className="leading-snug">{cluster.name}</span>
+              <span className="shrink-0">{cat.emoji}</span>
+              <span className="leading-snug">{cat.name}</span>
             </Link>
           ))}
         </div>

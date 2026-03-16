@@ -1421,128 +1421,6 @@ export const articles: Article[] = [
     `,
   },
   // ─── ARTÍCULO 12 ────────────────────────────────────────────────────────────
-  {
-    slug: "sonar-con-embarazo",
-    title: "Soñar con Embarazo: Qué Significa aunque No Estés Buscándolo",
-    excerpt:
-      "Soñar con embarazo es uno de los sueños más impactantes y confusos. Ocurre a mujeres, hombres, y personas que no desean tener hijos. Aquí tienes lo que realmente significa.",
-    category: "Símbolos en Sueños",
-    categorySlug: "simbolos-en-suenos",
-    publishedAt: "2024-04-08",
-    updatedAt: "2024-04-08",
-    readingTime: 8,
-    coverImage: "/images/blog/cuerpo/sonar-con-embarazo.webp",
-    coverAlt: "Silueta suave de una figura embarazada bajo luz cálida",
-    tags: ["embarazo", "cuerpo", "creación", "cambio", "nueva etapa"],
-    cluster: "suenos-sobre-uno-mismo",
-    visual_theme: "calma",
-    pin_titles: [
-      "Soñé que estaba embarazada y no lo estoy: esto significa",
-      "Por qué soñamos con embarazos aunque no queramos tener hijos",
-      "El mensaje oculto de soñar con un embarazo",
-    ],
-    reel_hook: "Soñaste que estabas embarazada —o embarazado— y te despertaste confundido. Lo que significa te va a sorprender.",
-    extracto_seo: "Soñar con embarazo no significa que vayas a quedarte embarazada. Simboliza creación, nuevos proyectos y partes de ti que están creciendo. Descubre todas las variantes y su significado real.",
-    imagen_destacada: "/images/blog/cuerpo/sonar-con-embarazo.webp",
-    imagen_vertical: "/images/pinterest/sonar-con-embarazo-pin.webp",
-    tipo: "normal",
-    intencion_practica: ["decisiones-de-vida", "salud-emocional", "trabajo"],
-    consejo_practico: "Si soñaste con embarazo en un momento en que estás iniciando algo nuevo —un proyecto, una relación, un cambio de vida—, tu inconsciente te está diciendo que algo está gestando dentro de ti. Pregúntate: ¿qué es lo que lleva semanas o meses creciendo en silencio? ¿Hay algo que todavía no has anunciado ni comprometido pero que ya sabes que va a nacer?",
-    fuentes: [
-      { autor: "Carl G. Jung", obra: "Psicología y Alquimia (1944)" },
-      { autor: "Clarissa Pinkola Estés", obra: "Mujeres que corren con los lobos (1992)" },
-      { autor: "Kelly Bulkeley", obra: "Dreaming in the World's Religions (2008)" },
-    ],
-    interpretacion_humana: "<p>Pocas búsquedas en nuestro portal generan tanta angustia como &laquo;soñé que estaba embarazada, ¿qué significa?&raquo;. La pregunta suele venir acompañada de un estado de alerta: ¿es una señal? ¿Presagio? ¿Mi cuerpo me está avisando de algo?</p><p>La respuesta más honesta es: casi nunca es literal. Lo que sí es cierto, y lo vemos en los relatos que nos llegan, es que este sueño aparece con llamativa consistencia en momentos en que la persona está en medio de un proceso de creación o transformación importante. Un negocio que está naciendo, una relación que empieza a ser seria, una identidad personal que está cambiando. El embarazo en sueños es la metáfora más poderosa que tiene el inconsciente para decirte: <em>algo nuevo está creciendo en ti</em>.</p>",
-    faqItems: [
-      {
-        question: "¿Soñar con embarazo significa que me voy a quedar embarazada?",
-        answer:
-          "No. Soñar con embarazo raramente es una predicción literal. La psicología del sueño lo interpreta como un símbolo de creación, crecimiento o nueva etapa. Si tienes dudas sobre un posible embarazo real, lo adecuado es hacer una prueba, no interpretar el sueño.",
-      },
-      {
-        question: "¿Qué significa soñar con embarazo siendo hombre?",
-        answer:
-          "Es más común de lo que parece y tiene el mismo significado simbólico: algo nuevo está gestando en tu vida. Puede ser un proyecto, una transformación personal o un nuevo rol que estás asumiendo. No tiene ningún significado físico ni de orientación.",
-      },
-      {
-        question: "¿Qué significa soñar que otra persona está embarazada?",
-        answer:
-          "Soñar que otra persona —una amiga, tu pareja, tu madre— está embarazada suele reflejar una proyección: ves en esa persona algo que en realidad está ocurriendo en ti, o bien hay algo en esa relación que está evolucionando o transformándose.",
-      },
-      {
-        question: "¿Qué significa soñar con un embarazo no deseado?",
-        answer:
-          "Puede señalar que algo en tu vida está creciendo o avanzando sin que lo hayas elegido conscientemente. Quizás un compromiso que adquiriste sin pensarlo bien, una situación que se está complicando, o una responsabilidad que se acerca y que no terminas de aceptar.",
-      },
-    ],
-    content: `
-<p>Te despertaste pensando que estabas embarazada. O que lo estaba tu pareja. O alguien a quien conoces. Y durante unos segundos el sueño parecía absolutamente real.</p>
-
-<p>Soñar con embarazo es uno de los sueños más impactantes precisamente porque mezcla lo físico con lo emocional de una forma muy directa. Y lo primero que hay que decir con claridad es esto: en la grandísima mayoría de los casos, <strong>no es una predicción ni una señal de embarazo real</strong>. Es un símbolo. Y un símbolo muy poderoso.</p>
-
-<h2>Lo que Simboliza el Embarazo en los Sueños</h2>
-
-<p>En la psicología profunda, el embarazo es uno de los arquetipos creativos más universales. Representa algo que está <em>gestando</em>: una idea, un proyecto, una nueva versión de ti mismo, un cambio que todavía no ha terminado de nacer.</p>
-
-<p>Carl Jung lo vinculaba directamente al proceso de individuación: el camino por el que nos convertimos en quienes realmente somos. Cuando el inconsciente usa la imagen del embarazo, está diciéndote que algo importante está madurando. Que hay un proceso en marcha que todavía no ha llegado a su término, pero que ya está vivo.</p>
-
-<p>Clarissa Pinkola Estés, en <em>Mujeres que corren con los lobos</em>, describe la energía creadora femenina como una gestación permanente: no solo se gesta vida biológica, también se gestan ideas, vínculos, obras, transformaciones. Esta energía no tiene género: hombres y mujeres por igual la experimentan en sueños.</p>
-
-<h2>Las Variantes más Comunes y qué Revelan</h2>
-
-<h3>Soñar con embarazo sin estar embarazada</h3>
-
-<p>Este es el caso más frecuente y el que más confusión genera. Si sueñas que estás embarazada sin estarlo en la vida real, tu mente está trabajando con el símbolo puro: algo nuevo está naciendo en tu vida. Puede ser un proyecto profesional que llevas tiempo incubando, una relación que está profundizando, o una etapa personal que está por comenzar.</p>
-
-<p>Presta atención a cómo te sentías en el sueño. Si el embarazo te llenaba de alegría o calma, la señal es de apertura y confianza ante lo que viene. Si sentías angustia o no querías estar embarazada en el sueño, puede que haya algo que está creciendo en tu vida y que todavía no terminas de aceptar.</p>
-
-<h3>Soñar con embarazo siendo hombre</h3>
-
-<p>Aunque suele provocar extrañeza, este sueño es más frecuente de lo que se cree. Tiene exactamente el mismo significado simbólico: algo está gestando en ti. Proyectos, cambios de identidad, nuevos roles —ser padre, asumir más responsabilidad, iniciar algo desde cero— aparecen con mucha frecuencia asociados a este sueño en hombres.</p>
-
-<h3>Soñar que otra persona está embarazada</h3>
-
-<p>Cuando en el sueño la embarazada es alguien cercana —tu pareja, una amiga, tu madre— hay que preguntarse dos cosas: ¿qué representa esa persona para ti? ¿Hay algo en esa relación que está cambiando o evolucionando?</p>
-
-<p>En muchos casos, la otra persona funciona como espejo: lo que le está pasando a ella en el sueño es en realidad lo que está pasando dentro de ti. El inconsciente utiliza a personas conocidas como pantalla para proyectar sus propios procesos.</p>
-
-<h3>Soñar con el parto</h3>
-
-<p>Si en el sueño no solo estás embarazada sino que llegas al momento del parto, el significado se amplía: algo que llevaba tiempo gestando está a punto de manifestarse. Hay una culminación cercana. El parto en sueños casi siempre señala un momento de entrega, de dejar ir algo que ya no puede seguir guardado dentro, de dar a luz algo que ya está listo para existir en el mundo.</p>
-
-<h2>Cuándo Prestar Especial Atención a este Sueño</h2>
-
-<p>Este sueño es especialmente significativo si aparece en estos momentos:</p>
-
-<ul>
-<li><strong>Estás iniciando un proyecto o emprendimiento.</strong> Tu inconsciente está procesando ese proceso creativo con la metáfora más potente que conoce.</li>
-<li><strong>Estás en un proceso de transformación personal.</strong> Terapia, duelo, cambio de trabajo, fin o inicio de una relación importante.</li>
-<li><strong>Llevas tiempo postergando algo.</strong> El embarazo en sueños a veces señala que hay algo que ya debería haber nacido y que sigues reteniendo por miedo.</li>
-<li><strong>Tienes una relación ambivalente con la maternidad o paternidad.</strong> El sueño puede estar procesando ese conflicto de forma directa.</li>
-</ul>
-
-<h2>Lo que No Significa</h2>
-
-<ul>
-<li><strong>No predice un embarazo.</strong> Los sueños no son profecías. Si tienes dudas sobre un embarazo real, haz una prueba.</li>
-<li><strong>No significa que inconscientemente quieras tener hijos.</strong> Puede que simplemente hayas iniciado un proyecto y tu mente lo esté procesando con esta metáfora.</li>
-<li><strong>No es una señal de tu cuerpo avisándote de algo físico.</strong> A menos que tengas otros síntomas, no hay base para interpretarlo como tal.</li>
-</ul>
-
-<h2>Cómo Trabajar con este Sueño</h2>
-
-<ul>
-<li>¿Qué hay en mi vida ahora mismo que está "gestando"? ¿Qué proyecto, relación o cambio lleva tiempo creciendo?</li>
-<li>¿Cómo me sentía en el sueño? ¿Con ilusión, con miedo, con ambivalencia?</li>
-<li>¿Hay algo que sé que necesita nacer —una decisión, un anuncio, un compromiso— pero que sigo reteniendo?</li>
-</ul>
-
-<p>Soñar con embarazo es, en el fondo, una noticia: algo en ti está vivo y creciendo. La pregunta es si estás dispuesto a darle espacio para que llegue al mundo.</p>
-
-<p>Si este sueño forma parte de una cadena de sueños intensos, quizás te interese leer sobre <a href="/blog/suenos-recurrentes-guia-completa">por qué algunos sueños vuelven una y otra vez</a> o explorar qué significan <a href="/blog/sonar-con-la-muerte-de-un-familiar">los sueños sobre personas queridas</a>.</p>
-    `,
-  },
   // ─── ARTÍCULO 13 ────────────────────────────────────────────────────────────
   {
     slug: "sonar-con-dinero",
@@ -1880,7 +1758,7 @@ export const articles: Article[] = [
     title: "Soñar con Bebés: Nuevos Comienzos, Vulnerabilidad y lo que Necesita Cuidado en Ti",
     excerpt:
       "Un bebé en tus sueños casi nunca habla de maternidad o paternidad literal. Habla de algo nuevo, frágil y lleno de potencial que está naciendo en tu vida. Descubre qué es.",
-    category: "Cuerpo y Mente",
+    category: "Símbolos en Sueños",
     categorySlug: "simbolos-en-suenos",
     publishedAt: "2024-05-06",
     updatedAt: "2024-05-06",
