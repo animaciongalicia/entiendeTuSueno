@@ -2,7 +2,6 @@ import { notFound } from "next/navigation";
 import { articles, getArticleBySlug, getAllSlugs, getRelatedArticlesByCluster } from "@/lib/articles";
 import { getPillarByCluster, getAllPillarSlugs, getPillarBySlug, getClusterBySlug } from "@/lib/clusters";
 import type { PillarPage } from "@/lib/clusters";
-import AdSlot from "@/components/AdSlot";
 import SchemaArticle from "@/components/SchemaArticle";
 import EmailCapture from "@/components/EmailCapture";
 import AffiliateCTA from "@/components/AffiliateCTA";
