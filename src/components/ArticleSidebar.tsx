@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Article } from "@/lib/articles";
-import { NAV_CATEGORIES } from "@/lib/navCategories";
+import { articles as allArticles } from "@/lib/articles";
+import ArticleIndex from "@/components/ArticleIndex";
 
 interface ArticleSidebarProps {
   relatedArticles: Article[];
@@ -63,38 +64,20 @@ export default function ArticleSidebar({
               </li>
             ))}
           </ul>
-          <Link
-            href={`/categoria/${categorySlug}`}
-            className="mt-2 pt-3 border-t border-[#2a2a4a] flex items-center justify-between text-xs text-[#7c6af7] hover:text-[#9580ff] transition-colors"
-          >
-            <span>Ver todo en {categoryName}</span>
-            <span>→</span>
-          </Link>
+          {categorySlug && (
+            <Link
+              href={`/categoria/${categorySlug}`}
+              className="mt-2 pt-3 border-t border-[#2a2a4a] flex items-center justify-between text-xs text-[#7c6af7] hover:text-[#9580ff] transition-colors"
+            >
+              <span>Ver todo en {categoryName}</span>
+              <span>→</span>
+            </Link>
+          )}
         </div>
       )}
 
-      {/* ── Explorar categorías ────────────────────────────────────── */}
-      <div className="rounded-xl border border-[#2a2a4a] bg-[#1a1a2e] p-4">
-        <h3 className="text-[10px] font-bold uppercase tracking-widest text-[#4a4760] mb-3">
-          Explorar categorías
-        </h3>
-        <div className="flex flex-col gap-0.5">
-          {NAV_CATEGORIES.map((cat) => (
-            <Link
-              key={cat.slug}
-              href={`/categoria/${cat.slug}`}
-              className={`flex items-center gap-2 rounded-lg px-2.5 py-1.5 text-xs transition-colors
-                ${cat.slug === categorySlug
-                  ? "bg-[#7c6af7]/15 text-[#c0b8f0] border border-[#7c6af7]/25"
-                  : "text-[#8b87a0] hover:bg-[#12121e] hover:text-[#c0b8f0]"
-                }`}
-            >
-              <span className="shrink-0">{cat.emoji}</span>
-              <span className="leading-snug">{cat.name}</span>
-            </Link>
-          ))}
-        </div>
-      </div>
+      {/* ── Índice completo de artículos ────────────────────────────── */}
+      <ArticleIndex articles={allArticles} currentSlug={currentSlug} />
 
     </div>
   );
