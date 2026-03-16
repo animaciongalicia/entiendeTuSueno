@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { getArticlesByCategory, getAllCategories } from "@/lib/articles";
 import { clusters, getPillarByCluster } from "@/lib/clusters";
 import ArticleCard from "@/components/ArticleCard";
+import ArticleSidebar from "@/components/ArticleSidebar";
 import AdSlot from "@/components/AdSlot";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -128,96 +129,61 @@ export default function CategoriaPage({ params }: Props) {
         <span className="text-[#8b87a0]">{displayName}</span>
       </nav>
 
-      <div className="mb-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-[#f0eeff] mb-3">
-          {cluster ? cluster.name : `Sueños de ${displayName}`}
-        </h1>
-        <p className="text-[#8b87a0] max-w-xl leading-relaxed">{description}</p>
-      </div>
-
-      <AdSlot slot="header-below" className="mb-8" />
-
-      {/* Pillar page card if this is a cluster */}
-      {pillar && (
-        <div className="mb-10 rounded-2xl border border-[#7c6af7]/30 bg-[#7c6af7]/5 p-6">
-          <p className="text-xs font-semibold uppercase tracking-widest text-[#7c6af7] mb-2">
-            Guía completa
-          </p>
-          <h2 className="text-xl font-bold text-[#f0eeff] mb-2">{pillar.title}</h2>
-          <p className="text-[#8b87a0] text-sm mb-4 leading-relaxed">{pillar.metaDescription}</p>
-          <Link
-            href={`/blog/${pillar.slug}`}
-            className="inline-flex items-center gap-1.5 rounded-full bg-[#7c6af7] px-4 py-2 text-sm font-medium text-white hover:bg-[#9580ff] transition-colors"
-          >
-            Leer la guía completa →
-          </Link>
-        </div>
-      )}
-
-      {articlesInCategory.length > 0 ? (
-        <>
-          {cluster && (
-            <h2 className="text-lg font-semibold text-[#e8e6f0] mb-5">
-              Artículos del cluster
-            </h2>
-          )}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {articlesInCategory.map((article) => (
-              <ArticleCard key={article.slug} article={article} />
-            ))}
+      <div className="flex flex-col lg:flex-row gap-8">
+        {/* Main content */}
+        <div className="flex-1 min-w-0">
+          <div className="mb-8">
+            <h1 className="text-3xl md:text-4xl font-bold text-[#f0eeff] mb-3">
+              {cluster ? cluster.name : `Sueños de ${displayName}`}
+            </h1>
+            <p className="text-[#8b87a0] max-w-xl leading-relaxed">{description}</p>
           </div>
-        </>
-      ) : (
-        <div className="text-center py-16">
-          <div className="text-4xl mb-4">🌙</div>
-          <p className="text-[#8b87a0]">No hay artículos en esta categoría todavía.</p>
-          <Link href="/blog" className="inline-block mt-4 text-sm text-[#7c6af7] hover:text-[#9580ff] transition-colors">
-            Ver todos los artículos →
-          </Link>
-        </div>
-      )}
 
-      {/* Clusters related to this category */}
-      {!cluster && (() => {
-        const relatedClusters = clusters.filter((c) => c.categorySlug === params.nombre);
-        if (relatedClusters.length === 0) return null;
-        return (
-          <div className="mt-12 pt-8 border-t border-[#2a2a4a]">
-            <h2 className="text-lg font-semibold text-[#e8e6f0] mb-4">Clusters temáticos</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {relatedClusters.map((c) => (
-                <Link
-                  key={c.slug}
-                  href={`/categoria/${c.slug}`}
-                  className="rounded-xl border border-[#2a2a4a] p-4 hover:border-[#7c6af7] transition-colors group"
-                >
-                  <p className="font-medium text-[#e8e6f0] group-hover:text-[#7c6af7] transition-colors">
-                    {c.name}
-                  </p>
-                  <p className="text-xs text-[#4a4760] mt-1 leading-relaxed">{c.description}</p>
-                </Link>
+          <AdSlot slot="header-below" className="mb-8" />
+
+          {/* Pillar page card if this is a cluster */}
+          {pillar && (
+            <div className="mb-8 rounded-2xl border border-[#7c6af7]/30 bg-[#7c6af7]/5 p-6">
+              <p className="text-xs font-semibold uppercase tracking-widest text-[#7c6af7] mb-2">
+                Guía completa
+              </p>
+              <h2 className="text-xl font-bold text-[#f0eeff] mb-2">{pillar.title}</h2>
+              <p className="text-[#8b87a0] text-sm mb-4 leading-relaxed">{pillar.metaDescription}</p>
+              <Link
+                href={`/blog/${pillar.slug}`}
+                className="inline-flex items-center gap-1.5 rounded-full bg-[#7c6af7] px-4 py-2 text-sm font-medium text-white hover:bg-[#9580ff] transition-colors"
+              >
+                Leer la guía completa →
+              </Link>
+            </div>
+          )}
+
+          {articlesInCategory.length > 0 ? (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              {articlesInCategory.map((article) => (
+                <ArticleCard key={article.slug} article={article} />
               ))}
             </div>
-          </div>
-        );
-      })()}
-
-      {/* Other categories */}
-      <div className="mt-12 pt-8 border-t border-[#2a2a4a]">
-        <h2 className="text-lg font-semibold text-[#e8e6f0] mb-4">Otras categorías</h2>
-        <div className="flex flex-wrap gap-3">
-          {cats
-            .filter((c) => c.slug !== params.nombre)
-            .map((c) => (
-              <Link
-                key={c.slug}
-                href={`/categoria/${c.slug}`}
-                className="rounded-full border border-[#2a2a4a] px-4 py-1.5 text-sm text-[#8b87a0] hover:border-[#7c6af7] hover:text-[#7c6af7] transition-colors"
-              >
-                {c.name}
+          ) : (
+            <div className="text-center py-16">
+              <div className="text-4xl mb-4">🌙</div>
+              <p className="text-[#8b87a0]">No hay artículos en esta categoría todavía.</p>
+              <Link href="/blog" className="inline-block mt-4 text-sm text-[#7c6af7] hover:text-[#9580ff] transition-colors">
+                Ver todos los artículos →
               </Link>
-            ))}
+            </div>
+          )}
         </div>
+
+        {/* Sidebar */}
+        <aside className="hidden lg:block w-56 xl:w-64 shrink-0">
+          <ArticleSidebar
+            relatedArticles={[]}
+            categorySlug={cluster?.categorySlug ?? params.nombre}
+            categoryName={displayName}
+            currentSlug=""
+          />
+        </aside>
       </div>
     </div>
   );
