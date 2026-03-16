@@ -8,6 +8,7 @@ import EmailCapture from "@/components/EmailCapture";
 import AffiliateCTA from "@/components/AffiliateCTA";
 import CoverImage from "@/components/CoverImage";
 import ReadingProgress from "@/components/ReadingProgress";
+import ArticleSidebar from "@/components/ArticleSidebar";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -359,22 +360,13 @@ export default function ArticlePage({ params }: Props) {
           </article>
 
           {/* Sidebar */}
-          <aside className="w-full lg:w-64 shrink-0">
-            <div className="sticky top-20 space-y-6">
-              <AdSlot slot="sidebar" />
-              <div className="rounded-xl border border-[#2a2a4a] bg-[#1a1a2e] p-5">
-                <h3 className="text-sm font-semibold text-[#e8e6f0] mb-3">¿Tuviste este sueño?</h3>
-                <p className="text-xs text-[#8b87a0] mb-4">
-                  Usa nuestro interpretador para obtener un análisis personalizado.
-                </p>
-                <Link
-                  href="/interpretador"
-                  className="block text-center rounded-full bg-[#7c6af7] px-4 py-2 text-sm font-medium text-white hover:bg-[#9580ff] transition-colors"
-                >
-                  Interpretar mi sueño
-                </Link>
-              </div>
-            </div>
+          <aside className="hidden lg:block w-56 xl:w-64 shrink-0">
+            <ArticleSidebar
+              relatedArticles={relatedArticles}
+              categorySlug={art.categorySlug}
+              categoryName={art.category}
+              currentSlug={art.slug}
+            />
           </aside>
         </div>
       </div>
@@ -390,6 +382,11 @@ function PillarArticlePage({ pillar }: { pillar: PillarPage }) {
 
   // Todos los artículos del cluster para el hub section (sin límite)
   const clusterArticles = articles.filter((a) => a.cluster === pillar.clusterSlug);
+
+  // Artículos relacionados para la sidebar (de la misma categoría)
+  const pillarRelated = articles
+    .filter((a) => a.categorySlug === pillar.categorySlug)
+    .slice(0, 6);
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -601,22 +598,13 @@ function PillarArticlePage({ pillar }: { pillar: PillarPage }) {
         </article>
 
         {/* Sidebar */}
-        <aside className="w-full lg:w-64 shrink-0">
-          <div className="sticky top-20 space-y-6">
-            <AdSlot slot="sidebar" />
-            <div className="rounded-xl border border-[#2a2a4a] bg-[#1a1a2e] p-5">
-              <h3 className="text-sm font-semibold text-[#e8e6f0] mb-3">¿Tuviste este sueño?</h3>
-              <p className="text-xs text-[#8b87a0] mb-4">
-                Usa nuestro interpretador para obtener un análisis personalizado.
-              </p>
-              <Link
-                href="/interpretador"
-                className="block text-center rounded-full bg-[#7c6af7] px-4 py-2 text-sm font-medium text-white hover:bg-[#9580ff] transition-colors"
-              >
-                Interpretar mi sueño
-              </Link>
-            </div>
-          </div>
+        <aside className="hidden lg:block w-56 xl:w-64 shrink-0">
+          <ArticleSidebar
+            relatedArticles={pillarRelated}
+            categorySlug={pillar.categorySlug}
+            categoryName={pillar.category}
+            currentSlug={pillar.slug}
+          />
         </aside>
       </div>
     </div>
