@@ -94,12 +94,17 @@ export default function CategoriaPage({ params }: Props) {
   const cluster = clusters.find((c) => c.slug === params.nombre);
   const pillar = cluster ? getPillarByCluster(cluster.slug) : undefined;
 
-  // Articles: if cluster, filter by cluster slug; otherwise by categorySlug
-  const articlesInCategory = cluster
-    ? getArticlesByCategory(cluster.categorySlug).filter(
-        (a) => a.cluster === cluster.slug
-      )
-    : getArticlesByCategory(params.nombre);
+  // Articles: if cluster, try filtering by cluster slug first;
+  // if no results (articles without cluster field), fall back to categorySlug
+  const articlesInCategory = (() => {
+    if (!cluster) return getArticlesByCategory(params.nombre);
+    const byCluster = getArticlesByCategory(cluster.categorySlug).filter(
+      (a) => a.cluster === cluster.slug
+    );
+    return byCluster.length > 0
+      ? byCluster
+      : getArticlesByCategory(cluster.categorySlug);
+  })();
 
   const cats = getAllCategories();
   const cat = cats.find((c) => c.slug === params.nombre);

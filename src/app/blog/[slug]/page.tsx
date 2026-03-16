@@ -7,6 +7,7 @@ import SchemaArticle from "@/components/SchemaArticle";
 import EmailCapture from "@/components/EmailCapture";
 import AffiliateCTA from "@/components/AffiliateCTA";
 import CoverImage from "@/components/CoverImage";
+import ReadingProgress from "@/components/ReadingProgress";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -160,6 +161,7 @@ export default function ArticlePage({ params }: Props) {
 
   return (
     <>
+      <ReadingProgress />
       <SchemaArticle article={art} url={url} />
 
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-10">
@@ -419,6 +421,8 @@ function PillarArticlePage({ pillar }: { pillar: PillarPage }) {
       : null;
 
   return (
+    <>
+    <ReadingProgress />
     <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-10">
       {/* Article Schema */}
       <script
@@ -616,5 +620,6 @@ function PillarArticlePage({ pillar }: { pillar: PillarPage }) {
         </aside>
       </div>
     </div>
+    </>
   );
 }

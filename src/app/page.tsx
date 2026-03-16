@@ -28,8 +28,14 @@ const clusterAccents: Record<string, string> = {
   "suenos-de-dinero-y-trabajo": "from-amber-500/10 border-amber-500/20 hover:border-amber-400/40",
   "suenos-espirituales": "from-cyan-500/10 border-cyan-500/20 hover:border-cyan-400/40",
   "suenos-con-el-cuerpo": "from-orange-500/10 border-orange-500/20 hover:border-orange-400/40",
+  // Situaciones y patrones
   "suenos-recurrentes": "from-lime-500/10 border-lime-500/20 hover:border-lime-400/40",
   "suenos-en-momentos-vitales": "from-teal-500/10 border-teal-500/20 hover:border-teal-400/40",
+  // Nuevos temáticos
+  "ciencia-del-sueno": "from-blue-500/10 border-blue-500/20 hover:border-blue-400/40",
+  "simbolos-en-suenos": "from-fuchsia-500/10 border-fuchsia-500/20 hover:border-fuchsia-400/40",
+  // Nueva situacional
+  "relaciones": "from-rose-500/10 border-rose-500/20 hover:border-rose-400/40",
 };
 
 const clusterBadgeColors: Record<string, string> = {
@@ -42,6 +48,9 @@ const clusterBadgeColors: Record<string, string> = {
   "suenos-con-el-cuerpo": "text-orange-400",
   "suenos-recurrentes": "text-lime-400",
   "suenos-en-momentos-vitales": "text-teal-400",
+  "ciencia-del-sueno": "text-blue-400",
+  "simbolos-en-suenos": "text-fuchsia-400",
+  "relaciones": "text-rose-400",
 };
 
 export default function HomePage() {

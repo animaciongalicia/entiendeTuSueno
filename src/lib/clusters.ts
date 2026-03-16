@@ -124,6 +124,36 @@ export const clusters: Cluster[] = [
     color: "#34d399",
     tipo: "situacional",
   },
+  {
+    slug: "ciencia-del-sueno",
+    name: "Ciencia del Sueño",
+    description: "REM, parálisis, sueños lúcidos, por qué no recuerdas. Lo que ocurre en el cerebro cuando duermes, explicado sin tecnicismos.",
+    pillarSlug: "",
+    categorySlug: "ciencia-del-sueno",
+    emoji: "🧠",
+    color: "#60a5fa",
+    tipo: "tematico",
+  },
+  {
+    slug: "simbolos-en-suenos",
+    name: "Símbolos en Sueños",
+    description: "Agua, sangre, casas, dinero, oscuridad. Los objetos y escenarios que aparecen con más carga simbólica y lo que cada uno revela.",
+    pillarSlug: "",
+    categorySlug: "simbolos-en-suenos",
+    emoji: "🔮",
+    color: "#e879f9",
+    tipo: "tematico",
+  },
+  {
+    slug: "relaciones",
+    name: "Relaciones y Vínculos",
+    description: "Parejas, ex, padres, amigos, hermanos. Cómo el cerebro procesa por la noche los vínculos más cargados emocionalmente.",
+    pillarSlug: "",
+    categorySlug: "relaciones",
+    emoji: "🫂",
+    color: "#fb7185",
+    tipo: "situacional",
+  },
 ];
 
 export const pillarPages: PillarPage[] = [
