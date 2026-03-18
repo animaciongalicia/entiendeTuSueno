@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { getArticlesByCategory, getAllCategories } from "@/lib/articles";
 import { clusters, getPillarByCluster } from "@/lib/clusters";
+import { NAV_CATEGORIES } from "@/lib/navCategories";
 import ArticleCard from "@/components/ArticleCard";
 import ArticleSidebar from "@/components/ArticleSidebar";
 import AdSlot from "@/components/AdSlot";
@@ -27,7 +28,10 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const cluster = clusters.find((c) => c.slug === params.nombre);
+  // If the slug is a NAV_CATEGORY, treat it as a category page (not a cluster page),
+  // even if a cluster happens to share the same slug.
+  const isNavCategory = NAV_CATEGORIES.some((c) => c.slug === params.nombre);
+  const cluster = isNavCategory ? undefined : clusters.find((c) => c.slug === params.nombre);
   const articlesInSlug = cluster
     ? getArticlesByCategory(cluster.categorySlug).filter((a) => a.cluster === cluster.slug)
     : getArticlesByCategory(params.nombre);
@@ -92,12 +96,13 @@ const categoryDescriptions: Record<string, string> = {
 };
 
 export default function CategoriaPage({ params }: Props) {
-  // Check if this slug is a cluster
-  const cluster = clusters.find((c) => c.slug === params.nombre);
+  // NAV_CATEGORY slugs always render as category pages, even if a cluster shares the slug.
+  // This prevents count mismatches between the sidebar ArticleIndex and the category page.
+  const isNavCategory = NAV_CATEGORIES.some((c) => c.slug === params.nombre);
+  const cluster = isNavCategory ? undefined : clusters.find((c) => c.slug === params.nombre);
   const pillar = cluster ? getPillarByCluster(cluster.slug) : undefined;
 
-  // Articles: if cluster, try filtering by cluster slug first;
-  // if no results (articles without cluster field), fall back to categorySlug
+  // Articles: pure category filter for NAV_CATEGORY slugs; cluster filter for cluster slugs
   const articlesInCategory = (() => {
     if (!cluster) return getArticlesByCategory(params.nombre);
     const byCluster = getArticlesByCategory(cluster.categorySlug).filter(

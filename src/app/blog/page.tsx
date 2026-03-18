@@ -14,20 +14,9 @@ export const metadata: Metadata = {
   alternates: { canonical: `${SITE_URL}/blog` },
 };
 
-interface Props {
-  searchParams: { categoria?: string };
-}
-
-export default function BlogPage({ searchParams }: Props) {
-  const activeCategory = searchParams.categoria ?? "";
-
-  const filtered = activeCategory
-    ? articles.filter((a) => a.categorySlug === activeCategory)
-    : articles;
-
-  const showFeatured = !activeCategory;
-  const featuredArticle = showFeatured ? (filtered[0] ?? null) : null;
-  const displayArticles = showFeatured ? filtered.slice(1) : filtered;
+export default function BlogPage() {
+  const featuredArticle = articles[0] ?? null;
+  const restArticles = articles.slice(1);
 
   return (
     <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12">
@@ -37,34 +26,23 @@ export default function BlogPage({ searchParams }: Props) {
           Interpretaciones de sueños
         </h1>
         <p className="text-[#8b87a0] max-w-xl">
-          {filtered.length} artículos sobre los sueños más comunes. Psicología, simbolismo y utilidad real.
+          {articles.length} artículos sobre los sueños más comunes. Psicología, simbolismo y utilidad real.
         </p>
       </div>
 
-      {/* Category filter tabs */}
+      {/* Category navigation chips — all link to /categoria/X */}
       <div className="flex flex-wrap gap-2 mb-8">
-        <Link
-          href="/blog"
-          className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
-            !activeCategory
-              ? "bg-[#7c6af7] text-white"
-              : "bg-[#1a1a2e] text-[#8b87a0] hover:text-[#c0b8f0] border border-[#2a2a4a]"
-          }`}
-        >
+        <span className="px-3 py-1.5 rounded-full text-xs font-medium bg-[#7c6af7] text-white">
           Todos ({articles.length})
-        </Link>
+        </span>
         {NAV_CATEGORIES.map((cat) => {
           const count = articles.filter((a) => a.categorySlug === cat.slug).length;
           if (count === 0) return null;
           return (
             <Link
               key={cat.slug}
-              href={`/blog?categoria=${cat.slug}`}
-              className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
-                activeCategory === cat.slug
-                  ? "bg-[#7c6af7] text-white"
-                  : "bg-[#1a1a2e] text-[#8b87a0] hover:text-[#c0b8f0] border border-[#2a2a4a]"
-              }`}
+              href={`/categoria/${cat.slug}`}
+              className="px-3 py-1.5 rounded-full text-xs font-medium transition-colors bg-[#1a1a2e] text-[#8b87a0] hover:text-[#c0b8f0] border border-[#2a2a4a]"
             >
               {cat.emoji} {cat.name} ({count})
             </Link>
@@ -86,21 +64,17 @@ export default function BlogPage({ searchParams }: Props) {
             </div>
           )}
 
-          {displayArticles.length > 0 ? (
+          {restArticles.length > 0 && (
             <>
               <p className="text-xs font-semibold uppercase tracking-widest text-[#4a4760] mb-4">
-                {activeCategory
-                  ? NAV_CATEGORIES.find((c) => c.slug === activeCategory)?.name ?? "Artículos"
-                  : "Todos los artículos"}
+                Todos los artículos
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                {displayArticles.map((article) => (
+                {restArticles.map((article) => (
                   <ArticleCard key={article.slug} article={article} />
                 ))}
               </div>
             </>
-          ) : (
-            <p className="text-[#8b87a0]">No hay artículos en esta categoría aún.</p>
           )}
         </div>
 
@@ -108,8 +82,8 @@ export default function BlogPage({ searchParams }: Props) {
         <aside className="hidden lg:block w-56 xl:w-64 shrink-0">
           <ArticleSidebar
             relatedArticles={[]}
-            categorySlug={activeCategory}
-            categoryName={NAV_CATEGORIES.find((c) => c.slug === activeCategory)?.name ?? ""}
+            categorySlug=""
+            categoryName=""
             currentSlug=""
           />
         </aside>
