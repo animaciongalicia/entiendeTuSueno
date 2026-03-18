@@ -5487,18 +5487,25 @@ export const articles: Article[] = [
   },
 ];
 
+/** Busca un artículo por su slug. Retorna `undefined` si no existe. */
 export function getArticleBySlug(slug: string): Article | undefined {
   return articles.find((a) => a.slug === slug);
 }
 
+/** Retorna todos los artículos que pertenecen a una categoría (por categorySlug). */
 export function getArticlesByCategory(categorySlug: string): Article[] {
   return articles.filter((a) => a.categorySlug === categorySlug);
 }
 
+/** Retorna la lista de todos los slugs de artículos. Usado por generateStaticParams. */
 export function getAllSlugs(): string[] {
   return articles.map((a) => a.slug);
 }
 
+/**
+ * Retorna las categorías únicas presentes en los artículos,
+ * junto con su nombre legible y el número de artículos por categoría.
+ */
 export function getAllCategories(): { name: string; slug: string; count: number }[] {
   const map = new Map<string, { name: string; slug: string; count: number }>();
   for (const article of articles) {
@@ -5512,10 +5519,18 @@ export function getAllCategories(): { name: string; slug: string; count: number 
   return Array.from(map.values());
 }
 
+/** Retorna todos los artículos que pertenecen a un cluster temático. */
 export function getArticlesByCluster(clusterSlug: string): Article[] {
   return articles.filter((a) => a.cluster === clusterSlug);
 }
 
+/**
+ * Retorna artículos relacionados al artículo actual.
+ * Prioriza artículos del mismo cluster; si no hay suficientes, completa con otros.
+ * @param currentSlug - Slug del artículo actual (excluido del resultado).
+ * @param clusterSlug - Cluster del artículo actual. Si es undefined, retorna artículos genéricos.
+ * @param limit - Número máximo de artículos a retornar (por defecto 3).
+ */
 export function getRelatedArticlesByCluster(currentSlug: string, clusterSlug: string | undefined, limit = 3): Article[] {
   if (!clusterSlug) {
     return articles.filter((a) => a.slug !== currentSlug).slice(0, limit);

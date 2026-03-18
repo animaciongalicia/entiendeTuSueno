@@ -6,12 +6,15 @@ import SchemaArticle from "@/components/SchemaArticle";
 import EmailCapture from "@/components/EmailCapture";
 import AffiliateCTA from "@/components/AffiliateCTA";
 import CoverImage from "@/components/CoverImage";
-import ReadingProgress from "@/components/ReadingProgress";
 import ArticleSidebar from "@/components/ArticleSidebar";
 import Link from "next/link";
 import type { Metadata } from "next";
 import DOMPurify from "isomorphic-dompurify";
 import { SITE_URL } from "@/lib/config";
+import dynamic from "next/dynamic";
+
+// Cargado de forma lazy: no bloquea el LCP de la página
+const ReadingProgress = dynamic(() => import("@/components/ReadingProgress"), { ssr: false });
 
 /** Sanitiza HTML para prevenir XSS, preservando tags de contenido editorial */
 function sanitize(html: string): string {
@@ -100,8 +103,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 function injectMidAd(html: string): string {
   const adHtml = `
     <div data-mid-ad class="my-8">
-      <div class="flex items-center justify-center border border-dashed border-[#2a2a4a] bg-[#12121e] rounded-lg text-xs text-[#4a4760] h-[250px]" aria-hidden="true">
-        Anuncio — Artículo
+      <div class="flex items-center justify-center border border-dashed border-[#2a2a4a] bg-[#12121e] rounded-lg text-xs text-[#4a4760] h-[250px]" role="complementary" aria-label="Espacio publicitario">
+        Anuncio
       </div>
     </div>
   `;

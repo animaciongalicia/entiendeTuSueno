@@ -72,6 +72,7 @@ export default function InterpretadorClient() {
     setDream("");
     setContexto("");
     setShowContexto(false);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   const isSubmitting = status === "loading" || status === "streaming";

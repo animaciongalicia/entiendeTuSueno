@@ -952,22 +952,27 @@ export const pillarPages: PillarPage[] = [
   },
 ];
 
+/** Busca una pillar page por slug. Retorna `undefined` si no existe. */
 export function getPillarBySlug(slug: string): PillarPage | undefined {
   return pillarPages.find((p) => p.slug === slug);
 }
 
+/** Retorna la pillar page asociada a un cluster. Retorna `undefined` si no tiene pillar aún. */
 export function getPillarByCluster(clusterSlug: string): PillarPage | undefined {
   return pillarPages.find((p) => p.clusterSlug === clusterSlug);
 }
 
+/** Busca un cluster por slug. Retorna `undefined` si no existe. */
 export function getClusterBySlug(slug: string): Cluster | undefined {
   return clusters.find((c) => c.slug === slug);
 }
 
+/** Retorna la lista de slugs de todas las pillar pages. Usado por generateStaticParams. */
 export function getAllPillarSlugs(): string[] {
   return pillarPages.map((p) => p.slug);
 }
 
+/** Retorna todos los clusters del sitio. */
 export function getAllClusters(): Cluster[] {
   return clusters;
 }
