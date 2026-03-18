@@ -1,6 +1,7 @@
 import Link from "next/link";
 import ArticleCard from "@/components/ArticleCard";
 import AdSlot from "@/components/AdSlot";
+import SearchBar from "@/components/SearchBar";
 import { articles } from "@/lib/articles";
 import { clusters } from "@/lib/clusters";
 import type { Metadata } from "next";
@@ -81,6 +82,14 @@ export default function HomePage() {
             Conectamos lo que soñaste con lo que estás viviendo: tus miedos, tus relaciones,
             tu estrés, tus cambios. Psicología real, sin superstición.
           </p>
+
+          {/* Buscador hero */}
+          <SearchBar
+            articles={articles}
+            placeholder="¿Soñaste con serpientes, tu ex, caídas...?"
+            variant="hero"
+            className="max-w-xl mx-auto mb-6"
+          />
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link

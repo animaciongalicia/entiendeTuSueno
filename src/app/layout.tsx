@@ -101,6 +101,13 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
+        {/* Playfair Display — tipografía display para headlines */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+          rel="stylesheet"
+        />
         <meta name="google-adsense-account" content="ca-pub-0495369967608511" />
         <GoogleAnalytics />
         <script
