@@ -101,6 +101,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
+        <meta name="google-adsense-account" content="ca-pub-0495369967608511" />
         <GoogleAnalytics />
         <script
           type="application/ld+json"
