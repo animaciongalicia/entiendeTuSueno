@@ -17,7 +17,7 @@ export default function ArticleCard({ article, featured = false, priority = fals
           <div className="relative md:w-2/5 h-56 md:h-auto overflow-hidden shrink-0">
             <CoverImage
               src={article.coverImage}
-              alt={article.coverAlt}
+              alt={article.coverAlt || article.title}
               categorySlug={article.categorySlug}
               className="w-full h-full"
               priority={priority}

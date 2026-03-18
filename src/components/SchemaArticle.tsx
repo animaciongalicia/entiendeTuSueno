@@ -1,6 +1,5 @@
 import type { Article } from "@/lib/articles";
-
-const BASE_URL = "https://entiendetusueno.com";
+import { SITE_URL as BASE_URL } from "@/lib/config";
 
 interface SchemaArticleProps {
   article: Article;

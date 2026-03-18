@@ -3,6 +3,22 @@ import { NextRequest } from "next/server";
 
 const client = new Anthropic();
 
+// ── Rate limiting en memoria (por IP, ventana deslizante 1 minuto) ──────────
+// Para producción multi-instancia usar Upstash Redis en su lugar.
+const RATE_LIMIT_MAX = 5; // requests por ventana
+const RATE_LIMIT_WINDOW_MS = 60_000; // 1 minuto
+const ipRequests = new Map<string, number[]>();
+
+function isRateLimited(ip: string): boolean {
+  const now = Date.now();
+  const timestamps = (ipRequests.get(ip) ?? []).filter(
+    (t) => now - t < RATE_LIMIT_WINDOW_MS
+  );
+  if (timestamps.length >= RATE_LIMIT_MAX) return true;
+  ipRequests.set(ip, [...timestamps, now]);
+  return false;
+}
+
 const SYSTEM_PROMPT = `Eres una herramienta de autoconocimiento a través de los sueños para entiendeTuSueño.
 
 Tu trabajo NO es decirle a la persona "qué significa" su sueño con una lista de símbolos.
@@ -31,15 +47,35 @@ ESTILO:
 - Al final, una sola pregunta en negrita para que la persona reflexione.`;
 
 export async function POST(request: NextRequest) {
-  const { dream, contexto } = await request.json();
+  // Rate limiting
+  const ip =
+    request.headers.get("x-forwarded-for")?.split(",")[0].trim() ??
+    request.headers.get("x-real-ip") ??
+    "unknown";
 
+  if (isRateLimited(ip)) {
+    return new Response(
+      JSON.stringify({ error: "Demasiadas solicitudes. Espera un minuto e inténtalo de nuevo." }),
+      {
+        status: 429,
+        headers: {
+          "Content-Type": "application/json",
+          "Retry-After": "60",
+        },
+      }
+    );
+  }
+
+  const body = await request.json().catch(() => ({}));
+  const { dream, contexto } = body as { dream?: unknown; contexto?: unknown };
+
+  // Validar dream
   if (!dream || typeof dream !== "string" || dream.trim().length < 10) {
     return new Response(
       JSON.stringify({ error: "Descripción del sueño demasiado corta." }),
       { status: 400, headers: { "Content-Type": "application/json" } }
     );
   }
-
   if (dream.trim().length > 2000) {
     return new Response(
       JSON.stringify({ error: "Descripción demasiado larga. Máximo 2000 caracteres." }),
@@ -47,17 +83,29 @@ export async function POST(request: NextRequest) {
     );
   }
 
-  const userMessage = contexto
-    ? `Mi sueño: ${dream.trim()}\n\nContexto adicional: ${contexto.trim()}`
-    : `Mi sueño: ${dream.trim()}`;
+  // Validar contexto (opcional)
+  if (contexto !== undefined && contexto !== null) {
+    if (typeof contexto !== "string" || contexto.trim().length > 1000) {
+      return new Response(
+        JSON.stringify({ error: "El contexto no puede superar los 1000 caracteres." }),
+        { status: 400, headers: { "Content-Type": "application/json" } }
+      );
+    }
+  }
 
+  const userMessage =
+    contexto && typeof contexto === "string" && contexto.trim().length > 0
+      ? `Mi sueño: ${dream.trim()}\n\nContexto adicional: ${contexto.trim()}`
+      : `Mi sueño: ${dream.trim()}`;
+
+  const model = process.env.ANTHROPIC_MODEL ?? "claude-opus-4-6";
   const encoder = new TextEncoder();
 
   const stream = new ReadableStream({
     async start(controller) {
       try {
         const messageStream = client.messages.stream({
-          model: "claude-opus-4-6",
+          model,
           max_tokens: 1024,
           system: SYSTEM_PROMPT,
           messages: [{ role: "user", content: userMessage }],

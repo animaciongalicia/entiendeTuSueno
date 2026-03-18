@@ -10,6 +10,21 @@ import ReadingProgress from "@/components/ReadingProgress";
 import ArticleSidebar from "@/components/ArticleSidebar";
 import Link from "next/link";
 import type { Metadata } from "next";
+import DOMPurify from "isomorphic-dompurify";
+import { SITE_URL } from "@/lib/config";
+
+/** Sanitiza HTML para prevenir XSS, preservando tags de contenido editorial */
+function sanitize(html: string): string {
+  return DOMPurify.sanitize(html, {
+    ALLOWED_TAGS: [
+      "h2","h3","h4","p","ul","ol","li","strong","em","a","blockquote",
+      "code","pre","br","hr","img","figure","figcaption","table","thead",
+      "tbody","tr","th","td","div","span","section",
+    ],
+    ALLOWED_ATTR: ["href","src","alt","title","class","id","target","rel","data-mid-ad","aria-hidden"],
+    ALLOW_DATA_ATTR: false,
+  });
+}
 
 interface Props {
   params: { slug: string };
@@ -24,7 +39,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = getArticleBySlug(params.slug);
   if (article) {
-    const articleUrl = `https://entiendetusueno.com/blog/${article.slug}`;
+    const articleUrl = `${SITE_URL}/blog/${article.slug}`;
     return {
       title: article.title,
       description: article.excerpt,
@@ -52,7 +67,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const pillar = getPillarBySlug(params.slug);
   if (pillar) {
-    const pillarUrl = `https://entiendetusueno.com/blog/${pillar.slug}`;
+    const pillarUrl = `${SITE_URL}/blog/${pillar.slug}`;
     return {
       title: pillar.metaTitle,
       description: pillar.metaDescription,
@@ -147,7 +162,7 @@ export default function ArticlePage({ params }: Props) {
 
   // ── Regular article render ──────────────────────────────────────────────────
   const art = article!;
-  const url = `https://entiendetusueno.com/blog/${art.slug}`;
+  const url = `${SITE_URL}/blog/${art.slug}`;
 
   // Dynamic related: 3 from same cluster, fill with category if needed
   const relatedArticles = getRelatedArticlesByCluster(art.slug, art.cluster, 3);
@@ -233,7 +248,7 @@ export default function ArticlePage({ params }: Props) {
             {/* Content with mid-ad injected */}
             <div
               className="prose-cosmos"
-              dangerouslySetInnerHTML={{ __html: contentWithAd }}
+              dangerouslySetInnerHTML={{ __html: sanitize(contentWithAd) }}
             />
 
             {/* Mid-article CTA */}
@@ -245,7 +260,7 @@ export default function ArticlePage({ params }: Props) {
                 <h2 className="text-lg font-bold text-[#f0eeff] mb-3">Interpretación humana</h2>
                 <div
                   className="prose-cosmos text-sm"
-                  dangerouslySetInnerHTML={{ __html: art.interpretacion_humana }}
+                  dangerouslySetInnerHTML={{ __html: sanitize(art.interpretacion_humana) }}
                 />
               </section>
             )}
@@ -371,7 +386,7 @@ export default function ArticlePage({ params }: Props) {
 
 // ── Pillar page layout ────────────────────────────────────────────────────────
 function PillarArticlePage({ pillar }: { pillar: PillarPage }) {
-  const url = `https://entiendetusueno.com/blog/${pillar.slug}`;
+  const url = `${SITE_URL}/blog/${pillar.slug}`;
   const contentWithAd = injectMidAd(pillar.content);
   const cluster = getClusterBySlug(pillar.clusterSlug);
 
@@ -394,7 +409,7 @@ function PillarArticlePage({ pillar }: { pillar: PillarPage }) {
     publisher: {
       "@type": "Organization",
       name: "EntiendetuSueño",
-      url: "https://entiendetusueno.com",
+      url: SITE_URL,
     },
     url,
   };
@@ -486,7 +501,7 @@ function PillarArticlePage({ pillar }: { pillar: PillarPage }) {
           {/* Content with mid-ad */}
           <div
             className="prose-cosmos"
-            dangerouslySetInnerHTML={{ __html: contentWithAd }}
+            dangerouslySetInnerHTML={{ __html: sanitize(contentWithAd) }}
           />
 
           {/* Mid-article CTA */}

@@ -4,19 +4,20 @@ import AdSlot from "@/components/AdSlot";
 import { articles } from "@/lib/articles";
 import { clusters } from "@/lib/clusters";
 import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/config";
 
 export const metadata: Metadata = {
   title: "EntiendetuSueño — Entiende qué está pasando en ti",
   description:
     "entiendeTuSueño no te dice lo que significa tu sueño. Te ayuda a entender qué está pasando en ti cuando lo tienes. Psicología real, sin superstición.",
-  alternates: { canonical: "https://entiendetusueno.com" },
+  alternates: { canonical: SITE_URL },
   openGraph: {
     title: "EntiendetuSueño — Entiende qué está pasando en ti",
     description:
       "No buscas magia. Buscas entender. Conectamos lo que soñaste con lo que estás viviendo.",
     type: "website",
     locale: "es_ES",
-    url: "https://entiendetusueno.com",
+    url: SITE_URL,
     images: [{ url: "/og-image.svg", width: 1200, height: 630 }],
   },
 };
@@ -55,8 +56,8 @@ const clusterBadgeColors: Record<string, string> = {
 };
 
 export default function HomePage() {
-  const [featuredArticle, ...otherArticles] = articles;
-  const latest = otherArticles.slice(0, 3);
+  const featuredArticle = articles[0] ?? null;
+  const latest = articles.slice(1, 4);
 
   return (
     <>

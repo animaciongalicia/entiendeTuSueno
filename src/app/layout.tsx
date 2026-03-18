@@ -3,9 +3,10 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import { SITE_URL } from "@/lib/config";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://entiendetusueno.com"),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "EntiendetuSueño — Interpretación de Sueños en Español",
     template: "%s | EntiendetuSueño",
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "es_ES",
-    url: "https://entiendetusueno.com",
+    url: SITE_URL,
     siteName: "EntiendetuSueño",
     title: "EntiendetuSueño — Interpretación de Sueños en Español",
     description:
@@ -58,29 +59,29 @@ const globalSchema = {
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://entiendetusueno.com/#website",
-      url: "https://entiendetusueno.com",
+      "@id": `${SITE_URL}/#website`,
+      url: SITE_URL,
       name: "EntiendetuSueño",
       description: "Guía práctica de interpretación de sueños en español. Psicología, simbolismo y utilidad real para tu vida.",
       inLanguage: "es",
-      publisher: { "@id": "https://entiendetusueno.com/#organization" },
+      publisher: { "@id": `${SITE_URL}/#organization` },
       potentialAction: {
         "@type": "SearchAction",
         target: {
           "@type": "EntryPoint",
-          urlTemplate: "https://entiendetusueno.com/interpretador?q={search_term_string}",
+          urlTemplate: `${SITE_URL}/interpretador?q={search_term_string}`,
         },
         "query-input": "required name=search_term_string",
       },
     },
     {
       "@type": "Organization",
-      "@id": "https://entiendetusueno.com/#organization",
+      "@id": `${SITE_URL}/#organization`,
       name: "EntiendetuSueño",
-      url: "https://entiendetusueno.com",
+      url: SITE_URL,
       logo: {
         "@type": "ImageObject",
-        url: "https://entiendetusueno.com/logo.svg",
+        url: `${SITE_URL}/logo.svg`,
         width: 512,
         height: 512,
       },

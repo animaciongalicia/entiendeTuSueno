@@ -6,6 +6,7 @@ import ArticleSidebar from "@/components/ArticleSidebar";
 import AdSlot from "@/components/AdSlot";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/config";
 
 interface Props {
   params: { nombre: string };
@@ -34,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // Noindex si no hay artículos aún — evita thin content en el site quality score
   const hasContent = articlesInSlug.length > 0;
 
-  const BASE_URL = "https://entiendetusueno.com";
+  const BASE_URL = SITE_URL;
 
   if (cluster) {
     const clusterUrl = `${BASE_URL}/categoria/${cluster.slug}`;

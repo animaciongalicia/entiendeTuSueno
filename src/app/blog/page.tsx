@@ -5,12 +5,13 @@ import { articles } from "@/lib/articles";
 import { NAV_CATEGORIES } from "@/lib/navCategories";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/config";
 
 export const metadata: Metadata = {
   title: "Blog — Todos los artículos",
   description:
     "Explora nuestra colección completa de interpretaciones de sueños. Artículos detallados en español sobre el significado de los sueños más comunes.",
-  alternates: { canonical: "https://entiendetusueno.com/blog" },
+  alternates: { canonical: `${SITE_URL}/blog` },
 };
 
 interface Props {
@@ -24,10 +25,9 @@ export default function BlogPage({ searchParams }: Props) {
     ? articles.filter((a) => a.categorySlug === activeCategory)
     : articles;
 
-  const [featured, ...rest] = activeCategory ? filtered : filtered;
   const showFeatured = !activeCategory;
-  const displayArticles = showFeatured ? rest : filtered;
-  const featuredArticle = showFeatured ? featured : null;
+  const featuredArticle = showFeatured ? (filtered[0] ?? null) : null;
+  const displayArticles = showFeatured ? filtered.slice(1) : filtered;
 
   return (
     <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12">

@@ -18,7 +18,8 @@ export async function POST(req: NextRequest) {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { email, contexto } = await req.json();
 
-    if (!email || typeof email !== "string" || !email.includes("@")) {
+    const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+    if (!email || typeof email !== "string" || !EMAIL_REGEX.test(email.trim())) {
       return NextResponse.json({ error: "Email inválido" }, { status: 400 });
     }
 

@@ -1,38 +1,40 @@
 import { MetadataRoute } from "next";
 import { articles, getAllCategories } from "@/lib/articles";
 import { pillarPages, clusters } from "@/lib/clusters";
+import { SITE_URL } from "@/lib/config";
 
-const BASE_URL = "https://entiendetusueno.com";
+// Fecha de última modificación real del contenido estático (actualizar al publicar cambios)
+const SITE_LAST_MODIFIED = new Date("2025-01-01");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
     {
-      url: BASE_URL,
-      lastModified: new Date(),
+      url: SITE_URL,
+      lastModified: SITE_LAST_MODIFIED,
       changeFrequency: "daily",
       priority: 1.0,
     },
     {
-      url: `${BASE_URL}/blog`,
-      lastModified: new Date(),
+      url: `${SITE_URL}/blog`,
+      lastModified: SITE_LAST_MODIFIED,
       changeFrequency: "daily",
       priority: 0.9,
     },
     {
-      url: `${BASE_URL}/interpretador`,
-      lastModified: new Date(),
+      url: `${SITE_URL}/interpretador`,
+      lastModified: SITE_LAST_MODIFIED,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: `${BASE_URL}/sobre-nosotros`,
-      lastModified: new Date(),
+      url: `${SITE_URL}/sobre-nosotros`,
+      lastModified: SITE_LAST_MODIFIED,
       changeFrequency: "monthly",
       priority: 0.4,
     },
     {
-      url: `${BASE_URL}/privacidad`,
-      lastModified: new Date(),
+      url: `${SITE_URL}/privacidad`,
+      lastModified: SITE_LAST_MODIFIED,
       changeFrequency: "yearly",
       priority: 0.2,
     },
@@ -40,15 +42,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Pillar pages: highest content priority after homepage
   const pillarRoutes: MetadataRoute.Sitemap = pillarPages.map((p) => ({
-    url: `${BASE_URL}/blog/${p.slug}`,
+    url: `${SITE_URL}/blog/${p.slug}`,
     lastModified: new Date(p.updatedAt),
     changeFrequency: "monthly" as const,
     priority: 0.95,
   }));
 
-  // Regular articles
+  // Regular articles — usa updatedAt real del artículo
   const articleRoutes: MetadataRoute.Sitemap = articles.map((article) => ({
-    url: `${BASE_URL}/blog/${article.slug}`,
+    url: `${SITE_URL}/blog/${article.slug}`,
     lastModified: new Date(article.updatedAt),
     changeFrequency: "weekly" as const,
     priority: 0.8,
@@ -56,8 +58,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Category pages from article categories
   const categoryRoutes: MetadataRoute.Sitemap = getAllCategories().map((cat) => ({
-    url: `${BASE_URL}/categoria/${cat.slug}`,
-    lastModified: new Date(),
+    url: `${SITE_URL}/categoria/${cat.slug}`,
+    lastModified: SITE_LAST_MODIFIED,
     changeFrequency: "weekly" as const,
     priority: 0.65,
   }));
@@ -67,8 +69,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const clusterRoutes: MetadataRoute.Sitemap = clusters
     .filter((c) => !categorySlugs.has(c.slug))
     .map((c) => ({
-      url: `${BASE_URL}/categoria/${c.slug}`,
-      lastModified: new Date(),
+      url: `${SITE_URL}/categoria/${c.slug}`,
+      lastModified: SITE_LAST_MODIFIED,
       changeFrequency: "weekly" as const,
       priority: 0.7,
     }));

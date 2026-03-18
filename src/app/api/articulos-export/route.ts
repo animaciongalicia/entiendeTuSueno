@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { articles } from "@/lib/articles";
 import { pillarPages } from "@/lib/clusters";
+import { SITE_URL } from "@/lib/config";
 
 /**
  * GET /api/articulos-export
@@ -43,7 +44,7 @@ export async function GET(request: NextRequest) {
     tipo: a.tipo ?? "normal",
     interpretacion_humana: a.interpretacion_humana ?? null,
     intencion_practica: a.intencion_practica ?? [],
-    url: `https://entiendetusueno.com/blog/${a.slug}`,
+    url: `${SITE_URL}/blog/${a.slug}`,
     source: "blog" as const,
   }));
 
@@ -70,7 +71,7 @@ export async function GET(request: NextRequest) {
     tipo: "pilar" as const,
     interpretacion_humana: null,
     intencion_practica: p.intencion_practica ?? [],
-    url: `https://entiendetusueno.com/blog/${p.slug}`,
+    url: `${SITE_URL}/blog/${p.slug}`,
     source: "pilar" as const,
   }));
 
