@@ -164,9 +164,9 @@ export const pillarPages: PillarPage[] = [
     slug: "sonar-con-animales-guia-completa",
     clusterSlug: "suenos-con-animales",
     title: "Soñar con Animales: Guía Completa de Significados",
-    metaTitle: "Soñar con Animales: Significado Completo y Qué Revela tu Inconsciente",
+    metaTitle: "Soñar con Animales: Significado y Qué Revela tu Inconsciente",
     metaDescription:
-      "Guía definitiva para interpretar sueños con animales. Descubre qué simboliza cada especie, desde serpientes y perros hasta leones y pájaros, y cómo aplicarlo a tu vida.",
+      "Guía para interpretar sueños con animales. Descubre qué simboliza cada especie: serpientes, perros, leones y pájaros, y cómo aplicarlo a tu vida.",
     category: "Animales",
     categorySlug: "animales",
     publishedAt: "2024-01-01",
@@ -266,7 +266,7 @@ export const pillarPages: PillarPage[] = [
     title: "Soñar con Personas: Guía Completa de Significados",
     metaTitle: "Soñar con Personas: Qué Significa Soñar con Alguien Específico",
     metaDescription:
-      "Guía completa para interpretar sueños con personas: ex parejas, familia, desconocidos, personas fallecidas. Descubre qué representan realmente y por qué tu mente las convoca.",
+      "Guía para interpretar sueños con personas: ex parejas, familia, desconocidos y fallecidos. Descubre qué representan y por qué tu mente los convoca.",
     category: "Personas",
     categorySlug: "personas",
     publishedAt: "2024-01-08",
@@ -350,9 +350,9 @@ export const pillarPages: PillarPage[] = [
     slug: "sonar-con-muerte-guia-completa",
     clusterSlug: "suenos-con-muerte-y-miedo",
     title: "Soñar con la Muerte: Guía Completa de Significados",
-    metaTitle: "Soñar con la Muerte: Qué Significa Realmente y Por Qué No Debes Asustarte",
+    metaTitle: "Soñar con la Muerte: Qué Significa y Por Qué No Debes Asustarte",
     metaDescription:
-      "Guía completa sobre sueños con la muerte y el miedo. Por qué soñar con morir no es un mal presagio, qué simboliza cada variante y cómo trabajar con estos poderosos mensajes del inconsciente.",
+      "Guía sobre sueños con la muerte y el miedo. Por qué soñar con morir no es un mal presagio, qué simboliza cada variante y cómo trabajar con el inconsciente.",
     category: "Emociones",
     categorySlug: "emociones",
     publishedAt: "2024-01-10",
@@ -443,7 +443,7 @@ export const pillarPages: PillarPage[] = [
     title: "Soñar con tu Ex y con el Amor: Guía Completa",
     metaTitle: "Soñar con tu Ex: Por Qué Ocurre y Qué Significa Realmente",
     metaDescription:
-      "Guía completa sobre sueños con tu ex pareja y el amor romántico. Por qué aparece tu ex en sueños, qué significa cada escenario, y cómo interpretar los sueños de amor.",
+      "Guía sobre sueños con tu ex y el amor romántico. Por qué aparece tu ex en sueños, qué significa cada escenario y cómo interpretar estos sueños.",
     category: "Personas",
     categorySlug: "personas",
     publishedAt: "2024-01-14",
@@ -522,9 +522,9 @@ export const pillarPages: PillarPage[] = [
     slug: "sonar-con-dinero-guia-completa",
     clusterSlug: "suenos-de-dinero-y-trabajo",
     title: "Soñar con Dinero y Trabajo: Guía Completa de Significados",
-    metaTitle: "Soñar con Dinero: Qué Significa y Qué Dice de tu Relación con la Abundancia",
+    metaTitle: "Soñar con Dinero: Qué Significa y Qué Revela sobre la Abundancia",
     metaDescription:
-      "Guía completa sobre sueños con dinero, trabajo y abundancia. Qué significa encontrar dinero, perderlo, soñar que te despiden, y cómo estos sueños reflejan tu autoestima y poder.",
+      "Guía sobre sueños con dinero, trabajo y abundancia. Qué significa encontrar dinero, perderlo, soñar que te despiden y cómo reflejan tu autoestima.",
     category: "Emociones",
     categorySlug: "emociones",
     publishedAt: "2024-01-18",
@@ -605,7 +605,7 @@ export const pillarPages: PillarPage[] = [
     title: "Sueños Espirituales: Guía Completa de Significados",
     metaTitle: "Sueños Espirituales: Qué Son, Tipos y Cómo Interpretarlos",
     metaDescription:
-      "Guía completa sobre sueños espirituales: visitas de seres queridos fallecidos, encuentros con ángeles, sueños proféticos y experiencias místicas mientras duermes.",
+      "Guía sobre sueños espirituales: visitas de fallecidos, encuentros con ángeles, sueños proféticos y experiencias místicas mientras duermes.",
     category: "Espiritual",
     categorySlug: "espiritual",
     publishedAt: "2024-01-05",
@@ -689,7 +689,7 @@ export const pillarPages: PillarPage[] = [
     title: "Soñar con el Cuerpo: Dientes, Pelo, Embarazo y Qué Significan",
     metaTitle: "Soñar con el Cuerpo: Dientes que se Caen, Pelo y Más — Guía Completa",
     metaDescription:
-      "Guía completa sobre sueños relacionados con el cuerpo. Dientes que se caen, pelo, sangre, embarazo, manos. Qué dice cada símbolo sobre tu identidad, tu salud emocional y tu miedo a la pérdida.",
+      "Sueños con el cuerpo: qué significan los dientes que se caen, pelo, sangre, embarazo y manos. Qué dice cada símbolo sobre tu identidad y salud emocional.",
     category: "Cuerpo",
     categorySlug: "cuerpo",
     publishedAt: "2024-02-01",
@@ -874,9 +874,9 @@ export const pillarPages: PillarPage[] = [
     slug: "suenos-en-momentos-vitales-guia-completa",
     clusterSlug: "suenos-en-momentos-vitales",
     title: "Sueños en los Momentos de Cambio: Duelo, Rupturas y Decisiones",
-    metaTitle: "Sueños en Momentos Vitales: Duelo, Ruptura, Trabajo y Decisiones — Guía",
+    metaTitle: "Sueños en Momentos Vitales: Duelo, Ruptura y Decisiones",
     metaDescription:
-      "Cuando la vida cambia, los sueños cambian. Guía completa sobre qué soñamos durante el duelo, una ruptura, un cambio de trabajo o una decisión importante, y qué nos dice.",
+      "Cuando la vida cambia, los sueños cambian. Qué soñamos durante el duelo, una ruptura, un cambio de trabajo o una decisión importante y qué nos dice.",
     category: "Momentos Vitales",
     categorySlug: "momentos-vitales",
     publishedAt: "2024-02-20",

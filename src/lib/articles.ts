@@ -545,154 +545,6 @@ export const articles: Article[] = [
   // ─────────────────────────────────────────────────────────────────────────
   // 9. SUEÑOS RECURRENTES — GUÍA COMPLETA
   // ─────────────────────────────────────────────────────────────────────────
-  {
-    slug: "suenos-recurrentes-guia-completa",
-    title: "Sueños Recurrentes: Por Qué se Repiten y Cómo Dejar de Tenerlos",
-    excerpt:
-      "Si el mismo sueño vuelve una y otra vez, no es casualidad. Los sueños recurrentes son el método que usa el inconsciente para insistir en algo que todavía no has escuchado. Esta guía te explica por qué ocurren y qué hacer con ellos.",
-    category: "Sueños Recurrentes",
-    categorySlug: "suenos-recurrentes",
-    publishedAt: "2024-03-11",
-    updatedAt: "2024-03-15",
-    readingTime: 11,
-    coverImage: "/images/blog/guias/suenos-recurrentes-guia-completa.webp",
-    coverAlt: "Espiral de imágenes oníricas que se repiten, representando la recurrencia en los sueños",
-    tags: ["sueños recurrentes", "inconsciente", "patrones", "ansiedad", "proceso emocional", "psicología"],
-    cluster: "guias-y-recursos",
-    visual_theme: "calma",
-    pin_titles: [
-      "Sueños recurrentes: por qué se repiten y cómo hacer que paren",
-      "La guía completa para entender y trabajar con los sueños que se repiten",
-      "Por qué sigues teniendo el mismo sueño una y otra vez",
-    ],
-    reel_hook: "Si tienes el mismo sueño una y otra vez, tu inconsciente lleva tiempo intentando decirte algo que todavía no has escuchado.",
-    extracto_seo: "Los sueños recurrentes no son coincidencia. Descubre por qué el inconsciente repite los mismos sueños, qué situaciones los desencadenan y cómo trabajar con ellos para que dejen de aparecer.",
-    imagen_destacada: "/images/blog/guias/suenos-recurrentes-guia-completa.webp",
-    imagen_vertical: "/images/pinterest/suenos-recurrentes-guia-completa-pin.webp",
-    tipo: "pilar",
-    intencion_practica: ["salud-emocional", "ansiedad", "decisiones-de-vida"],
-    consejo_practico: "La próxima vez que tengas un sueño recurrente, antes de buscar su significado simbólico, hazte esta pregunta: ¿cuándo empezó a repetirse? ¿Qué estaba pasando en tu vida en ese momento? Casi siempre hay un origen claro. El sueño empezó a repetirse cuando algo importante quedó sin resolver. Y la mayoría de las veces, cuando eso se resuelve —no necesariamente en la vida externa, sino en la forma en que lo procesas internamente— el sueño deja de volver.",
-    fuentes: [
-      { autor: "Deirdre Barrett", obra: "The Committee of Sleep (2001)" },
-      { autor: "Ernest Hartmann", obra: "Dreams and Nightmares (1998)" },
-      { autor: "Antonio Zadra & Robert Stickgold", obra: "When Brains Dream (2021)" },
-      { autor: "Bessel van der Kolk", obra: "El cuerpo lleva la cuenta (2014)" },
-    ],
-    interpretacion_humana: "<p>Los sueños recurrentes son los que más consultas generan y los que más revelan cuando los trabajas en profundidad. Lo que más nos sorprende al analizar patrones en los relatos que recibimos es la consistencia temporal: casi siempre hay un momento claro en que el sueño empezó. No ha existido toda la vida. Empezó en algún punto concreto.</p><p>Y ese punto casi siempre coincide con algo: una pérdida, un cambio, un trauma, una situación que se quedó sin resolver. El sueño es el intento del inconsciente de procesar algo que la mente consciente no ha terminado de digerir. Lo que más ayuda, en nuestra experiencia, no es la interpretación simbólica del sueño sino esa primera pregunta: ¿cuándo empezó? Porque la respuesta suele apuntar directamente a lo que todavía está pendiente.</p>",
-    faqItems: [
-      {
-        question: "¿Es normal tener el mismo sueño durante años?",
-        answer:
-          "Sí, aunque no es lo ideal. Hay personas que llevan décadas teniendo el mismo sueño recurrente, especialmente si está relacionado con una situación traumática o un patrón emocional muy arraigado que nunca se ha trabajado directamente. La recurrencia prolongada es señal de que el inconsciente sigue insistiendo en algo que no ha recibido atención. No es peligroso, pero sí es información valiosa sobre algo que merece ser explorado.",
-      },
-      {
-        question: "¿Los sueños recurrentes desaparecen solos?",
-        answer:
-          "A veces sí: cuando la situación que los originó se resuelve por sí sola, el sueño puede dejar de aparecer espontáneamente. Pero en muchos casos, especialmente cuando el sueño está relacionado con un trauma o un patrón emocional profundo, desaparece solo cuando se trabaja activamente aquello que lo genera. La buena noticia es que hay formas concretas de trabajar con ellos —desde el diario de sueños hasta la terapia— que suelen ser efectivas.",
-      },
-      {
-        question: "¿Qué diferencia hay entre un sueño recurrente y una pesadilla recurrente?",
-        answer:
-          "Un sueño recurrente es cualquier sueño que se repite con regularidad, ya sea con contenido neutro, positivo o negativo. Una pesadilla recurrente es un tipo específico de sueño recurrente con contenido perturbador que suele despertar al soñante con angustia. Las pesadillas recurrentes son más frecuentes en personas que han vivido situaciones traumáticas y son uno de los criterios diagnósticos del trastorno de estrés postraumático (TEPT). Cuando las pesadillas recurrentes son muy frecuentes e intensas, es recomendable trabajarlas con un profesional de salud mental.",
-      },
-      {
-        question: "¿Por qué a veces el sueño recurrente cambia ligeramente cada vez?",
-        answer:
-          "Eso es muy frecuente y tiene sentido: el inconsciente no reproduce una grabación, construye el sueño cada vez. Las variaciones reflejan cómo ha cambiado tu situación emocional desde la última vez. Si el sueño recurrente está evolucionando —el final cambia, la intensidad baja, el miedo se transforma en curiosidad— es buena señal: indica que el proceso de elaboración está avanzando.",
-      },
-    ],
-    content: `
-<p>El mismo sueño, otra vez. Quizás llevas meses teniéndolo. O años. Puede que el escenario varíe ligeramente, o que sea exactamente igual cada vez, pero la sensación es inconfundible: ya has estado aquí antes.</p>
-
-<p>Los sueños recurrentes no son una anomalía ni una mala señal en sí mismos. Son, literalmente, el inconsciente insistiendo: algo todavía no ha sido escuchado. Esta guía explica por qué ocurren, qué tipos existen, qué suelen señalar y —lo más importante— qué puedes hacer para trabajar con ellos.</p>
-
-<h2>Por Qué se Repite un Sueño</h2>
-
-<p>El cerebro durante el sueño no funciona como un archivo que reproduce contenidos al azar. Funciona como un procesador activo que trabaja sobre lo que tiene pendiente: emociones sin elaborar, situaciones no resueltas, conflictos internos que no han encontrado salida en la vida consciente.</p>
-
-<p>Cuando algo importante queda sin procesar —un miedo, una pérdida, un cambio que no termina de integrarse— el inconsciente vuelve a él noche tras noche. No porque sea repetitivo o torpe, sino porque es persistente: sigue intentando resolver algo hasta que lo consigue.</p>
-
-<p>La recurrencia es, en ese sentido, una señal de urgencia. El inconsciente no repetiría el mismo contenido si hubiera terminado de procesarlo. Que vuelva significa que todavía hay algo ahí.</p>
-
-<h2>¿Cuándo Empieza un Sueño Recurrente?</h2>
-
-<p>Esta es la pregunta más importante, y también la más reveladora. Los sueños recurrentes casi nunca han existido siempre: empezaron en algún momento. Y ese momento suele coincidir con algo concreto en la vida del soñante.</p>
-
-<p>Las situaciones más frecuentes que desencadenan sueños recurrentes:</p>
-
-<ul>
-<li><strong>Un trauma o experiencia muy intensa.</strong> El sistema nervioso queda activado y el sueño se convierte en el espacio donde el cerebro intenta procesar lo que fue demasiado para el estado de vigilia.</li>
-<li><strong>Una situación de estrés crónico no resuelta.</strong> Una relación difícil, una situación laboral que no cambia, una decisión que se lleva aplazando. El sueño refleja ese estancamiento.</li>
-<li><strong>Una pérdida importante.</strong> No solo la muerte de alguien: también la pérdida de una relación, de un trabajo, de una identidad, de una etapa vital.</li>
-<li><strong>Un conflicto interno profundo.</strong> Un aspecto de uno mismo que no se acepta, una creencia que entra en contradicción con cómo se vive, algo que se sabe pero que no se quiere saber.</li>
-</ul>
-
-<h2>Los Tipos más Frecuentes de Sueños Recurrentes</h2>
-
-<h3>Sueños de persecución</h3>
-
-<p>Los más frecuentes a nivel global. Algo o alguien te persigue y tú huyes. Suelen ser señal de que hay algo en tu vida —una situación, una emoción, un aspecto de ti mismo— que estás evitando confrontar. Cuanto más intensa la huida en el sueño, mayor suele ser la evasión en la vida real. Los <a href="/blog/suenos-de-persecucion">sueños de persecución</a> tienen su propio artículo con más detalle sobre sus variaciones y significados.</p>
-
-<h3>Sueños de caída</h3>
-
-<p>Caer al vacío, perder el equilibrio, no poder agarrarse a nada. Casi siempre hablan de pérdida de control percibida: una situación en la que sientes que no tienes suelo firme bajo los pies. Los <a href="/blog/sonar-con-caidas">sueños de caída</a> son especialmente frecuentes en momentos de transición o de inseguridad.</p>
-
-<h3>Sueños de exámenes o fracaso</h3>
-
-<p>Llegar tarde a un examen, no haber estudiado, que te pregunten algo que no sabes, suspender. Uno de los sueños recurrentes más universales, especialmente en personas con tendencia al perfeccionismo o con miedo al juicio ajeno. Suelen aparecer en situaciones de evaluación —no necesariamente académica— en las que el soñante siente que está siendo juzgado y puede fallar.</p>
-
-<h3>Sueños de dientes que se caen</h3>
-
-<p>También uno de los más frecuentes a nivel mundial. Los <a href="/blog/suenos-de-dientes-que-se-caen">sueños de dientes</a> suelen hablar de ansiedad sobre la imagen propia, el miedo a perder algo valioso o sentimientos de vulnerabilidad. La recurrencia de este sueño suele estar relacionada con períodos de inseguridad sostenida.</p>
-
-<h3>Sueños de lugares conocidos que se transforman</h3>
-
-<p>Volver a una casa de la infancia que ahora tiene habitaciones desconocidas, un lugar familiar que de repente es laberíntico o amenazante. Estos sueños suelen hablar del yo: de aspectos de uno mismo que están siendo explorados o que permanecen desconocidos. Las casas en los sueños, especialmente, suelen representar la mente o el self.</p>
-
-<h2>Sueños Recurrentes Relacionados con el Trauma</h2>
-
-<p>Hay un tipo específico de sueño recurrente que merece mención especial: los que están directamente ligados a experiencias traumáticas. En este caso, el sueño no solo es recurrente sino frecuentemente muy literal: reproduce la situación traumática con pocas variaciones, o genera una sensación de revivir algo real.</p>
-
-<p>Este tipo de sueños —las pesadillas recurrentes postraumáticas— son cualitativamente diferentes al resto. No son metáforas ni elaboraciones simbólicas: son el sistema nervioso intentando procesar algo que excedió su capacidad en su momento. Si reconoces tus sueños en esta descripción, trabajar con un profesional de salud mental especializado en trauma puede marcar una diferencia real.</p>
-
-<h2>Cómo Trabajar con un Sueño Recurrente</h2>
-
-<h3>1. Identifica cuándo empezó</h3>
-
-<p>Antes de analizar el contenido del sueño, intenta recordar cuándo empezó a repetirse. ¿Qué estaba pasando en tu vida en ese momento? ¿Qué había cambiado, qué habías perdido, qué conflicto se había activado? Esa conexión temporal casi siempre apunta al origen.</p>
-
-<h3>2. Observa la emoción central, no la narrativa</h3>
-
-<p>Lo más importante del sueño no es lo que ocurre sino lo que sientes. La persecución, la caída, el examen: son contenedores. La emoción —el miedo específico, la vergüenza, la angustia, la sensación de estar atrapado— es lo que tiene información real. ¿Esa emoción aparece en algún área de tu vida de vigilia?</p>
-
-<h3>3. Lleva un diario de sueños</h3>
-
-<p>Registrar el sueño cada vez que aparece tiene varios efectos: te ayuda a observar variaciones que de otra forma pasarías por alto, aumenta tu conexión con la vida onírica, y a veces el simple acto de poner en palabras el sueño ya genera una forma de elaboración que reduce su frecuencia.</p>
-
-<h3>4. Trabaja con el sueño en estado de vigilia</h3>
-
-<p>Hay técnicas específicas para trabajar activamente con sueños recurrentes. Una de las más documentadas es la imaginería en estado de vigilia: visualizar el sueño conscientemente y cambiar su final o confrontar aquello que el sueño evita. No es magia: es una forma de darle al inconsciente una nueva experiencia del mismo escenario.</p>
-
-<h3>5. Atiende lo que el sueño señala en la vigilia</h3>
-
-<p>La pregunta final, y la más importante: ¿qué está señalando el sueño en tu vida real? No en términos de predicción, sino en términos de proceso: ¿hay algo que estás evitando? ¿Una conversación pendiente? ¿Una decisión aplazada? ¿Un duelo que no has terminado de hacer? Los sueños recurrentes suelen cesar cuando aquello que señalan recibe atención.</p>
-
-<h2>Cuándo Buscar Ayuda Profesional</h2>
-
-<p>Los sueños recurrentes, por incómodos que sean, no requieren en la mayoría de los casos intervención profesional. Pero hay situaciones en que hablar con un profesional de salud mental tiene sentido:</p>
-
-<ul>
-<li>Cuando las pesadillas recurrentes interrumpen el sueño con frecuencia y afectan la calidad de vida</li>
-<li>Cuando el contenido está claramente relacionado con una experiencia traumática</li>
-<li>Cuando llevas años con el mismo sueño y no encuentras forma de trabajarlo solo</li>
-<li>Cuando el sueño genera una angustia diurna significativa</li>
-</ul>
-
-<p>La terapia cognitivo-conductual para el insomnio (TCC-I) y la terapia de procesamiento cognitivo (TPC) tienen protocolos específicos para trabajar pesadillas recurrentes con resultados documentados.</p>
-
-<p>Un sueño que vuelve una y otra vez no es una maldición ni un defecto. Es una conversación que el inconsciente quiere tener contigo. Cuando finalmente la tienes —cuando escuchas lo que ese sueño lleva tiempo intentando decirte— suele dejar de volver.</p>
-    `,
-  },
 
   // ─────────────────────────────────────────────────────────────────────────
   // 10. SOÑAR CON FUEGO
@@ -831,7 +683,7 @@ export const articles: Article[] = [
     coverImage: "/images/blog/personas/sonar-que-te-enganan.webp",
     coverAlt: "Dos siluetas de espaldas en una habitación a oscuras",
     tags: ["infidelidad", "relaciones", "celos", "confianza", "pareja"],
-    cluster: "suenos-sobre-relaciones",
+    cluster: "relaciones",
     visual_theme: "ansiedad",
     pin_titles: [
       "Soñé que mi pareja me engañaba y me desperté furioso: esto significa",
@@ -941,7 +793,7 @@ export const articles: Article[] = [
     coverImage: "/images/blog/ansiedad/sonar-con-examenes.webp",
     coverAlt: "Pupitre vacío en un aula con luz tenue y hojas en blanco",
     tags: ["exámenes", "ansiedad", "rendimiento", "trabajo", "síndrome del impostor"],
-    cluster: "suenos-de-ansiedad",
+    cluster: "suenos-con-muerte-y-miedo",
     visual_theme: "ansiedad",
     pin_titles: [
       "¿Por qué sueñas con exámenes aunque ya no estudies? La respuesta te sorprenderá",
@@ -1050,7 +902,7 @@ export const articles: Article[] = [
     coverImage: "/images/blog/cuerpo/sonar-con-bebes.webp",
     coverAlt: "Manos pequeñas de bebé entre manos adultas bajo luz suave",
     tags: ["bebés", "nuevos comienzos", "vulnerabilidad", "cuidado", "potencial"],
-    cluster: "suenos-sobre-uno-mismo",
+    cluster: "suenos-con-el-cuerpo",
     visual_theme: "calma",
     pin_titles: [
       "Soñar con un bebé: el significado que muy pocos explican bien",
@@ -1168,7 +1020,7 @@ export const articles: Article[] = [
     coverImage: "/images/blog/ansiedad/suenos-ansiedad-laboral.webp",
     coverAlt: "Persona con la cabeza entre las manos frente a un ordenador de noche",
     tags: ["ansiedad laboral", "trabajo", "estrés", "sueños recurrentes", "inconsciente", "presión"],
-    cluster: "suenos-de-ansiedad",
+    cluster: "suenos-con-muerte-y-miedo",
     visual_theme: "ansiedad",
     pin_titles: [
       "¿El trabajo aparece en tus sueños? Esto es lo que tu mente está procesando",
@@ -1315,7 +1167,7 @@ export const articles: Article[] = [
     coverImage: "/images/blog/emociones/suenos-durante-el-duelo.webp",
     coverAlt: "Luz suave filtrándose por una ventana en una habitación silenciosa",
     tags: ["duelo", "muerte", "pérdida", "sueños de visita", "emociones", "inconsciente"],
-    cluster: "suenos-emocionales",
+    cluster: "suenos-en-momentos-vitales",
     visual_theme: "calma",
     pin_titles: [
       "Soñar con alguien que murió: qué le pasa a tu mente cuando lo hace",
@@ -1441,7 +1293,7 @@ export const articles: Article[] = [
     coverImage: "/images/blog/relaciones/suenos-ruptura.webp",
     coverAlt: "Persona mirando por la ventana de noche, pensativa",
     tags: ["ruptura", "separación", "ex pareja", "relaciones", "duelo", "sueños recurrentes"],
-    cluster: "suenos-emocionales",
+    cluster: "suenos-en-momentos-vitales",
     visual_theme: "calma",
     pin_titles: [
       "Por qué sueñas con tu ex aunque no quieras (la psicología real)",
