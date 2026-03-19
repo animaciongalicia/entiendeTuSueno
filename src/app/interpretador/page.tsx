@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import InterpretadorClient from "./InterpretadorClient";
+import InterpretadorWizard from "./InterpretadorWizard";
 import { SITE_URL } from "@/lib/config";
 
 export const metadata: Metadata = {
@@ -10,5 +10,5 @@ export const metadata: Metadata = {
 };
 
 export default function InterpretadorPage() {
-  return <InterpretadorClient />;
+  return <InterpretadorWizard />;
 }
