@@ -79,7 +79,7 @@ export default function InterpretadorClient() {
   const canSubmit = dream.trim().length >= 10 && !isSubmitting;
 
   return (
-    <div className="mx-auto max-w-2xl px-4 sm:px-6 py-12">
+    <div className="mx-auto max-w-[750px] px-4 sm:px-6 py-12">
       {/* Header */}
       <div className="text-center mb-10">
         <div className="text-5xl mb-4">🪞</div>

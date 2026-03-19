@@ -62,21 +62,23 @@ export default function HomePage() {
 
   return (
     <>
-      {/* ── Hero — compacto ──────────────────────────────────────────────────── */}
-      <section className="relative overflow-hidden py-14 md:py-20 px-4">
+      {/* ── Hero ─────────────────────────────────────────────────────────────── */}
+      <section className="relative overflow-hidden py-8 md:py-12 px-4">
         <div className="absolute -top-40 -right-40 w-[500px] h-[500px] rounded-full bg-[#7c6af7] opacity-[0.06] blur-3xl pointer-events-none" />
         <div className="absolute -bottom-40 -left-40 w-[500px] h-[500px] rounded-full bg-[#9580ff] opacity-[0.06] blur-3xl pointer-events-none" />
 
-        <div className="mx-auto max-w-3xl text-center relative">
-          <div className="inline-flex items-center gap-2 rounded-full border border-[#2a2a4a] bg-[#1a1a2e] px-4 py-1.5 text-xs text-[#8b87a0] mb-6">
+        <div className="mx-auto max-w-4xl text-center relative">
+          <div className="inline-flex items-center gap-2 rounded-full border border-[#2a2a4a] bg-[#1a1a2e] px-4 py-1.5 text-xs text-[#8b87a0] mb-5">
             <span className="w-1.5 h-1.5 rounded-full bg-[#7c6af7] animate-pulse" />
             Psicología del sueño · Sin superstición
           </div>
 
-          <h1 className="text-4xl md:text-5xl font-bold text-[#f0eeff] leading-tight mb-4">
-            Tuviste un sueño que te removió.<br />
-            <span className="text-[#7c6af7]">No buscas magia. Buscas entender.</span>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#f0eeff] mb-1 whitespace-nowrap">
+            Tuviste un sueño que te removió.
           </h1>
+          <p className="text-4xl md:text-5xl font-bold text-[#7c6af7] mb-4 whitespace-nowrap">
+            No buscas magia. Buscas entender.
+          </p>
 
           <p className="text-base text-[#8b87a0] max-w-xl mx-auto mb-8 leading-relaxed">
             Conectamos lo que soñaste con lo que estás viviendo: tus miedos, tus relaciones,
