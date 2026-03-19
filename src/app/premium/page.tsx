@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SITE_URL } from "@/lib/config";
+import PremiumCheckout from "./PremiumCheckout";
 
 export const metadata: Metadata = {
   title: "Informe Premium — EntiendetuSueño",
@@ -20,9 +21,21 @@ const INCLUDED = [
   "Pregunta de reflexión personalizada",
 ];
 
-export default function PremiumPage() {
+export default function PremiumPage({
+  searchParams,
+}: {
+  searchParams: { id?: string; cancelado?: string };
+}) {
+  const reportId = searchParams.id ?? null;
+  const cancelado = searchParams.cancelado === "1";
+
   return (
     <div className="mx-auto max-w-[750px] px-4 sm:px-6 py-16">
+      {cancelado && (
+        <div className="mb-4 rounded-xl border border-amber-500/30 bg-amber-500/8 p-4 text-sm text-amber-300 text-center">
+          El pago fue cancelado. Puedes intentarlo de nuevo cuando quieras.
+        </div>
+      )}
       <div className="rounded-2xl border border-[#2a2a4a] bg-[#12121e] overflow-hidden shadow-2xl shadow-black/40">
         {/* Header */}
         <div className="border-b border-[#2a2a4a] bg-gradient-to-r from-[#7c6af7]/10 to-[#9580ff]/5 px-8 py-8 text-center">
@@ -53,21 +66,9 @@ export default function PremiumPage() {
           </ul>
         </div>
 
-        {/* CTA — placeholder hasta conectar Stripe */}
+        {/* CTA */}
         <div className="px-8 py-8 text-center">
-          <p className="text-[10px] font-bold uppercase tracking-widest text-[#4a4760] mb-2">
-            Próximamente
-          </p>
-          <p className="text-sm text-[#8b87a0] mb-6 max-w-xs mx-auto leading-relaxed">
-            El pago online estará disponible en breve. Si quieres acceder ahora,
-            escríbenos y te lo enviamos directamente.
-          </p>
-          <a
-            href="mailto:hola@entiendetusueno.com?subject=Quiero mi informe completo"
-            className="inline-block rounded-full bg-[#7c6af7] px-8 py-3 text-sm font-semibold text-white hover:bg-[#9580ff] transition-colors shadow-lg shadow-[#7c6af7]/20"
-          >
-            Solicitar informe →
-          </a>
+          <PremiumCheckout reportId={reportId} />
           <div className="mt-6">
             <Link
               href="/interpretador"

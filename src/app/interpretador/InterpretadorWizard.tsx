@@ -372,14 +372,17 @@ function Step7({
   freeResult,
   premiumResult,
   feelings,
+  reportId,
   onReset,
 }: {
   freeResult: string;
   premiumResult: string;
   feelings: string[];
+  reportId: string | null;
   onReset: () => void;
 }) {
   const tags = feelings.slice(0, 3);
+  const premiumHref = reportId ? `/premium?id=${reportId}` : "/premium";
 
   return (
     <div>
@@ -436,7 +439,7 @@ function Step7({
               Bloqueos emocionales · Patrones · Consejo práctico
             </p>
             <Link
-              href="/premium"
+              href={premiumHref}
               className="inline-block rounded-full bg-[#7c6af7] px-7 py-3 text-sm font-semibold text-white hover:bg-[#9580ff] transition-colors shadow-lg shadow-[#7c6af7]/30"
             >
               Obtener mi informe completo →
@@ -468,6 +471,7 @@ export default function InterpretadorWizard() {
   const [email, setEmail] = useState("");
   const [freeResult, setFreeResult] = useState("");
   const [premiumResult, setPremiumResult] = useState("");
+  const [reportId, setReportId] = useState<string | null>(null);
   const [loadingMsgIdx, setLoadingMsgIdx] = useState(0);
   const [loadingProgress, setLoadingProgress] = useState(0);
   const [apiError, setApiError] = useState("");
@@ -499,43 +503,33 @@ export default function InterpretadorWizard() {
       const res = await fetch("/api/interpretar", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ dream, feelings, symbols }),
+        body: JSON.stringify({ dream, feelings, symbols, email }),
       });
 
-      if (!res.ok || !res.body) {
-        const err = await res.json().catch(() => ({ error: "Error de conexión." }));
-        setApiError((err as { error?: string }).error ?? "Error de conexión.");
+      const data = await res.json().catch(() => ({ error: "Error de conexión." }));
+
+      if (!res.ok) {
+        setApiError((data as { error?: string }).error ?? "Error de conexión.");
         setStep(2);
         return;
       }
 
-      const reader = res.body.getReader();
-      const decoder = new TextDecoder();
-      let fullText = "";
+      const { free, premium, reportId: id } = data as {
+        free: string;
+        premium: string;
+        reportId: string | null;
+      };
 
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-        fullText += decoder.decode(value, { stream: true });
-      }
-
-      const sep = "---PREMIUM---";
-      const idx = fullText.indexOf(sep);
-      if (idx !== -1) {
-        setFreeResult(fullText.slice(0, idx).trim());
-        setPremiumResult(fullText.slice(idx + sep.length).trim());
-      } else {
-        setFreeResult(fullText.trim());
-        setPremiumResult("");
-      }
-
+      setFreeResult(free ?? "");
+      setPremiumResult(premium ?? "");
+      setReportId(id ?? null);
       setLoadingProgress(100);
       setTimeout(() => setStep(7), 500);
     } catch {
       setApiError("Error al conectar con el servidor. Inténtalo de nuevo.");
       setStep(2);
     }
-  }, [dream, feelings, symbols]);
+  }, [dream, feelings, symbols, email]);
 
   useEffect(() => {
     if (step === 6) runAnalysis();
@@ -560,6 +554,7 @@ export default function InterpretadorWizard() {
     setEmail("");
     setFreeResult("");
     setPremiumResult("");
+    setReportId(null);
     setLoadingMsgIdx(0);
     setLoadingProgress(0);
     setApiError("");
@@ -619,6 +614,7 @@ export default function InterpretadorWizard() {
               freeResult={freeResult}
               premiumResult={premiumResult}
               feelings={feelings}
+              reportId={reportId}
               onReset={reset}
             />
           )}

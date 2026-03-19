@@ -1,10 +1,10 @@
 import Anthropic from "@anthropic-ai/sdk";
-import { NextRequest } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
+import { supabaseAdmin } from "@/lib/supabase";
 
 const client = new Anthropic();
 
 // ── Rate limiting en memoria (por IP, ventana deslizante 1 minuto) ──────────
-// Para producción multi-instancia usar Upstash Redis en su lugar.
 const RATE_LIMIT_MAX = 5;
 const RATE_LIMIT_WINDOW_MS = 60_000;
 const ipRequests = new Map<string, number[]>();
@@ -74,43 +74,40 @@ export async function POST(request: NextRequest) {
     "unknown";
 
   if (isRateLimited(ip)) {
-    return new Response(
-      JSON.stringify({ error: "Demasiadas solicitudes. Espera un minuto e inténtalo de nuevo." }),
-      {
-        status: 429,
-        headers: { "Content-Type": "application/json", "Retry-After": "60" },
-      }
+    return NextResponse.json(
+      { error: "Demasiadas solicitudes. Espera un minuto e inténtalo de nuevo." },
+      { status: 429, headers: { "Retry-After": "60" } }
     );
   }
 
   const body = await request.json().catch(() => ({}));
-  const { dream, feelings, symbols } = body as {
+  const { dream, feelings, symbols, email } = body as {
     dream?: unknown;
     feelings?: unknown;
     symbols?: unknown;
+    email?: unknown;
   };
 
-  // Validar dream
   if (!dream || typeof dream !== "string" || dream.trim().length < 10) {
-    return new Response(
-      JSON.stringify({ error: "Descripción del sueño demasiado corta." }),
-      { status: 400, headers: { "Content-Type": "application/json" } }
+    return NextResponse.json(
+      { error: "Descripción del sueño demasiado corta." },
+      { status: 400 }
     );
   }
   if (dream.trim().length > 600) {
-    return new Response(
-      JSON.stringify({ error: "Descripción demasiado larga. Máximo 600 caracteres." }),
-      { status: 400, headers: { "Content-Type": "application/json" } }
+    return NextResponse.json(
+      { error: "Descripción demasiado larga. Máximo 600 caracteres." },
+      { status: 400 }
     );
   }
 
-  // Validar feelings y symbols (arrays de strings, opcionales)
   const feelingsList = Array.isArray(feelings)
     ? feelings.filter((f): f is string => typeof f === "string").slice(0, 4)
     : [];
   const symbolsList = Array.isArray(symbols)
     ? symbols.filter((s): s is string => typeof s === "string").slice(0, 3)
     : [];
+  const emailStr = typeof email === "string" && email.trim() ? email.trim() : null;
 
   const userMessage = [
     `Mi sueño: ${dream.trim()}`,
@@ -125,40 +122,49 @@ export async function POST(request: NextRequest) {
     .join("\n\n");
 
   const model = process.env.ANTHROPIC_MODEL ?? "claude-sonnet-4-6";
-  const encoder = new TextEncoder();
 
-  const stream = new ReadableStream({
-    async start(controller) {
-      try {
-        const messageStream = client.messages.stream({
-          model,
-          max_tokens: 2048,
-          system: SYSTEM_PROMPT,
-          messages: [{ role: "user", content: userMessage }],
-        });
+  try {
+    const message = await client.messages.create({
+      model,
+      max_tokens: 2048,
+      system: SYSTEM_PROMPT,
+      messages: [{ role: "user", content: userMessage }],
+    });
 
-        for await (const event of messageStream) {
-          if (
-            event.type === "content_block_delta" &&
-            event.delta.type === "text_delta"
-          ) {
-            controller.enqueue(encoder.encode(event.delta.text));
-          }
-        }
-      } catch (err) {
-        const msg = err instanceof Error ? err.message : "Error desconocido";
-        controller.enqueue(encoder.encode(`\n\n[Error: ${msg}]`));
-      } finally {
-        controller.close();
-      }
-    },
-  });
+    const fullText =
+      message.content[0].type === "text" ? message.content[0].text : "";
 
-  return new Response(stream, {
-    headers: {
-      "Content-Type": "text/plain; charset=utf-8",
-      "Cache-Control": "no-cache",
-      "X-Accel-Buffering": "no",
-    },
-  });
+    const sep = "---PREMIUM---";
+    const idx = fullText.indexOf(sep);
+    const freeResult = idx !== -1 ? fullText.slice(0, idx).trim() : fullText.trim();
+    const premiumResult = idx !== -1 ? fullText.slice(idx + sep.length).trim() : "";
+
+    const { data, error } = await supabaseAdmin
+      .from("dream_reports")
+      .insert({
+        email: emailStr,
+        dream: dream.trim(),
+        feelings: feelingsList,
+        symbols: symbolsList,
+        free_result: freeResult,
+        premium_result: premiumResult,
+        paid: false,
+      })
+      .select("id")
+      .single();
+
+    if (error) {
+      console.error("Supabase insert error:", error);
+    }
+
+    return NextResponse.json({
+      free: freeResult,
+      premium: premiumResult,
+      reportId: data?.id ?? null,
+    });
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : "Error desconocido";
+    console.error("API error:", msg);
+    return NextResponse.json({ error: msg }, { status: 500 });
+  }
 }
