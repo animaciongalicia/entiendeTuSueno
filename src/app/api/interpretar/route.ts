@@ -126,7 +126,7 @@ export async function POST(request: NextRequest) {
   try {
     const message = await client.messages.create({
       model,
-      max_tokens: 4096,
+      max_tokens: 6300,
       system: SYSTEM_PROMPT,
       messages: [{ role: "user", content: userMessage }],
     });
