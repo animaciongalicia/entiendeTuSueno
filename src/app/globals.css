@@ -120,3 +120,60 @@ h1, h2, h3,
     text-wrap: balance;
   }
 }
+
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #111111 !important;
+  }
+
+  /* Hide nav, footer, buttons */
+  nav, footer, .print\:hidden {
+    display: none !important;
+  }
+
+  /* Report card: remove dark background */
+  .rounded-2xl {
+    border: 1px solid #cccccc !important;
+    box-shadow: none !important;
+    background-color: #ffffff !important;
+  }
+
+  /* Section backgrounds */
+  .bg-\[\#1a1a2e\], .bg-\[\#12121e\], .bg-\[\#14142200\] {
+    background-color: #f9f9f9 !important;
+  }
+
+  /* Text: force readable dark colors */
+  h3, h4 {
+    color: #1a1a2a !important;
+  }
+
+  p, span {
+    color: #333333 !important;
+  }
+
+  strong {
+    color: #111111 !important;
+  }
+
+  em {
+    color: #444444 !important;
+  }
+
+  blockquote {
+    border-left-color: #7c6af7 !important;
+    background-color: #f5f3ff !important;
+    color: #444 !important;
+  }
+
+  /* Dividers */
+  .h-px {
+    background-color: #dddddd !important;
+  }
+
+  /* Header section */
+  .bg-gradient-to-r {
+    background: #f5f3ff !important;
+  }
+}

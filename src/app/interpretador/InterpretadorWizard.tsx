@@ -52,7 +52,7 @@ function renderMarkdown(text: string) {
     .map((block, i) => {
       if (block.startsWith("## ")) {
         return (
-          <h3 key={i} className="text-base font-bold text-[#c0b8f0] mt-7 mb-3 first:mt-0 tracking-wide">
+          <h3 key={i} className="text-lg font-bold text-[#e8e6f0] mt-7 mb-3 first:mt-0 tracking-wide">
             {block.slice(3)}
           </h3>
         );

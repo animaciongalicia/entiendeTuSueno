@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Stripe from "stripe";
 import { supabaseAdmin } from "@/lib/supabase";
+import PrintButton from "./PrintButton";
 
 export const metadata: Metadata = {
   title: "Informe Completo — EntiendetuSueño",
@@ -24,7 +25,7 @@ function renderInline(text: string) {
 function renderBlock(block: string, i: number) {
   if (block.startsWith("### ")) {
     return (
-      <h4 key={i} className="text-sm font-semibold text-[#9d96d4] mt-2 mb-1">
+      <h4 key={i} className="text-sm font-semibold text-[#c8c4f0] mt-2 mb-1">
         {block.slice(4)}
       </h4>
     );
@@ -111,7 +112,7 @@ function renderMarkdown(text: string) {
         className={`rounded-xl px-5 py-5 ${isAlt ? "bg-[#1a1a2e]" : "bg-[#14142200]"}`}
       >
         {section.heading && (
-          <h3 className="text-[10px] font-bold text-[#c0b8f0] mb-4 tracking-widest uppercase">
+          <h3 className="text-[13px] font-bold text-[#e8e6f0] mb-4 tracking-widest uppercase">
             {section.heading}
           </h3>
         )}
@@ -200,16 +201,19 @@ export default async function ExitoPage({
         </div>
 
         {/* Footer */}
-        <div className="px-8 py-6 border-t border-[#2a2a4a] text-center">
+        <div className="px-8 py-6 border-t border-[#2a2a4a] text-center print:hidden">
           <p className="text-xs text-[#4a4760] mb-4 leading-relaxed">
             Este análisis es orientativo y no sustituye el trabajo con un profesional de salud mental.
           </p>
-          <Link
-            href="/interpretador"
-            className="text-xs text-[#7c6af7] hover:text-[#9580ff] transition-colors"
-          >
-            Interpretar otro sueño →
-          </Link>
+          <div className="flex items-center justify-center gap-6">
+            <Link
+              href="/interpretador"
+              className="text-xs text-[#7c6af7] hover:text-[#9580ff] transition-colors"
+            >
+              Interpretar otro sueño →
+            </Link>
+            <PrintButton />
+          </div>
         </div>
       </div>
     </div>
