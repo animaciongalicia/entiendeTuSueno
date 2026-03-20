@@ -59,8 +59,23 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/aviso-legal" className="text-sm text-[#8b87a0] hover:text-[#7c6af7] transition-colors">
+                  Aviso legal
+                </Link>
+              </li>
+              <li>
                 <Link href="/privacidad" className="text-sm text-[#8b87a0] hover:text-[#7c6af7] transition-colors">
                   Política de privacidad
+                </Link>
+              </li>
+              <li>
+                <Link href="/condiciones" className="text-sm text-[#8b87a0] hover:text-[#7c6af7] transition-colors">
+                  Condiciones de servicio
+                </Link>
+              </li>
+              <li>
+                <Link href="/devoluciones" className="text-sm text-[#8b87a0] hover:text-[#7c6af7] transition-colors">
+                  Política de devoluciones
                 </Link>
               </li>
             </ul>
