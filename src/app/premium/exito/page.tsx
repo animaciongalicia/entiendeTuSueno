@@ -8,30 +8,90 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
+function renderInline(text: string) {
+  // Handle **bold** and *italic*
+  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g);
+  return parts.map((part, i) => {
+    if (part.startsWith("**") && part.endsWith("**")) {
+      return <strong key={i} className="text-[#e8e6f0] font-semibold">{part.slice(2, -2)}</strong>;
+    }
+    if (part.startsWith("*") && part.endsWith("*")) {
+      return <em key={i} className="text-[#c0b8f0] italic">{part.slice(1, -1)}</em>;
+    }
+    return part;
+  });
+}
+
 function renderMarkdown(text: string) {
-  return text
-    .split(/\n\n+/)
-    .filter(Boolean)
+  const blocks = text.split(/\n/).reduce<string[]>((acc, line) => {
+    // Group consecutive non-empty lines into paragraphs
+    if (line.trim() === "") {
+      acc.push("");
+    } else {
+      const last = acc[acc.length - 1];
+      if (last === "" || last === undefined) {
+        acc.push(line);
+      } else {
+        acc[acc.length - 1] = last + "\n" + line;
+      }
+    }
+    return acc;
+  }, []);
+
+  return blocks
+    .filter((block) => block.trim() !== "")
     .map((block, i) => {
+      // ## H2 heading
       if (block.startsWith("## ")) {
         return (
-          <h3 key={i} className="text-base font-bold text-[#c0b8f0] mt-6 mb-2 first:mt-0">
+          <h3 key={i} className="text-base font-bold text-[#c0b8f0] mt-8 mb-3 first:mt-0 tracking-wide uppercase text-xs">
             {block.slice(3)}
           </h3>
         );
       }
-      const parts = block.split(/\*\*(.+?)\*\*/g);
+
+      // ### H3 sub-heading
+      if (block.startsWith("### ")) {
+        return (
+          <h4 key={i} className="text-sm font-semibold text-[#9d96d4] mt-5 mb-2">
+            {block.slice(4)}
+          </h4>
+        );
+      }
+
+      // --- horizontal divider
+      if (block.trim() === "---") {
+        return (
+          <div key={i} className="flex items-center gap-3 my-7">
+            <div className="flex-1 h-px bg-[#2a2a4a]" />
+            <div className="text-[#3a3a6a] text-xs">✦</div>
+            <div className="flex-1 h-px bg-[#2a2a4a]" />
+          </div>
+        );
+      }
+
+      // > blockquote callout
+      if (block.startsWith("> ")) {
+        const content = block.slice(2).replace(/\n> /g, "\n").replace(/\n/g, " ");
+        return (
+          <blockquote key={i} className="my-5 pl-4 border-l-2 border-[#7c6af7] bg-[#1a1730] rounded-r-lg py-3 pr-4">
+            <p className="text-sm text-[#c0b8f0] leading-relaxed italic">
+              {renderInline(content)}
+            </p>
+          </blockquote>
+        );
+      }
+
+      // Normal paragraph
+      const lines = block.split("\n");
       return (
-        <p key={i} className="text-sm text-[#8b87a0] leading-relaxed mb-3">
-          {parts.map((part, j) =>
-            j % 2 === 1 ? (
-              <strong key={j} className="text-[#e8e6f0] font-semibold">
-                {part}
-              </strong>
-            ) : (
-              part
-            )
-          )}
+        <p key={i} className="text-sm text-[#8b87a0] leading-relaxed mb-1">
+          {lines.map((line, j) => (
+            <span key={j}>
+              {renderInline(line)}
+              {j < lines.length - 1 && <br />}
+            </span>
+          ))}
         </p>
       );
     });
