@@ -8,8 +8,6 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!);
-
 function renderMarkdown(text: string) {
   return text
     .split(/\n\n+/)
@@ -50,6 +48,7 @@ export default async function ExitoPage({
     return <ErrorView message="No se encontró la sesión de pago." />;
   }
 
+  const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!);
   let premiumResult = "";
   let reportId = "";
 

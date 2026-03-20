@@ -2,12 +2,11 @@ import Stripe from "stripe";
 import { NextRequest, NextResponse } from "next/server";
 import { supabaseAdmin } from "@/lib/supabase";
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!);
-
 const PRICE_EUR = 499; // 4,99 €
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://entiendetusueno.com";
 
 export async function POST(request: NextRequest) {
+  const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!);
   const body = await request.json().catch(() => ({}));
   const { reportId } = body as { reportId?: string };
 

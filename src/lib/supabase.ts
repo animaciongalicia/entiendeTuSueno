@@ -1,10 +1,21 @@
-import { createClient } from "@supabase/supabase-js";
+import { createClient, SupabaseClient } from "@supabase/supabase-js";
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
-const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+// Server-side client with service role (bypasses RLS) — lazy singleton
+let _supabaseAdmin: SupabaseClient | null = null;
 
-// Server-side client with service role (bypasses RLS)
-export const supabaseAdmin = createClient(supabaseUrl, supabaseServiceKey);
+export const supabaseAdmin: SupabaseClient = new Proxy({} as SupabaseClient, {
+  get(_target, prop) {
+    if (!_supabaseAdmin) {
+      const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+      const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+      if (!supabaseUrl || !supabaseServiceKey) {
+        throw new Error("Supabase env vars not set");
+      }
+      _supabaseAdmin = createClient(supabaseUrl, supabaseServiceKey);
+    }
+    return (_supabaseAdmin as unknown as Record<string | symbol, unknown>)[prop];
+  },
+});
 
 export type DreamReport = {
   id: string;
