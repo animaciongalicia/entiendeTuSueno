@@ -1,0 +1,50 @@
+# .github/workflows/weekly-newsletter.yml
+# Envía un email con los últimos artículos a todos los suscriptores verificados
+# Se ejecuta cada lunes a las 9:00 UTC (10:00 Madrid invierno, 11:00 verano)
+
+name: 📧 Newsletter semanal
+
+on:
+  schedule:
+    - cron: "0 9 * * 1"  # Cada lunes a las 9:00 UTC
+
+  # Permite lanzarlo a mano desde GitHub → Actions → Run workflow
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Solo simular — no enviar emails reales"
+        required: false
+        default: "false"
+        type: boolean
+
+jobs:
+  send-newsletter:
+    name: Enviar newsletter semanal
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Descarga el código del repo
+      - name: 📥 Checkout del repositorio
+        uses: actions/checkout@v4
+
+      # 2. Configura Node.js 20
+      - name: ⚙️ Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      # 3. Instala dependencias (incluye resend y @supabase/supabase-js)
+      - name: 📦 Instalar dependencias
+        run: npm ci
+
+      # 4. Envía el newsletter
+      - name: 📧 Enviar newsletter
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_FROM_EMAIL: ${{ secrets.RESEND_FROM_EMAIL }}
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          NEXT_PUBLIC_SITE_URL: ${{ secrets.NEXT_PUBLIC_SITE_URL }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: node .github/scripts/send-newsletter.js

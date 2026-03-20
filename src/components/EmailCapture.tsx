@@ -30,12 +30,12 @@ export default function EmailCapture({ contexto }: Props) {
   if (status === "ok") {
     return (
       <div className="my-10 rounded-xl border border-[#7c6af7]/30 bg-[#7c6af7]/5 px-6 py-5 text-center">
-        <div className="text-2xl mb-2">🌙</div>
+        <div className="text-2xl mb-2">📬</div>
         <p className="text-sm font-semibold text-[#e8e6f0] mb-1">
-          Ya estás dentro
+          Revisa tu email
         </p>
         <p className="text-xs text-[#8b87a0]">
-          Recibirás nuevas interpretaciones cada semana. Sin spam, solo sueños.
+          Te hemos enviado un enlace de confirmación. Haz clic para activar tu suscripción.
         </p>
       </div>
     );
