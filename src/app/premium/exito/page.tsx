@@ -212,7 +212,7 @@ export default async function ExitoPage({
             >
               Interpretar otro sueño →
             </Link>
-            <PrintButton />
+            <PrintButton sessionId={sessionId} />
           </div>
         </div>
       </div>
