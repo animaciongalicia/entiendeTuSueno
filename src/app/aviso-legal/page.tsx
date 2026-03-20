@@ -13,9 +13,9 @@ const SECTIONS = [
     title: "1. Datos identificativos",
     content: `En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico (LSSI-CE), se informa:
 
-Titular: [Tu nombre completo o razón social]
-NIF/CIF: [Tu NIF o CIF]
-Domicilio: [Tu dirección postal]
+Titular: Inversiones SHISO SL
+CIF: B70319223
+Domicilio: Ronda de Montealto, 4 — 15002 A Coruña (España)
 Email de contacto: hola@entiendetusueno.com
 Sitio web: entiendetusueno.com`,
   },
