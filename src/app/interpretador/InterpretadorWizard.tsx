@@ -487,7 +487,7 @@ export default function InterpretadorWizard() {
 
     const progTimer = setInterval(() => {
       const elapsed = Date.now() - start;
-      setLoadingProgress(Math.min(85, Math.round((elapsed / 14000) * 85)));
+      setLoadingProgress(Math.min(90, Math.round((elapsed / 30000) * 90)));
     }, 250);
 
     return () => {
