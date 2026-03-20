@@ -52,14 +52,14 @@ function renderMarkdown(text: string) {
     .map((block, i) => {
       if (block.startsWith("## ")) {
         return (
-          <h3 key={i} className="text-base font-bold text-[#c0b8f0] mt-5 mb-2 first:mt-0">
+          <h3 key={i} className="text-base font-bold text-[#c0b8f0] mt-7 mb-3 first:mt-0 tracking-wide">
             {block.slice(3)}
           </h3>
         );
       }
       const parts = block.split(/\*\*(.+?)\*\*/g);
       return (
-        <p key={i} className="text-sm text-[#8b87a0] leading-relaxed mb-3">
+        <p key={i} className="text-sm text-[#8b87a0] leading-relaxed mb-4">
           {parts.map((part, j) =>
             j % 2 === 1
               ? <strong key={j} className="text-[#e8e6f0] font-semibold">{part}</strong>
@@ -413,7 +413,7 @@ function Step7({
 
       {/* Free result */}
       <h2 className="text-xl font-bold text-[#f0eeff] mb-4">Vista previa del análisis</h2>
-      <div className="rounded-xl border border-[#2a2a4a] bg-[#1a1a2e] p-5 mb-6">
+      <div className="rounded-xl border border-[#2a2a4a] bg-[#1a1a2e] p-6 mb-8">
         {freeResult ? renderMarkdown(freeResult) : (
           <p className="text-sm text-[#4a4760] italic">No se generó contenido. Inténtalo de nuevo.</p>
         )}

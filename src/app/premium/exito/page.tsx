@@ -9,7 +9,6 @@ export const metadata: Metadata = {
 };
 
 function renderInline(text: string) {
-  // Handle **bold** and *italic*
   const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g);
   return parts.map((part, i) => {
     if (part.startsWith("**") && part.endsWith("**")) {
@@ -22,79 +21,106 @@ function renderInline(text: string) {
   });
 }
 
-function renderMarkdown(text: string) {
-  const blocks = text.split(/\n/).reduce<string[]>((acc, line) => {
-    // Group consecutive non-empty lines into paragraphs
-    if (line.trim() === "") {
-      acc.push("");
-    } else {
-      const last = acc[acc.length - 1];
-      if (last === "" || last === undefined) {
-        acc.push(line);
-      } else {
-        acc[acc.length - 1] = last + "\n" + line;
-      }
-    }
-    return acc;
-  }, []);
+function renderBlock(block: string, i: number) {
+  if (block.startsWith("### ")) {
+    return (
+      <h4 key={i} className="text-sm font-semibold text-[#9d96d4] mt-2 mb-1">
+        {block.slice(4)}
+      </h4>
+    );
+  }
 
-  return blocks
-    .filter((block) => block.trim() !== "")
-    .map((block, i) => {
-      // ## H2 heading
-      if (block.startsWith("## ")) {
-        return (
-          <h3 key={i} className="text-base font-bold text-[#c0b8f0] mt-8 mb-3 first:mt-0 tracking-wide uppercase text-xs">
-            {block.slice(3)}
-          </h3>
-        );
-      }
-
-      // ### H3 sub-heading
-      if (block.startsWith("### ")) {
-        return (
-          <h4 key={i} className="text-sm font-semibold text-[#9d96d4] mt-5 mb-2">
-            {block.slice(4)}
-          </h4>
-        );
-      }
-
-      // --- horizontal divider
-      if (block.trim() === "---") {
-        return (
-          <div key={i} className="flex items-center gap-3 my-7">
-            <div className="flex-1 h-px bg-[#2a2a4a]" />
-            <div className="text-[#3a3a6a] text-xs">✦</div>
-            <div className="flex-1 h-px bg-[#2a2a4a]" />
-          </div>
-        );
-      }
-
-      // > blockquote callout
-      if (block.startsWith("> ")) {
-        const content = block.slice(2).replace(/\n> /g, "\n").replace(/\n/g, " ");
-        return (
-          <blockquote key={i} className="my-5 pl-4 border-l-2 border-[#7c6af7] bg-[#1a1730] rounded-r-lg py-3 pr-4">
-            <p className="text-sm text-[#c0b8f0] leading-relaxed italic">
-              {renderInline(content)}
-            </p>
-          </blockquote>
-        );
-      }
-
-      // Normal paragraph
-      const lines = block.split("\n");
-      return (
-        <p key={i} className="text-sm text-[#8b87a0] leading-relaxed mb-1">
-          {lines.map((line, j) => (
-            <span key={j}>
-              {renderInline(line)}
-              {j < lines.length - 1 && <br />}
-            </span>
-          ))}
+  if (block.startsWith("> ")) {
+    const content = block.slice(2).replace(/\n> /g, "\n").replace(/\n/g, " ");
+    return (
+      <blockquote key={i} className="pl-4 border-l-2 border-[#7c6af7] bg-[#1a1730] rounded-r-lg py-3 pr-4">
+        <p className="text-sm text-[#c0b8f0] leading-relaxed italic">
+          {renderInline(content)}
         </p>
+      </blockquote>
+    );
+  }
+
+  const lines = block.split("\n");
+  return (
+    <p key={i} className="text-sm text-[#8b87a0] leading-relaxed">
+      {lines.map((line, j) => (
+        <span key={j}>
+          {renderInline(line)}
+          {j < lines.length - 1 && <br />}
+        </span>
+      ))}
+    </p>
+  );
+}
+
+function renderMarkdown(text: string) {
+  const rawBlocks = text
+    .split(/\n/)
+    .reduce<string[]>((acc, line) => {
+      if (line.trim() === "") {
+        acc.push("");
+      } else {
+        const last = acc[acc.length - 1];
+        if (last === "" || last === undefined) {
+          acc.push(line);
+        } else {
+          acc[acc.length - 1] = last + "\n" + line;
+        }
+      }
+      return acc;
+    }, [])
+    .filter((b) => b.trim() !== "");
+
+  type Section = { heading: string | null; blocks: string[]; isDivider?: boolean };
+  const sections: Section[] = [];
+  let current: Section = { heading: null, blocks: [] };
+
+  for (const block of rawBlocks) {
+    if (block.trim() === "---") {
+      if (current.heading !== null || current.blocks.length > 0) sections.push(current);
+      sections.push({ heading: null, blocks: [], isDivider: true });
+      current = { heading: null, blocks: [] };
+    } else if (block.startsWith("## ")) {
+      if (current.heading !== null || current.blocks.length > 0) sections.push(current);
+      current = { heading: block.slice(3), blocks: [] };
+    } else {
+      current.blocks.push(block);
+    }
+  }
+  if (current.heading !== null || current.blocks.length > 0) sections.push(current);
+
+  let contentIdx = 0;
+  return sections.map((section, i) => {
+    if (section.isDivider) {
+      return (
+        <div key={i} className="flex items-center gap-3 my-2">
+          <div className="flex-1 h-px bg-[#2a2a4a]" />
+          <div className="text-[#3a3a6a] text-xs">✦</div>
+          <div className="flex-1 h-px bg-[#2a2a4a]" />
+        </div>
       );
-    });
+    }
+
+    const isAlt = contentIdx % 2 === 1;
+    contentIdx++;
+
+    return (
+      <div
+        key={i}
+        className={`rounded-xl px-5 py-5 ${isAlt ? "bg-[#1a1a2e]" : "bg-[#14142200]"}`}
+      >
+        {section.heading && (
+          <h3 className="text-[10px] font-bold text-[#c0b8f0] mb-4 tracking-widest uppercase">
+            {section.heading}
+          </h3>
+        )}
+        <div className="space-y-3">
+          {section.blocks.map((block, j) => renderBlock(block, j))}
+        </div>
+      </div>
+    );
+  });
 }
 
 export default async function ExitoPage({
@@ -163,9 +189,9 @@ export default async function ExitoPage({
         </div>
 
         {/* Premium content */}
-        <div className="px-8 py-8">
+        <div className="px-6 py-8">
           {premiumResult ? (
-            <div className="space-y-1">{renderMarkdown(premiumResult)}</div>
+            <div className="space-y-2">{renderMarkdown(premiumResult)}</div>
           ) : (
             <p className="text-sm text-[#4a4760] italic text-center">
               El contenido no está disponible. Contacta con nosotros.
