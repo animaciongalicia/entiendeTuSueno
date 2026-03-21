@@ -134,6 +134,54 @@ for (const article of articles) {
   }
 }
 
+// ── 7. Links internos rotos en el contenido HTML ─────────────────────────────
+//
+// Extrae todos los href="/blog/..." y href="/categoria/..." del HTML de cada
+// artículo, pillar page y cluster, y comprueba que el slug destino existe.
+
+const allBlogSlugs = new Set([
+  ...articles.map((a) => a.slug),
+  ...pillarPages.map((p) => p.slug),
+]);
+const allCategoriaSlugs = new Set([
+  ...clusters.map((c) => c.slug),
+  ...clusters.map((c) => c.categorySlug),
+]);
+
+const HREF_BLOG_RE = /href="\/blog\/([^"]+)"/g;
+const HREF_CAT_RE = /href="\/categoria\/([^"]+)"/g;
+
+function checkContentLinks(entity: string, id: string, html: string) {
+  let m: RegExpExecArray | null;
+  HREF_BLOG_RE.lastIndex = 0;
+  while ((m = HREF_BLOG_RE.exec(html)) !== null) {
+    const slug = m[1];
+    if (!allBlogSlugs.has(slug)) {
+      error(entity, id, `Link roto en content: /blog/${slug} no existe`);
+    }
+  }
+  HREF_CAT_RE.lastIndex = 0;
+  while ((m = HREF_CAT_RE.exec(html)) !== null) {
+    const slug = m[1];
+    if (!allCategoriaSlugs.has(slug)) {
+      error(entity, id, `Link roto en content: /categoria/${slug} no existe`);
+    }
+  }
+}
+
+for (const article of articles) {
+  checkContentLinks("Article", article.slug, article.content);
+  if (article.interpretacion_humana) {
+    checkContentLinks("Article", article.slug, article.interpretacion_humana);
+  }
+}
+for (const pillar of pillarPages) {
+  checkContentLinks("PillarPage", pillar.slug, pillar.content);
+}
+for (const cluster of clusters) {
+  checkContentLinks("Cluster", cluster.slug, cluster.content ?? "");
+}
+
 // ── Resultado ─────────────────────────────────────────────────────────────────
 
 const errors = issues.filter((i) => i.level === "error");

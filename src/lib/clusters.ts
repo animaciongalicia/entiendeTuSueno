@@ -659,7 +659,7 @@ export const pillarPages: PillarPage[] = [
 
 <h3>Soñar con agua (dimension espiritual)</h3>
 <p>El agua es el símbolo espiritual por excelencia: el inconsciente, el alma, las emociones más profundas. Soñar con aguas cristalinas puede señalar purificación y claridad espiritual. Las aguas del bautismo, del Ganges, del mikvé: todas las tradiciones espirituales tienen agua sagrada.</p>
-<p>→ <a href="/blog/sonar-con-agua" class="text-violet-400 hover:text-violet-300 underline underline-offset-2">Significado completo de soñar con agua</a></p>
+<p>→ <a href="/blog/suenos-con-agua" class="text-violet-400 hover:text-violet-300 underline underline-offset-2">Significado completo de soñar con agua</a></p>
 
 <h3>Visitas de personas fallecidas</h3>
 <p>Los más impactantes de este cluster. La persona aparece en paz, a veces más joven, con una presencia que se siente diferente a cualquier otro sueño. El mensaje suele ser breve pero definitivo: "estoy bien", "sigue adelante", "te quiero". Estos sueños suelen llegar en los primeros meses de duelo, cuando más se necesitan.</p>
