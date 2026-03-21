@@ -10,64 +10,242 @@ const client = new Anthropic();
 // ANTHROPIC_API_KEY se lee automáticamente del entorno
 
 // ============================================================
-// LISTA DE POSTS PENDIENTES
-// Edita esta lista para añadir nuevos posts
-// Borra una entrada cuando ya esté publicada
+// LISTA DE POSTS PENDIENTES — 30 posts pre-programados
+// Cubre ~2,5 meses al ritmo de lunes/miércoles/viernes.
+//
+// ¿Cómo funciona?
+//   - El script publica siempre el primero de la lista.
+//   - Cuando articles.ts ya contiene el slug, lo salta automáticamente.
+//   - Borra una entrada de aquí cuando el artículo esté publicado.
+//
+// Artículos ya publicados (no añadir de nuevo):
+// - sonar-que-no-puedes-correr, suenos-de-dientes-que-se-caen
+// - sonar-con-tu-ex, suenos-de-persecucion, suenos-de-volar
+// - sonar-con-caballos, sonar-que-estas-perdido
+// - sonar-con-enfermedad-o-dolor, sonar-con-exito-o-ascenso-laboral
+// - sonar-con-lobos
 // ============================================================
-// Artículos ya publicados (no regenerar):
-// - sonar-que-no-puedes-correr → existe en articles.ts
-// - suenos-de-dientes-que-se-caen → existe en articles.ts
-// - sonar-con-tu-ex → existe en articles.ts
-// - suenos-de-persecucion → existe en articles.ts
-// - suenos-de-volar → existe en articles.ts
-// - sonar-con-caballos → añadido manualmente 2026-03-16
-// - sonar-que-estas-perdido → añadido manualmente 2026-03-16
-// - sonar-con-enfermedad-o-dolor → añadido manualmente 2026-03-16
-// - sonar-con-exito-o-ascenso-laboral → añadido manualmente 2026-03-16
-// - sonar-con-lobos → añadido manualmente 2026-03-16
 
 const PENDING_POSTS = [
+  // ── SEMANA 1 ─────────────────────────────────────────────
   {
     title: "Soñar con agua turbia",
     category: "Símbolos en Sueños",
     categorySlug: "simbolos-en-suenos",
-    tags: ["agua turbia", "símbolos", "emociones", "incertidumbre"],
-    relatedSlugs: ["suenos-con-agua", "paralisis-del-sueno"],
-  },
-  {
-    title: "Soñar con tu casa de la infancia",
-    category: "Símbolos en Sueños",
-    categorySlug: "simbolos-en-suenos",
-    tags: ["casa", "infancia", "nostalgia", "memoria", "pasado"],
-    relatedSlugs: ["sonar-con-tu-casa", "sonar-con-tu-madre-o-tu-padre"],
+    tags: ["agua turbia", "emociones", "incertidumbre", "inconsciente"],
+    relatedSlugs: ["suenos-con-agua", "sonar-con-la-muerte-de-un-familiar", "paralisis-del-sueno"],
   },
   {
     title: "Soñar con toros",
     category: "Animales",
     categorySlug: "animales",
-    tags: ["toros", "animales", "fuerza", "agresividad", "instinto"],
-    relatedSlugs: ["sonar-con-caballos", "sonar-con-serpientes"],
+    tags: ["toros", "fuerza", "agresividad", "instinto", "control"],
+    relatedSlugs: ["sonar-con-caballos", "sonar-con-serpientes", "sonar-con-lobos"],
   },
   {
     title: "Soñar con el teléfono o con no poder llamar",
     category: "Ansiedad y Miedos",
     categorySlug: "ansiedad-y-miedos",
     tags: ["teléfono", "comunicación", "aislamiento", "urgencia", "ansiedad"],
-    relatedSlugs: ["sonar-que-no-puedes-hablar-o-gritar", "suenos-de-persecucion"],
+    relatedSlugs: ["sonar-que-no-puedes-hablar-o-gritar", "suenos-de-persecucion", "sonar-con-catastrofes"],
+  },
+  // ── SEMANA 2 ─────────────────────────────────────────────
+  {
+    title: "Soñar con tu casa de la infancia",
+    category: "Símbolos en Sueños",
+    categorySlug: "simbolos-en-suenos",
+    tags: ["casa", "infancia", "nostalgia", "memoria", "pasado"],
+    relatedSlugs: ["sonar-con-tu-casa", "sonar-con-tu-madre-o-tu-padre", "suenos-con-personas-del-pasado"],
   },
   {
     title: "Soñar con tu padre o figura paterna",
     category: "Relaciones",
     categorySlug: "relaciones",
     tags: ["padre", "figura paterna", "autoridad", "familia", "infancia"],
-    relatedSlugs: ["sonar-con-tu-madre-o-tu-padre", "sonar-con-hermanos"],
+    relatedSlugs: ["sonar-con-tu-madre-o-tu-padre", "sonar-con-hermanos", "suenos-con-personas-del-pasado"],
   },
   {
     title: "Soñar que no tienes dinero o que pierdes todo",
     category: "Trabajo y Dinero",
     categorySlug: "trabajo-y-dinero",
-    tags: ["dinero", "pobreza", "pérdida económica", "ansiedad financiera", "seguridad"],
-    relatedSlugs: ["suenos-con-dinero", "sonar-que-te-despiden"],
+    tags: ["dinero", "pérdida económica", "ansiedad financiera", "seguridad", "miedo"],
+    relatedSlugs: ["suenos-con-dinero", "sonar-que-te-despiden", "suenos-con-ansiedad-laboral"],
+  },
+  // ── SEMANA 3 ─────────────────────────────────────────────
+  {
+    title: "Soñar con leones",
+    category: "Animales",
+    categorySlug: "animales",
+    tags: ["leones", "poder", "liderazgo", "miedo", "instinto"],
+    relatedSlugs: ["sonar-con-lobos", "sonar-con-caballos", "sonar-con-serpientes"],
+  },
+  {
+    title: "Soñar con un espejo",
+    category: "Símbolos en Sueños",
+    categorySlug: "simbolos-en-suenos",
+    tags: ["espejo", "identidad", "autoimagen", "verdad", "reflejo"],
+    relatedSlugs: ["sonar-con-tu-casa", "suenos-de-estar-desnudo-en-publico", "suenos-de-dientes-que-se-caen"],
+  },
+  {
+    title: "Soñar con el colegio o la universidad",
+    category: "Sueños Recurrentes",
+    categorySlug: "suenos-recurrentes",
+    tags: ["colegio", "universidad", "examen", "pasado", "presión social"],
+    relatedSlugs: ["sonar-con-examenes", "suenos-recurrentes-por-que-el-cerebro-repite", "sonar-que-llegas-tarde"],
+  },
+  // ── SEMANA 4 ─────────────────────────────────────────────
+  {
+    title: "Soñar con peces",
+    category: "Animales",
+    categorySlug: "animales",
+    tags: ["peces", "agua", "inconsciente", "emociones", "abundancia"],
+    relatedSlugs: ["suenos-con-agua", "sonar-con-serpientes", "sonar-con-pajaros"],
+  },
+  {
+    title: "Soñar que te quedas atrapado",
+    category: "Ansiedad y Miedos",
+    categorySlug: "ansiedad-y-miedos",
+    tags: ["atrapado", "claustrofobia", "libertad", "control", "ansiedad"],
+    relatedSlugs: ["suenos-de-persecucion", "sonar-que-no-puedes-correr", "paralisis-del-sueno"],
+  },
+  {
+    title: "Soñar con una entrevista de trabajo",
+    category: "Trabajo y Dinero",
+    categorySlug: "trabajo-y-dinero",
+    tags: ["entrevista", "trabajo", "ansiedad laboral", "juicio", "rendimiento"],
+    relatedSlugs: ["sonar-con-examenes", "suenos-con-ansiedad-laboral", "sonar-que-te-despiden"],
+  },
+  // ── SEMANA 5 ─────────────────────────────────────────────
+  {
+    title: "Soñar con osos",
+    category: "Animales",
+    categorySlug: "animales",
+    tags: ["osos", "fuerza", "protección", "amenaza", "madre"],
+    relatedSlugs: ["sonar-con-lobos", "sonar-con-caballos", "sonar-con-serpientes"],
+  },
+  {
+    title: "Soñar con escaleras",
+    category: "Símbolos en Sueños",
+    categorySlug: "simbolos-en-suenos",
+    tags: ["escaleras", "progreso", "ambición", "miedo a caer", "ascenso"],
+    relatedSlugs: ["sonar-con-caidas", "sonar-con-exito-o-ascenso-laboral", "suenos-de-volar"],
+  },
+  {
+    title: "Soñar con alguien que ya murió una y otra vez",
+    category: "Sueños Recurrentes",
+    categorySlug: "suenos-recurrentes",
+    tags: ["muerto", "duelo", "recurrente", "ausencia", "despedida"],
+    relatedSlugs: ["suenos-durante-el-duelo", "sonar-con-la-muerte-de-un-familiar", "suenos-recurrentes-por-que-el-cerebro-repite"],
+  },
+  // ── SEMANA 6 ─────────────────────────────────────────────
+  {
+    title: "Soñar con tu abuela o abuelo",
+    category: "Relaciones",
+    categorySlug: "relaciones",
+    tags: ["abuela", "abuelo", "familia", "sabiduría", "raíces"],
+    relatedSlugs: ["sonar-con-tu-madre-o-tu-padre", "suenos-durante-el-duelo", "suenos-con-personas-del-pasado"],
+  },
+  {
+    title: "Soñar con terremotos o catástrofes naturales",
+    category: "Ansiedad y Miedos",
+    categorySlug: "ansiedad-y-miedos",
+    tags: ["terremoto", "catástrofe", "pérdida de control", "miedo", "destrucción"],
+    relatedSlugs: ["sonar-con-catastrofes", "sonar-con-fuego", "suenos-con-ansiedad-laboral"],
+  },
+  {
+    title: "Soñar con renunciar o cambiar de trabajo",
+    category: "Trabajo y Dinero",
+    categorySlug: "trabajo-y-dinero",
+    tags: ["renuncia", "cambio laboral", "libertad", "miedo", "decisión"],
+    relatedSlugs: ["sonar-que-te-despiden", "sonar-con-el-trabajo-antiguo", "suenos-con-ansiedad-laboral"],
+  },
+  // ── SEMANA 7 ─────────────────────────────────────────────
+  {
+    title: "Soñar con delfines",
+    category: "Animales",
+    categorySlug: "animales",
+    tags: ["delfines", "alegría", "libertad", "inteligencia", "emociones"],
+    relatedSlugs: ["sonar-con-pajaros", "suenos-de-volar", "suenos-con-agua"],
+  },
+  {
+    title: "Soñar con una puerta o una llave",
+    category: "Símbolos en Sueños",
+    categorySlug: "simbolos-en-suenos",
+    tags: ["puerta", "llave", "oportunidad", "secreto", "decisión"],
+    relatedSlugs: ["sonar-con-tu-casa", "sonar-que-estas-perdido", "sonar-con-oscuridad"],
+  },
+  {
+    title: "Por qué soñamos con personas que nunca hemos visto",
+    category: "Ciencia del Sueño",
+    categorySlug: "ciencia-del-sueno",
+    tags: ["desconocidos", "cara nueva", "cerebro", "neurociencia", "sueños"],
+    relatedSlugs: ["que-pasa-en-el-cerebro-cuando-suenas", "suenos-con-personas-del-pasado", "suenos-lucidos-que-son-y-como-empezar"],
+  },
+  // ── SEMANA 8 ─────────────────────────────────────────────
+  {
+    title: "Soñar con traición de alguien cercano",
+    category: "Relaciones",
+    categorySlug: "relaciones",
+    tags: ["traición", "confianza", "amigo", "pareja", "herida emocional"],
+    relatedSlugs: ["sonar-que-te-enganan", "sonar-con-tu-pareja-actual", "sonar-con-amigos"],
+  },
+  {
+    title: "Soñar con que llegas tarde a algo muy importante",
+    category: "Ansiedad y Miedos",
+    categorySlug: "ansiedad-y-miedos",
+    tags: ["llegar tarde", "urgencia", "ansiedad", "responsabilidad", "pánico"],
+    relatedSlugs: ["suenos-de-llegar-tarde-o-perderse", "sonar-con-examenes", "sonar-que-no-puedes-correr"],
+  },
+  {
+    title: "Qué son los sueños hipnagógicos y por qué asustan",
+    category: "Ciencia del Sueño",
+    categorySlug: "ciencia-del-sueno",
+    tags: ["hipnagógico", "al dormirse", "alucinaciones", "REM", "neurociencia"],
+    relatedSlugs: ["paralisis-del-sueno", "que-pasa-en-el-cerebro-cuando-suenas", "suenos-lucidos-que-son-y-como-empezar"],
+  },
+  // ── SEMANA 9 ─────────────────────────────────────────────
+  {
+    title: "Soñar con tus hijos (o con el hijo que no tienes)",
+    category: "Relaciones",
+    categorySlug: "relaciones",
+    tags: ["hijos", "paternidad", "maternidad", "protección", "miedo a perder"],
+    relatedSlugs: ["sonar-con-bebes", "sonar-con-embarazo", "sonar-con-tu-madre-o-tu-padre"],
+  },
+  {
+    title: "Soñar con un lugar desconocido que sientes tuyo",
+    category: "Sueños Recurrentes",
+    categorySlug: "suenos-recurrentes",
+    tags: ["lugar desconocido", "déjà vu", "recurrente", "inconsciente", "exploración"],
+    relatedSlugs: ["suenos-recurrentes-por-que-el-cerebro-repite", "sonar-con-tu-casa", "sonar-que-estas-perdido"],
+  },
+  {
+    title: "Soñar con fracasar en un proyecto importante",
+    category: "Trabajo y Dinero",
+    categorySlug: "trabajo-y-dinero",
+    tags: ["fracaso", "proyecto", "ansiedad laboral", "autoexigencia", "miedo"],
+    relatedSlugs: ["sonar-con-examenes", "suenos-con-ansiedad-laboral", "sonar-con-exito-o-ascenso-laboral"],
+  },
+  // ── SEMANA 10 ────────────────────────────────────────────
+  {
+    title: "Soñar con volver a la infancia",
+    category: "Sueños Recurrentes",
+    categorySlug: "suenos-recurrentes",
+    tags: ["infancia", "regresión", "nostalgia", "recurrente", "niño interior"],
+    relatedSlugs: ["sonar-con-tu-casa", "suenos-con-personas-del-pasado", "sonar-con-tu-madre-o-tu-padre"],
+  },
+  {
+    title: "Cómo el cerebro procesa el miedo mientras duermes",
+    category: "Ciencia del Sueño",
+    categorySlug: "ciencia-del-sueno",
+    tags: ["miedo", "amígdala", "REM", "pesadillas", "neurociencia"],
+    relatedSlugs: ["por-que-suenas-mas-cuando-estas-estresado", "que-pasa-en-el-cerebro-cuando-suenas", "paralisis-del-sueno"],
+  },
+  {
+    title: "Soñar con una amistad que perdiste",
+    category: "Relaciones",
+    categorySlug: "relaciones",
+    tags: ["amistad", "pérdida", "nostalgia", "distancia", "cierre emocional"],
+    relatedSlugs: ["sonar-con-amigos", "suenos-con-personas-del-pasado", "suenos-en-medio-de-una-ruptura"],
   },
 ];
 
