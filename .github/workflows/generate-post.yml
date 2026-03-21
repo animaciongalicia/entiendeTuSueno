@@ -43,14 +43,11 @@ jobs:
           cache: "npm"
 
       # 3. Instala las dependencias del proyecto
-      - name: 📦 Instalar dependencias del proyecto
+      # @anthropic-ai/sdk ya está en dependencies — npm ci lo instala automáticamente
+      - name: 📦 Instalar dependencias
         run: npm ci
 
-      # 4. Instala el SDK de Anthropic para el script
-      - name: 📦 Instalar SDK de Anthropic
-        run: npm install @anthropic-ai/sdk --no-save
-
-      # 5. Ejecuta el script generador (con tu API key secreta)
+      # 4. Ejecuta el script generador (con tu API key secreta)
       - name: 🤖 Generar post con Claude
         if: ${{ github.event.inputs.dry_run != 'true' }}
         env:
@@ -79,14 +76,46 @@ jobs:
           git commit -m "feat: auto-post $(date +%Y-%m-%d) [skip ci]"
           git push origin HEAD
 
-      # 8. (Dry run) Solo muestra el post que se generaría
+      # 8. (Dry run) Muestra el siguiente post que se generaría sin publicar nada
       - name: 🔍 Dry run — ver post pendiente
         if: ${{ github.event.inputs.dry_run == 'true' }}
         run: |
-          echo "=== MODO DRY RUN ==="
-          echo "El siguiente post sería generado en una ejecución normal:"
+          echo "=== MODO DRY RUN — próximo post a publicar ==="
           node -e "
-            const posts = require('./.github/scripts/generate-post.js');
-          " 2>/dev/null || node -e "
-            const data = require('./.github/scripts/generate-post.js');
-          " 2>/dev/null || echo 'Lista de posts: ver PENDING_POSTS en .github/scripts/generate-post.js'
+            const fs = require('fs');
+            const path = require('path');
+            const script = fs.readFileSync('.github/scripts/generate-post.js', 'utf8');
+
+            // Extraer PENDING_POSTS sin ejecutar main()
+            const pendingMatch = script.match(/const PENDING_POSTS = (\[[\s\S]*?\n\];)/);
+            if (!pendingMatch) { console.log('No se pudo leer PENDING_POSTS'); process.exit(0); }
+
+            const PENDING_POSTS = eval(pendingMatch[1]);
+            const articles = fs.readFileSync('src/lib/articles.ts', 'utf8');
+
+            function slugify(t) {
+              return t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9\s-]/g,'').trim().replace(/\s+/g,'-');
+            }
+
+            let found = null;
+            let skipped = 0;
+            for (const p of PENDING_POSTS) {
+              const slug = slugify(p.title);
+              if (!articles.includes('slug: \"' + slug + '\"')) { found = p; break; }
+              skipped++;
+            }
+
+            if (!found) {
+              console.log('Todos los posts ya publicados. Añade más a PENDING_POSTS.');
+            } else {
+              const remaining = PENDING_POSTS.slice(PENDING_POSTS.indexOf(found)).length;
+              console.log('Posts ya publicados de la lista: ' + skipped);
+              console.log('Posts restantes en cola:         ' + remaining);
+              console.log('');
+              console.log('Próximo post:');
+              console.log('  Título:    ' + found.title);
+              console.log('  Categoría: ' + found.category);
+              console.log('  Slug:      ' + slugify(found.title));
+              console.log('  Tags:      ' + found.tags.join(', '));
+            }
+          "

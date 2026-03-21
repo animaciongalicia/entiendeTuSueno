@@ -265,17 +265,45 @@ function slugify(text) {
 
 function pickPost() {
   if (PENDING_POSTS.length === 0) {
-    console.log("✅ No hay posts pendientes en la lista.");
+    console.log("✅ No hay posts pendientes en la lista. Añade más a PENDING_POSTS.");
     process.exit(0);
   }
-  // Toma el primero de la lista (más prioritario)
-  return PENDING_POSTS[0];
+
+  const articlesPath = path.join(__dirname, "../../src/lib/articles.ts");
+  const articlesContent = fs.readFileSync(articlesPath, "utf8");
+
+  // Itera hasta encontrar el primer post que aún no esté publicado
+  for (const post of PENDING_POSTS) {
+    const slug = slugify(post.title);
+    if (!articlesContent.includes(`slug: "${slug}"`)) {
+      // Avisa si quedan pocos posts en la cola
+      const remaining = PENDING_POSTS.slice(PENDING_POSTS.indexOf(post)).filter(
+        (p) => !articlesContent.includes(`slug: "${slugify(p.title)}"`)
+      ).length;
+      if (remaining <= 5) {
+        console.log(`⚠️  ATENCIÓN: solo quedan ${remaining} posts en la cola. Añade más a PENDING_POSTS pronto.`);
+      }
+      return post;
+    }
+    console.log(`⏩ Saltando "${post.title}" (ya publicado)`);
+  }
+
+  console.log("✅ Todos los posts de PENDING_POSTS ya están publicados. Añade más.");
+  process.exit(0);
 }
 
 function slugAlreadyExists(slug) {
   const articlesPath = path.join(__dirname, "../../src/lib/articles.ts");
   const content = fs.readFileSync(articlesPath, "utf8");
   return content.includes(`slug: "${slug}"`);
+}
+
+// Calcula readingTime real desde el contenido generado (~200 palabras/min)
+function calculateReadingTime(articleCode) {
+  const match = articleCode.match(/content:\s*`([\s\S]*?)`\s*,?\s*\}?\s*$/);
+  if (!match) return 7;
+  const words = match[1].trim().split(/\s+/).length;
+  return Math.max(3, Math.round(words / 200));
 }
 
 // ============================================================
@@ -285,12 +313,6 @@ function slugAlreadyExists(slug) {
 async function generatePost(postConfig) {
   const today = new Date().toISOString().split("T")[0];
   const slug = slugify(postConfig.title);
-
-  // Comprueba que el slug no existe ya
-  if (slugAlreadyExists(slug)) {
-    console.log(`⚠️  El artículo "${slug}" ya existe. Saltando.`);
-    process.exit(0);
-  }
 
   const relatedLinks = postConfig.relatedSlugs
     .map((s) => `- /blog/${s}`)
@@ -344,8 +366,14 @@ Devuelve ÚNICA Y EXCLUSIVAMENTE el objeto TypeScript siguiente, sin bloques de 
     messages: [{ role: "user", content: prompt }],
   });
 
-  const text = response.content[0].text.trim();
+  let text = response.content[0].text.trim();
   console.log(`✅ Claude ha generado el artículo (${text.length} caracteres)`);
+
+  // Reemplaza readingTime con el valor real calculado del contenido
+  const rt = calculateReadingTime(text);
+  text = text.replace(/readingTime:\s*\d+/, `readingTime: ${rt}`);
+  console.log(`📖 readingTime calculado: ${rt} min`);
+
   return text;
 }
 
