@@ -91,7 +91,7 @@ const PENDING_POSTS = [
     category: "Sueños Recurrentes",
     categorySlug: "suenos-recurrentes",
     tags: ["colegio", "universidad", "examen", "pasado", "presión social"],
-    relatedSlugs: ["sonar-con-examenes", "suenos-recurrentes-por-que-el-cerebro-repite", "sonar-que-llegas-tarde"],
+    relatedSlugs: ["sonar-con-examenes", "suenos-recurrentes-por-que-el-cerebro-repite", "suenos-de-llegar-tarde-o-perderse"],
   },
   // ── SEMANA 4 ─────────────────────────────────────────────
   {
