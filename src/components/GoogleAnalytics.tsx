@@ -1,3 +1,5 @@
+import Script from "next/script";
+
 // TODO: Replace GA_MEASUREMENT_ID with your actual Google Analytics 4 ID
 // Example: G-XXXXXXXXXX
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
@@ -7,11 +9,14 @@ export default function GoogleAnalytics() {
 
   return (
     <>
-      <script
-        async
+      {/* strategy="afterInteractive" — carga tras hidratación, no bloquea FCP/LCP */}
+      <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        strategy="afterInteractive"
       />
-      <script
+      <Script
+        id="ga-init"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];

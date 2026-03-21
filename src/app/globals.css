@@ -31,10 +31,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Tipografía display — Playfair Display para headlines con personalidad */
+/* Tipografía display — Playfair Display self-hosted via next/font */
 h1, h2, h3,
 .font-display {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: var(--font-playfair), Georgia, serif;
 }
 
 ::-webkit-scrollbar {

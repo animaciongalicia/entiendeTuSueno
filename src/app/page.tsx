@@ -64,8 +64,9 @@ export default function HomePage() {
     <>
       {/* ── Hero ─────────────────────────────────────────────────────────────── */}
       <section className="relative overflow-hidden py-8 md:py-12 px-4">
-        <div className="absolute -top-40 -right-40 w-[500px] h-[500px] rounded-full bg-[#7c6af7] opacity-[0.06] blur-3xl pointer-events-none" />
-        <div className="absolute -bottom-40 -left-40 w-[500px] h-[500px] rounded-full bg-[#9580ff] opacity-[0.06] blur-3xl pointer-events-none" />
+        {/* Decoraciones solo en desktop — blur-3xl muy costoso en GPU móvil */}
+        <div className="hidden md:block absolute -top-40 -right-40 w-[500px] h-[500px] rounded-full bg-[#7c6af7] opacity-[0.06] blur-3xl pointer-events-none" />
+        <div className="hidden md:block absolute -bottom-40 -left-40 w-[500px] h-[500px] rounded-full bg-[#9580ff] opacity-[0.06] blur-3xl pointer-events-none" />
 
         <div className="mx-auto max-w-4xl text-center relative">
           <div className="inline-flex items-center gap-2 rounded-full border border-[#2a2a4a] bg-[#1a1a2e] px-4 py-1.5 text-xs text-[#8b87a0] mb-5">
@@ -258,7 +259,7 @@ export default function HomePage() {
       {/* ── CTA Interpretador ────────────────────────────────────────────────── */}
       <section className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 mb-20">
         <div className="relative overflow-hidden rounded-2xl border border-[#7c6af7]/30 bg-gradient-to-br from-[#1a1a2e] via-[#7c6af7]/5 to-[#12121e] p-10 md:p-14 text-center">
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-32 bg-[#7c6af7] opacity-10 blur-3xl pointer-events-none" />
+          <div className="hidden md:block absolute top-0 left-1/2 -translate-x-1/2 w-96 h-32 bg-[#7c6af7] opacity-10 blur-3xl pointer-events-none" />
           <div className="relative">
             <div className="text-5xl mb-4">🪞</div>
             <h2 className="text-2xl md:text-3xl font-bold text-[#f0eeff] mb-3 leading-tight">

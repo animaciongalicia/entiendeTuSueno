@@ -1,0 +1,105 @@
+# .github/workflows/lighthouse-ci.yml
+# Ejecuta Lighthouse automáticamente en cada PR y push a main
+# Publica los resultados como comentario en el PR y falla si bajan los umbrales
+
+name: 🔦 Lighthouse CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  # También se puede lanzar a mano
+  workflow_dispatch:
+
+jobs:
+  lighthouse:
+    name: Análisis de rendimiento
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+
+      # 2. Node.js 20
+      - name: ⚙️ Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      # 3. Instalar dependencias
+      - name: 📦 Instalar dependencias
+        run: npm ci
+
+      # 4. Build de producción (necesario para medir rendimiento real)
+      - name: 🏗️ Build de producción
+        env:
+          # Variables mínimas para que el build no falle
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL || 'https://placeholder.supabase.co' }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'placeholder' }}
+          NEXT_PUBLIC_SITE_URL: ${{ secrets.NEXT_PUBLIC_SITE_URL || 'https://entiendetusueno.com' }}
+        run: npm run build
+
+      # 5. Levantar servidor Next.js en segundo plano
+      - name: 🚀 Arrancar servidor de producción
+        run: npm start &
+        env:
+          PORT: 3000
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL || 'https://placeholder.supabase.co' }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'placeholder' }}
+          NEXT_PUBLIC_SITE_URL: ${{ secrets.NEXT_PUBLIC_SITE_URL || 'https://entiendetusueno.com' }}
+
+      # 6. Esperar a que el servidor esté listo
+      - name: ⏳ Esperar servidor
+        run: npx wait-on http://localhost:3000 --timeout 60000
+
+      # 7. Ejecutar Lighthouse CI
+      - name: 🔦 Ejecutar Lighthouse CI
+        uses: treosh/lighthouse-ci-action@v12
+        with:
+          urls: |
+            http://localhost:3000/
+            http://localhost:3000/blog
+          # Umbrales mínimos — el workflow falla si se bajan estos valores
+          budgetPath: .github/lighthouse-budget.json
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+        id: lighthouse
+
+      # 8. Comentar resultados en el PR (solo en PRs)
+      - name: 💬 Comentar resultados en PR
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const results = ${{ steps.lighthouse.outputs.manifest }};
+            if (!results) return;
+
+            const scores = results.map(r => {
+              const cats = r.summary;
+              const url = r.url.replace('http://localhost:3000', '');
+              const perf = Math.round(cats.performance * 100);
+              const acc  = Math.round(cats.accessibility * 100);
+              const bp   = Math.round(cats['best-practices'] * 100);
+              const seo  = Math.round(cats.seo * 100);
+              const emoji = perf >= 90 ? '🟢' : perf >= 50 ? '🟡' : '🔴';
+              return `| \`${url || '/'}\` | ${emoji} ${perf} | ${acc >= 90 ? '🟢' : '🟡'} ${acc} | ${bp >= 90 ? '🟢' : '🟡'} ${bp} | ${seo >= 90 ? '🟢' : '🟡'} ${seo} |`;
+            }).join('\n');
+
+            const body = `## 🔦 Resultados de Lighthouse CI
+
+            | Página | Rendimiento | Accesibilidad | Best Practices | SEO |
+            |--------|:-----------:|:-------------:|:--------------:|:---:|
+            ${scores}
+
+            > 🟢 90–100 · 🟡 50–89 · 🔴 0–49
+            > [Ver informe completo](${{ steps.lighthouse.outputs.links }})`;
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body
+            });
