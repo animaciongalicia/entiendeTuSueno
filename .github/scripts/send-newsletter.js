@@ -13,7 +13,7 @@ const path = require("path");
 const { createClient } = require("@supabase/supabase-js");
 const { Resend } = require("resend");
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://entiendeTuSueno.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://entiendetusueno.com";
 const FROM_EMAIL = process.env.RESEND_FROM_EMAIL ?? "newsletter@entiendeTuSueno.com";
 const DRY_RUN = process.env.DRY_RUN === "true";
 const ARTICLES_TO_SEND = 5; // últimos artículos publicados

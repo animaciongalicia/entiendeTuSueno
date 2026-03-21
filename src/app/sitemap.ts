@@ -4,7 +4,7 @@ import { pillarPages, clusters } from "@/lib/clusters";
 import { SITE_URL } from "@/lib/config";
 
 // Fecha de última modificación real del contenido estático (actualizar al publicar cambios)
-const SITE_LAST_MODIFIED = new Date("2025-01-01");
+const SITE_LAST_MODIFIED = new Date("2026-03-21");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [

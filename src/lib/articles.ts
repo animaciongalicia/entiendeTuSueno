@@ -428,7 +428,7 @@ export const articles: Article[] = [
     coverImage: "/images/blog/muerte-miedo/sonar-con-la-muerte-de-un-familiar.webp",
     coverAlt: "Silueta bajo la luz de la luna en un paisaje nocturno sereno",
     tags: ["muerte", "familiar", "duelo", "miedo", "inconsciente", "relaciones", "pérdida"],
-    cluster: "suenos-con-muerte-y-miedo",
+    cluster: "suenos-en-momentos-vitales",
     visual_theme: "misterio",
     pin_titles: [
       "Soñar con la muerte de un familiar: esto es lo que realmente significa",
@@ -894,8 +894,8 @@ export const articles: Article[] = [
     title: "Soñar con Bebés: Nuevos Comienzos, Vulnerabilidad y lo que Necesita Cuidado en Ti",
     excerpt:
       "Un bebé en tus sueños casi nunca habla de maternidad o paternidad literal. Habla de algo nuevo, frágil y lleno de potencial que está naciendo en tu vida. Descubre qué es.",
-    category: "Símbolos en Sueños",
-    categorySlug: "simbolos-en-suenos",
+    category: "Cuerpo y Mente",
+    categorySlug: "cuerpo-y-mente",
     publishedAt: "2024-05-06",
     updatedAt: "2024-05-06",
     readingTime: 7,
@@ -2712,6 +2712,7 @@ export const articles: Article[] = [
     coverAlt: "Figura difuminada disolviéndose en luz suave",
     tags: ["muerte", "morir en sueños", "transformación", "cambio", "estrés", "sueños recurrentes"],
     content: `
+    cluster: "suenos-recurrentes",
 <p>Despiertas con el corazón acelerado. Acabas de soñar que morías, y aunque todo era un sueño, la sensación tarda en irse. Es normal que el primer impulso sea buscar qué significa, o preocuparse por si es un presagio.</p>
 
 <p>No lo es. Soñar con la propia muerte es uno de los sueños más comunes, y raramente tiene que ver con la muerte literal. Lo que sí suele tener es un mensaje claro sobre lo que estás viviendo.</p>
@@ -2797,6 +2798,7 @@ export const articles: Article[] = [
     coverAlt: "Monedas y billetes difuminados sobre superficie oscura",
     tags: ["dinero", "riqueza", "pérdida", "robo", "recursos", "trabajo", "seguridad"],
     content: `
+    cluster: "suenos-de-dinero-y-trabajo",
 <p>Soñar con dinero es mucho más frecuente de lo que parece. Y tiene sentido: el dinero no es solo un medio de pago, es una carga emocional enorme. Representa seguridad, libertad, valía, control. Cuando el cerebro lo usa en un sueño, casi nunca está hablando de tu cuenta bancaria.</p>
 
 <h2>Qué simboliza el dinero en los sueños</h2>
@@ -2882,6 +2884,7 @@ export const articles: Article[] = [
     coverAlt: "Cabeza humana con ondas cerebrales activas sobre fondo oscuro",
     tags: ["estrés", "cortisol", "REM", "pesadillas", "calidad del sueño", "neurociencia", "ansiedad"],
     content: `
+    cluster: "ciencia-del-sueno",
 <p>Hay algo que mucha gente nota en etapas difíciles: los sueños se disparan. Se vuelven más vívidos, más raros, más cargados emocionalmente, y cuesta más sacudírselos al despertar. No es casualidad ni imaginación.</p>
 
 <p>El estrés altera el sueño de formas muy concretas, y entender qué pasa puede quitarle parte de la angustia a esas noches.</p>
@@ -2952,6 +2955,7 @@ export const articles: Article[] = [
     coverAlt: "Silueta mirando hacia atrás en un corredor iluminado",
     tags: ["personas del pasado", "ex pareja", "nostalgia", "duelo", "relaciones", "recuerdos", "inconsciente"],
     content: `
+    cluster: "relaciones",
 <p>Aparece alguien en tu sueño que hace años que no ves. Puede ser un amigo de la infancia, una ex pareja, un familiar con quien te distanciaste, o alguien que murió. Despiertas con una sensación extraña, y la primera pregunta es: ¿por qué esta persona, ahora?</p>
 
 <p>La respuesta casi nunca tiene que ver con esa persona en sí.</p>
@@ -3032,6 +3036,7 @@ export const articles: Article[] = [
     coverAlt: "Interior de una casa antigua con puertas entornadas y luz cálida al fondo",
     tags: ["casa", "habitación", "hogar", "infancia", "identidad", "símbolos", "inconsciente"],
     content: `
+    cluster: "simbolos-en-suenos",
 <p>La casa es uno de los escenarios más frecuentes en los sueños, y también uno de los que más información puede dar. No es solo un telón de fondo: en los sueños, la casa suele representar a la persona que sueña, su psique, su mundo interior.</p>
 
 <p>La estructura del edificio, el estado en que se encuentra, las habitaciones que aparecen y las que están cerradas, todo eso tiene su lectura.</p>
@@ -3110,6 +3115,7 @@ export const articles: Article[] = [
     coverAlt: "Figura femenina de perfil con luz suave y formas redondeadas difuminadas",
     tags: ["embarazo", "bebé", "creación", "proyecto", "transformación", "cuerpo", "fertilidad"],
     content: `
+    cluster: "suenos-con-el-cuerpo",
 <p>Sueñas que estás embarazada. Y al despertar lo primero que piensas es: ¿qué significa esto? Especialmente si no estás embarazada, si no quieres estarlo, o si incluso la idea te genera ansiedad.</p>
 
 <p>Los sueños con embarazos son mucho más comunes de lo que parece, y en la mayoría de los casos no tienen ninguna relación con el deseo real de tener un hijo.</p>
@@ -3179,6 +3185,7 @@ export const articles: Article[] = [
     coverAlt: "Reloj de arena sobre fondo oscuro con luz difusa en el centro",
     tags: ["sueños proféticos", "predicción", "precognición", "neurociencia", "sesgo de confirmación", "patrones"],
     content: `
+    cluster: "ciencia-del-sueno",
 <p>Ha pasado algo que soñaste. Quizás fue un accidente, una conversación, una noticia. Y la sensación es inequívoca: lo viste antes de que ocurriera. ¿Cómo se explica eso?</p>
 
 <p>Es una de las preguntas más fascinantes sobre los sueños, y también una de las que más confusión genera. La respuesta honesta es que no existe evidencia científica de que los sueños puedan predecir el futuro. Pero eso no explica completamente por qué tantas personas tienen experiencias que se sienten exactamente así.</p>
@@ -3248,6 +3255,7 @@ export const articles: Article[] = [
     coverAlt: "Dos siluetas frente a una ventana iluminada, una mayor y una más joven",
     tags: ["madre", "padre", "familia", "vínculo", "relaciones", "duelo", "infancia", "apego"],
     content: `
+    cluster: "relaciones",
 <p>Los padres son las personas con quienes tenemos el vínculo más antiguo. Antes de entender el mundo, ya teníamos una relación con ellos, ya fuera de presencia o de ausencia, de cercanía o de distancia. Es normal que aparezcan en los sueños con una frecuencia e intensidad propias.</p>
 
 <h2>Por qué los padres aparecen tanto en los sueños</h2>
@@ -3318,6 +3326,7 @@ export const articles: Article[] = [
     coverAlt: "Figura tumbada inmóvil con sombra sobre ella y luz tenue lateral",
     tags: ["parálisis del sueño", "REM", "alucinaciones", "miedo", "neurociencia", "presencia", "atonia"],
     content: `
+    cluster: "ciencia-del-sueno",
 <p>Te despiertas. O eso crees. Eres consciente del cuarto, de la cama, quizás de la luz que entra por la ventana. Pero no puedes mover ni un dedo. No puedes gritar. A veces hay algo más: una figura en la habitación, una presión en el pecho, una presencia que no ves pero que sientes con absoluta certeza.</p>
 
 <p>Es una de las experiencias más aterradoras que puede vivir una persona. Y tiene una explicación completamente biológica.</p>
@@ -3404,6 +3413,7 @@ export const articles: Article[] = [
     coverAlt: "Silueta de perro sobre fondo oscuro con luz cálida lateral",
     tags: ["perros", "animales", "lealtad", "confianza", "instinto", "vínculos", "símbolos"],
     content: `
+    cluster: "suenos-con-animales",
 <p>Los perros son de los animales que más aparecen en los sueños, y tiene sentido: llevamos miles de años conviviendo con ellos. En los sueños, los perros casi siempre tienen que ver con vínculos, con la parte instintiva de las relaciones, con la lealtad y su contrario.</p>
 
 <h2>Qué representa el perro en los sueños</h2>
@@ -3481,6 +3491,7 @@ export const articles: Article[] = [
     coverAlt: "Escritorio vacío con caja de objetos personales y silla apartada",
     tags: ["despido", "trabajo", "seguridad", "miedo", "ansiedad laboral", "pérdida", "identidad"],
     content: `
+    cluster: "suenos-de-dinero-y-trabajo",
 <p>Estás en el trabajo y de repente te llaman a un despacho. O simplemente te lo dicen: ya no trabajas aquí. Despiertas con una sensación de vértigo que tarda en irse, incluso cuando recuerdas que era un sueño.</p>
 
 <p>Soñar que te despiden es mucho más frecuente de lo que parece, y no solo en personas que tienen una situación laboral inestable.</p>
@@ -3548,6 +3559,7 @@ export const articles: Article[] = [
     coverAlt: "Gato en penumbra con ojos luminosos sobre fondo oscuro",
     tags: ["gatos", "animales", "independencia", "intuición", "instinto", "misterio", "símbolos"],
     content: `
+    cluster: "suenos-con-animales",
 <p>Los gatos son uno de los animales que más aparecen en los sueños, y su simbología es radicalmente distinta a la de los perros. Si los perros apuntan a lealtad y vínculos directos, los gatos apuntan a otra cosa: la independencia, lo esquivo, lo que no se deja atrapar fácilmente.</p>
 
 <h2>Qué representan los gatos en los sueños</h2>
@@ -3616,6 +3628,7 @@ export const articles: Article[] = [
     coverAlt: "Dos siluetas frente a frente con luz cálida entre ellas",
     tags: ["pareja", "relaciones", "amor", "celos", "confianza", "infidelidad", "vínculo", "intimidad"],
     content: `
+    cluster: "relaciones",
 <p>Soñar con tu pareja es de las cosas más naturales que puede hacer el cerebro. Es la persona con quien pasas más tiempo, con quien compartes más carga emocional, con quien el vínculo es más complejo. Que aparezca en los sueños es inevitable. Lo interesante es cómo aparece y qué dice eso de lo que está pasando.</p>
 
 <h2>Cuando el sueño es tranquilo y positivo</h2>
@@ -3684,6 +3697,7 @@ export const articles: Article[] = [
     coverAlt: "Figura humana moviéndose en cámara lenta entre sombras difusas",
     tags: ["no puedes correr", "piernas pesadas", "bloqueo", "impotencia", "huir", "sueños recurrentes", "ansiedad"],
     content: `
+    cluster: "suenos-recurrentes",
 <p>Hay algo que te persigue o que necesitas alcanzar, y tus piernas no responden. Van a cámara lenta. Pesan demasiado. Intentas correr y no avanzas. Es uno de los sueños más frustrantes que existen, y también uno de los más comunes.</p>
 
 <h2>Por qué ocurre físicamente este sueño</h2>
@@ -3745,6 +3759,7 @@ export const articles: Article[] = [
     coverAlt: "Mancha roja difuminada sobre superficie oscura con luz lateral",
     tags: ["sangre", "herida", "vitalidad", "pérdida", "miedo", "símbolos", "cuerpo", "emoción intensa"],
     content: `
+    cluster: "simbolos-en-suenos",
 <p>La sangre en un sueño casi siempre genera una reacción fuerte, aunque no haya dolor. Es uno de los símbolos más cargados que existen, y también uno de los más malinterpretados porque se asume directamente que significa algo malo.</p>
 
 <p>No es así de simple. Lo que significa depende completamente del contexto, y hay versiones del sueño con sangre que no apuntan al peligro sino a lo contrario.</p>
@@ -3820,6 +3835,7 @@ export const articles: Article[] = [
     coverAlt: "Dos siluetas bajo luz suave con distancia entre ellas",
     tags: ["atracción", "deseo", "crush", "relaciones", "expectativas", "miedo al rechazo", "amor"],
     content: `
+    cluster: "relaciones",
 <p>Es de los sueños que más gente busca, y con razón: soñar con alguien que te gusta deja una huella emocional que cuesta sacudir. A veces el sueño es tan bueno que despertar duele. Otras veces sale mal: rechazo, indiferencia, o algo que no querías ver.</p>
 
 <p>En ambos casos, lo que el cerebro está haciendo tiene más información de la que parece.</p>
@@ -3887,6 +3903,7 @@ export const articles: Article[] = [
     coverAlt: "Araña en el centro de su tela con luz difusa al fondo",
     tags: ["arañas", "animales", "miedo", "trampa", "manipulación", "creatividad", "telaraña", "símbolos"],
     content: `
+    cluster: "suenos-con-animales",
 <p>Las arañas provocan una respuesta instintiva en muchísimas personas, y en los sueños esa reacción se amplifica. Pero la simbología de las arañas va mucho más allá del miedo: son uno de los símbolos más ricos y ambivalentes que aparecen en los sueños.</p>
 
 <h2>Por qué las arañas tienen tanto peso simbólico</h2>
@@ -3950,6 +3967,7 @@ export const articles: Article[] = [
     coverAlt: "Carretera nocturna con luces difusas y sensación de velocidad",
     tags: ["accidente", "coche", "control", "miedo", "conductor", "dirección", "ansiedad", "pérdida de control"],
     content: `
+    cluster: "suenos-con-muerte-y-miedo",
 <p>El impacto, los frenos que no responden, el volante que gira solo. Los sueños con accidentes de coche se sienten físicamente reales y dejan una activación que cuesta sacudir al despertar. Son uno de los sueños de ansiedad más frecuentes, y tienen una lectura bastante consistente.</p>
 
 <h2>El coche como símbolo de dirección y control</h2>
@@ -4013,6 +4031,7 @@ export const articles: Article[] = [
     coverAlt: "Figura con boca abierta en silencio sobre fondo oscuro",
     tags: ["no puedes hablar", "gritar", "voz", "silencio", "ignorado", "expresión", "sueños recurrentes", "frustración"],
     content: `
+    cluster: "suenos-recurrentes",
 <p>Abres la boca y no sale nada. O sale un susurro donde debería haber un grito. O hablas con claridad pero la persona que tienes delante actúa como si no existieras. Es uno de los sueños más frustrantes que hay, y también uno de los que más información directa da sobre lo que está pasando.</p>
 
 <h2>Por qué el cerebro bloquea la voz en el sueño</h2>
@@ -4073,6 +4092,7 @@ export const articles: Article[] = [
     coverAlt: "Silueta de figura de autoridad al otro lado de un escritorio con luz cenital",
     tags: ["jefe", "autoridad", "trabajo", "evaluación", "miedo a fallar", "poder", "aprobación", "ansiedad laboral"],
     content: `
+    cluster: "suenos-de-dinero-y-trabajo",
 <p>El jefe aparece en sueños con mucha frecuencia, incluso en personas que tienen una buena relación con él en la vida real. Incluso en personas que no tienen jefe. La figura del superior jerárquico lleva una carga simbólica que va mucho más allá de la persona concreta.</p>
 
 <h2>El jefe como símbolo de autoridad</h2>
@@ -4145,6 +4165,7 @@ export const articles: Article[] = [
     coverAlt: "Ilustración de cerebro con zonas activas iluminadas sobre fondo oscuro",
     tags: ["neurociencia", "REM", "cerebro", "amígdala", "corteza prefrontal", "sueños", "biología", "ciencia del sueño"],
     content: `
+    cluster: "ciencia-del-sueno",
 <p>Durante siglos, los sueños se interpretaron como mensajes divinos, visiones proféticas o manifestaciones del alma. Hoy sabemos bastante más sobre lo que ocurre realmente, y lo que ocurre es, si cabe, más fascinante que cualquier mito.</p>
 
 <p>El cerebro dormido no descansa. En muchos sentidos, trabaja más que despierto.</p>
@@ -4238,6 +4259,7 @@ export const articles: Article[] = [
     coverAlt: "Dos siluetas de distinto tamaño caminando en paralelo con luz lateral",
     tags: ["hermanos", "familia", "rivalidad", "infancia", "vínculos", "celos", "protección", "relaciones"],
     content: `
+    cluster: "relaciones",
 <p>El vínculo con los hermanos es uno de los más largos y de los más cargados emocionalmente que existen. Empieza en la infancia, cuando todo era más intenso e inmediato, y lleva décadas de historia acumulada. Los sueños con hermanos suelen traer a la superficie exactamente eso: la historia, las dinámicas que se formaron entonces y que a veces siguen activas aunque nadie las nombre.</p>
 
 <h2>Por qué los hermanos aparecen en los sueños</h2>
@@ -4309,6 +4331,7 @@ export const articles: Article[] = [
     coverAlt: "Silueta de pájaro en vuelo contra cielo luminoso al amanecer",
     tags: ["pájaros", "animales", "libertad", "vuelo", "aspiraciones", "mensajes", "símbolos", "jaula"],
     content: `
+    cluster: "suenos-con-animales",
 <p>Los pájaros son de los pocos animales que dominan un espacio que los humanos no pueden alcanzar sin ayuda: el aire. Eso los convierte, en los sueños, en símbolo natural de libertad, de perspectiva elevada y de todo lo que aspira a ir más allá de lo cotidiano.</p>
 
 <h2>El pájaro como símbolo general</h2>
@@ -4383,6 +4406,7 @@ export const articles: Article[] = [
     coverAlt: "Imagen dividida entre zona en color vibrante y zona en escala de grises",
     tags: ["color en sueños", "blanco y negro", "neurociencia", "percepción", "memoria visual", "sueños", "televisión"],
     content: `
+    cluster: "ciencia-del-sueno",
 <p>Es una de las preguntas más curiosas sobre los sueños, y la que más divide: ¿sueñas en color o en blanco y negro? La respuesta varía mucho de una persona a otra, y no es una cuestión de imaginación o de intensidad onírica. Hay ciencia detrás, y es más interesante de lo que parece.</p>
 
 <h2>Lo que dicen los datos</h2>
@@ -4450,6 +4474,7 @@ export const articles: Article[] = [
     coverAlt: "Andén de estación vacío con luz al fondo y vías que se pierden en el horizonte",
     tags: ["tren", "avión", "transporte", "viaje", "trayectoria", "perder el tren", "cambio", "destino", "símbolos"],
     content: `
+    cluster: "simbolos-en-suenos",
 <p>Los transportes son uno de los símbolos más ricos en el lenguaje de los sueños. Un tren, un avión, un autobús: todos representan algo en movimiento hacia algún lugar. Y todo lo que ocurra en torno a ese transporte, si lo pierdes, si va demasiado rápido, si no sabes adónde va, dice algo sobre cómo sientes tu propia trayectoria.</p>
 
 <h2>El transporte como símbolo de trayectoria vital</h2>
@@ -4523,6 +4548,7 @@ export const articles: Article[] = [
     coverAlt: "Mesa con alimentos bajo luz cálida, algunos en sombra",
     tags: ["comida", "hambre", "placer", "culpa", "necesidad", "cuerpo", "satisfacción", "símbolos"],
     content: `
+    cluster: "simbolos-en-suenos",
 <p>Soñar con comida es más frecuente de lo que la gente reconoce, y tiene muchas más capas de lo que parece a primera vista. La comida en los sueños casi nunca es solo comida: es el símbolo de lo que el cuerpo, la mente o las emociones necesitan y no siempre tienen.</p>
 
 <h2>La comida como símbolo de necesidad y satisfacción</h2>
@@ -4595,6 +4621,7 @@ export const articles: Article[] = [
     coverAlt: "Escritorio antiguo con objetos de otra época bajo luz cálida",
     tags: ["trabajo antiguo", "ex trabajo", "nostalgia", "identidad", "pasado laboral", "cambio", "comparación"],
     content: `
+    cluster: "suenos-de-dinero-y-trabajo",
 <p>Estás de vuelta en el trabajo que dejaste hace años. Las caras son las mismas, el espacio es el mismo, y en el sueño todo funciona como si nunca te hubieras ido. Al despertar, la primera reacción suele ser: ¿por qué he soñado con eso?</p>
 
 <p>Los sueños con trabajos anteriores son muy frecuentes, especialmente después de cambios laborales importantes, y tienen lecturas que van mucho más allá de la nostalgia.</p>
@@ -4661,6 +4688,7 @@ export const articles: Article[] = [
     coverAlt: "Manos vacías extendidas sobre fondo oscuro con luz tenue",
     tags: ["pérdida", "llaves", "móvil", "cartera", "buscar", "ansiedad", "control", "seguridad"],
     content: `
+    cluster: "suenos-con-muerte-y-miedo",
 <p>Buscas las llaves y no las encuentras. El móvil ha desaparecido. La cartera no está. O peor: has perdido a alguien en un lugar lleno de gente y no consigues encontrarlo. Los sueños de pérdida son de los más frecuentes y de los que más ansiedad dejan al despertar, incluso cuando te das cuenta de que era un sueño.</p>
 
 <h2>La estructura emocional de los sueños de pérdida</h2>
@@ -4731,6 +4759,7 @@ export const articles: Article[] = [
     coverAlt: "Horizonte con nubes oscuras y luz dramática sobre paisaje vacío",
     tags: ["catástrofe", "terremoto", "inundación", "guerra", "fin del mundo", "apocalipsis", "amenaza", "ansiedad"],
     content: `
+    cluster: "suenos-con-muerte-y-miedo",
 <p>El suelo tiembla. El agua sube. Hay una explosión en el horizonte. Estás en medio de algo que se derrumba y no hay salida clara. Los sueños catastrofistas son de los más intensos y de los que más activación dejan al despertar. Y son más frecuentes de lo que la mayoría cree.</p>
 
 <h2>Por qué el cerebro construye catástrofes</h2>
@@ -4810,6 +4839,7 @@ export const articles: Article[] = [
     coverAlt: "Siluetas de varias personas en conversación bajo luz cálida",
     tags: ["amigos", "amistad", "vínculos", "relaciones", "distancia", "traición", "pertenencia", "complicidad"],
     content: `
+    cluster: "relaciones",
 <p>Los amigos son los vínculos que elegimos: no los impone la familia ni el trabajo, los construimos. Cuando aparecen en los sueños, hay algo en esa elección y en lo que representa que el cerebro está procesando.</p>
 
 <h2>Por qué los amigos aparecen en los sueños</h2>
@@ -4875,6 +4905,7 @@ export const articles: Article[] = [
     coverAlt: "Siluetas de insectos sobre superficie clara con luz lateral",
     tags: ["insectos", "cucarachas", "hormigas", "moscas", "enjambre", "acumulación", "molestia", "invasión"],
     content: `
+    cluster: "suenos-con-animales",
 <p>Los insectos en los sueños generan una respuesta visceral inmediata en la mayoría de personas. Cucarachas que aparecen de la nada, hormigas que invaden, moscas que no paran, un enjambre que se acerca. La reacción es de asco o de miedo, a veces de los dos a la vez.</p>
 
 <p>Pero los insectos como símbolo en sueños tienen una característica que los hace distintos a otros animales: son pequeños, pero aparecen en cantidad. Y esa es exactamente la clave de su significado.</p>
@@ -4945,6 +4976,7 @@ export const articles: Article[] = [
     coverAlt: "Corredor oscuro con pequeño punto de luz al fondo",
     tags: ["oscuridad", "sombra", "miedo", "desconocido", "incertidumbre", "inconsciente", "símbolos", "noche"],
     content: `
+    cluster: "simbolos-en-suenos",
 <p>La oscuridad es uno de los escenarios más frecuentes en los sueños, y también uno de los más ambivalentes. No siempre es amenazante. Pero cuando genera miedo, casi siempre hay algo específico que señala.</p>
 
 <h2>La oscuridad como símbolo: los dos polos</h2>
@@ -5013,6 +5045,7 @@ export const articles: Article[] = [
     coverAlt: "Armario abierto con ropa colgada y luz suave lateral",
     tags: ["ropa", "vestimenta", "identidad", "imagen", "apariencia", "rol", "disfraz", "presentación"],
     content: `
+    cluster: "simbolos-en-suenos",
 <p>La ropa tiene una función que va más allá de abrigar: es lo que mostramos al mundo, la capa entre nosotros y los demás, la señal de quiénes somos o de quiénes queremos parecer. En los sueños, esa función simbólica se amplifica.</p>
 
 <h2>La ropa como símbolo de identidad y presentación</h2>
@@ -5078,6 +5111,7 @@ export const articles: Article[] = [
     coverAlt: "Caballo al galope en campo abierto bajo cielo nublado",
     tags: ["caballos", "animales", "libertad", "fuerza", "energía", "instinto", "poder"],
     content: `
+    cluster: "suenos-con-animales",
 <p>Un caballo en los sueños no pasa desapercibido. Tiene presencia, peso, energía. Cuando aparece, algo relacionado con la fuerza o con la libertad está siendo procesado.</p>
 
 <p>El caballo es uno de los animales más cargados simbólicamente en la historia humana: compañero de trabajo, símbolo de poder, representación de la libertad de movimiento. En los sueños, concentra todo eso.</p>
@@ -5134,6 +5168,7 @@ export const articles: Article[] = [
     coverAlt: "Persona sola en una calle desconocida de noche",
     tags: ["perdido", "desorientación", "ansiedad", "camino", "dirección", "incertidumbre", "decisiones"],
     content: `
+    cluster: "suenos-con-muerte-y-miedo",
 <p>Estás en un lugar que no reconoces, intentas volver a algún sitio y no encuentras la salida. O sí reconoces el lugar pero algo está mal: las calles no llevan a donde deberían, el mapa no cuadra. Ese sueño deja una sensación particular de angustia.</p>
 
 <p>Soñar que estás perdido es uno de los patrones de ansiedad más frecuentes, y su lectura suele ser bastante directa.</p>
@@ -5193,6 +5228,7 @@ export const articles: Article[] = [
     coverAlt: "Silueta de persona con luz tenue que evoca fragilidad y vulnerabilidad",
     tags: ["enfermedad", "dolor", "cuerpo", "vulnerabilidad", "salud", "hipocondría", "estrés físico"],
     content: `
+    cluster: "suenos-con-el-cuerpo",
 <p>Te despiertas de un sueño en el que tenías una enfermedad grave, o en el que sentías un dolor físico intenso. La experiencia puede ser tan vívida que tardas unos segundos en comprobar que estás bien.</p>
 
 <p>Estos sueños generan inquietud, especialmente si hay alguna preocupación de salud en el fondo. Pero en la mayoría de casos, no tienen un significado médico literal.</p>
@@ -5244,6 +5280,7 @@ export const articles: Article[] = [
     coverAlt: "Escritorio ordenado con trofeo o diploma sobre fondo de luz cálida",
     tags: ["éxito", "ascenso", "trabajo", "reconocimiento", "ambición", "validación", "logro"],
     content: `
+    cluster: "suenos-de-dinero-y-trabajo",
 <p>Te ascienden, te felicitan, logras algo importante en el trabajo. Despiertas con una sensación agradable... o con una extraña melancolía al darte cuenta de que no era real.</p>
 
 <p>Soñar con éxito laboral parece, a primera vista, un sueño positivo. Y a veces lo es. Pero merece una lectura más matizada.</p>
@@ -5302,6 +5339,7 @@ export const articles: Article[] = [
     coverAlt: "Lobo aullando bajo la luna en un bosque oscuro",
     tags: ["lobos", "animales", "instinto", "amenaza", "manada", "poder", "naturaleza"],
     content: `
+    cluster: "suenos-con-animales",
 <p>Un lobo en los sueños no es solo un animal. Es presencia. Puede ser amenaza, puede ser guía, puede ser algo en ti mismo que tiene más fuerza de la que reconoces.</p>
 
 <p>Los lobos ocupan un lugar singular en el imaginario humano: son animales de manada, de instinto, de lealtad feroz y también de peligro. Todo eso llega al sueño.</p>
