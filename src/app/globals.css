@@ -11,6 +11,7 @@
   --accent-hover: #9580ff;
   --text: #e8e6f0;
   --muted: #8b87a0;
+  --font-playfair: Georgia, "Times New Roman", serif;
 }
 
 * {
