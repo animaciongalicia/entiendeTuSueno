@@ -335,7 +335,7 @@ REQUISITOS DE CONTENIDO:
 - Menciona de forma natural 2-3 artículos relacionados usando estos slugs:
 ${relatedLinks}
 - Incluye una sección "Preguntas frecuentes" con 3-4 preguntas y respuestas cortas al final
-- El content debe estar en formato Markdown
+- El content debe estar en formato HTML (usa <p>, <h2>, <h3>, <ul>, <ol>, <li>, <strong>, <em>, <a href="...">) — NO uses Markdown (sin ##, sin **, sin -, sin [texto](url))
 - Primero párrafo muy atractivo para retener al lector
 
 FORMATO DE RESPUESTA:
@@ -354,7 +354,7 @@ Devuelve ÚNICA Y EXCLUSIVAMENTE el objeto TypeScript siguiente, sin bloques de 
   coverAlt: "Descripción breve de la imagen de portada para SEO",
   tags: ${JSON.stringify(postConfig.tags)},
   content: \`
-[contenido markdown aquí]
+[contenido HTML aquí — ejemplo: <p>Texto...</p><h2>Sección</h2><ul><li>Item</li></ul>]
 \`,
 }`;
 

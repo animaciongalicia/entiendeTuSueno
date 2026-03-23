@@ -5387,92 +5387,92 @@ export const articles: Article[] = [
   coverImage: "/images/blog/simbolos-en-suenos/sonar-con-agua-turbia.webp",
   coverAlt: "Superficie de agua turbia y oscura reflejando sombras, representando emociones confusas e incertidumbre en los sueños",
   tags: ["agua turbia", "emociones", "incertidumbre", "inconsciente"],
-  content: `
-Te despertaste con esa imagen pegada a la retina: agua sucia, oscura, revuelta, que no te dejaba ver el fondo. Quizá estabas de pie frente a un río marrón, o metida hasta las rodillas en una piscina que de pronto se volvió turbia, o simplemente veías cómo el agua de un grifo salía con un color que no debería tener. Sea cual sea la escena exacta, algo dentro de ti sabía que esa agua no estaba bien, y por eso ahora estás aquí buscando respuestas. Tranquilo, es uno de los sueños más comunes y más cargados de significado que existen, y en este artículo vamos a desmenuzarlo juntos para que entiendas qué te está diciendo tu mente.
+  content: `<p>Te despertaste con esa imagen pegada a la retina: agua sucia, oscura, revuelta, que no te dejaba ver el fondo. Quizá estabas de pie frente a un río marrón, o metida hasta las rodillas en una piscina que de pronto se volvió turbia, o simplemente veías cómo el agua de un grifo salía con un color que no debería tener. Sea cual sea la escena exacta, algo dentro de ti sabía que esa agua no estaba bien, y por eso ahora estás aquí buscando respuestas. Tranquilo, es uno de los sueños más comunes y más cargados de significado que existen, y en este artículo vamos a desmenuzarlo juntos para que entiendas qué te está diciendo tu mente.</p>
 
-## ¿Qué simboliza el agua turbia en los sueños?
+<h2>¿Qué simboliza el agua turbia en los sueños?</h2>
 
-Antes de hablar del agua turbia en concreto, conviene recordar algo fundamental: el agua en los sueños casi siempre representa nuestras **emociones**, nuestro mundo interior, aquello que fluye por debajo de la superficie consciente. Si quieres profundizar en este simbolismo general, te recomiendo nuestro artículo sobre [sueños con agua](/blog/suenos-con-agua), donde exploramos todas sus formas y matices.
+<p>Antes de hablar del agua turbia en concreto, conviene recordar algo fundamental: el agua en los sueños casi siempre representa nuestras <strong>emociones</strong>, nuestro mundo interior, aquello que fluye por debajo de la superficie consciente. Si quieres profundizar en este simbolismo general, te recomiendo nuestro artículo sobre <a href="/blog/suenos-con-agua">sueños con agua</a>, donde exploramos todas sus formas y matices.</p>
 
-Ahora bien, cuando esa agua aparece **turbia**, el mensaje cambia de tono. El agua clara habla de paz emocional, de claridad mental, de conexión con uno mismo. El agua turbia, en cambio, señala justo lo contrario:
+<p>Ahora bien, cuando esa agua aparece <strong>turbia</strong>, el mensaje cambia de tono. El agua clara habla de paz emocional, de claridad mental, de conexión con uno mismo. El agua turbia, en cambio, señala justo lo contrario:</p>
 
-- **Confusión emocional.** Hay algo que sientes pero que no logras identificar con nitidez. Puede ser una mezcla de emociones contradictorias —tristeza y alivio, amor y resentimiento— que se han revuelto dentro de ti como sedimento en el fondo de un lago.
-- **Incertidumbre.** No sabes qué va a pasar. Quizá estás ante una decisión importante, un cambio de trabajo, una relación que tambalea, y tu inconsciente te lo devuelve en forma de agua que no te deja ver qué hay debajo.
-- **Emociones reprimidas.** A veces el agua se enturbia porque hemos removido algo que llevaba tiempo depositado en el fondo. Un conflicto sin resolver, un duelo pendiente, una conversación que llevas meses evitando.
-- **Desconfianza o sensación de peligro.** El agua turbia nos genera rechazo instintivo —no beberías de ella, no meterías la mano sin pensarlo—. Tu mente usa esa misma reacción visceral para decirte que algo en tu entorno no te inspira confianza.
+<ul>
+<li><strong>Confusión emocional.</strong> Hay algo que sientes pero que no logras identificar con nitidez. Puede ser una mezcla de emociones contradictorias —tristeza y alivio, amor y resentimiento— que se han revuelto dentro de ti como sedimento en el fondo de un lago.</li>
+<li><strong>Incertidumbre.</strong> No sabes qué va a pasar. Quizá estás ante una decisión importante, un cambio de trabajo, una relación que tambalea, y tu inconsciente te lo devuelve en forma de agua que no te deja ver qué hay debajo.</li>
+<li><strong>Emociones reprimidas.</strong> A veces el agua se enturbia porque hemos removido algo que llevaba tiempo depositado en el fondo. Un conflicto sin resolver, un duelo pendiente, una conversación que llevas meses evitando.</li>
+<li><strong>Desconfianza o sensación de peligro.</strong> El agua turbia nos genera rechazo instintivo —no beberías de ella, no meterías la mano sin pensarlo—. Tu mente usa esa misma reacción visceral para decirte que algo en tu entorno no te inspira confianza.</li>
+</ul>
 
-No se trata de que tu sueño sea una "mala señal" ni de que debas preocuparte. Se trata de que tu inconsciente tiene una forma muy visual de decirte: *oye, hay algo que necesitas mirar con más atención*.
+<p>No se trata de que tu sueño sea una "mala señal" ni de que debas preocuparte. Se trata de que tu inconsciente tiene una forma muy visual de decirte: <em>oye, hay algo que necesitas mirar con más atención</em>.</p>
 
-## Las variaciones más comunes de este sueño
+<h2>Las variaciones más comunes de este sueño</h2>
 
-No todos los sueños con agua turbia son iguales. Los detalles importan, y mucho. Veamos las versiones que más se repiten y qué matiz aporta cada una.
+<p>No todos los sueños con agua turbia son iguales. Los detalles importan, y mucho. Veamos las versiones que más se repiten y qué matiz aporta cada una.</p>
 
-### Soñar que caminas o nadas en agua turbia
+<h3>Soñar que caminas o nadas en agua turbia</h3>
 
-Esta es probablemente la variación más frecuente. Estás **dentro** del agua, avanzando con dificultad, sin ver lo que hay debajo de tus pies. Este sueño suele aparecer cuando estás atravesando una etapa vital complicada y sientes que avanzas a ciegas. No sabes si el siguiente paso es seguro, pero no tienes más remedio que seguir caminando. La buena noticia es que **estás avanzando**. Tu mente no te muestra paralizado; te muestra en movimiento, aunque sea con miedo.
+<p>Esta es probablemente la variación más frecuente. Estás <strong>dentro</strong> del agua, avanzando con dificultad, sin ver lo que hay debajo de tus pies. Este sueño suele aparecer cuando estás atravesando una etapa vital complicada y sientes que avanzas a ciegas. No sabes si el siguiente paso es seguro, pero no tienes más remedio que seguir caminando. La buena noticia es que <strong>estás avanzando</strong>. Tu mente no te muestra paralizado; te muestra en movimiento, aunque sea con miedo.</p>
 
-### Soñar con agua turbia que sube o te inunda
+<h3>Soñar con agua turbia que sube o te inunda</h3>
 
-Cuando el agua turbia sube de nivel y amenaza con cubrirte, el mensaje suele estar relacionado con **emociones que te desbordan**. Estrés acumulado, ansiedad, una situación que sientes que se te está yendo de las manos. Es la versión emocional de sentir que "el agua te llega al cuello". Si en el sueño llegas a sentir que no puedes moverte o que te quedas atrapado, puede conectar con sensaciones similares a la [parálisis del sueño](/blog/paralisis-del-sueno), ese estado en el que el cuerpo no responde mientras la mente está activa.
+<p>Cuando el agua turbia sube de nivel y amenaza con cubrirte, el mensaje suele estar relacionado con <strong>emociones que te desbordan</strong>. Estrés acumulado, ansiedad, una situación que sientes que se te está yendo de las manos. Es la versión emocional de sentir que "el agua te llega al cuello". Si en el sueño llegas a sentir que no puedes moverte o que te quedas atrapado, puede conectar con sensaciones similares a la <a href="/blog/paralisis-del-sueno">parálisis del sueño</a>, ese estado en el que el cuerpo no responde mientras la mente está activa.</p>
 
-### Soñar con un río de agua turbia
+<h3>Soñar con un río de agua turbia</h3>
 
-Los ríos simbolizan el **flujo de la vida**, el paso del tiempo, el curso de los acontecimientos. Un río turbio puede indicar que sientes que tu vida está atravesando una fase confusa, que las cosas no fluyen con la claridad que te gustaría. También puede reflejar preocupación por el rumbo que están tomando ciertos eventos, especialmente si en el sueño el río arrastra objetos o tiene una corriente fuerte.
+<p>Los ríos simbolizan el <strong>flujo de la vida</strong>, el paso del tiempo, el curso de los acontecimientos. Un río turbio puede indicar que sientes que tu vida está atravesando una fase confusa, que las cosas no fluyen con la claridad que te gustaría. También puede reflejar preocupación por el rumbo que están tomando ciertos eventos, especialmente si en el sueño el río arrastra objetos o tiene una corriente fuerte.</p>
 
-### Soñar con beber agua turbia
+<h3>Soñar con beber agua turbia</h3>
 
-Este sueño puede resultar especialmente desagradable. Beber agua turbia en un sueño suele relacionarse con **aceptar algo que sabes que no te conviene**: una relación tóxica, un trabajo que te hace daño, una mentira que te has tragado. Tu cuerpo onírico reacciona con asco porque tu intuición sabe que eso no es bueno para ti.
+<p>Este sueño puede resultar especialmente desagradable. Beber agua turbia en un sueño suele relacionarse con <strong>aceptar algo que sabes que no te conviene</strong>: una relación tóxica, un trabajo que te hace daño, una mentira que te has tragado. Tu cuerpo onírico reacciona con asco porque tu intuición sabe que eso no es bueno para ti.</p>
 
-### Soñar con agua turbia y personas conocidas
+<h3>Soñar con agua turbia y personas conocidas</h3>
 
-A veces el sueño no va solo de ti. Si en la escena aparece un familiar, tu pareja o un amigo junto al agua turbia, el sueño puede estar señalando una **relación que atraviesa un momento de confusión o conflicto**. Quizá hay cosas no dichas entre vosotros, desconfianza latente o una preocupación profunda por esa persona. En algunos casos, cuando el sueño involucra a un familiar en un contexto de angustia intensa, puede valer la pena explorar también el significado de [soñar con la muerte de un familiar](/blog/sonar-con-la-muerte-de-un-familiar), ya que a veces nuestro inconsciente utiliza escenarios extremos para expresar miedos que en realidad son más sutiles.
+<p>A veces el sueño no va solo de ti. Si en la escena aparece un familiar, tu pareja o un amigo junto al agua turbia, el sueño puede estar señalando una <strong>relación que atraviesa un momento de confusión o conflicto</strong>. Quizá hay cosas no dichas entre vosotros, desconfianza latente o una preocupación profunda por esa persona. En algunos casos, cuando el sueño involucra a un familiar en un contexto de angustia intensa, puede valer la pena explorar también el significado de <a href="/blog/sonar-con-la-muerte-de-un-familiar">soñar con la muerte de un familiar</a>, ya que a veces nuestro inconsciente utiliza escenarios extremos para expresar miedos que en realidad son más sutiles.</p>
 
-### Soñar con agua turbia que se aclara
+<h3>Soñar con agua turbia que se aclara</h3>
 
-Si en algún momento del sueño el agua empieza a volverse transparente, presta atención: es una señal muy positiva. Significa que, aunque ahora estés en un momento de confusión, **hay parte de ti que ya está procesando y resolviendo**. La claridad está llegando, aunque todavía no la percibas del todo en tu vida consciente.
+<p>Si en algún momento del sueño el agua empieza a volverse transparente, presta atención: es una señal muy positiva. Significa que, aunque ahora estés en un momento de confusión, <strong>hay parte de ti que ya está procesando y resolviendo</strong>. La claridad está llegando, aunque todavía no la percibas del todo en tu vida consciente.</p>
 
-## ¿Qué influye en que tengas este sueño?
+<h2>¿Qué influye en que tengas este sueño?</h2>
 
-Los sueños no aparecen por casualidad. Si has soñado con agua turbia, es probable que en tu vida actual exista alguno de estos detonantes:
+<p>Los sueños no aparecen por casualidad. Si has soñado con agua turbia, es probable que en tu vida actual exista alguno de estos detonantes:</p>
 
-- **Estrés sostenido.** Llevas semanas o meses con una carga mental alta y no has tenido espacio para procesarla.
-- **Una decisión pendiente.** Hay algo que sabes que tienes que decidir pero que sigues postergando porque no ves con claridad cuál es la mejor opción.
-- **Un conflicto emocional sin resolver.** Con alguien o contigo mismo. Algo que duele pero que no has enfrentado.
-- **Cambios recientes.** Una mudanza, una ruptura, un nuevo trabajo, la pérdida de alguien. Los cambios remueven el fondo emocional como una piedra lanzada a un estanque.
-- **Agotamiento físico.** A veces el cuerpo cansado genera sueños más oscuros e inquietantes simplemente porque no tiene la energía para regular las emociones durante el descanso.
+<ul>
+<li><strong>Estrés sostenido.</strong> Llevas semanas o meses con una carga mental alta y no has tenido espacio para procesarla.</li>
+<li><strong>Una decisión pendiente.</strong> Hay algo que sabes que tienes que decidir pero que sigues postergando porque no ves con claridad cuál es la mejor opción.</li>
+<li><strong>Un conflicto emocional sin resolver.</strong> Con alguien o contigo mismo. Algo que duele pero que no has enfrentado.</li>
+<li><strong>Cambios recientes.</strong> Una mudanza, una ruptura, un nuevo trabajo, la pérdida de alguien. Los cambios remueven el fondo emocional como una piedra lanzada a un estanque.</li>
+<li><strong>Agotamiento físico.</strong> A veces el cuerpo cansado genera sueños más oscuros e inquietantes simplemente porque no tiene la energía para regular las emociones durante el descanso.</li>
+</ul>
 
-## Qué hacer con esta información
+<h2>Qué hacer con esta información</h2>
 
-Soñar con agua turbia no es un castigo ni una profecía. Es una **invitación a la introspección**. Tu mente te está diciendo que hay algo ahí abajo que necesita atención. Aquí van algunas ideas prácticas para trabajar con este sueño:
+<p>Soñar con agua turbia no es un castigo ni una profecía. Es una <strong>invitación a la introspección</strong>. Tu mente te está diciendo que hay algo ahí abajo que necesita atención. Aquí van algunas ideas prácticas para trabajar con este sueño:</p>
 
-1. **Escribe el sueño nada más despertar.** Los detalles se evaporan rápido. Anota todo lo que recuerdes: el lugar, las sensaciones, si había alguien más, qué hacías tú, cómo era el agua exactamente. Cuanto más detallada sea tu descripción, más fácil será encontrar el hilo que conecta el sueño con tu vida real.
+<ol>
+<li><strong>Escribe el sueño nada más despertar.</strong> Los detalles se evaporan rápido. Anota todo lo que recuerdes: el lugar, las sensaciones, si había alguien más, qué hacías tú, cómo era el agua exactamente. Cuanto más detallada sea tu descripción, más fácil será encontrar el hilo que conecta el sueño con tu vida real.</li>
+<li><strong>Pregúntate qué área de tu vida está "turbia" ahora mismo.</strong> No hace falta pensarlo demasiado. Normalmente, la primera respuesta que viene a la mente es la correcta. ¿Dónde sientes confusión? ¿Qué te genera incertidumbre? ¿Qué emoción llevas tiempo evitando?</li>
+<li><strong>Habla de lo que sientes.</strong> Con alguien de confianza, con un terapeuta, o incluso en voz alta contigo mismo. El agua se enturbia cuando las emociones se acumulan sin salida. Darles palabra es como instalar un filtro.</li>
+<li><strong>No te asustes si el sueño se repite.</strong> Los sueños recurrentes insisten porque el tema que los genera aún no se ha resuelto. No es algo malo; es tu mente siendo persistente y cuidadosa contigo.</li>
+<li><strong>Cuida tu descanso.</strong> Puede parecer obvio, pero dormir mal genera sueños más intensos y perturbadores. Intenta crear una rutina nocturna que te ayude a llegar al sueño con algo más de calma.</li>
+</ol>
 
-2. **Pregúntate qué área de tu vida está "turbia" ahora mismo.** No hace falta pensarlo demasiado. Normalmente, la primera respuesta que viene a la mente es la correcta. ¿Dónde sientes confusión? ¿Qué te genera incertidumbre? ¿Qué emoción llevas tiempo evitando?
+<h2>Preguntas frecuentes</h2>
 
-3. **Habla de lo que sientes.** Con alguien de confianza, con un terapeuta, o incluso en voz alta contigo mismo. El agua se enturbia cuando las emociones se acumulan sin salida. Darles palabra es como instalar un filtro.
+<h3>¿Soñar con agua turbia es un mal presagio?</h3>
 
-4. **No te asustes si el sueño se repite.** Los sueños recurrentes insisten porque el tema que los genera aún no se ha resuelto. No es algo malo; es tu mente siendo persistente y cuidadosa contigo.
+<p>No. Los sueños no predicen el futuro. Soñar con agua turbia refleja tu estado emocional actual, especialmente confusión, incertidumbre o emociones sin procesar. Es una señal de que algo necesita tu atención, no una advertencia de que algo malo vaya a ocurrir.</p>
 
-5. **Cuida tu descanso.** Puede parecer obvio, pero dormir mal genera sueños más intensos y perturbadores. Intenta crear una rutina nocturna que te ayude a llegar al sueño con algo más de calma.
+<h3>¿Por qué sueño con agua turbia de forma recurrente?</h3>
 
-## Preguntas frecuentes
+<p>Los sueños recurrentes aparecen cuando hay un tema emocional que tu inconsciente considera importante y que aún no has abordado. Si este sueño se repite con frecuencia, probablemente hay una situación en tu vida —un conflicto, una decisión, un duelo— que sigue sin resolverse.</p>
 
-### ¿Soñar con agua turbia es un mal presagio?
+<h3>¿Es diferente soñar con agua turbia que con agua sucia o negra?</h3>
 
-No. Los sueños no predicen el futuro. Soñar con agua turbia refleja tu estado emocional actual, especialmente confusión, incertidumbre o emociones sin procesar. Es una señal de que algo necesita tu atención, no una advertencia de que algo malo vaya a ocurrir.
+<p>Sí, hay matices. El agua turbia suele asociarse con confusión e incertidumbre: no ves claro, pero no necesariamente hay algo "contaminado". El agua sucia con residuos o mal olor puede apuntar a emociones más tóxicas o a situaciones que sientes como dañinas. El agua completamente negra suele relacionarse con miedos profundos o aspectos desconocidos de ti mismo.</p>
 
-### ¿Por qué sueño con agua turbia de forma recurrente?
+<h3>¿Debería preocuparme si en el sueño me ahogo en agua turbia?</h3>
 
-Los sueños recurrentes aparecen cuando hay un tema emocional que tu inconsciente considera importante y que aún no has abordado. Si este sueño se repite con frecuencia, probablemente hay una situación en tu vida —un conflicto, una decisión, un duelo— que sigue sin resolverse.
-
-### ¿Es diferente soñar con agua turbia que con agua sucia o negra?
-
-Sí, hay matices. El agua turbia suele asociarse con confusión e incertidumbre: no ves claro, pero no necesariamente hay algo "contaminado". El agua sucia con residuos o mal olor puede apuntar a emociones más tóxicas o a situaciones que sientes como dañinas. El agua completamente negra suele relacionarse con miedos profundos o aspectos desconocidos de ti mismo.
-
-### ¿Debería preocuparme si en el sueño me ahogo en agua turbia?
-
-Soñar que te ahogas puede ser muy angustiante, pero no indica peligro real. Generalmente refleja una sensación de estar sobrepasado emocionalmente, de no poder con todo. Si este tipo de sueños afectan tu descanso o tu estado de ánimo durante el día, puede ser un buen momento para hablar con un profesional que te ayude a gestionar lo que estás sintiendo.
-`,
+<p>Soñar que te ahogas puede ser muy angustiante, pero no indica peligro real. Generalmente refleja una sensación de estar sobrepasado emocionalmente, de no poder con todo. Si este tipo de sueños afectan tu descanso o tu estado de ánimo durante el día, puede ser un buen momento para hablar con un profesional que te ayude a gestionar lo que estás sintiendo.</p>`,
 },
 ];
 
