@@ -48,6 +48,7 @@ export async function POST(req: NextRequest) {
 
     // ── 2. Generar token y guardar suscriptor (sin verificar) ───────────────
     const token = crypto.randomUUID();
+    const tokenExpiresAt = new Date(Date.now() + 72 * 60 * 60 * 1000).toISOString();
 
     const { error: dbError } = await supabaseAdmin
       .from("newsletter_subscribers")
@@ -56,6 +57,7 @@ export async function POST(req: NextRequest) {
           email: sanitizedEmail,
           contexto: contexto ?? "blog",
           verification_token: token,
+          token_expires_at: tokenExpiresAt,
           verified: false,
         },
         { onConflict: "email" }

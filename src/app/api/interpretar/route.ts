@@ -180,7 +180,6 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json({
       free: freeResult,
-      premium: premiumResult,
       reportId: data?.id ?? null,
     });
   } catch (err) {

@@ -16,12 +16,37 @@ export async function GET(req: NextRequest) {
     return htmlResponse(errorPage("El enlace no es válido."), 400);
   }
 
+  // Buscar el suscriptor por token y comprobar que no haya expirado
+  const { data: subscriber } = await supabaseAdmin
+    .from("newsletter_subscribers")
+    .select("email, token_expires_at")
+    .eq("verification_token", token)
+    .maybeSingle();
+
+  if (!subscriber) {
+    return htmlResponse(
+      errorPage("Este enlace ya fue usado o ha expirado."),
+      400
+    );
+  }
+
+  if (
+    !subscriber.token_expires_at ||
+    new Date(subscriber.token_expires_at) < new Date()
+  ) {
+    return htmlResponse(
+      errorPage("Este enlace ha expirado. Vuelve a suscribirte para recibir uno nuevo."),
+      400
+    );
+  }
+
   const { data, error } = await supabaseAdmin
     .from("newsletter_subscribers")
     .update({
       verified: true,
       verified_at: new Date().toISOString(),
       verification_token: null,
+      token_expires_at: null,
     })
     .eq("verification_token", token)
     .select("email")
