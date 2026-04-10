@@ -13,7 +13,11 @@ create index if not exists newsletter_subscribers_token_idx
   where verification_token is not null;
 
 -- Vista de suscriptores verificados (útil para Make o consultas manuales)
-create or replace view newsletter_verified as
+-- security_invoker = true: la vista usa los permisos del usuario que consulta,
+-- no los del owner, para que RLS de newsletter_subscribers se aplique correctamente.
+create or replace view newsletter_verified
+  with (security_invoker = true)
+as
   select email, contexto, created_at, verified_at
   from newsletter_subscribers
   where verified = true
