@@ -19,11 +19,20 @@ const client = new Anthropic();
 //   - Borra una entrada de aquí cuando el artículo esté publicado.
 //
 // Artículos ya publicados (no añadir de nuevo):
+// Lote inicial (manual):
 // - sonar-que-no-puedes-correr, suenos-de-dientes-que-se-caen
 // - sonar-con-tu-ex, suenos-de-persecucion, suenos-de-volar
 // - sonar-con-caballos, sonar-que-estas-perdido
 // - sonar-con-enfermedad-o-dolor, sonar-con-exito-o-ascenso-laboral
 // - sonar-con-lobos
+// Auto-generados por este script:
+// - sonar-con-agua-turbia (2026-03-23)
+// - sonar-con-toros (2026-03-25)
+// - sonar-con-el-telefono-o-con-no-poder-llamar (2026-03-30)
+// - sonar-con-tu-casa-de-la-infancia (2026-04-01)
+// - sonar-con-tu-padre-o-figura-paterna (2026-04-03)
+// - sonar-que-no-tienes-dinero-o-que-pierdes-todo (2026-04-06)
+// - sonar-con-leones (2026-04-08)
 // ============================================================
 
 const PENDING_POSTS = [
