@@ -353,8 +353,8 @@ export const pillarPages: PillarPage[] = [
     metaTitle: "Soñar con la Muerte: Qué Significa y Por Qué No Debes Asustarte",
     metaDescription:
       "Guía sobre sueños con la muerte y el miedo. Por qué soñar con morir no es un mal presagio, qué simboliza cada variante y cómo trabajar con el inconsciente.",
-    category: "Emociones",
-    categorySlug: "emociones",
+    category: "Ansiedad y Miedos",
+    categorySlug: "ansiedad-y-miedos",
     publishedAt: "2024-01-10",
     updatedAt: "2024-03-01",
     readingTime: 15,
@@ -525,8 +525,8 @@ export const pillarPages: PillarPage[] = [
     metaTitle: "Soñar con Dinero: Qué Significa y Qué Revela sobre la Abundancia",
     metaDescription:
       "Guía sobre sueños con dinero, trabajo y abundancia. Qué significa encontrar dinero, perderlo, soñar que te despiden y cómo reflejan tu autoestima.",
-    category: "Emociones",
-    categorySlug: "emociones",
+    category: "Trabajo y Dinero",
+    categorySlug: "trabajo-y-dinero",
     publishedAt: "2024-01-18",
     updatedAt: "2024-03-01",
     readingTime: 16,
@@ -606,8 +606,8 @@ export const pillarPages: PillarPage[] = [
     metaTitle: "Sueños Espirituales: Qué Son, Tipos y Cómo Interpretarlos",
     metaDescription:
       "Guía sobre sueños espirituales: visitas de fallecidos, encuentros con ángeles, sueños proféticos y experiencias místicas mientras duermes.",
-    category: "Espiritual",
-    categorySlug: "espiritual",
+    category: "Símbolos en Sueños",
+    categorySlug: "simbolos-en-suenos",
     publishedAt: "2024-01-05",
     updatedAt: "2024-03-01",
     readingTime: 17,

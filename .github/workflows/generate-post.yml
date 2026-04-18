@@ -59,6 +59,11 @@ jobs:
         if: ${{ github.event.inputs.dry_run != 'true' }}
         run: npx tsc --noEmit
 
+      # 6b. Valida integridad de datos (links internos, slugs, estructura)
+      - name: 🔍 Validar integridad de datos
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: npm run validate
+
       # 7. Hace commit y push del nuevo artículo
       - name: 📤 Commit y push del nuevo post
         if: ${{ github.event.inputs.dry_run != 'true' }}

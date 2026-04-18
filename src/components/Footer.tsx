@@ -40,8 +40,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/categoria/emociones" className="text-sm text-[#8b87a0] hover:text-[#7c6af7] transition-colors">
-                  Sueños emocionales
+                <Link href="/categoria/relaciones" className="text-sm text-[#8b87a0] hover:text-[#7c6af7] transition-colors">
+                  Sueños de relaciones
                 </Link>
               </li>
             </ul>

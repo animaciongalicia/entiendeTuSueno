@@ -17,7 +17,11 @@ create index if not exists newsletter_subscribers_email_idx
 
 -- Vista opcional para Make: exporta suscriptores de los últimos 7 días
 -- Útil si Make consulta Supabase directamente para el newsletter semanal
-create or replace view newsletter_recent as
+-- security_invoker = true: la vista usa los permisos del usuario que consulta,
+-- no los del owner, para que RLS de newsletter_subscribers se aplique correctamente.
+create or replace view newsletter_recent
+  with (security_invoker = true)
+as
   select email, contexto, created_at
   from newsletter_subscribers
   where created_at >= now() - interval '7 days'

@@ -35,15 +35,20 @@ export async function GET(req: NextRequest) {
       return NextResponse.json({ error: "Informe no encontrado" }, { status: 404 });
     }
 
-    // 2. Fetch report from Supabase
+    // 2. Fetch report from Supabase and verify ownership
     const { data: report } = await supabaseAdmin
       .from("dream_reports")
-      .select("premium_result, created_at")
+      .select("premium_result, created_at, paid, stripe_session_id")
       .eq("id", reportId)
       .single();
 
     if (!report?.premium_result) {
       return NextResponse.json({ error: "Contenido no disponible" }, { status: 404 });
+    }
+
+    // Verify the session_id matches the one stored for this report
+    if (!report.paid || report.stripe_session_id !== sessionId) {
+      return NextResponse.json({ error: "Acceso no autorizado" }, { status: 403 });
     }
 
     // 3. Generate PDF

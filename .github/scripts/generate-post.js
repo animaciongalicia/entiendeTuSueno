@@ -19,11 +19,20 @@ const client = new Anthropic();
 //   - Borra una entrada de aquí cuando el artículo esté publicado.
 //
 // Artículos ya publicados (no añadir de nuevo):
+// Lote inicial (manual):
 // - sonar-que-no-puedes-correr, suenos-de-dientes-que-se-caen
 // - sonar-con-tu-ex, suenos-de-persecucion, suenos-de-volar
 // - sonar-con-caballos, sonar-que-estas-perdido
 // - sonar-con-enfermedad-o-dolor, sonar-con-exito-o-ascenso-laboral
 // - sonar-con-lobos
+// Auto-generados por este script:
+// - sonar-con-agua-turbia (2026-03-23)
+// - sonar-con-toros (2026-03-25)
+// - sonar-con-el-telefono-o-con-no-poder-llamar (2026-03-30)
+// - sonar-con-tu-casa-de-la-infancia (2026-04-01)
+// - sonar-con-tu-padre-o-figura-paterna (2026-04-03)
+// - sonar-que-no-tienes-dinero-o-que-pierdes-todo (2026-04-06)
+// - sonar-con-leones (2026-04-08)
 // ============================================================
 
 const PENDING_POSTS = [
@@ -91,7 +100,7 @@ const PENDING_POSTS = [
     category: "Sueños Recurrentes",
     categorySlug: "suenos-recurrentes",
     tags: ["colegio", "universidad", "examen", "pasado", "presión social"],
-    relatedSlugs: ["sonar-con-examenes", "suenos-recurrentes-por-que-el-cerebro-repite", "sonar-que-llegas-tarde"],
+    relatedSlugs: ["sonar-con-examenes", "suenos-recurrentes-por-que-el-cerebro-repite", "suenos-de-llegar-tarde-o-perderse"],
   },
   // ── SEMANA 4 ─────────────────────────────────────────────
   {
@@ -335,7 +344,7 @@ REQUISITOS DE CONTENIDO:
 - Menciona de forma natural 2-3 artículos relacionados usando estos slugs:
 ${relatedLinks}
 - Incluye una sección "Preguntas frecuentes" con 3-4 preguntas y respuestas cortas al final
-- El content debe estar en formato Markdown
+- El content debe estar en formato HTML (usa <p>, <h2>, <h3>, <ul>, <ol>, <li>, <strong>, <em>, <a href="...">) — NO uses Markdown (sin ##, sin **, sin -, sin [texto](url))
 - Primero párrafo muy atractivo para retener al lector
 
 FORMATO DE RESPUESTA:
@@ -354,7 +363,7 @@ Devuelve ÚNICA Y EXCLUSIVAMENTE el objeto TypeScript siguiente, sin bloques de 
   coverAlt: "Descripción breve de la imagen de portada para SEO",
   tags: ${JSON.stringify(postConfig.tags)},
   content: \`
-[contenido markdown aquí]
+[contenido HTML aquí — ejemplo: <p>Texto...</p><h2>Sección</h2><ul><li>Item</li></ul>]
 \`,
 }`;
 

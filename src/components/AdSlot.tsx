@@ -18,8 +18,6 @@ export default function AdSlot({ slot, className = "" }: AdSlotProps) {
     "sidebar": "h-[600px]",
   };
 
-  // TODO: Replace this placeholder with real AdSense code
-  // <ins class="adsbygoogle" ... data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="XXXXXXXXXX" />
   return (
     <div
       className={`flex items-center justify-center border border-dashed border-[#2a2a4a] bg-[#12121e] rounded-lg text-xs text-[#4a4760] ${heights[slot]} ${className}`}
