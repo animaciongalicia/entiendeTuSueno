@@ -6455,6 +6455,96 @@ export const articles: Article[] = [
 <p>Sí, en algunos casos. La <a href="/blog/paralisis-del-sueno">parálisis del sueño</a> es un fenómeno en el que despiertas sin poder mover el cuerpo, y a menudo viene acompañada de sensaciones de opresión y encierro. Si sientes que estás despierto pero no puedes moverte, es probable que estés experimentando una parálisis del sueño más que un sueño simbólico. Ambas experiencias pueden coexistir y alimentarse mutuamente, especialmente en períodos de alto estrés o privación de sueño.</p>
 `,
 },
+  {
+  slug: "sonar-con-una-entrevista-de-trabajo",
+  title: "Soñar con una entrevista de trabajo",
+  excerpt: "Descubre qué significa soñar con una entrevista de trabajo, sus variaciones más comunes y qué revela sobre tu autoestima y miedos ocultos.",
+  category: "Trabajo y Dinero",
+  categorySlug: "trabajo-y-dinero",
+  publishedAt: "2026-04-20",
+  updatedAt: "2026-04-20",
+  readingTime: 8,
+  coverImage: "/images/blog/trabajo-y-dinero/sonar-con-una-entrevista-de-trabajo.webp",
+  coverAlt: "Persona sentada frente a un escritorio en una sala de entrevista de trabajo con ambiente onírico y surrealista",
+  tags: ["entrevista", "trabajo", "ansiedad laboral", "juicio", "rendimiento"],
+  content: `
+<p>Te despertaste con el corazón acelerado. Hace apenas unos segundos estabas sentado en una silla incómoda, frente a alguien que te hacía preguntas imposibles. Quizá no recordabas tu propio nombre, quizá llegaste tarde, quizá ibas vestido de forma ridícula. <strong>Soñar con una entrevista de trabajo</strong> es una de esas experiencias oníricas que te dejan un sabor raro al despertar, una mezcla de nerviosismo y confusión que persiste incluso cuando ya estás completamente despierto. Y no, no importa si tienes trabajo estable, si eres freelance o si ni siquiera estás buscando empleo: este sueño puede visitarte de todas formas. La pregunta real es: ¿qué está intentando decirte tu mente?</p>
+
+<h2>¿Qué significa soñar con una entrevista de trabajo?</h2>
+
+<p>En el lenguaje de los sueños, una entrevista de trabajo rara vez habla <em>literalmente</em> de tu carrera profesional. Lo que representa, en la mayoría de los casos, es un <strong>momento de evaluación</strong>. Tu subconsciente ha elegido esta escena porque es un símbolo universal de juicio: alguien te mira, te mide, decide si eres suficiente. Y esa sensación, si lo piensas bien, se extiende mucho más allá de una oficina de recursos humanos.</p>
+
+<p>Este tipo de sueño suele aparecer cuando estás atravesando una etapa en la que sientes que <strong>te están poniendo a prueba</strong>. Puede ser en el trabajo, sí, pero también en una relación, en un proyecto personal, en tu rol como padre, madre o amigo. La entrevista es la metáfora que tu mente elige para decirte: "Oye, estás sintiendo presión por demostrar quién eres y lo que vales".</p>
+
+<p>Desde la psicología, estos sueños están profundamente ligados a la <strong>autoestima y al miedo al rechazo</strong>. Cuando sueñas que alguien te entrevista, lo que realmente está en juego no es un puesto de trabajo, sino tu percepción de ti mismo. ¿Crees que das la talla? ¿Sientes que los demás te ven como alguien competente? ¿Tienes miedo de que descubran que no sabes tanto como aparentas? Si alguna de estas preguntas te resuena, ya tienes una pista importante sobre el origen de tu sueño.</p>
+
+<p>De hecho, este sueño comparte mucho ADN emocional con <a href="/blog/sonar-con-examenes">soñar con exámenes</a>, otra experiencia onírica clásica que aparece cuando sentimos que estamos siendo evaluados y tememos no estar a la altura.</p>
+
+<h2>Variaciones más comunes de este sueño y su significado</h2>
+
+<p>No todas las entrevistas de trabajo soñadas son iguales. Los detalles importan, y mucho. A continuación te explico las variaciones más frecuentes y lo que cada una puede estar diciéndote.</p>
+
+<h3>Llegar tarde a la entrevista</h3>
+
+<p>Es una de las versiones más angustiantes. Corres por pasillos interminables, el reloj avanza imparable y sabes que no vas a llegar a tiempo. Este sueño refleja un <strong>miedo a perder oportunidades</strong>. Puede que en tu vida real sientas que el tiempo se te escapa, que no estás aprovechando tus posibilidades o que otros avanzan mientras tú te quedas atrás. También puede indicar una sensación de falta de preparación ante un cambio importante que se aproxima.</p>
+
+<h3>No saber responder a las preguntas</h3>
+
+<p>Te preguntan algo y tu mente se queda completamente en blanco. Las palabras no salen, balbuceas, dices incoherencias. Esta variación apunta directamente al <strong>síndrome del impostor</strong>: esa creencia profunda de que no mereces lo que tienes, de que en cualquier momento alguien descubrirá que no eres tan capaz como los demás piensan. Es un sueño especialmente común en personas perfeccionistas o muy autoexigentes.</p>
+
+<h3>Ir vestido de forma inapropiada o incluso desnudo</h3>
+
+<p>Apareces en la entrevista en pijama, con ropa rota o directamente sin ropa. Más allá de lo vergonzoso de la situación, este sueño habla de <strong>vulnerabilidad y exposición</strong>. Sientes que algo íntimo o personal está quedando al descubierto. Quizá estás mostrando una faceta de ti mismo que preferirías mantener oculta, o temes que te juzguen por algo que no puedes controlar.</p>
+
+<h3>Que la entrevista vaya increíblemente bien</h3>
+
+<p>Sí, también existe esta versión, aunque es menos frecuente. Respondes con seguridad, el entrevistador sonríe y te ofrecen el puesto de inmediato. Este sueño puede ser una señal de que <strong>tu confianza está creciendo</strong>. Tu subconsciente está procesando una nueva etapa de seguridad en ti mismo. También puede reflejar un deseo profundo de reconocimiento que aún no has obtenido en la vida real.</p>
+
+<h3>Que el entrevistador sea alguien conocido</h3>
+
+<p>A veces quien te entrevista no es un desconocido, sino tu padre, tu pareja, un amigo o incluso un antiguo jefe. En estos casos, la clave está en <strong>quién es esa persona y qué representa para ti</strong>. Tu mente está eligiendo a alguien cuya opinión te importa profundamente, alguien ante quien sientes que necesitas demostrar tu valor. Pregúntate: ¿hay algún conflicto no resuelto o una necesidad de aprobación con esa persona?</p>
+
+<h3>Que te rechacen en la entrevista</h3>
+
+<p>Te dicen que no eres lo que buscan, que no has dado la talla, que el puesto es para otro. Este sueño duele, incluso cuando sabes que fue solo un sueño. Refleja un <strong>miedo al rechazo y al fracaso</strong> que puede estar activo en cualquier área de tu vida. Si este tipo de sueño se repite, podría ser útil explorar si hay situaciones recientes en las que te hayas sentido excluido o menospreciado. Si además has soñado que pierdes tu empleo, te recomiendo leer nuestro artículo sobre <a href="/blog/sonar-que-te-despiden">soñar que te despiden</a>, ya que ambos sueños comparten raíces emocionales similares.</p>
+
+<h2>¿Por qué tengo este sueño si no estoy buscando trabajo?</h2>
+
+<p>Esta es probablemente la duda más habitual, y la respuesta es sencilla: <strong>tu cerebro no es literal cuando sueña</strong>. Utiliza escenarios conocidos para representar emociones complejas. Una entrevista de trabajo es un escenario que casi todos hemos vivido o podemos imaginar con claridad, y encapsula perfectamente la sensación de ser evaluado.</p>
+
+<p>Así que si no estás buscando empleo pero sueñas con entrevistas, pregúntate: ¿dónde en mi vida me siento evaluado? ¿Dónde siento que debo demostrar algo? ¿Qué situación me genera la ansiedad de no ser suficiente? La respuesta a esas preguntas es, con mucha probabilidad, el verdadero tema de tu sueño.</p>
+
+<p>Si notas que este tipo de sueños aparece con frecuencia y va acompañado de un malestar general relacionado con tu vida profesional, quizá te interese profundizar en nuestro artículo sobre <a href="/blog/suenos-con-ansiedad-laboral">sueños con ansiedad laboral</a>, donde exploramos cómo el estrés del trabajo se manifiesta en el mundo onírico.</p>
+
+<h2>Qué hacer con esta información</h2>
+
+<p>Ahora que entiendes lo que puede significar tu sueño, lo importante es <strong>no quedarte solo en la interpretación</strong>. Un sueño es una señal, un mensaje cifrado de tu mente, pero su verdadero valor está en lo que haces con él. Aquí van algunas sugerencias prácticas:</p>
+
+<ol>
+<li><p><strong>Lleva un diario de sueños.</strong> Anota lo que soñaste al despertar, incluyendo emociones, personas y detalles. Con el tiempo, empezarás a ver patrones que te revelarán qué temas recurrentes está procesando tu mente.</p></li>
+<li><p><strong>Identifica la fuente de presión.</strong> Pregúntate honestamente: ¿hay algo en mi vida que me hace sentir juzgado o evaluado? No busques solo en el trabajo. Puede ser una relación, un proyecto creativo, una decisión pendiente.</p></li>
+<li><p><strong>Trabaja tu autoestima.</strong> Si los sueños de entrevistas se repiten, es posible que haya un tema de fondo relacionado con cómo te valoras. Practicar el autorreconocimiento, celebrar tus logros y ser compasivo contigo mismo puede reducir significativamente la frecuencia de estos sueños.</p></li>
+<li><p><strong>Gestiona la ansiedad de forma activa.</strong> Técnicas como la respiración consciente, la meditación o el ejercicio regular pueden ayudar a que tu sistema nervioso esté más regulado, lo que se traduce en sueños menos angustiantes.</p></li>
+<li><p><strong>Habla de ello.</strong> A veces, simplemente contar el sueño a alguien de confianza hace que pierda su carga emocional. No subestimes el poder de poner en palabras lo que sientes.</p></li>
+</ol>
+
+<p>Recuerda que soñar con una entrevista de trabajo no es una premonición ni una condena. Es una <strong>conversación entre tú y tu mente</strong>, una oportunidad para entenderte mejor y atender las emociones que quizá estás ignorando durante el día.</p>
+
+<h2>Preguntas frecuentes</h2>
+
+<h3>¿Soñar con una entrevista de trabajo significa que voy a cambiar de empleo?</h3>
+<p>No necesariamente. Este sueño no es una predicción del futuro, sino un reflejo de tus emociones actuales. Puede indicar que te sientes evaluado o inseguro en algún área de tu vida, no solo en lo profesional. Si estás considerando un cambio laboral, el sueño podría estar procesando esa incertidumbre, pero no es una señal de que vaya a ocurrir.</p>
+
+<h3>¿Es normal tener este sueño de forma recurrente?</h3>
+<p>Sí, es bastante común, especialmente en personas que experimentan altos niveles de autoexigencia o que están atravesando períodos de cambio e incertidumbre. Si se repite con mucha frecuencia y te genera malestar significativo, puede ser útil explorar con un profesional qué emociones subyacentes están alimentando ese patrón.</p>
+
+<h3>¿Qué significa si en el sueño me ofrecen el trabajo?</h3>
+<p>Generalmente es una señal positiva. Puede reflejar un aumento de tu confianza, una sensación de que estás preparado para asumir nuevos retos o un deseo profundo de ser reconocido por tus capacidades. También puede indicar que estás cerrando un ciclo de inseguridad y entrando en una etapa de mayor aceptación personal.</p>
+
+<h3>¿Influyen las entrevistas reales pasadas en este tipo de sueños?</h3>
+<p>Absolutamente. Tu cerebro almacena experiencias emocionales intensas y puede recurrir a ellas para construir escenarios oníricos. Si viviste una entrevista de trabajo particularmente estresante o significativa, es muy probable que tu mente la utilice como plantilla cuando necesita representar situaciones de evaluación o presión en tus sueños.</p>
+`,
+},
 ];
 
 /** Busca un artículo por su slug. Retorna `undefined` si no existe. */
